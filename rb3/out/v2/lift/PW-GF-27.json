@@ -1,0 +1,9146 @@
+{
+ "element": "PW-GF-27",
+ "source": {
+  "sheet": "PW-GF-27_R1",
+  "bars2d": "v1",
+  "extra_sheets": []
+ },
+ "envelope": {
+  "width_mm": 1500.0,
+  "height_mm": 4955.0,
+  "thickness_mm": 400.0
+ },
+ "outline": [
+  [
+   0.0,
+   4435.0
+  ],
+  [
+   142.5,
+   4435.0
+  ],
+  [
+   195.0,
+   4435.0
+  ],
+  [
+   367.5,
+   4435.0
+  ],
+  [
+   367.5,
+   4955.0
+  ],
+  [
+   1462.5,
+   4955.0
+  ],
+  [
+   1462.5,
+   0.0
+  ],
+  [
+   367.5,
+   0.0
+  ],
+  [
+   367.5,
+   0.0
+  ],
+  [
+   195.0,
+   0.0
+  ],
+  [
+   142.5,
+   0.0
+  ],
+  [
+   0.0,
+   0.0
+  ]
+ ],
+ "zones": [
+  {
+   "x0": 0.0,
+   "x1": 142.5,
+   "lo": 0.0,
+   "hi": 4435.0,
+   "depth": 4435.0
+  },
+  {
+   "x0": 195.0,
+   "x1": 367.5,
+   "lo": 0.0,
+   "hi": 4435.0,
+   "depth": 4435.0
+  },
+  {
+   "x0": 367.5,
+   "x1": 1462.5,
+   "lo": 0.0,
+   "hi": 4955.0,
+   "depth": 4955.0
+  }
+ ],
+ "views": [
+  {
+   "view": 0,
+   "kind": "elevation",
+   "sheet": "PW-GF-27_R1",
+   "axes": [
+    "X",
+    "Z"
+   ],
+   "sense": [
+    1,
+    1
+   ],
+   "cut": null,
+   "number": null,
+   "n_runs": 267,
+   "n_sections": 2
+  },
+  {
+   "view": 1,
+   "kind": "end_cut",
+   "sheet": "PW-GF-27_R1",
+   "axes": [
+    "Y",
+    "Z"
+   ],
+   "sense": [
+    -1,
+    1
+   ],
+   "number": 1,
+   "cut": 1033.8,
+   "cut_axis": "X",
+   "cut_how": "marker",
+   "cut_clamped": false,
+   "cut_verified": true,
+   "sense_confidence": 0.68,
+   "n_runs": 2,
+   "n_sections": 93,
+   "notes": [
+    "Z sense 1 (80v15 bars agree with elevation)",
+    "concrete at X=1034 is 4955 high, section draws 4955"
+   ]
+  },
+  {
+   "view": 2,
+   "kind": "plan_cut",
+   "sheet": "PW-GF-27_R1",
+   "axes": [
+    "X",
+    "Y"
+   ],
+   "sense": [
+    1,
+    1
+   ],
+   "number": 3,
+   "cut": 853.2,
+   "cut_axis": "Z",
+   "cut_how": "marker",
+   "cut_clamped": false,
+   "cut_verified": null,
+   "sense_confidence": 0.88,
+   "n_runs": 34,
+   "n_sections": 49,
+   "notes": [
+    "X sense 1 (45v3 bars agree with elevation)"
+   ]
+  },
+  {
+   "view": 3,
+   "kind": "plan_cut",
+   "sheet": "PW-GF-27_R1",
+   "axes": [
+    "X",
+    "Y"
+   ],
+   "sense": [
+    1,
+    1
+   ],
+   "number": 2,
+   "cut": null,
+   "cut_axis": "Z",
+   "cut_how": "unlocated",
+   "cut_clamped": false,
+   "cut_verified": null,
+   "sense_confidence": 0.79,
+   "n_runs": 14,
+   "n_sections": 26,
+   "notes": [
+    "X sense 1 (25v3 bars agree with elevation)"
+   ]
+  }
+ ],
+ "markers": [
+  {
+   "n": 1,
+   "axis": "X",
+   "pos": 1033.8,
+   "world": 2122.6,
+   "match_dist": 73.8
+  },
+  {
+   "n": 2,
+   "axis": "X",
+   "pos": 356.3,
+   "world": 1445.1,
+   "match_dist": 73.8
+  },
+  {
+   "n": 3,
+   "axis": "Z",
+   "pos": 853.2,
+   "world": -541.8,
+   "match_dist": 88.0
+  },
+  {
+   "n": 5,
+   "axis": "Z",
+   "pos": 5438.2,
+   "world": 4043.2,
+   "match_dist": 88.0
+  }
+ ],
+ "y_registration": "end cuts flipped in Y (means +60.2 vs -100.7 about mid)",
+ "bars3d": [
+  {
+   "id": "V0001",
+   "dia": 8,
+   "axis": "Z",
+   "pts": [
+    [
+     409.3,
+     242.0,
+     38.0
+    ],
+    [
+     409.3,
+     242.0,
+     1038.9
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view2",
+    "view3"
+   ],
+   "n_views": 3,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "fused:plan_cut+elevation",
+   "confidence": 0.94,
+   "in_concrete": true
+  },
+  {
+   "id": "V0002",
+   "dia": 8,
+   "axis": "Z",
+   "pts": [
+    [
+     409.3,
+     358.0,
+     38.0
+    ],
+    [
+     409.3,
+     358.0,
+     1038.9
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view2",
+    "view3"
+   ],
+   "n_views": 3,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "fused:plan_cut+elevation",
+   "confidence": 0.94,
+   "in_concrete": true
+  },
+  {
+   "id": "V0003",
+   "dia": 8,
+   "axis": "Z",
+   "pts": [
+    [
+     572.0,
+     242.0,
+     4365.3
+    ],
+    [
+     572.0,
+     242.0,
+     4761.0
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view2"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "fused:plan_cut+elevation(cut not on run)",
+   "confidence": 0.7,
+   "in_concrete": true
+  },
+  {
+   "id": "V0004",
+   "dia": 8,
+   "axis": "Z",
+   "pts": [
+    [
+     572.0,
+     358.0,
+     4365.3
+    ],
+    [
+     572.0,
+     358.0,
+     4761.0
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view2"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "fused:plan_cut+elevation(cut not on run)",
+   "confidence": 0.7,
+   "in_concrete": true
+  },
+  {
+   "id": "V0005",
+   "dia": 8,
+   "axis": "Z",
+   "pts": [
+    [
+     580.3,
+     242.0,
+     38.0
+    ],
+    [
+     580.3,
+     242.0,
+     4925.0
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view2",
+    "view3"
+   ],
+   "n_views": 3,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "fused:plan_cut+elevation",
+   "confidence": 0.94,
+   "in_concrete": true
+  },
+  {
+   "id": "V0006",
+   "dia": 8,
+   "axis": "Z",
+   "pts": [
+    [
+     585.4,
+     358.0,
+     34.0
+    ],
+    [
+     585.4,
+     358.0,
+     4921.0
+    ]
+   ],
+   "from_views": [
+    2,
+    3
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "plan_cut only; extent from concrete outline",
+   "confidence": 0.55,
+   "in_concrete": true
+  },
+  {
+   "id": "V0007",
+   "dia": 8,
+   "axis": "Z",
+   "pts": [
+    [
+     730.6,
+     242.0,
+     4365.3
+    ],
+    [
+     730.6,
+     242.0,
+     4761.0
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view2"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "fused:plan_cut+elevation(cut not on run)",
+   "confidence": 0.7,
+   "in_concrete": true
+  },
+  {
+   "id": "V0008",
+   "dia": 8,
+   "axis": "Z",
+   "pts": [
+    [
+     730.6,
+     358.0,
+     4365.3
+    ],
+    [
+     730.6,
+     358.0,
+     4761.0
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view2"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "fused:plan_cut+elevation(cut not on run)",
+   "confidence": 0.7,
+   "in_concrete": true
+  },
+  {
+   "id": "V0009",
+   "dia": 8,
+   "axis": "Z",
+   "pts": [
+    [
+     748.2,
+     242.0,
+     38.0
+    ],
+    [
+     748.2,
+     242.0,
+     4925.0
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view2",
+    "view3"
+   ],
+   "n_views": 3,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "fused:plan_cut+elevation",
+   "confidence": 0.94,
+   "in_concrete": true
+  },
+  {
+   "id": "V0010",
+   "dia": 8,
+   "axis": "Z",
+   "pts": [
+    [
+     761.5,
+     358.0,
+     38.0
+    ],
+    [
+     761.5,
+     358.0,
+     4765.0
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view2",
+    "view3"
+   ],
+   "n_views": 3,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "fused:plan_cut+elevation",
+   "confidence": 0.94,
+   "in_concrete": true
+  },
+  {
+   "id": "V0011",
+   "dia": 8,
+   "axis": "Z",
+   "pts": [
+    [
+     909.2,
+     242.0,
+     37.3
+    ],
+    [
+     909.2,
+     242.0,
+     430.0
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view2"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "fused:plan_cut+elevation(cut not on run)",
+   "confidence": 0.7,
+   "in_concrete": true
+  },
+  {
+   "id": "V0012",
+   "dia": 8,
+   "axis": "Z",
+   "pts": [
+    [
+     909.2,
+     358.0,
+     37.3
+    ],
+    [
+     909.2,
+     358.0,
+     430.0
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view2"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "fused:plan_cut+elevation(cut not on run)",
+   "confidence": 0.7,
+   "in_concrete": true
+  },
+  {
+   "id": "V0013",
+   "dia": 8,
+   "axis": "Z",
+   "pts": [
+    [
+     917.6,
+     242.0,
+     38.0
+    ],
+    [
+     917.6,
+     242.0,
+     4925.0
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view2",
+    "view3"
+   ],
+   "n_views": 3,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "fused:plan_cut+elevation",
+   "confidence": 0.94,
+   "in_concrete": true
+  },
+  {
+   "id": "V0014",
+   "dia": 8,
+   "axis": "Z",
+   "pts": [
+    [
+     937.6,
+     358.0,
+     38.0
+    ],
+    [
+     937.6,
+     358.0,
+     4765.0
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view2",
+    "view3"
+   ],
+   "n_views": 3,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "fused:plan_cut+elevation",
+   "confidence": 0.94,
+   "in_concrete": true
+  },
+  {
+   "id": "V0015",
+   "dia": 8,
+   "axis": "Z",
+   "pts": [
+    [
+     1069.1,
+     242.0,
+     37.3
+    ],
+    [
+     1069.1,
+     242.0,
+     430.0
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view2"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "fused:plan_cut+elevation(cut not on run)",
+   "confidence": 0.7,
+   "in_concrete": true
+  },
+  {
+   "id": "V0016",
+   "dia": 8,
+   "axis": "Z",
+   "pts": [
+    [
+     1069.1,
+     358.0,
+     37.3
+    ],
+    [
+     1069.1,
+     358.0,
+     430.0
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view2"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "fused:plan_cut+elevation(cut not on run)",
+   "confidence": 0.7,
+   "in_concrete": true
+  },
+  {
+   "id": "V0017",
+   "dia": 8,
+   "axis": "Z",
+   "pts": [
+    [
+     1087.1,
+     242.0,
+     38.0
+    ],
+    [
+     1087.1,
+     242.0,
+     4925.0
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view2",
+    "view3"
+   ],
+   "n_views": 3,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "fused:plan_cut+elevation",
+   "confidence": 0.94,
+   "in_concrete": true
+  },
+  {
+   "id": "V0018",
+   "dia": 8,
+   "axis": "Z",
+   "pts": [
+    [
+     1113.8,
+     358.0,
+     38.0
+    ],
+    [
+     1113.8,
+     358.0,
+     4765.0
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view2",
+    "view3"
+   ],
+   "n_views": 3,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "fused:plan_cut+elevation",
+   "confidence": 0.94,
+   "in_concrete": true
+  },
+  {
+   "id": "V0019",
+   "dia": 8,
+   "axis": "Z",
+   "pts": [
+    [
+     1230.2,
+     242.0,
+     37.3
+    ],
+    [
+     1230.2,
+     242.0,
+     430.0
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view2"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "fused:plan_cut+elevation(cut not on run)",
+   "confidence": 0.7,
+   "in_concrete": true
+  },
+  {
+   "id": "V0020",
+   "dia": 8,
+   "axis": "Z",
+   "pts": [
+    [
+     1230.2,
+     358.0,
+     37.3
+    ],
+    [
+     1230.2,
+     358.0,
+     430.0
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view2"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "fused:plan_cut+elevation(cut not on run)",
+   "confidence": 0.7,
+   "in_concrete": true
+  },
+  {
+   "id": "V0021",
+   "dia": 8,
+   "axis": "Z",
+   "pts": [
+    [
+     1256.5,
+     242.0,
+     38.0
+    ],
+    [
+     1256.5,
+     242.0,
+     4925.0
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view2",
+    "view3"
+   ],
+   "n_views": 3,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "fused:plan_cut+elevation",
+   "confidence": 0.94,
+   "in_concrete": true
+  },
+  {
+   "id": "V0022",
+   "dia": 8,
+   "axis": "Z",
+   "pts": [
+    [
+     1289.9,
+     358.0,
+     38.0
+    ],
+    [
+     1289.9,
+     358.0,
+     4765.0
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view2",
+    "view3"
+   ],
+   "n_views": 3,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "fused:plan_cut+elevation",
+   "confidence": 0.94,
+   "in_concrete": true
+  },
+  {
+   "id": "V0023",
+   "dia": 8,
+   "axis": "Z",
+   "pts": [
+    [
+     1386.4,
+     242.0,
+     4720.3
+    ],
+    [
+     1386.4,
+     242.0,
+     5505.0
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view2"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "fused:plan_cut+elevation(cut not on run)",
+   "confidence": 0.42,
+   "in_concrete": false
+  },
+  {
+   "id": "V0024",
+   "dia": 8,
+   "axis": "Z",
+   "pts": [
+    [
+     1386.4,
+     358.0,
+     4720.3
+    ],
+    [
+     1386.4,
+     358.0,
+     5505.0
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view2"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "fused:plan_cut+elevation(cut not on run)",
+   "confidence": 0.42,
+   "in_concrete": false
+  },
+  {
+   "id": "V0025",
+   "dia": 8,
+   "axis": "Z",
+   "pts": [
+    [
+     1426.0,
+     242.0,
+     38.0
+    ],
+    [
+     1426.0,
+     242.0,
+     4925.0
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view2",
+    "view3"
+   ],
+   "n_views": 3,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "fused:plan_cut+elevation",
+   "confidence": 0.94,
+   "in_concrete": true
+  },
+  {
+   "id": "V0026",
+   "dia": 8,
+   "axis": "Z",
+   "pts": [
+    [
+     1466.0,
+     358.0,
+     30.0
+    ],
+    [
+     1466.0,
+     358.0,
+     4765.0
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view2",
+    "view3"
+   ],
+   "n_views": 3,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "fused:plan_cut+elevation",
+   "confidence": 0.94,
+   "in_concrete": true
+  },
+  {
+   "id": "V0027",
+   "dia": 16,
+   "axis": "Z",
+   "pts": [
+    [
+     56.0,
+     151.1,
+     754.0
+    ],
+    [
+     56.0,
+     151.1,
+     856.1
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view2"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "fused:plan_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "V0028",
+   "dia": 16,
+   "axis": "Z",
+   "pts": [
+    [
+     56.0,
+     204.0,
+     1549.8
+    ],
+    [
+     56.0,
+     204.0,
+     4387.0
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view3"
+   ],
+   "n_views": 2,
+   "cuts_seen": [],
+   "how": "fused:plan_cut+elevation",
+   "confidence": 0.7,
+   "in_concrete": true
+  },
+  {
+   "id": "V0029",
+   "dia": 16,
+   "axis": "Z",
+   "pts": [
+    [
+     56.0,
+     251.1,
+     754.0
+    ],
+    [
+     56.0,
+     251.1,
+     856.1
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view2"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "fused:plan_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "V0030",
+   "dia": 16,
+   "axis": "Z",
+   "pts": [
+    [
+     58.6,
+     62.6,
+     1549.8
+    ],
+    [
+     58.6,
+     62.6,
+     4387.0
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view3"
+   ],
+   "n_views": 2,
+   "cuts_seen": [],
+   "how": "fused:plan_cut+elevation",
+   "confidence": 0.7,
+   "in_concrete": true
+  },
+  {
+   "id": "V0031",
+   "dia": 16,
+   "axis": "Z",
+   "pts": [
+    [
+     58.6,
+     345.4,
+     1549.8
+    ],
+    [
+     58.6,
+     345.4,
+     4387.0
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view3"
+   ],
+   "n_views": 2,
+   "cuts_seen": [],
+   "how": "fused:plan_cut+elevation",
+   "confidence": 0.7,
+   "in_concrete": true
+  },
+  {
+   "id": "V0032",
+   "dia": 16,
+   "axis": "Z",
+   "pts": [
+    [
+     118.9,
+     122.9,
+     30.0
+    ],
+    [
+     118.9,
+     122.9,
+     1544.9
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view2"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "fused:plan_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "V0033",
+   "dia": 16,
+   "axis": "Z",
+   "pts": [
+    [
+     118.9,
+     285.1,
+     30.0
+    ],
+    [
+     118.9,
+     285.1,
+     1544.9
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view2"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "fused:plan_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "V0034",
+   "dia": 16,
+   "axis": "Z",
+   "pts": [
+    [
+     130.8,
+     204.0,
+     38.0
+    ],
+    [
+     130.8,
+     204.0,
+     4397.0
+    ]
+   ],
+   "from_views": [
+    2
+   ],
+   "n_views": 1,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "plan_cut only; extent from concrete outline",
+   "confidence": 0.55,
+   "in_concrete": true
+  },
+  {
+   "id": "V0035",
+   "dia": 16,
+   "axis": "Z",
+   "pts": [
+    [
+     146.6,
+     56.0,
+     48.0
+    ],
+    [
+     146.6,
+     56.0,
+     840.0
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view2"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "fused:plan_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "V0036",
+   "dia": 16,
+   "axis": "Z",
+   "pts": [
+    [
+     146.6,
+     344.0,
+     48.0
+    ],
+    [
+     146.6,
+     344.0,
+     840.0
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view2"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "fused:plan_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "V0037",
+   "dia": 16,
+   "axis": "Z",
+   "pts": [
+    [
+     190.4,
+     56.0,
+     56.1
+    ],
+    [
+     190.4,
+     56.0,
+     4865.0
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view3"
+   ],
+   "n_views": 2,
+   "cuts_seen": [],
+   "how": "fused:plan_cut+elevation",
+   "confidence": 0.42,
+   "in_concrete": false
+  },
+  {
+   "id": "V0038",
+   "dia": 16,
+   "axis": "Z",
+   "pts": [
+    [
+     190.4,
+     132.4,
+     56.1
+    ],
+    [
+     190.4,
+     132.4,
+     4865.0
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view2"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "fused:plan_cut+elevation",
+   "confidence": 0.54,
+   "in_concrete": false
+  },
+  {
+   "id": "V0039",
+   "dia": 16,
+   "axis": "Z",
+   "pts": [
+    [
+     190.4,
+     267.6,
+     56.1
+    ],
+    [
+     190.4,
+     267.6,
+     4865.0
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view2"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "fused:plan_cut+elevation",
+   "confidence": 0.54,
+   "in_concrete": false
+  },
+  {
+   "id": "V0040",
+   "dia": 16,
+   "axis": "Z",
+   "pts": [
+    [
+     190.4,
+     339.6,
+     56.1
+    ],
+    [
+     190.4,
+     339.6,
+     4865.0
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view3"
+   ],
+   "n_views": 2,
+   "cuts_seen": [],
+   "how": "fused:plan_cut+elevation",
+   "confidence": 0.42,
+   "in_concrete": false
+  },
+  {
+   "id": "V0041",
+   "dia": 16,
+   "axis": "Z",
+   "pts": [
+    [
+     250.0,
+     56.0,
+     55.5
+    ],
+    [
+     250.0,
+     56.0,
+     840.0
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view2"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "fused:plan_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "V0042",
+   "dia": 16,
+   "axis": "Z",
+   "pts": [
+    [
+     250.0,
+     344.0,
+     55.5
+    ],
+    [
+     250.0,
+     344.0,
+     840.0
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view2"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "fused:plan_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "V0043",
+   "dia": 16,
+   "axis": "Z",
+   "pts": [
+    [
+     303.4,
+     56.0,
+     30.0
+    ],
+    [
+     303.4,
+     56.0,
+     4378.9
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view3"
+   ],
+   "n_views": 2,
+   "cuts_seen": [],
+   "how": "fused:plan_cut+elevation",
+   "confidence": 0.7,
+   "in_concrete": true
+  },
+  {
+   "id": "V0044",
+   "dia": 16,
+   "axis": "Z",
+   "pts": [
+    [
+     303.4,
+     134.9,
+     30.0
+    ],
+    [
+     303.4,
+     134.9,
+     4378.9
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view2"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "fused:plan_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "V0045",
+   "dia": 16,
+   "axis": "Z",
+   "pts": [
+    [
+     303.4,
+     273.2,
+     30.0
+    ],
+    [
+     303.4,
+     273.2,
+     4378.9
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view2"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "fused:plan_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "V0046",
+   "dia": 16,
+   "axis": "Z",
+   "pts": [
+    [
+     303.4,
+     348.0,
+     30.0
+    ],
+    [
+     303.4,
+     348.0,
+     4378.9
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view3"
+   ],
+   "n_views": 2,
+   "cuts_seen": [],
+   "how": "fused:plan_cut+elevation",
+   "confidence": 0.7,
+   "in_concrete": true
+  },
+  {
+   "id": "V0047",
+   "dia": 16,
+   "axis": "Z",
+   "pts": [
+    [
+     353.4,
+     56.0,
+     48.0
+    ],
+    [
+     353.4,
+     56.0,
+     840.0
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view2"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "fused:plan_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "V0048",
+   "dia": 16,
+   "axis": "Z",
+   "pts": [
+    [
+     353.4,
+     344.0,
+     48.0
+    ],
+    [
+     353.4,
+     344.0,
+     840.0
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view2"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "fused:plan_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "V0049",
+   "dia": 16,
+   "axis": "Z",
+   "pts": [
+    [
+     369.2,
+     204.0,
+     38.0
+    ],
+    [
+     369.2,
+     204.0,
+     4917.0
+    ]
+   ],
+   "from_views": [
+    2
+   ],
+   "n_views": 1,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "plan_cut only; extent from concrete outline",
+   "confidence": 0.55,
+   "in_concrete": true
+  },
+  {
+   "id": "V0050",
+   "dia": 16,
+   "axis": "Z",
+   "pts": [
+    [
+     379.0,
+     279.0,
+     30.0
+    ],
+    [
+     379.0,
+     279.0,
+     1544.9
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view2"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "fused:plan_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "V0051",
+   "dia": 16,
+   "axis": "Z",
+   "pts": [
+    [
+     381.1,
+     122.9,
+     30.0
+    ],
+    [
+     381.1,
+     122.9,
+     1544.9
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view2"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "fused:plan_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "V0052",
+   "dia": 16,
+   "axis": "Z",
+   "pts": [
+    [
+     441.4,
+     62.6,
+     1549.8
+    ],
+    [
+     441.4,
+     62.6,
+     4387.0
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view3"
+   ],
+   "n_views": 2,
+   "cuts_seen": [],
+   "how": "fused:plan_cut+elevation",
+   "confidence": 0.7,
+   "in_concrete": true
+  },
+  {
+   "id": "V0053",
+   "dia": 16,
+   "axis": "Z",
+   "pts": [
+    [
+     441.4,
+     341.4,
+     1549.8
+    ],
+    [
+     441.4,
+     341.4,
+     4387.0
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view3"
+   ],
+   "n_views": 2,
+   "cuts_seen": [],
+   "how": "fused:plan_cut+elevation",
+   "confidence": 0.7,
+   "in_concrete": true
+  },
+  {
+   "id": "V0054",
+   "dia": 16,
+   "axis": "Z",
+   "pts": [
+    [
+     444.0,
+     151.1,
+     104.1
+    ],
+    [
+     444.0,
+     151.1,
+     856.1
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view2"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "fused:plan_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "V0055",
+   "dia": 16,
+   "axis": "Z",
+   "pts": [
+    [
+     444.0,
+     204.0,
+     1549.8
+    ],
+    [
+     444.0,
+     204.0,
+     4387.0
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view3"
+   ],
+   "n_views": 2,
+   "cuts_seen": [],
+   "how": "fused:plan_cut+elevation",
+   "confidence": 0.7,
+   "in_concrete": true
+  },
+  {
+   "id": "V0056",
+   "dia": 16,
+   "axis": "Z",
+   "pts": [
+    [
+     444.0,
+     251.1,
+     104.1
+    ],
+    [
+     444.0,
+     251.1,
+     856.1
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view2"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "fused:plan_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "V0057",
+   "dia": 16,
+   "axis": "Z",
+   "pts": [
+    [
+     1399.7,
+     248.2,
+     38.0
+    ],
+    [
+     1399.7,
+     248.2,
+     4765.0
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view2",
+    "view3"
+   ],
+   "n_views": 3,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "fused:plan_cut+elevation",
+   "confidence": 0.94,
+   "in_concrete": true
+  },
+  {
+   "id": "V0058",
+   "dia": 16,
+   "axis": "Z",
+   "pts": [
+    [
+     1399.7,
+     352.0,
+     38.0
+    ],
+    [
+     1399.7,
+     352.0,
+     4765.0
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view2",
+    "view3"
+   ],
+   "n_views": 3,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "fused:plan_cut+elevation",
+   "confidence": 0.94,
+   "in_concrete": true
+  },
+  {
+   "id": "V0059",
+   "dia": 16,
+   "axis": "Z",
+   "pts": [
+    [
+     1413.4,
+     264.1,
+     38.0
+    ],
+    [
+     1413.4,
+     264.1,
+     4917.0
+    ]
+   ],
+   "from_views": [
+    2
+   ],
+   "n_views": 1,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "plan_cut only; extent from concrete outline",
+   "confidence": 0.55,
+   "in_concrete": true
+  },
+  {
+   "id": "H0060",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     40.0,
+     234.0,
+     34.0
+    ],
+    [
+     1462.0,
+     234.0,
+     34.0
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0061",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     1030.0,
+     234.0,
+     113.1
+    ],
+    [
+     1422.7,
+     234.0,
+     113.1
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0062",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     154.6,
+     234.0,
+     207.6
+    ],
+    [
+     1430.0,
+     234.0,
+     207.6
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0063",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     154.6,
+     234.0,
+     381.2
+    ],
+    [
+     1430.0,
+     234.0,
+     381.2
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0064",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     1030.0,
+     234.0,
+     442.8
+    ],
+    [
+     1422.7,
+     234.0,
+     442.8
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0065",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     154.6,
+     234.0,
+     554.8
+    ],
+    [
+     1430.0,
+     234.0,
+     554.8
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0066",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     154.6,
+     234.0,
+     728.4
+    ],
+    [
+     1430.0,
+     234.0,
+     728.4
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0067",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     1030.0,
+     234.0,
+     772.4
+    ],
+    [
+     1422.7,
+     234.0,
+     772.4
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0068",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     34.0,
+     234.0,
+     902.0
+    ],
+    [
+     1466.0,
+     234.0,
+     902.0
+    ]
+   ],
+   "from_views": [
+    "view1"
+   ],
+   "n_views": 1,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "end_cut only; extent from concrete outline",
+   "confidence": 0.55,
+   "in_concrete": true
+  },
+  {
+   "id": "H0069",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     44.0,
+     234.0,
+     1075.6
+    ],
+    [
+     1430.0,
+     234.0,
+     1075.6
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0070",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     1030.0,
+     234.0,
+     1102.1
+    ],
+    [
+     1422.7,
+     234.0,
+     1102.1
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0071",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     93.2,
+     234.0,
+     1249.2
+    ],
+    [
+     1496.0,
+     234.0,
+     1249.2
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.54,
+   "in_concrete": false
+  },
+  {
+   "id": "H0072",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     80.0,
+     234.0,
+     1422.7
+    ],
+    [
+     1430.0,
+     234.0,
+     1422.7
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0073",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     1030.0,
+     234.0,
+     1431.7
+    ],
+    [
+     1422.7,
+     234.0,
+     1431.7
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0074",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     80.0,
+     234.0,
+     1596.3
+    ],
+    [
+     1430.0,
+     234.0,
+     1596.3
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0075",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     80.0,
+     234.0,
+     1761.4
+    ],
+    [
+     1430.0,
+     234.0,
+     1761.4
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0076",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     80.0,
+     234.0,
+     1769.9
+    ],
+    [
+     1430.0,
+     234.0,
+     1769.9
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0077",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     80.0,
+     234.0,
+     1943.5
+    ],
+    [
+     1430.0,
+     234.0,
+     1943.5
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0078",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     1030.0,
+     234.0,
+     2091.0
+    ],
+    [
+     1422.7,
+     234.0,
+     2091.0
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0079",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     80.0,
+     234.0,
+     2117.1
+    ],
+    [
+     1430.0,
+     234.0,
+     2117.1
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0080",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     34.0,
+     234.0,
+     2290.7
+    ],
+    [
+     1466.0,
+     234.0,
+     2290.7
+    ]
+   ],
+   "from_views": [
+    "view1"
+   ],
+   "n_views": 1,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "end_cut only; extent from concrete outline",
+   "confidence": 0.55,
+   "in_concrete": true
+  },
+  {
+   "id": "H0081",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     1030.0,
+     234.0,
+     2420.7
+    ],
+    [
+     1422.7,
+     234.0,
+     2420.7
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0082",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     34.0,
+     234.0,
+     2464.3
+    ],
+    [
+     1466.0,
+     234.0,
+     2464.3
+    ]
+   ],
+   "from_views": [
+    "view1"
+   ],
+   "n_views": 1,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "end_cut only; extent from concrete outline",
+   "confidence": 0.55,
+   "in_concrete": true
+  },
+  {
+   "id": "H0083",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     198.4,
+     234.0,
+     2637.9
+    ],
+    [
+     295.4,
+     234.0,
+     2637.9
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation(cut not on run)",
+   "confidence": 0.7,
+   "in_concrete": true
+  },
+  {
+   "id": "H0084",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     1030.0,
+     234.0,
+     2750.3
+    ],
+    [
+     1422.7,
+     234.0,
+     2750.3
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0085",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     198.4,
+     234.0,
+     2811.5
+    ],
+    [
+     295.4,
+     234.0,
+     2811.5
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation(cut not on run)",
+   "confidence": 0.7,
+   "in_concrete": true
+  },
+  {
+   "id": "H0086",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     44.0,
+     234.0,
+     2985.1
+    ],
+    [
+     1060.0,
+     234.0,
+     2985.1
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0087",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     1030.0,
+     234.0,
+     3080.0
+    ],
+    [
+     1422.7,
+     234.0,
+     3080.0
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0088",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     40.0,
+     234.0,
+     3158.7
+    ],
+    [
+     1462.0,
+     234.0,
+     3158.7
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0089",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     40.0,
+     234.0,
+     3332.3
+    ],
+    [
+     1462.0,
+     234.0,
+     3332.3
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0090",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     1030.0,
+     234.0,
+     3409.6
+    ],
+    [
+     1422.7,
+     234.0,
+     3409.6
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0091",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     40.0,
+     234.0,
+     3505.9
+    ],
+    [
+     1462.0,
+     234.0,
+     3505.9
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0092",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     459.5,
+     234.0,
+     3679.5
+    ],
+    [
+     1462.0,
+     234.0,
+     3679.5
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0093",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     1030.0,
+     234.0,
+     3739.3
+    ],
+    [
+     1422.7,
+     234.0,
+     3739.3
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0094",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     40.0,
+     234.0,
+     3853.0
+    ],
+    [
+     1462.0,
+     234.0,
+     3853.0
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0095",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     44.7,
+     234.0,
+     4026.6
+    ],
+    [
+     1391.7,
+     234.0,
+     4026.6
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0096",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     1030.0,
+     234.0,
+     4068.9
+    ],
+    [
+     1422.7,
+     234.0,
+     4068.9
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0097",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     44.7,
+     234.0,
+     4200.2
+    ],
+    [
+     1391.7,
+     234.0,
+     4200.2
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0098",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     40.0,
+     234.0,
+     4373.8
+    ],
+    [
+     1391.7,
+     234.0,
+     4373.8
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0099",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     1030.0,
+     234.0,
+     4398.6
+    ],
+    [
+     1422.7,
+     234.0,
+     4398.6
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0100",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     400.0,
+     234.0,
+     4484.9
+    ],
+    [
+     1462.0,
+     234.0,
+     4484.9
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0101",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     34.0,
+     234.0,
+     4623.0
+    ],
+    [
+     1466.0,
+     234.0,
+     4623.0
+    ]
+   ],
+   "from_views": [
+    "view1"
+   ],
+   "n_views": 1,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "end_cut only; extent from concrete outline",
+   "confidence": 0.33,
+   "in_concrete": false
+  },
+  {
+   "id": "H0102",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     1030.0,
+     234.0,
+     4728.2
+    ],
+    [
+     1422.7,
+     234.0,
+     4728.2
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0103",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     400.0,
+     234.0,
+     4761.0
+    ],
+    [
+     1462.0,
+     234.0,
+     4761.0
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0104",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     40.0,
+     366.0,
+     34.0
+    ],
+    [
+     1462.0,
+     366.0,
+     34.0
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0105",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     1030.0,
+     366.0,
+     113.1
+    ],
+    [
+     1422.7,
+     366.0,
+     113.1
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0106",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     154.6,
+     366.0,
+     207.1
+    ],
+    [
+     1430.0,
+     366.0,
+     207.1
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0107",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     154.6,
+     366.0,
+     380.2
+    ],
+    [
+     1430.0,
+     366.0,
+     380.2
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0108",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     1030.0,
+     366.0,
+     442.8
+    ],
+    [
+     1422.7,
+     366.0,
+     442.8
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0109",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     154.6,
+     366.0,
+     553.3
+    ],
+    [
+     1430.0,
+     366.0,
+     553.3
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0110",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     154.6,
+     366.0,
+     726.4
+    ],
+    [
+     1430.0,
+     366.0,
+     726.4
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0111",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     1030.0,
+     366.0,
+     772.4
+    ],
+    [
+     1422.7,
+     366.0,
+     772.4
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0112",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     34.0,
+     366.0,
+     899.5
+    ],
+    [
+     1466.0,
+     366.0,
+     899.5
+    ]
+   ],
+   "from_views": [
+    "view1"
+   ],
+   "n_views": 1,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "end_cut only; extent from concrete outline",
+   "confidence": 0.55,
+   "in_concrete": true
+  },
+  {
+   "id": "H0113",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     44.0,
+     366.0,
+     1072.5
+    ],
+    [
+     1430.0,
+     366.0,
+     1072.5
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0114",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     1030.0,
+     366.0,
+     1102.1
+    ],
+    [
+     1422.7,
+     366.0,
+     1102.1
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0115",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     93.2,
+     366.0,
+     1245.6
+    ],
+    [
+     1430.0,
+     366.0,
+     1245.6
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0116",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     80.0,
+     366.0,
+     1418.7
+    ],
+    [
+     1430.0,
+     366.0,
+     1418.7
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0117",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     1030.0,
+     366.0,
+     1431.7
+    ],
+    [
+     1422.7,
+     366.0,
+     1431.7
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0118",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     80.0,
+     366.0,
+     1591.8
+    ],
+    [
+     1430.0,
+     366.0,
+     1591.8
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0119",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     80.0,
+     366.0,
+     1761.4
+    ],
+    [
+     1430.0,
+     366.0,
+     1761.4
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0120",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     80.0,
+     366.0,
+     1764.9
+    ],
+    [
+     1430.0,
+     366.0,
+     1764.9
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0121",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     80.0,
+     366.0,
+     1938.0
+    ],
+    [
+     1430.0,
+     366.0,
+     1938.0
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0122",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     1030.0,
+     366.0,
+     2091.0
+    ],
+    [
+     1422.7,
+     366.0,
+     2091.0
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0123",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     80.0,
+     366.0,
+     2111.1
+    ],
+    [
+     1430.0,
+     366.0,
+     2111.1
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0124",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     80.0,
+     366.0,
+     2284.2
+    ],
+    [
+     1430.0,
+     366.0,
+     2284.2
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0125",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     1030.0,
+     366.0,
+     2420.7
+    ],
+    [
+     1422.7,
+     366.0,
+     2420.7
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0126",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     80.0,
+     366.0,
+     2457.3
+    ],
+    [
+     1430.0,
+     366.0,
+     2457.3
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0127",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     458.2,
+     366.0,
+     2630.4
+    ],
+    [
+     1430.0,
+     366.0,
+     2630.4
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0128",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     1030.0,
+     366.0,
+     2750.3
+    ],
+    [
+     1422.7,
+     366.0,
+     2750.3
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0129",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     44.0,
+     366.0,
+     2803.5
+    ],
+    [
+     1430.0,
+     366.0,
+     2803.5
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0130",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     80.0,
+     366.0,
+     2976.6
+    ],
+    [
+     1430.0,
+     366.0,
+     2976.6
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0131",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     1030.0,
+     366.0,
+     3080.0
+    ],
+    [
+     1422.7,
+     366.0,
+     3080.0
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0132",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     80.0,
+     366.0,
+     3149.6
+    ],
+    [
+     1430.0,
+     366.0,
+     3149.6
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0133",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     80.0,
+     366.0,
+     3322.7
+    ],
+    [
+     1430.0,
+     366.0,
+     3322.7
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0134",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     1030.0,
+     366.0,
+     3409.6
+    ],
+    [
+     1422.7,
+     366.0,
+     3409.6
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0135",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     80.0,
+     366.0,
+     3495.8
+    ],
+    [
+     1430.0,
+     366.0,
+     3495.8
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0136",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     44.7,
+     366.0,
+     3668.9
+    ],
+    [
+     1430.0,
+     366.0,
+     3668.9
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0137",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     1030.0,
+     366.0,
+     3739.3
+    ],
+    [
+     1422.7,
+     366.0,
+     3739.3
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0138",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     44.7,
+     366.0,
+     3842.0
+    ],
+    [
+     1430.0,
+     366.0,
+     3842.0
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0139",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     44.7,
+     366.0,
+     4015.1
+    ],
+    [
+     1430.0,
+     366.0,
+     4015.1
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0140",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     1030.0,
+     366.0,
+     4068.9
+    ],
+    [
+     1422.7,
+     366.0,
+     4068.9
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0141",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     80.0,
+     366.0,
+     4188.2
+    ],
+    [
+     1430.0,
+     366.0,
+     4188.2
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0142",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     80.0,
+     366.0,
+     4361.3
+    ],
+    [
+     1430.0,
+     366.0,
+     4361.3
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0143",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     1030.0,
+     366.0,
+     4398.6
+    ],
+    [
+     1422.7,
+     366.0,
+     4398.6
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0144",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     400.0,
+     366.0,
+     4484.9
+    ],
+    [
+     1462.0,
+     366.0,
+     4484.9
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0145",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     400.0,
+     366.0,
+     4629.1
+    ],
+    [
+     1430.0,
+     366.0,
+     4629.1
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0146",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     1030.0,
+     366.0,
+     4728.2
+    ],
+    [
+     1422.7,
+     366.0,
+     4728.2
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0147",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     34.0,
+     366.0,
+     4773.2
+    ],
+    [
+     1466.0,
+     366.0,
+     4773.2
+    ]
+   ],
+   "from_views": [
+    "view1"
+   ],
+   "n_views": 1,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "end_cut only; extent from concrete outline",
+   "confidence": 0.33,
+   "in_concrete": false
+  },
+  {
+   "id": "H0148",
+   "dia": 8,
+   "axis": "X",
+   "pts": [
+    [
+     400.0,
+     366.0,
+     4917.3
+    ],
+    [
+     1430.0,
+     366.0,
+     4917.3
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0149",
+   "dia": 16,
+   "axis": "X",
+   "pts": [
+    [
+     551.9,
+     264.1,
+     50.5
+    ],
+    [
+     1357.9,
+     264.1,
+     50.5
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0150",
+   "dia": 16,
+   "axis": "X",
+   "pts": [
+    [
+     552.0,
+     264.1,
+     4744.5
+    ],
+    [
+     1357.8,
+     264.1,
+     4744.5
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0151",
+   "dia": 16,
+   "axis": "X",
+   "pts": [
+    [
+     551.9,
+     335.9,
+     50.5
+    ],
+    [
+     1357.9,
+     335.9,
+     50.5
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "H0152",
+   "dia": 16,
+   "axis": "X",
+   "pts": [
+    [
+     552.0,
+     335.9,
+     4744.5
+    ],
+    [
+     1357.8,
+     335.9,
+     4744.5
+    ]
+   ],
+   "from_views": [
+    "elevation",
+    "view1"
+   ],
+   "n_views": 2,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "fused:end_cut+elevation",
+   "confidence": 0.9,
+   "in_concrete": true
+  },
+  {
+   "id": "S0153",
+   "dia": 8,
+   "axis": "YZ",
+   "pts": [
+    [
+     1033.8,
+     242.0,
+     30.0
+    ],
+    [
+     1033.8,
+     242.0,
+     4765.0
+    ]
+   ],
+   "from_views": [
+    "view1"
+   ],
+   "n_views": 1,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "section run at known cut",
+   "confidence": 0.7,
+   "in_concrete": true
+  },
+  {
+   "id": "S0154",
+   "dia": 8,
+   "axis": "YZ",
+   "pts": [
+    [
+     1033.8,
+     358.0,
+     30.0
+    ],
+    [
+     1033.8,
+     358.0,
+     4925.0
+    ]
+   ],
+   "from_views": [
+    "view1"
+   ],
+   "n_views": 1,
+   "cuts_seen": [
+    1033.8
+   ],
+   "how": "section run at known cut",
+   "confidence": 0.7,
+   "in_concrete": true
+  },
+  {
+   "id": "S0155",
+   "dia": 8,
+   "axis": "XY",
+   "pts": [
+    [
+     64.0,
+     44.0,
+     853.2
+    ],
+    [
+     418.1,
+     44.0,
+     853.2
+    ]
+   ],
+   "from_views": [
+    "view2"
+   ],
+   "n_views": 1,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "section run at known cut",
+   "confidence": 0.7,
+   "in_concrete": true
+  },
+  {
+   "id": "S0156",
+   "dia": 16,
+   "axis": "XY",
+   "pts": [
+    [
+     343.4,
+     151.1,
+     853.2
+    ],
+    [
+     444.0,
+     151.1,
+     853.2
+    ]
+   ],
+   "from_views": [
+    "view2"
+   ],
+   "n_views": 1,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "section run at known cut",
+   "confidence": 0.7,
+   "in_concrete": true
+  },
+  {
+   "id": "S0157",
+   "dia": 8,
+   "axis": "XY",
+   "pts": [
+    [
+     24.0,
+     234.0,
+     853.2
+    ],
+    [
+     440.0,
+     234.0,
+     853.2
+    ]
+   ],
+   "from_views": [
+    "view2"
+   ],
+   "n_views": 1,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "section run at known cut",
+   "confidence": 0.7,
+   "in_concrete": true
+  },
+  {
+   "id": "S0158",
+   "dia": 8,
+   "axis": "XY",
+   "pts": [
+    [
+     1060.0,
+     234.0,
+     853.2
+    ],
+    [
+     1476.0,
+     234.0,
+     853.2
+    ]
+   ],
+   "from_views": [
+    "view2"
+   ],
+   "n_views": 1,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "section run at known cut",
+   "confidence": 0.7,
+   "in_concrete": true
+  },
+  {
+   "id": "S0159",
+   "dia": 16,
+   "axis": "XY",
+   "pts": [
+    [
+     343.4,
+     251.1,
+     853.2
+    ],
+    [
+     444.0,
+     251.1,
+     853.2
+    ]
+   ],
+   "from_views": [
+    "view2"
+   ],
+   "n_views": 1,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "section run at known cut",
+   "confidence": 0.7,
+   "in_concrete": true
+  },
+  {
+   "id": "S0160",
+   "dia": 8,
+   "axis": "XY",
+   "pts": [
+    [
+     1060.0,
+     320.0,
+     853.2
+    ],
+    [
+     1476.0,
+     320.0,
+     853.2
+    ]
+   ],
+   "from_views": [
+    "view2"
+   ],
+   "n_views": 1,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "section run at known cut",
+   "confidence": 0.7,
+   "in_concrete": true
+  },
+  {
+   "id": "S0161",
+   "dia": 8,
+   "axis": "XY",
+   "pts": [
+    [
+     182.6,
+     356.0,
+     853.2
+    ],
+    [
+     436.0,
+     356.0,
+     853.2
+    ]
+   ],
+   "from_views": [
+    "view2"
+   ],
+   "n_views": 1,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "section run at known cut",
+   "confidence": 0.7,
+   "in_concrete": true
+  },
+  {
+   "id": "S0162",
+   "dia": 10,
+   "axis": "XY",
+   "pts": [
+    [
+     64.0,
+     357.0,
+     853.2
+    ],
+    [
+     164.9,
+     357.0,
+     853.2
+    ]
+   ],
+   "from_views": [
+    "view2"
+   ],
+   "n_views": 1,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "section run at known cut",
+   "confidence": 0.42,
+   "in_concrete": false
+  },
+  {
+   "id": "S0163",
+   "dia": 8,
+   "axis": "XY",
+   "pts": [
+    [
+     520.0,
+     366.0,
+     853.2
+    ],
+    [
+     880.0,
+     366.0,
+     853.2
+    ]
+   ],
+   "from_views": [
+    "view2"
+   ],
+   "n_views": 1,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "section run at known cut",
+   "confidence": 0.7,
+   "in_concrete": true
+  },
+  {
+   "id": "S0164",
+   "dia": 8,
+   "axis": "XY",
+   "pts": [
+    [
+     1426.0,
+     270.0,
+     853.2
+    ],
+    [
+     1426.0,
+     330.0,
+     853.2
+    ]
+   ],
+   "from_views": [
+    "view2"
+   ],
+   "n_views": 1,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "section run at known cut",
+   "confidence": 0.7,
+   "in_concrete": true
+  },
+  {
+   "id": "S0165",
+   "dia": 8,
+   "axis": "XY",
+   "pts": [
+    [
+     1386.4,
+     242.0,
+     853.2
+    ],
+    [
+     1386.4,
+     358.0,
+     853.2
+    ]
+   ],
+   "from_views": [
+    "view2"
+   ],
+   "n_views": 1,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "section run at known cut",
+   "confidence": 0.7,
+   "in_concrete": true
+  },
+  {
+   "id": "S0166",
+   "dia": 8,
+   "axis": "XY",
+   "pts": [
+    [
+     1230.2,
+     242.0,
+     853.2
+    ],
+    [
+     1230.2,
+     358.0,
+     853.2
+    ]
+   ],
+   "from_views": [
+    "view2"
+   ],
+   "n_views": 1,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "section run at known cut",
+   "confidence": 0.7,
+   "in_concrete": true
+  },
+  {
+   "id": "S0167",
+   "dia": 8,
+   "axis": "XY",
+   "pts": [
+    [
+     1069.1,
+     242.0,
+     853.2
+    ],
+    [
+     1069.1,
+     358.0,
+     853.2
+    ]
+   ],
+   "from_views": [
+    "view2"
+   ],
+   "n_views": 1,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "section run at known cut",
+   "confidence": 0.7,
+   "in_concrete": true
+  },
+  {
+   "id": "S0168",
+   "dia": 8,
+   "axis": "XY",
+   "pts": [
+    [
+     909.2,
+     242.0,
+     853.2
+    ],
+    [
+     909.2,
+     358.0,
+     853.2
+    ]
+   ],
+   "from_views": [
+    "view2"
+   ],
+   "n_views": 1,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "section run at known cut",
+   "confidence": 0.7,
+   "in_concrete": true
+  },
+  {
+   "id": "S0169",
+   "dia": 8,
+   "axis": "XY",
+   "pts": [
+    [
+     730.6,
+     242.0,
+     853.2
+    ],
+    [
+     730.6,
+     358.0,
+     853.2
+    ]
+   ],
+   "from_views": [
+    "view2"
+   ],
+   "n_views": 1,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "section run at known cut",
+   "confidence": 0.7,
+   "in_concrete": true
+  },
+  {
+   "id": "S0170",
+   "dia": 8,
+   "axis": "XY",
+   "pts": [
+    [
+     572.0,
+     242.0,
+     853.2
+    ],
+    [
+     572.0,
+     358.0,
+     853.2
+    ]
+   ],
+   "from_views": [
+    "view2"
+   ],
+   "n_views": 1,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "section run at known cut",
+   "confidence": 0.7,
+   "in_concrete": true
+  },
+  {
+   "id": "S0171",
+   "dia": 8,
+   "axis": "XY",
+   "pts": [
+    [
+     484.0,
+     270.0,
+     853.2
+    ],
+    [
+     484.0,
+     330.0,
+     853.2
+    ]
+   ],
+   "from_views": [
+    "view2"
+   ],
+   "n_views": 1,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "section run at known cut",
+   "confidence": 0.7,
+   "in_concrete": true
+  },
+  {
+   "id": "S0172",
+   "dia": 8,
+   "axis": "XY",
+   "pts": [
+    [
+     456.0,
+     64.0,
+     853.2
+    ],
+    [
+     456.0,
+     167.6,
+     853.2
+    ]
+   ],
+   "from_views": [
+    "view2"
+   ],
+   "n_views": 1,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "section run at known cut",
+   "confidence": 0.7,
+   "in_concrete": true
+  },
+  {
+   "id": "S0173",
+   "dia": 8,
+   "axis": "XY",
+   "pts": [
+    [
+     456.0,
+     238.0,
+     853.2
+    ],
+    [
+     456.0,
+     336.0,
+     853.2
+    ]
+   ],
+   "from_views": [
+    "view2"
+   ],
+   "n_views": 1,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "section run at known cut",
+   "confidence": 0.7,
+   "in_concrete": true
+  },
+  {
+   "id": "S0174",
+   "dia": 16,
+   "axis": "XY",
+   "pts": [
+    [
+     353.4,
+     56.0,
+     853.2
+    ],
+    [
+     353.4,
+     199.1,
+     853.2
+    ]
+   ],
+   "from_views": [
+    "view2"
+   ],
+   "n_views": 1,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "section run at known cut",
+   "confidence": 0.7,
+   "in_concrete": true
+  },
+  {
+   "id": "S0175",
+   "dia": 16,
+   "axis": "XY",
+   "pts": [
+    [
+     353.4,
+     238.0,
+     853.2
+    ],
+    [
+     353.4,
+     344.0,
+     853.2
+    ]
+   ],
+   "from_views": [
+    "view2"
+   ],
+   "n_views": 1,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "section run at known cut",
+   "confidence": 0.7,
+   "in_concrete": true
+  },
+  {
+   "id": "S0176",
+   "dia": 8,
+   "axis": "XY",
+   "pts": [
+    [
+     339.4,
+     64.0,
+     853.2
+    ],
+    [
+     339.4,
+     336.0,
+     853.2
+    ]
+   ],
+   "from_views": [
+    "view2"
+   ],
+   "n_views": 1,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "section run at known cut",
+   "confidence": 0.7,
+   "in_concrete": true
+  },
+  {
+   "id": "S0177",
+   "dia": 16,
+   "axis": "XY",
+   "pts": [
+    [
+     250.0,
+     56.0,
+     853.2
+    ],
+    [
+     250.0,
+     344.0,
+     853.2
+    ]
+   ],
+   "from_views": [
+    "view2"
+   ],
+   "n_views": 1,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "section run at known cut",
+   "confidence": 0.7,
+   "in_concrete": true
+  },
+  {
+   "id": "S0178",
+   "dia": 8,
+   "axis": "XY",
+   "pts": [
+    [
+     162.6,
+     82.3,
+     853.2
+    ],
+    [
+     162.6,
+     336.0,
+     853.2
+    ]
+   ],
+   "from_views": [
+    "view2"
+   ],
+   "n_views": 1,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "section run at known cut",
+   "confidence": 0.42,
+   "in_concrete": false
+  },
+  {
+   "id": "S0179",
+   "dia": 16,
+   "axis": "XY",
+   "pts": [
+    [
+     146.6,
+     96.0,
+     853.2
+    ],
+    [
+     146.6,
+     199.1,
+     853.2
+    ]
+   ],
+   "from_views": [
+    "view2"
+   ],
+   "n_views": 1,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "section run at known cut",
+   "confidence": 0.7,
+   "in_concrete": true
+  },
+  {
+   "id": "S0180",
+   "dia": 16,
+   "axis": "XY",
+   "pts": [
+    [
+     146.6,
+     238.0,
+     853.2
+    ],
+    [
+     146.6,
+     344.0,
+     853.2
+    ]
+   ],
+   "from_views": [
+    "view2"
+   ],
+   "n_views": 1,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "section run at known cut",
+   "confidence": 0.7,
+   "in_concrete": true
+  },
+  {
+   "id": "S0181",
+   "dia": 8,
+   "axis": "XY",
+   "pts": [
+    [
+     44.0,
+     203.2,
+     853.2
+    ],
+    [
+     44.0,
+     336.0,
+     853.2
+    ]
+   ],
+   "from_views": [
+    "view2"
+   ],
+   "n_views": 1,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "section run at known cut",
+   "confidence": 0.7,
+   "in_concrete": true
+  },
+  {
+   "id": "S0182",
+   "dia": 10,
+   "axis": "XY",
+   "pts": [
+    [
+     182.6,
+     365.0,
+     853.2
+    ],
+    [
+     64.0,
+     365.0,
+     853.2
+    ]
+   ],
+   "from_views": [
+    "view2"
+   ],
+   "n_views": 1,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "section run at known cut",
+   "confidence": 0.7,
+   "in_concrete": true
+  },
+  {
+   "id": "S0183",
+   "dia": 16,
+   "axis": "XY",
+   "pts": [
+    [
+     1357.9,
+     335.9,
+     853.2
+    ],
+    [
+     551.9,
+     335.9,
+     853.2
+    ]
+   ],
+   "from_views": [
+    "view2"
+   ],
+   "n_views": 1,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "section run at known cut",
+   "confidence": 0.7,
+   "in_concrete": true
+  },
+  {
+   "id": "S0184",
+   "dia": 16,
+   "axis": "XY",
+   "pts": [
+    [
+     1357.9,
+     264.1,
+     853.2
+    ],
+    [
+     551.9,
+     264.1,
+     853.2
+    ]
+   ],
+   "from_views": [
+    "view2"
+   ],
+   "n_views": 1,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "section run at known cut",
+   "confidence": 0.7,
+   "in_concrete": true
+  },
+  {
+   "id": "S0185",
+   "dia": 16,
+   "axis": "XY",
+   "pts": [
+    [
+     335.4,
+     251.1,
+     853.2
+    ],
+    [
+     166.6,
+     251.1,
+     853.2
+    ]
+   ],
+   "from_views": [
+    "view2"
+   ],
+   "n_views": 1,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "section run at known cut",
+   "confidence": 0.42,
+   "in_concrete": false
+  },
+  {
+   "id": "S0186",
+   "dia": 8,
+   "axis": "XY",
+   "pts": [
+    [
+     1390.0,
+     234.0,
+     853.2
+    ],
+    [
+     1030.0,
+     234.0,
+     853.2
+    ]
+   ],
+   "from_views": [
+    "view2"
+   ],
+   "n_views": 1,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "section run at known cut",
+   "confidence": 0.7,
+   "in_concrete": true
+  },
+  {
+   "id": "S0187",
+   "dia": 8,
+   "axis": "XY",
+   "pts": [
+    [
+     880.0,
+     234.0,
+     853.2
+    ],
+    [
+     520.0,
+     234.0,
+     853.2
+    ]
+   ],
+   "from_views": [
+    "view2"
+   ],
+   "n_views": 1,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "section run at known cut",
+   "confidence": 0.7,
+   "in_concrete": true
+  },
+  {
+   "id": "S0188",
+   "dia": 8,
+   "axis": "XY",
+   "pts": [
+    [
+     436.0,
+     165.3,
+     853.2
+    ],
+    [
+     64.0,
+     165.3,
+     853.2
+    ]
+   ],
+   "from_views": [
+    "view2"
+   ],
+   "n_views": 1,
+   "cuts_seen": [
+    853.2
+   ],
+   "how": "section run at known cut",
+   "confidence": 0.7,
+   "in_concrete": true
+  },
+  {
+   "id": "S0189",
+   "dia": 8,
+   "axis": "XY",
+   "pts": [
+    [
+     197.4,
+     44.0,
+     2477.5
+    ],
+    [
+     418.1,
+     44.0,
+     2477.5
+    ]
+   ],
+   "from_views": [
+    "view3"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "section run, cut station unknown",
+   "confidence": 0.3,
+   "in_concrete": true
+  },
+  {
+   "id": "S0190",
+   "dia": 8,
+   "axis": "XY",
+   "pts": [
+    [
+     64.0,
+     165.3,
+     2477.5
+    ],
+    [
+     436.0,
+     165.3,
+     2477.5
+    ]
+   ],
+   "from_views": [
+    "view3"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "section run, cut station unknown",
+   "confidence": 0.3,
+   "in_concrete": true
+  },
+  {
+   "id": "S0191",
+   "dia": 8,
+   "axis": "XY",
+   "pts": [
+    [
+     24.0,
+     234.0,
+     2477.5
+    ],
+    [
+     440.0,
+     234.0,
+     2477.5
+    ]
+   ],
+   "from_views": [
+    "view3"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "section run, cut station unknown",
+   "confidence": 0.3,
+   "in_concrete": true
+  },
+  {
+   "id": "S0192",
+   "dia": 8,
+   "axis": "XY",
+   "pts": [
+    [
+     1060.0,
+     234.0,
+     2477.5
+    ],
+    [
+     1476.0,
+     234.0,
+     2477.5
+    ]
+   ],
+   "from_views": [
+    "view3"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "section run, cut station unknown",
+   "confidence": 0.3,
+   "in_concrete": true
+  },
+  {
+   "id": "S0193",
+   "dia": 8,
+   "axis": "XY",
+   "pts": [
+    [
+     1060.0,
+     320.0,
+     2477.5
+    ],
+    [
+     1476.0,
+     320.0,
+     2477.5
+    ]
+   ],
+   "from_views": [
+    "view3"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "section run, cut station unknown",
+   "confidence": 0.3,
+   "in_concrete": true
+  },
+  {
+   "id": "S0194",
+   "dia": 8,
+   "axis": "XY",
+   "pts": [
+    [
+     520.0,
+     366.0,
+     2477.5
+    ],
+    [
+     880.0,
+     366.0,
+     2477.5
+    ]
+   ],
+   "from_views": [
+    "view3"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "section run, cut station unknown",
+   "confidence": 0.3,
+   "in_concrete": true
+  },
+  {
+   "id": "S0195",
+   "dia": 8,
+   "axis": "XY",
+   "pts": [
+    [
+     1426.0,
+     270.0,
+     2477.5
+    ],
+    [
+     1426.0,
+     330.0,
+     2477.5
+    ]
+   ],
+   "from_views": [
+    "view3"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "section run, cut station unknown",
+   "confidence": 0.3,
+   "in_concrete": true
+  },
+  {
+   "id": "S0196",
+   "dia": 8,
+   "axis": "XY",
+   "pts": [
+    [
+     484.0,
+     270.0,
+     2477.5
+    ],
+    [
+     484.0,
+     330.0,
+     2477.5
+    ]
+   ],
+   "from_views": [
+    "view3"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "section run, cut station unknown",
+   "confidence": 0.3,
+   "in_concrete": true
+  },
+  {
+   "id": "S0197",
+   "dia": 8,
+   "axis": "XY",
+   "pts": [
+    [
+     456.0,
+     64.0,
+     2477.5
+    ],
+    [
+     456.0,
+     336.0,
+     2477.5
+    ]
+   ],
+   "from_views": [
+    "view3"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "section run, cut station unknown",
+   "confidence": 0.3,
+   "in_concrete": true
+  },
+  {
+   "id": "S0198",
+   "dia": 8,
+   "axis": "XY",
+   "pts": [
+    [
+     319.9,
+     64.0,
+     2477.5
+    ],
+    [
+     319.9,
+     336.0,
+     2477.5
+    ]
+   ],
+   "from_views": [
+    "view3"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "section run, cut station unknown",
+   "confidence": 0.3,
+   "in_concrete": true
+  },
+  {
+   "id": "S0199",
+   "dia": 8,
+   "axis": "XY",
+   "pts": [
+    [
+     177.4,
+     82.0,
+     2477.5
+    ],
+    [
+     177.4,
+     336.0,
+     2477.5
+    ]
+   ],
+   "from_views": [
+    "view3"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "section run, cut station unknown",
+   "confidence": 0.18,
+   "in_concrete": false
+  },
+  {
+   "id": "S0200",
+   "dia": 8,
+   "axis": "XY",
+   "pts": [
+    [
+     44.0,
+     203.2,
+     2477.5
+    ],
+    [
+     44.0,
+     336.0,
+     2477.5
+    ]
+   ],
+   "from_views": [
+    "view3"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "section run, cut station unknown",
+   "confidence": 0.3,
+   "in_concrete": true
+  },
+  {
+   "id": "S0201",
+   "dia": 8,
+   "axis": "XY",
+   "pts": [
+    [
+     1390.0,
+     234.0,
+     2477.5
+    ],
+    [
+     1030.0,
+     234.0,
+     2477.5
+    ]
+   ],
+   "from_views": [
+    "view3"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "section run, cut station unknown",
+   "confidence": 0.3,
+   "in_concrete": true
+  },
+  {
+   "id": "S0202",
+   "dia": 8,
+   "axis": "XY",
+   "pts": [
+    [
+     880.0,
+     234.0,
+     2477.5
+    ],
+    [
+     520.0,
+     234.0,
+     2477.5
+    ]
+   ],
+   "from_views": [
+    "view3"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "section run, cut station unknown",
+   "confidence": 0.3,
+   "in_concrete": true
+  },
+  {
+   "id": "E0203",
+   "dia": 32,
+   "axis": "XZ",
+   "pts": [
+    [
+     1405.1,
+     200.0,
+     4402.6
+    ],
+    [
+     1405.1,
+     200.0,
+     4689.0
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y assumed mid-thickness",
+   "confidence": 0.25,
+   "in_concrete": true
+  },
+  {
+   "id": "E0204",
+   "dia": 10,
+   "axis": "XZ",
+   "pts": [
+    [
+     1376.1,
+     200.0,
+     4402.6
+    ],
+    [
+     1376.1,
+     200.0,
+     4712.3
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y assumed mid-thickness",
+   "confidence": 0.25,
+   "in_concrete": true
+  },
+  {
+   "id": "E0205",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     1221.3,
+     366.0,
+     4365.3
+    ],
+    [
+     1221.3,
+     366.0,
+     4761.0
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0206",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     1202.0,
+     366.0,
+     4402.6
+    ],
+    [
+     1202.0,
+     366.0,
+     5505.0
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.24,
+   "in_concrete": false
+  },
+  {
+   "id": "E0207",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     1062.4,
+     366.0,
+     4365.3
+    ],
+    [
+     1062.4,
+     366.0,
+     4480.9
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0208",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     1062.4,
+     366.0,
+     4528.0
+    ],
+    [
+     1062.4,
+     366.0,
+     4761.0
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0209",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     1019.0,
+     366.0,
+     4395.0
+    ],
+    [
+     1019.0,
+     366.0,
+     5505.0
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.24,
+   "in_concrete": false
+  },
+  {
+   "id": "E0210",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     904.8,
+     366.0,
+     4365.3
+    ],
+    [
+     904.8,
+     366.0,
+     4761.0
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0211",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     836.0,
+     366.0,
+     4402.6
+    ],
+    [
+     836.0,
+     366.0,
+     5505.0
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.24,
+   "in_concrete": false
+  },
+  {
+   "id": "E0212",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     653.0,
+     366.0,
+     4402.6
+    ],
+    [
+     653.0,
+     366.0,
+     5505.0
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.24,
+   "in_concrete": false
+  },
+  {
+   "id": "E0213",
+   "dia": 16,
+   "axis": "XZ",
+   "pts": [
+    [
+     496.4,
+     56.0,
+     106.0
+    ],
+    [
+     496.4,
+     56.0,
+     842.5
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0214",
+   "dia": 16,
+   "axis": "XZ",
+   "pts": [
+    [
+     496.5,
+     56.0,
+     3802.5
+    ],
+    [
+     496.5,
+     56.0,
+     4689.0
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0215",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     470.0,
+     366.0,
+     4395.0
+    ],
+    [
+     470.0,
+     366.0,
+     5505.0
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.24,
+   "in_concrete": false
+  },
+  {
+   "id": "E0216",
+   "dia": 20,
+   "axis": "XZ",
+   "pts": [
+    [
+     150.0,
+     200.0,
+     3435.0
+    ],
+    [
+     150.0,
+     200.0,
+     6115.0
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y assumed mid-thickness",
+   "confidence": 0.15,
+   "in_concrete": false
+  },
+  {
+   "id": "E0217",
+   "dia": 10,
+   "axis": "XZ",
+   "pts": [
+    [
+     129.6,
+     200.0,
+     1012.0
+    ],
+    [
+     129.6,
+     200.0,
+     1295.5
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y assumed mid-thickness",
+   "confidence": 0.25,
+   "in_concrete": true
+  },
+  {
+   "id": "E0218",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     162.2,
+     366.0,
+     52.0
+    ],
+    [
+     339.4,
+     366.0,
+     52.0
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.24,
+   "in_concrete": false
+  },
+  {
+   "id": "E0219",
+   "dia": 16,
+   "axis": "XZ",
+   "pts": [
+    [
+     339.4,
+     56.0,
+     64.1
+    ],
+    [
+     404.0,
+     56.0,
+     64.1
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0220",
+   "dia": 32,
+   "axis": "XZ",
+   "pts": [
+    [
+     198.4,
+     200.0,
+     88.0
+    ],
+    [
+     295.4,
+     200.0,
+     88.0
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y assumed mid-thickness",
+   "confidence": 0.25,
+   "in_concrete": true
+  },
+  {
+   "id": "E0221",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     4.0,
+     366.0,
+     100.0
+    ],
+    [
+     113.0,
+     366.0,
+     100.0
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0222",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     1060.0,
+     366.0,
+     100.0
+    ],
+    [
+     1496.0,
+     366.0,
+     100.0
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.24,
+   "in_concrete": false
+  },
+  {
+   "id": "E0223",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     162.2,
+     366.0,
+     140.3
+    ],
+    [
+     339.4,
+     366.0,
+     140.3
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.24,
+   "in_concrete": false
+  },
+  {
+   "id": "E0224",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     44.7,
+     366.0,
+     148.3
+    ],
+    [
+     138.6,
+     366.0,
+     148.3
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0225",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     339.4,
+     366.0,
+     148.3
+    ],
+    [
+     456.0,
+     366.0,
+     148.3
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0226",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     44.0,
+     366.0,
+     220.5
+    ],
+    [
+     456.0,
+     366.0,
+     220.5
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0227",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     168.1,
+     366.0,
+     228.6
+    ],
+    [
+     339.4,
+     366.0,
+     228.6
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.24,
+   "in_concrete": false
+  },
+  {
+   "id": "E0228",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     44.7,
+     366.0,
+     236.6
+    ],
+    [
+     138.6,
+     366.0,
+     236.6
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0229",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     339.4,
+     366.0,
+     236.6
+    ],
+    [
+     456.0,
+     366.0,
+     236.6
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0230",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     1060.0,
+     366.0,
+     292.3
+    ],
+    [
+     1496.0,
+     366.0,
+     292.3
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.24,
+   "in_concrete": false
+  },
+  {
+   "id": "E0231",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     4.0,
+     366.0,
+     295.0
+    ],
+    [
+     113.0,
+     366.0,
+     295.0
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0232",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     154.6,
+     366.0,
+     295.0
+    ],
+    [
+     345.4,
+     366.0,
+     295.0
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0233",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     44.0,
+     366.0,
+     308.7
+    ],
+    [
+     456.0,
+     366.0,
+     308.7
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0234",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     168.1,
+     366.0,
+     316.8
+    ],
+    [
+     339.4,
+     366.0,
+     316.8
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.24,
+   "in_concrete": false
+  },
+  {
+   "id": "E0235",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     44.7,
+     366.0,
+     324.8
+    ],
+    [
+     138.6,
+     366.0,
+     324.8
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0236",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     339.4,
+     366.0,
+     324.8
+    ],
+    [
+     456.0,
+     366.0,
+     324.8
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0237",
+   "dia": 16,
+   "axis": "XZ",
+   "pts": [
+    [
+     198.4,
+     56.0,
+     393.1
+    ],
+    [
+     339.4,
+     56.0,
+     393.1
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0238",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     44.7,
+     366.0,
+     413.1
+    ],
+    [
+     138.6,
+     366.0,
+     413.1
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0239",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     1060.0,
+     366.0,
+     484.7
+    ],
+    [
+     1496.0,
+     366.0,
+     484.7
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.24,
+   "in_concrete": false
+  },
+  {
+   "id": "E0240",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     44.0,
+     366.0,
+     485.2
+    ],
+    [
+     456.0,
+     366.0,
+     485.2
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0241",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     168.1,
+     366.0,
+     493.3
+    ],
+    [
+     339.4,
+     366.0,
+     493.3
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.24,
+   "in_concrete": false
+  },
+  {
+   "id": "E0242",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     44.7,
+     366.0,
+     501.3
+    ],
+    [
+     138.6,
+     366.0,
+     501.3
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0243",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     339.4,
+     366.0,
+     501.3
+    ],
+    [
+     436.0,
+     366.0,
+     501.3
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0244",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     44.0,
+     366.0,
+     573.5
+    ],
+    [
+     456.0,
+     366.0,
+     573.5
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0245",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     168.1,
+     366.0,
+     581.6
+    ],
+    [
+     339.4,
+     366.0,
+     581.6
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.24,
+   "in_concrete": false
+  },
+  {
+   "id": "E0246",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     44.7,
+     366.0,
+     589.6
+    ],
+    [
+     138.6,
+     366.0,
+     589.6
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0247",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     339.4,
+     366.0,
+     589.6
+    ],
+    [
+     436.0,
+     366.0,
+     589.6
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0248",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     44.0,
+     366.0,
+     661.7
+    ],
+    [
+     456.0,
+     366.0,
+     661.7
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0249",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     168.1,
+     366.0,
+     669.8
+    ],
+    [
+     339.4,
+     366.0,
+     669.8
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.24,
+   "in_concrete": false
+  },
+  {
+   "id": "E0250",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     1060.0,
+     366.0,
+     677.0
+    ],
+    [
+     1496.0,
+     366.0,
+     677.0
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.24,
+   "in_concrete": false
+  },
+  {
+   "id": "E0251",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     44.7,
+     366.0,
+     677.8
+    ],
+    [
+     138.6,
+     366.0,
+     677.8
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0252",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     339.4,
+     366.0,
+     677.8
+    ],
+    [
+     436.0,
+     366.0,
+     677.8
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0253",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     44.0,
+     366.0,
+     750.0
+    ],
+    [
+     456.0,
+     366.0,
+     750.0
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0254",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     168.1,
+     366.0,
+     758.1
+    ],
+    [
+     339.4,
+     366.0,
+     758.1
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.24,
+   "in_concrete": false
+  },
+  {
+   "id": "E0255",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     44.7,
+     366.0,
+     766.1
+    ],
+    [
+     138.6,
+     366.0,
+     766.1
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0256",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     339.4,
+     366.0,
+     766.1
+    ],
+    [
+     436.0,
+     366.0,
+     766.1
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0257",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     1060.0,
+     366.0,
+     869.4
+    ],
+    [
+     1496.0,
+     366.0,
+     869.4
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.24,
+   "in_concrete": false
+  },
+  {
+   "id": "E0258",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     183.3,
+     366.0,
+     874.9
+    ],
+    [
+     319.9,
+     366.0,
+     874.9
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0259",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     44.0,
+     366.0,
+     883.3
+    ],
+    [
+     456.0,
+     366.0,
+     883.3
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0260",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     44.7,
+     366.0,
+     891.8
+    ],
+    [
+     107.1,
+     366.0,
+     891.8
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0261",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     198.4,
+     366.0,
+     891.8
+    ],
+    [
+     450.1,
+     366.0,
+     891.8
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0262",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     1060.0,
+     366.0,
+     1061.7
+    ],
+    [
+     1496.0,
+     366.0,
+     1061.7
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.24,
+   "in_concrete": false
+  },
+  {
+   "id": "E0263",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     44.7,
+     366.0,
+     1084.1
+    ],
+    [
+     450.1,
+     366.0,
+     1084.1
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0264",
+   "dia": 12,
+   "axis": "XZ",
+   "pts": [
+    [
+     198.4,
+     200.0,
+     1259.0
+    ],
+    [
+     295.4,
+     200.0,
+     1259.0
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y assumed mid-thickness",
+   "confidence": 0.25,
+   "in_concrete": true
+  },
+  {
+   "id": "E0265",
+   "dia": 16,
+   "axis": "XZ",
+   "pts": [
+    [
+     177.4,
+     56.0,
+     1264.7
+    ],
+    [
+     319.9,
+     56.0,
+     1264.7
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.24,
+   "in_concrete": false
+  },
+  {
+   "id": "E0266",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     197.4,
+     366.0,
+     1453.8
+    ],
+    [
+     299.9,
+     366.0,
+     1453.8
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0267",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     44.0,
+     366.0,
+     1458.8
+    ],
+    [
+     456.0,
+     366.0,
+     1458.8
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0268",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     44.7,
+     366.0,
+     1468.9
+    ],
+    [
+     426.2,
+     366.0,
+     1468.9
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0269",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     1060.0,
+     366.0,
+     1638.8
+    ],
+    [
+     1496.0,
+     366.0,
+     1638.8
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.24,
+   "in_concrete": false
+  },
+  {
+   "id": "E0270",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     197.4,
+     366.0,
+     1646.8
+    ],
+    [
+     299.9,
+     366.0,
+     1646.8
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0271",
+   "dia": 10,
+   "axis": "XZ",
+   "pts": [
+    [
+     66.6,
+     200.0,
+     1651.5
+    ],
+    [
+     182.4,
+     200.0,
+     1651.5
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y assumed mid-thickness",
+   "confidence": 0.25,
+   "in_concrete": true
+  },
+  {
+   "id": "E0272",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     44.7,
+     366.0,
+     1661.3
+    ],
+    [
+     456.0,
+     366.0,
+     1661.3
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0273",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     1060.0,
+     366.0,
+     1831.1
+    ],
+    [
+     1496.0,
+     366.0,
+     1831.1
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.24,
+   "in_concrete": false
+  },
+  {
+   "id": "E0274",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     197.4,
+     366.0,
+     1839.8
+    ],
+    [
+     299.9,
+     366.0,
+     1839.8
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0275",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     44.0,
+     366.0,
+     1842.4
+    ],
+    [
+     456.0,
+     366.0,
+     1842.4
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0276",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     44.7,
+     366.0,
+     1853.6
+    ],
+    [
+     456.0,
+     366.0,
+     1853.6
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0277",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     1060.0,
+     366.0,
+     2023.5
+    ],
+    [
+     1496.0,
+     366.0,
+     2023.5
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.24,
+   "in_concrete": false
+  },
+  {
+   "id": "E0278",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     197.4,
+     366.0,
+     2032.8
+    ],
+    [
+     299.9,
+     366.0,
+     2032.8
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0279",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     44.0,
+     366.0,
+     2034.2
+    ],
+    [
+     456.0,
+     366.0,
+     2034.2
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0280",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     44.7,
+     366.0,
+     2046.0
+    ],
+    [
+     456.0,
+     366.0,
+     2046.0
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0281",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     1060.0,
+     366.0,
+     2215.8
+    ],
+    [
+     1496.0,
+     366.0,
+     2215.8
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.24,
+   "in_concrete": false
+  },
+  {
+   "id": "E0282",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     183.3,
+     366.0,
+     2225.9
+    ],
+    [
+     299.9,
+     366.0,
+     2225.9
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0283",
+   "dia": 12,
+   "axis": "XZ",
+   "pts": [
+    [
+     311.4,
+     200.0,
+     2228.2
+    ],
+    [
+     433.4,
+     200.0,
+     2228.2
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y assumed mid-thickness",
+   "confidence": 0.25,
+   "in_concrete": true
+  },
+  {
+   "id": "E0284",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     44.7,
+     366.0,
+     2238.4
+    ],
+    [
+     295.4,
+     366.0,
+     2238.4
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0285",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     1060.0,
+     366.0,
+     2408.2
+    ],
+    [
+     1496.0,
+     366.0,
+     2408.2
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.24,
+   "in_concrete": false
+  },
+  {
+   "id": "E0286",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     198.4,
+     366.0,
+     2430.8
+    ],
+    [
+     295.4,
+     366.0,
+     2430.8
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0287",
+   "dia": 10,
+   "axis": "XZ",
+   "pts": [
+    [
+     66.6,
+     200.0,
+     2431.7
+    ],
+    [
+     182.4,
+     200.0,
+     2431.7
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y assumed mid-thickness",
+   "confidence": 0.25,
+   "in_concrete": true
+  },
+  {
+   "id": "E0288",
+   "dia": 10,
+   "axis": "XZ",
+   "pts": [
+    [
+     311.4,
+     200.0,
+     2431.7
+    ],
+    [
+     433.4,
+     200.0,
+     2431.7
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y assumed mid-thickness",
+   "confidence": 0.25,
+   "in_concrete": true
+  },
+  {
+   "id": "E0289",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     198.4,
+     366.0,
+     2440.5
+    ],
+    [
+     295.4,
+     366.0,
+     2440.5
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0290",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     1060.0,
+     366.0,
+     2600.5
+    ],
+    [
+     1496.0,
+     366.0,
+     2600.5
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.24,
+   "in_concrete": false
+  },
+  {
+   "id": "E0291",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     44.0,
+     366.0,
+     2609.7
+    ],
+    [
+     456.0,
+     366.0,
+     2609.7
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0292",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     197.4,
+     366.0,
+     2611.7
+    ],
+    [
+     299.9,
+     366.0,
+     2611.7
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0293",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     44.7,
+     366.0,
+     2623.1
+    ],
+    [
+     456.0,
+     366.0,
+     2623.1
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0294",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     1060.0,
+     366.0,
+     2792.8
+    ],
+    [
+     1496.0,
+     366.0,
+     2792.8
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.24,
+   "in_concrete": false
+  },
+  {
+   "id": "E0295",
+   "dia": 12,
+   "axis": "XZ",
+   "pts": [
+    [
+     80.0,
+     200.0,
+     2813.5
+    ],
+    [
+     174.8,
+     200.0,
+     2813.5
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y assumed mid-thickness",
+   "confidence": 0.15,
+   "in_concrete": false
+  },
+  {
+   "id": "E0296",
+   "dia": 12,
+   "axis": "XZ",
+   "pts": [
+    [
+     322.4,
+     200.0,
+     2813.5
+    ],
+    [
+     433.4,
+     200.0,
+     2813.5
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y assumed mid-thickness",
+   "confidence": 0.25,
+   "in_concrete": true
+  },
+  {
+   "id": "E0297",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     4.0,
+     366.0,
+     2830.6
+    ],
+    [
+     433.4,
+     366.0,
+     2830.6
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0298",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     183.3,
+     366.0,
+     2997.7
+    ],
+    [
+     319.9,
+     366.0,
+     2997.7
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0299",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     198.4,
+     366.0,
+     3007.9
+    ],
+    [
+     456.0,
+     366.0,
+     3007.9
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0300",
+   "dia": 10,
+   "axis": "XZ",
+   "pts": [
+    [
+     66.6,
+     200.0,
+     3016.8
+    ],
+    [
+     182.4,
+     200.0,
+     3016.8
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y assumed mid-thickness",
+   "confidence": 0.25,
+   "in_concrete": true
+  },
+  {
+   "id": "E0301",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     198.4,
+     366.0,
+     3025.7
+    ],
+    [
+     433.4,
+     366.0,
+     3025.7
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0302",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     1060.0,
+     366.0,
+     3177.5
+    ],
+    [
+     1496.0,
+     366.0,
+     3177.5
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.24,
+   "in_concrete": false
+  },
+  {
+   "id": "E0303",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     44.0,
+     366.0,
+     3181.4
+    ],
+    [
+     456.0,
+     366.0,
+     3181.4
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0304",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     183.3,
+     366.0,
+     3190.7
+    ],
+    [
+     319.9,
+     366.0,
+     3190.7
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0305",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     44.7,
+     366.0,
+     3200.3
+    ],
+    [
+     456.0,
+     366.0,
+     3200.3
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0306",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     4.0,
+     366.0,
+     3220.7
+    ],
+    [
+     433.4,
+     366.0,
+     3220.7
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0307",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     1060.0,
+     366.0,
+     3369.9
+    ],
+    [
+     1496.0,
+     366.0,
+     3369.9
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.24,
+   "in_concrete": false
+  },
+  {
+   "id": "E0308",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     44.0,
+     366.0,
+     3374.5
+    ],
+    [
+     456.0,
+     366.0,
+     3374.5
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0309",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     183.3,
+     366.0,
+     3383.7
+    ],
+    [
+     319.9,
+     366.0,
+     3383.7
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0310",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     44.7,
+     366.0,
+     3392.6
+    ],
+    [
+     456.0,
+     366.0,
+     3392.6
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0311",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     198.4,
+     366.0,
+     3415.8
+    ],
+    [
+     433.4,
+     366.0,
+     3415.8
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0312",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     1060.0,
+     366.0,
+     3562.2
+    ],
+    [
+     1496.0,
+     366.0,
+     3562.2
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.24,
+   "in_concrete": false
+  },
+  {
+   "id": "E0313",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     197.4,
+     366.0,
+     3568.7
+    ],
+    [
+     299.9,
+     366.0,
+     3568.7
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0314",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     44.7,
+     366.0,
+     3585.0
+    ],
+    [
+     319.9,
+     366.0,
+     3585.0
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0315",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     4.0,
+     366.0,
+     3610.8
+    ],
+    [
+     433.4,
+     366.0,
+     3610.8
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0316",
+   "dia": 16,
+   "axis": "XZ",
+   "pts": [
+    [
+     320.6,
+     56.0,
+     3681.0
+    ],
+    [
+     433.4,
+     56.0,
+     3681.0
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0317",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     1060.0,
+     366.0,
+     3754.6
+    ],
+    [
+     1496.0,
+     366.0,
+     3754.6
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.24,
+   "in_concrete": false
+  },
+  {
+   "id": "E0318",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     44.7,
+     366.0,
+     3756.2
+    ],
+    [
+     456.0,
+     366.0,
+     3756.2
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0319",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     178.1,
+     366.0,
+     3765.2
+    ],
+    [
+     320.6,
+     366.0,
+     3765.2
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.24,
+   "in_concrete": false
+  },
+  {
+   "id": "E0320",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     4.0,
+     366.0,
+     3805.9
+    ],
+    [
+     433.4,
+     366.0,
+     3805.9
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0321",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     44.7,
+     366.0,
+     3932.6
+    ],
+    [
+     456.0,
+     366.0,
+     3932.6
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0322",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     178.1,
+     366.0,
+     3941.7
+    ],
+    [
+     320.6,
+     366.0,
+     3941.7
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.24,
+   "in_concrete": false
+  },
+  {
+   "id": "E0323",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     1060.0,
+     366.0,
+     3946.9
+    ],
+    [
+     1496.0,
+     366.0,
+     3946.9
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.24,
+   "in_concrete": false
+  },
+  {
+   "id": "E0324",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     4.0,
+     366.0,
+     4000.9
+    ],
+    [
+     433.4,
+     366.0,
+     4000.9
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0325",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     44.7,
+     366.0,
+     4109.1
+    ],
+    [
+     456.0,
+     366.0,
+     4109.1
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0326",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     178.1,
+     366.0,
+     4118.2
+    ],
+    [
+     320.6,
+     366.0,
+     4118.2
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.24,
+   "in_concrete": false
+  },
+  {
+   "id": "E0327",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     1060.0,
+     366.0,
+     4139.3
+    ],
+    [
+     1496.0,
+     366.0,
+     4139.3
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.24,
+   "in_concrete": false
+  },
+  {
+   "id": "E0328",
+   "dia": 10,
+   "axis": "XZ",
+   "pts": [
+    [
+     178.1,
+     200.0,
+     4197.3
+    ],
+    [
+     320.6,
+     200.0,
+     4197.3
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y assumed mid-thickness",
+   "confidence": 0.15,
+   "in_concrete": false
+  },
+  {
+   "id": "E0329",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     198.1,
+     366.0,
+     4214.5
+    ],
+    [
+     300.6,
+     366.0,
+     4214.5
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0330",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     44.7,
+     366.0,
+     4285.6
+    ],
+    [
+     456.0,
+     366.0,
+     4285.6
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0331",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     178.1,
+     366.0,
+     4294.7
+    ],
+    [
+     320.6,
+     366.0,
+     4294.7
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.24,
+   "in_concrete": false
+  },
+  {
+   "id": "E0332",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     1060.0,
+     366.0,
+     4331.6
+    ],
+    [
+     1496.0,
+     366.0,
+     4331.6
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.24,
+   "in_concrete": false
+  },
+  {
+   "id": "E0333",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     178.1,
+     366.0,
+     4382.9
+    ],
+    [
+     320.6,
+     366.0,
+     4382.9
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.24,
+   "in_concrete": false
+  },
+  {
+   "id": "E0334",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     4.0,
+     366.0,
+     4391.0
+    ],
+    [
+     64.0,
+     366.0,
+     4391.0
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.4,
+   "in_concrete": true
+  },
+  {
+   "id": "E0335",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     1060.0,
+     366.0,
+     4524.0
+    ],
+    [
+     1496.0,
+     366.0,
+     4524.0
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.24,
+   "in_concrete": false
+  },
+  {
+   "id": "E0336",
+   "dia": 8,
+   "axis": "XZ",
+   "pts": [
+    [
+     1060.0,
+     366.0,
+     4716.3
+    ],
+    [
+     1496.0,
+     366.0,
+     4716.3
+    ]
+   ],
+   "from_views": [
+    "elevation"
+   ],
+   "n_views": 1,
+   "cuts_seen": [],
+   "how": "elevation only; Y from a measured layer of same dia",
+   "confidence": 0.24,
+   "in_concrete": false
+  }
+ ],
+ "stats": {
+  "fused:plan_cut+elevation": 43,
+  "fused:plan_cut+elevation(cut not on run)": 12,
+  "plan_cut only; extent from concrete outline": 4,
+  "fused:end_cut+elevation": 85,
+  "end_cut only; extent from concrete outline": 6,
+  "fused:end_cut+elevation(cut not on run)": 2,
+  "section run at known cut": 36,
+  "section run, cut station unknown": 14,
+  "elevation only; Y assumed mid-thickness": 14,
+  "elevation only; Y from a measured layer of same dia": 120,
+  "_total": 336,
+  "_fused_multiview": 143,
+  "_single_view": 193,
+  "_outside_concrete": 57,
+  "_elevation_runs": 267,
+  "_elevation_runs_consumed": 133
+ }
+}

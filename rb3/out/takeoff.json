@@ -1,0 +1,352 @@
+[
+ {
+  "element": "PC-GF-01",
+  "source": "marks",
+  "file": "PC-GF-01_R",
+  "length_mm": 195725.0,
+  "weight_kg": 158.60999999999999,
+  "bars": 134,
+  "marks": 14,
+  "via": null
+ },
+ {
+  "element": "PW-01-PW-01",
+  "source": "marks",
+  "file": "PW-01(S).pdf",
+  "length_mm": 262724.0,
+  "weight_kg": 131.3,
+  "bars": 183,
+  "marks": 19,
+  "via": null
+ },
+ {
+  "element": "PW-GF-01",
+  "source": "marks",
+  "file": "PW-GF-01_S",
+  "length_mm": 735300.0,
+  "weight_kg": 566.19,
+  "bars": 421,
+  "marks": 15,
+  "via": null
+ },
+ {
+  "element": "PW-GF-02",
+  "source": "marks",
+  "file": "PW-GF-02_S",
+  "length_mm": 500950.0,
+  "weight_kg": 369.37,
+  "bars": 375,
+  "marks": 14,
+  "via": null
+ },
+ {
+  "element": "PW-GF-03",
+  "source": "reference",
+  "file": "PW-GF-02_S",
+  "length_mm": 500950.0,
+  "weight_kg": 369.37,
+  "bars": 375,
+  "marks": 14,
+  "via": "PW-GF-02"
+ },
+ {
+  "element": "PW-GF-04",
+  "source": "reference",
+  "file": "PW-GF-02_S",
+  "length_mm": 500950.0,
+  "weight_kg": 369.37,
+  "bars": 375,
+  "marks": 14,
+  "via": "PW-GF-02"
+ },
+ {
+  "element": "PW-GF-05",
+  "source": "marks",
+  "file": "PW-GF-05_S",
+  "length_mm": 541475.0,
+  "weight_kg": 406.09000000000003,
+  "bars": 348,
+  "marks": 35,
+  "via": null
+ },
+ {
+  "element": "PW-GF-06",
+  "source": "marks",
+  "file": "PW-GF-06_S",
+  "length_mm": 459425.0,
+  "weight_kg": 314.93,
+  "bars": 322,
+  "marks": 28,
+  "via": null
+ },
+ {
+  "element": "PW-GF-07",
+  "source": "marks",
+  "file": "PW-GF-07_S",
+  "length_mm": 463800.0,
+  "weight_kg": 271.42,
+  "bars": 254,
+  "marks": 17,
+  "via": null
+ },
+ {
+  "element": "PW-GF-08",
+  "source": "marks",
+  "file": "PW-GF-08_S",
+  "length_mm": 551025.0,
+  "weight_kg": 382.46,
+  "bars": 335,
+  "marks": 26,
+  "via": null
+ },
+ {
+  "element": "PW-GF-09",
+  "source": "marks",
+  "file": "PW-GF-09_S",
+  "length_mm": 443900.0,
+  "weight_kg": 328.94,
+  "bars": 302,
+  "marks": 31,
+  "via": null
+ },
+ {
+  "element": "PW-GF-10",
+  "source": "reference",
+  "file": "PW-GF-30_R2",
+  "length_mm": 820150.0,
+  "weight_kg": 508.51,
+  "bars": 407,
+  "marks": 15,
+  "via": "PW-GF-30"
+ },
+ {
+  "element": "PW-GF-11",
+  "source": "marks",
+  "file": "PW-GF-11_S",
+  "length_mm": 1077950.0,
+  "weight_kg": 715.62,
+  "bars": 511,
+  "marks": 24,
+  "via": null
+ },
+ {
+  "element": "PW-GF-12",
+  "source": "reference",
+  "file": "PW-GF-30_R2",
+  "length_mm": 820150.0,
+  "weight_kg": 508.51,
+  "bars": 407,
+  "marks": 15,
+  "via": "PW-GF-30"
+ },
+ {
+  "element": "PW-GF-13",
+  "source": "reference",
+  "file": "PW-GF-11_S",
+  "length_mm": 1077950.0,
+  "weight_kg": 715.62,
+  "bars": 511,
+  "marks": 24,
+  "via": "PW-GF-11"
+ },
+ {
+  "element": "PW-GF-14",
+  "source": "reference",
+  "file": "PW-GF-30_R2",
+  "length_mm": 820150.0,
+  "weight_kg": 508.51,
+  "bars": 407,
+  "marks": 15,
+  "via": "PW-GF-30"
+ },
+ {
+  "element": "PW-GF-15",
+  "source": "reference",
+  "file": "PW-GF-30_R2",
+  "length_mm": 820150.0,
+  "weight_kg": 508.51,
+  "bars": 407,
+  "marks": 15,
+  "via": "PW-GF-30"
+ },
+ {
+  "element": "PW-GF-16",
+  "source": "reference",
+  "file": "PW-GF-30_R2",
+  "length_mm": 820150.0,
+  "weight_kg": 508.51,
+  "bars": 407,
+  "marks": 15,
+  "via": "PW-GF-30"
+ },
+ {
+  "element": "PW-GF-17",
+  "source": "reference",
+  "file": "PW-GF-30_R2",
+  "length_mm": 820150.0,
+  "weight_kg": 508.51,
+  "bars": 407,
+  "marks": 15,
+  "via": "PW-GF-30"
+ },
+ {
+  "element": "PW-GF-18",
+  "source": "marks",
+  "file": "PW-GF-18_S",
+  "length_mm": 407300.0,
+  "weight_kg": 265.92,
+  "bars": 281,
+  "marks": 28,
+  "via": null
+ },
+ {
+  "element": "PW-GF-19",
+  "source": "reference",
+  "file": "PW-GF-07_S",
+  "length_mm": 463800.0,
+  "weight_kg": 271.42,
+  "bars": 254,
+  "marks": 17,
+  "via": "PW-GF-07"
+ },
+ {
+  "element": "PW-GF-20",
+  "source": "reference",
+  "file": "PW-GF-07_S",
+  "length_mm": 463800.0,
+  "weight_kg": 271.42,
+  "bars": 254,
+  "marks": 17,
+  "via": "PW-GF-07"
+ },
+ {
+  "element": "PW-GF-21",
+  "source": "reference",
+  "file": "PW-GF-07_S",
+  "length_mm": 463800.0,
+  "weight_kg": 271.42,
+  "bars": 254,
+  "marks": 17,
+  "via": "PW-GF-07"
+ },
+ {
+  "element": "PW-GF-22",
+  "source": "reference",
+  "file": "PW-GF-07_S",
+  "length_mm": 463800.0,
+  "weight_kg": 271.42,
+  "bars": 254,
+  "marks": 17,
+  "via": "PW-GF-07"
+ },
+ {
+  "element": "PW-GF-23",
+  "source": "reference",
+  "file": "PW-GF-26_S",
+  "length_mm": 369225.0,
+  "weight_kg": 217.88,
+  "bars": 231,
+  "marks": 13,
+  "via": "PW-GF-26"
+ },
+ {
+  "element": "PW-GF-24",
+  "source": "reference",
+  "file": "PW-GF-25_S",
+  "length_mm": 370575.0,
+  "weight_kg": 247.51000000000002,
+  "bars": 249,
+  "marks": 25,
+  "via": "PW-GF-25"
+ },
+ {
+  "element": "PW-GF-25",
+  "source": "marks",
+  "file": "PW-GF-25_S",
+  "length_mm": 370575.0,
+  "weight_kg": 247.51000000000002,
+  "bars": 249,
+  "marks": 25,
+  "via": null
+ },
+ {
+  "element": "PW-GF-26",
+  "source": "marks",
+  "file": "PW-GF-26_S",
+  "length_mm": 369225.0,
+  "weight_kg": 217.88,
+  "bars": 231,
+  "marks": 13,
+  "via": null
+ },
+ {
+  "element": "PW-GF-27",
+  "source": "marks",
+  "file": "PW-GF-27_R2",
+  "length_mm": 422375.0,
+  "weight_kg": 259.9,
+  "bars": 292,
+  "marks": 27,
+  "via": null
+ },
+ {
+  "element": "PW-GF-28",
+  "source": "reference",
+  "file": "PW-GF-30_R2",
+  "length_mm": 820150.0,
+  "weight_kg": 508.51,
+  "bars": 407,
+  "marks": 15,
+  "via": "PW-GF-30"
+ },
+ {
+  "element": "PW-GF-29",
+  "source": "reference",
+  "file": "PW-GF-30_R2",
+  "length_mm": 820150.0,
+  "weight_kg": 508.51,
+  "bars": 407,
+  "marks": 15,
+  "via": "PW-GF-30"
+ },
+ {
+  "element": "PW-GF-30",
+  "source": "marks",
+  "file": "PW-GF-30_R2",
+  "length_mm": 820150.0,
+  "weight_kg": 508.51,
+  "bars": 407,
+  "marks": 15,
+  "via": null
+ },
+ {
+  "element": "PW-GF-31",
+  "source": "reference",
+  "file": "PW-GF-30_R2",
+  "length_mm": 820150.0,
+  "weight_kg": 508.51,
+  "bars": 407,
+  "marks": 15,
+  "via": "PW-GF-30"
+ },
+ {
+  "element": "PW-GF-45",
+  "source": "summary",
+  "file": "PW-GF-45_R",
+  "length_mm": 292250.0,
+  "weight_kg": 166.41,
+  "bars": null,
+  "marks": null,
+  "via": null
+ },
+ {
+  "element": "SS-GF-01",
+  "source": "summary",
+  "file": "SS-GF-01_R",
+  "length_mm": 404300.0,
+  "weight_kg": 320.97,
+  "bars": null,
+  "marks": null,
+  "via": null
+ }
+]

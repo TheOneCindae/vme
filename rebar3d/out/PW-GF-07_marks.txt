@@ -10,8 +10,8 @@ C       T8           10     23  OVER    3
 D       T12           2      0  SHORT   3
 D1      T12           1      0  SHORT   1
 E       T16           4      1  SHORT   4
-F       T16           2      4  OVER    3
-F1      T16           2      3  OVER    3
+F       T16           2      5  OVER    3
+F1      T16           2      2  OK      3
 G       T20           3      4  OVER    3
 H       T8           26      0  SHORT   2
 I       T10          10      0  SHORT   3

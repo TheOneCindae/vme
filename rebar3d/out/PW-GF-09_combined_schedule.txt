@@ -2,10 +2,10 @@ Combined: PW-GF-09(R1), PW-GF-09(R2)
 Official: PW-GF-09(S).dwg paper space
 
   bar reconstructed   official      gap      %
-T8          123.95k    124.33k   -0.38k   100%
+T8          124.25k    124.33k   -0.08k   100%
 T10           2.49k      9.72k   -7.23k    26%
 T12          15.09k     15.20k   -0.11k    99%
-T16         112.46k    116.31k   -3.85k    97%
+T16         113.80k    116.31k   -2.51k    98%
 T20          43.35k     43.46k   -0.11k   100%
 T25          16.16k     19.87k   -3.71k    81%
-TOTAL       313.50k    328.89k  -15.39k    95%
+TOTAL       315.14k    328.89k  -13.75k    96%

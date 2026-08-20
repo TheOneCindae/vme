@@ -1,0 +1,40 @@
+{
+  "processed": [
+    "PC-GF-01(R)",
+    "PW-01-PW-01(R)",
+    "PW-GF-01(R)",
+    "PW-GF-02(R)",
+    "PW-GF-06(R)",
+    "PW-GF-07(R)",
+    "PW-GF-09(R)",
+    "PW-GF-18(R)",
+    "PW-GF-25(R)",
+    "PW-GF-26(R)",
+    "PW-GF-45(R)",
+    "SS-GF-01(R)",
+    "PW-GF-05(R1)",
+    "PW-GF-05(R2)",
+    "PW-GF-08(R1)",
+    "PW-GF-08(R2)",
+    "PW-GF-09(R1)",
+    "PW-GF-09(R2)",
+    "PW-GF-11(R1)",
+    "PW-GF-11(R2)",
+    "PW-GF-27(R1)",
+    "PW-GF-27(R2)",
+    "PW-GF-30(R1)",
+    "PW-GF-30(R2)"
+  ],
+  "skipped": [],
+  "grand_unclustered_by_diameter": {
+    "10": 433,
+    "8": 4641,
+    "16": 649,
+    "20": 236,
+    "25": 127,
+    "12": 340,
+    "32": 60,
+    "unsnapped": 64,
+    "6": 53
+  }
+}

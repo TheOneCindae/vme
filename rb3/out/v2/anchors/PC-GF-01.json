@@ -1,0 +1,73 @@
+{
+  "element": "PC-GF-01",
+  "panel": "PC-GF-01",
+  "sheet": "PC-GF-01_M",
+  "sheets_considered": [
+    "PC-GF-01_R",
+    "PC-GF-01_M"
+  ],
+  "envelope": {
+    "width_mm": 627.9,
+    "height_mm": 4435.0,
+    "thickness_mm": 400.0,
+    "n_elevation": 2,
+    "n_plan_cut": 0,
+    "n_end_cut": 3
+  },
+  "anchors": [
+    {
+      "type_key": "LIFT-12_9",
+      "family": "lifting_insert",
+      "capacity_t": null,
+      "embed_length_mm": null,
+      "source_block": "12_7\u00d8_ Lifting Insert_COLUMN - 12_9\u00d8 Lifting insert-V79-3D Ortho",
+      "n_view_duplicates": 1,
+      "pt": [
+        122.9,
+        200.0,
+        990.3
+      ],
+      "depth_source": "assumed_mid_thickness"
+    },
+    {
+      "type_key": "LIFT-12_9",
+      "family": "lifting_insert",
+      "capacity_t": null,
+      "embed_length_mm": null,
+      "source_block": "12_7\u00d8_ Lifting Insert_COLUMN - 12_9\u00d8 Lifting insert-V79-3D Ortho",
+      "n_view_duplicates": 1,
+      "pt": [
+        122.9,
+        200.0,
+        2885.2
+      ],
+      "depth_source": "assumed_mid_thickness"
+    },
+    {
+      "type_key": "LIFT-12_9",
+      "family": "lifting_insert",
+      "capacity_t": null,
+      "embed_length_mm": null,
+      "source_block": "12_7\u00d8_ Lifting Insert_COLUMN - 12_9\u00d8 Lifting insert-1653057-3D Ortho",
+      "n_view_duplicates": 2,
+      "pt": [
+        314.5,
+        200.0,
+        3973.7
+      ],
+      "depth_source": "assumed_mid_thickness"
+    }
+  ],
+  "insert_schedule": [
+    {
+      "ref": "N1",
+      "type": "12.9\u00d8 Lifting insert",
+      "count": 2
+    },
+    {
+      "ref": "N2",
+      "type": "12.9\u00d8 Lifting insert",
+      "count": 2
+    }
+  ]
+}

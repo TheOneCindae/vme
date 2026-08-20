@@ -1,0 +1,585 @@
+{
+  "stem": "PW-GF-02(R)",
+  "sources": {
+    "R_own": [],
+    "S_dwg": {
+      "mtime_gap_days": 64.51,
+      "rows": [
+        {
+          "mark": "A",
+          "diameter": 8,
+          "shape": "M_00",
+          "length_mm": 600.0,
+          "qty": 60,
+          "weight_kg": 14.22,
+          "total_length_mm": 36000.0,
+          "segments": [
+            0.0,
+            580.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "part": "A"
+        },
+        {
+          "mark": "A1",
+          "diameter": 8,
+          "shape": "M_00",
+          "length_mm": 625.0,
+          "qty": 60,
+          "weight_kg": 14.82,
+          "total_length_mm": 37500.0,
+          "segments": [
+            0.0,
+            620.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "part": "A"
+        },
+        {
+          "mark": "B",
+          "diameter": 8,
+          "shape": "M_17",
+          "length_mm": 900.0,
+          "qty": 118,
+          "weight_kg": 41.96,
+          "total_length_mm": 106200.0,
+          "segments": [
+            0.0,
+            400.0,
+            140.0,
+            400.0,
+            0.0,
+            0.0
+          ],
+          "part": "A"
+        },
+        {
+          "mark": "B1",
+          "diameter": 8,
+          "shape": "M_17",
+          "length_mm": 950.0,
+          "qty": 45,
+          "weight_kg": 16.89,
+          "total_length_mm": 42750.0,
+          "segments": [
+            0.0,
+            440.0,
+            90.0,
+            440.0,
+            0.0,
+            0.0
+          ],
+          "part": "A"
+        },
+        {
+          "mark": "C",
+          "diameter": 12,
+          "shape": "M_00",
+          "length_mm": 425.0,
+          "qty": 2,
+          "weight_kg": 0.76,
+          "total_length_mm": 850.0,
+          "segments": [
+            0.0,
+            410.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "part": "A"
+        },
+        {
+          "mark": "C1",
+          "diameter": 12,
+          "shape": "M_00",
+          "length_mm": 600.0,
+          "qty": 2,
+          "weight_kg": 1.07,
+          "total_length_mm": 1200.0,
+          "segments": [
+            0.0,
+            580.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "part": "A"
+        },
+        {
+          "mark": "C2",
+          "diameter": 12,
+          "shape": "M_00",
+          "length_mm": 8800.0,
+          "qty": 16,
+          "weight_kg": 125.16,
+          "total_length_mm": 140800.0,
+          "segments": [
+            0.0,
+            8800.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "part": "A"
+        },
+        {
+          "mark": "D",
+          "diameter": 12,
+          "shape": "M_17",
+          "length_mm": 1300.0,
+          "qty": 14,
+          "weight_kg": 16.18,
+          "total_length_mm": 18200.0,
+          "segments": [
+            0.0,
+            600.0,
+            125.0,
+            600.0,
+            0.0,
+            0.0
+          ],
+          "part": "A"
+        },
+        {
+          "mark": "E",
+          "diameter": 16,
+          "shape": "M_00",
+          "length_mm": 8800.0,
+          "qty": 4,
+          "weight_kg": 55.63,
+          "total_length_mm": 35200.0,
+          "segments": [
+            0.0,
+            8800.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "part": "A"
+        },
+        {
+          "mark": "F",
+          "diameter": 16,
+          "shape": "M_17",
+          "length_mm": 2100.0,
+          "qty": 4,
+          "weight_kg": 13.27,
+          "total_length_mm": 8400.0,
+          "segments": [
+            0.0,
+            800.0,
+            560.0,
+            800.0,
+            0.0,
+            0.0
+          ],
+          "part": "A"
+        },
+        {
+          "mark": "G",
+          "diameter": 8,
+          "shape": "Rebar Shape 9",
+          "length_mm": 1100.0,
+          "qty": 45,
+          "weight_kg": 19.56,
+          "total_length_mm": 49500.0,
+          "segments": [
+            330.0,
+            145.0,
+            90.0,
+            170.0,
+            400.0
+          ],
+          "part": "B"
+        },
+        {
+          "mark": "H",
+          "diameter": 10,
+          "shape": "Rebar Shape 9",
+          "length_mm": 1850.0,
+          "qty": 3,
+          "weight_kg": 3.43,
+          "total_length_mm": 5550.0,
+          "segments": [
+            365.0,
+            255.0,
+            315.0,
+            275.0,
+            725.0
+          ],
+          "part": "B"
+        },
+        {
+          "mark": "I",
+          "diameter": 20,
+          "shape": "26",
+          "length_mm": 9000.0,
+          "qty": 1,
+          "weight_kg": 22.22,
+          "total_length_mm": 9000.0,
+          "segments": [
+            1140.0,
+            500.0,
+            7350.0
+          ],
+          "part": "C"
+        },
+        {
+          "mark": "I1",
+          "diameter": 20,
+          "shape": "26",
+          "length_mm": 9800.0,
+          "qty": 1,
+          "weight_kg": 24.2,
+          "total_length_mm": 9800.0,
+          "segments": [
+            1145.0,
+            790.0,
+            7840.0
+          ],
+          "part": "C"
+        }
+      ],
+      "path": "/Users/jonathan/elco/vme/DRAWINGS/PW-GF-02(S).dwg"
+    },
+    "pdf:PW-GF-02(R).pdf": {
+      "mtime_gap_days": 64.51,
+      "rows": [],
+      "path": "/Users/jonathan/elco/vme/DRAWINGS/PW-GF-02(R).pdf"
+    },
+    "pdf:PW-GF-02(R) .pdf": {
+      "mtime_gap_days": 0.0,
+      "rows": [],
+      "path": "/Users/jonathan/elco/vme/DRAWINGS/PW-GF-02(R) .pdf"
+    },
+    "pdf:PW-GF-02(M2) .pdf": {
+      "mtime_gap_days": 10.14,
+      "rows": [],
+      "path": "/Users/jonathan/elco/vme/DRAWINGS/PW-GF-02(M2) .pdf"
+    },
+    "pdf:PW-GF-02(M1) .pdf": {
+      "mtime_gap_days": 10.14,
+      "rows": [],
+      "path": "/Users/jonathan/elco/vme/DRAWINGS/PW-GF-02(M1) .pdf"
+    },
+    "pdf:PW-GF-02.pdf": {
+      "mtime_gap_days": 60.46,
+      "rows": [],
+      "path": "/Users/jonathan/elco/vme/DRAWINGS/PW-GF-02.pdf"
+    },
+    "pdf:PW-GF-02(M1).pdf": {
+      "mtime_gap_days": 64.51,
+      "rows": [],
+      "path": "/Users/jonathan/elco/vme/DRAWINGS/PW-GF-02(M1).pdf"
+    },
+    "pdf:PW-GF-02(M2).pdf": {
+      "mtime_gap_days": 64.51,
+      "rows": [],
+      "path": "/Users/jonathan/elco/vme/DRAWINGS/PW-GF-02(M2).pdf"
+    },
+    "pdf:PW-GF-02(S).pdf": {
+      "mtime_gap_days": 64.51,
+      "rows": [
+        {
+          "mark": "A",
+          "diameter": 8,
+          "shape": "M_00",
+          "length_mm": 600.0,
+          "qty": 60,
+          "weight_kg": 14.22,
+          "total_length_mm": 36000.0,
+          "segments": [
+            0.0,
+            580.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "mark": "A1",
+          "diameter": 8,
+          "shape": "M_00",
+          "length_mm": 625.0,
+          "qty": 60,
+          "weight_kg": 14.82,
+          "total_length_mm": 37500.0,
+          "segments": [
+            0.0,
+            620.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "mark": "B",
+          "diameter": 8,
+          "shape": "M_17",
+          "length_mm": 900.0,
+          "qty": 118,
+          "weight_kg": 41.96,
+          "total_length_mm": 106200.0,
+          "segments": [
+            0.0,
+            400.0,
+            140.0,
+            400.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "mark": "B1",
+          "diameter": 8,
+          "shape": "M_17",
+          "length_mm": 950.0,
+          "qty": 45,
+          "weight_kg": 16.89,
+          "total_length_mm": 42750.0,
+          "segments": [
+            0.0,
+            440.0,
+            90.0,
+            440.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "mark": "C",
+          "diameter": 12,
+          "shape": "M_00",
+          "length_mm": 425.0,
+          "qty": 2,
+          "weight_kg": 0.76,
+          "total_length_mm": 850.0,
+          "segments": [
+            0.0,
+            410.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "mark": "C1",
+          "diameter": 12,
+          "shape": "M_00",
+          "length_mm": 600.0,
+          "qty": 2,
+          "weight_kg": 1.07,
+          "total_length_mm": 1200.0,
+          "segments": [
+            0.0,
+            580.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "mark": "C2",
+          "diameter": 12,
+          "shape": "M_00",
+          "length_mm": 8800.0,
+          "qty": 16,
+          "weight_kg": 125.16,
+          "total_length_mm": 140800.0,
+          "segments": [
+            0.0,
+            8800.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "mark": "D",
+          "diameter": 12,
+          "shape": "M_17",
+          "length_mm": 1300.0,
+          "qty": 14,
+          "weight_kg": 16.18,
+          "total_length_mm": 18200.0,
+          "segments": [
+            0.0,
+            600.0,
+            125.0,
+            600.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "mark": "E",
+          "diameter": 16,
+          "shape": "M_00",
+          "length_mm": 8800.0,
+          "qty": 4,
+          "weight_kg": 55.63,
+          "total_length_mm": 35200.0,
+          "segments": [
+            0.0,
+            8800.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "mark": "F",
+          "diameter": 16,
+          "shape": "M_17",
+          "length_mm": 2100.0,
+          "qty": 4,
+          "weight_kg": 13.27,
+          "total_length_mm": 8400.0,
+          "segments": [
+            0.0,
+            800.0,
+            560.0,
+            800.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "mark": "G",
+          "diameter": 8,
+          "shape": "Rebar Shape 9",
+          "length_mm": 1100.0,
+          "qty": 45,
+          "weight_kg": 19.56,
+          "total_length_mm": 49500.0,
+          "segments": [
+            330.0,
+            145.0,
+            90.0,
+            170.0,
+            400.0
+          ]
+        },
+        {
+          "mark": "H",
+          "diameter": 10,
+          "shape": "Rebar Shape 9",
+          "length_mm": 1850.0,
+          "qty": 3,
+          "weight_kg": 3.43,
+          "total_length_mm": 5550.0,
+          "segments": [
+            365.0,
+            255.0,
+            315.0,
+            275.0,
+            725.0
+          ]
+        },
+        {
+          "mark": "I",
+          "diameter": 20,
+          "shape": "26",
+          "length_mm": 9000.0,
+          "qty": 1,
+          "weight_kg": 22.22,
+          "total_length_mm": 9000.0,
+          "segments": [
+            1140.0,
+            500.0,
+            7350.0
+          ]
+        },
+        {
+          "mark": "I1",
+          "diameter": 20,
+          "shape": "26",
+          "length_mm": 9800.0,
+          "qty": 1,
+          "weight_kg": 24.2,
+          "total_length_mm": 9800.0,
+          "segments": [
+            1145.0,
+            790.0,
+            7840.0
+          ]
+        }
+      ],
+      "path": "/Users/jonathan/elco/vme/DRAWINGS/PW-GF-02(S).pdf"
+    }
+  },
+  "cross_check": {
+    "A": {
+      "status": "AGREE",
+      "detail": "all 2 sources agree: dia=8 shape=M_00 len=600.0 qty=60"
+    },
+    "A1": {
+      "status": "AGREE",
+      "detail": "all 2 sources agree: dia=8 shape=M_00 len=625.0 qty=60"
+    },
+    "B": {
+      "status": "AGREE",
+      "detail": "all 2 sources agree: dia=8 shape=M_17 len=900.0 qty=118"
+    },
+    "B1": {
+      "status": "AGREE",
+      "detail": "all 2 sources agree: dia=8 shape=M_17 len=950.0 qty=45"
+    },
+    "C": {
+      "status": "AGREE",
+      "detail": "all 2 sources agree: dia=12 shape=M_00 len=425.0 qty=2"
+    },
+    "C1": {
+      "status": "AGREE",
+      "detail": "all 2 sources agree: dia=12 shape=M_00 len=600.0 qty=2"
+    },
+    "C2": {
+      "status": "AGREE",
+      "detail": "all 2 sources agree: dia=12 shape=M_00 len=8800.0 qty=16"
+    },
+    "D": {
+      "status": "AGREE",
+      "detail": "all 2 sources agree: dia=12 shape=M_17 len=1300.0 qty=14"
+    },
+    "E": {
+      "status": "AGREE",
+      "detail": "all 2 sources agree: dia=16 shape=M_00 len=8800.0 qty=4"
+    },
+    "F": {
+      "status": "AGREE",
+      "detail": "all 2 sources agree: dia=16 shape=M_17 len=2100.0 qty=4"
+    },
+    "G": {
+      "status": "AGREE",
+      "detail": "all 2 sources agree: dia=8 shape=Rebar Shape 9 len=1100.0 qty=45"
+    },
+    "H": {
+      "status": "AGREE",
+      "detail": "all 2 sources agree: dia=10 shape=Rebar Shape 9 len=1850.0 qty=3"
+    },
+    "I": {
+      "status": "AGREE",
+      "detail": "all 2 sources agree: dia=20 shape=26 len=9000.0 qty=1"
+    },
+    "I1": {
+      "status": "AGREE",
+      "detail": "all 2 sources agree: dia=20 shape=26 len=9800.0 qty=1"
+    }
+  }
+}

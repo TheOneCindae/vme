@@ -1,7 +1,7 @@
 mark    dia    expected  found  status  instances
-A       T8           53     33  SHORT   2
-A1      T8           53     43  SHORT   2
-B       T8           34     54  OVER    4
+A       T8           53     29  SHORT   2
+A1      T8           53     41  SHORT   2
+B       T8           34     41  OVER    4
 B1      T8           52      0  SHORT   2
 B2      T8           46      0  SHORT   2
 C       T8            9      0  SHORT   2

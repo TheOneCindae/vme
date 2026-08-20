@@ -3,10 +3,10 @@ A       T8            5      0  SHORT   2
 A1      T8            5      7  OVER    2
 A2      T8           31     26  SHORT   3
 A3      T8           31     14  SHORT   3
-A4      T8            4    106  OVER    6
-A5      T8            9    121  OVER    3
+A4      T8            4    102  OVER    6
+A5      T8            9    114  OVER    3
 A6      T8            8    106  OVER    3
-B       T8           16    144  OVER    4
+B       T8           16    136  OVER    4
 B1      T8           34     16  SHORT   4
 B2      T8           25     55  OVER    2
 C       T8            5      0  SHORT   2

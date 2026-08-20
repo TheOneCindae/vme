@@ -43,8 +43,13 @@ for f in "$dir"/*.dxf "$dir"/*.DXF; do
 done
 
 # Prefer the (R) reinforcement sheets unless --all or none exist.
-if [ "$all" -eq 0 ] && grep -q '(R)' "$files"; then
-    grep '(R)' "$files" > "$files.r" && mv "$files.r" "$files"
+# Matches "(R)" AND combo-member sheets "(R1)"/"(R2)"/... -- a plain
+# substring match on "(R)" misses those (the digit sits between R and
+# the closing paren), which silently excluded every combo panel
+# ((R1)/(R2) pairs like PW-GF-05, PW-GF-08, PW-GF-09, PW-GF-11, PW-GF-27,
+# PW-GF-30) from every batch run using this script.
+if [ "$all" -eq 0 ] && grep -qE '\(R[0-9]*\)' "$files"; then
+    grep -E '\(R[0-9]*\)' "$files" > "$files.r" && mv "$files.r" "$files"
 fi
 
 set --

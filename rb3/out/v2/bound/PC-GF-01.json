@@ -1,0 +1,5592 @@
+{
+ "element": "PC-GF-01",
+ "summary": {
+  "element": "PC-GF-01",
+  "source": "lift",
+  "sheets": [
+   "PC-GF-01_R"
+  ],
+  "marks": 14,
+  "qty_scheduled": 134,
+  "qty_located": 115,
+  "length_mm_scheduled": 195725.0,
+  "length_mm_located": 167600.0,
+  "located_frac_by_length": 0.8563,
+  "arrays_total": 190,
+  "arrays_bound": 105,
+  "drawn_bars_unbound": 85,
+  "over_bound_marks": [],
+  "evidence": {
+   "leader": 6,
+   "array_signature": 46,
+   "section": 1,
+   "array_note": 53,
+   "pitch_extended": 9
+  }
+ },
+ "bars": [
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):D1:0",
+   "pts": [
+    [
+     38.0,
+     200.0,
+     367.6
+    ],
+    [
+     462.0,
+     200.0,
+     367.6
+    ]
+   ],
+   "dia": 16,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:17",
+   "evidence": "leader",
+   "mark": "D1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 1950.0,
+   "weight_kg": 3.08
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):D1:1",
+   "pts": [
+    [
+     250.0,
+     251.1,
+     56.0
+    ],
+    [
+     250.0,
+     251.1,
+     444.0
+    ]
+   ],
+   "dia": 16,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:45",
+   "evidence": "array_signature",
+   "mark": "D1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 1950.0,
+   "weight_kg": 3.08
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):D:0",
+   "pts": [
+    [
+     354.1,
+     200.0,
+     44.3
+    ],
+    [
+     354.1,
+     200.0,
+     808.3
+    ],
+    [
+     353.5,
+     200.0,
+     814.6
+    ],
+    [
+     351.7,
+     200.0,
+     820.6
+    ],
+    [
+     348.7,
+     200.0,
+     826.2
+    ],
+    [
+     344.7,
+     200.0,
+     831.1
+    ],
+    [
+     339.8,
+     200.0,
+     835.1
+    ],
+    [
+     334.3,
+     200.0,
+     838.0
+    ],
+    [
+     328.3,
+     200.0,
+     839.9
+    ],
+    [
+     322.0,
+     200.0,
+     840.5
+    ],
+    [
+     100.8,
+     200.0,
+     840.5
+    ],
+    [
+     94.5,
+     200.0,
+     839.9
+    ],
+    [
+     88.5,
+     200.0,
+     838.0
+    ],
+    [
+     83.0,
+     200.0,
+     835.1
+    ],
+    [
+     78.1,
+     200.0,
+     831.1
+    ],
+    [
+     74.1,
+     200.0,
+     826.2
+    ],
+    [
+     71.1,
+     200.0,
+     820.6
+    ],
+    [
+     69.3,
+     200.0,
+     814.6
+    ],
+    [
+     68.7,
+     200.0,
+     808.3
+    ],
+    [
+     68.7,
+     200.0,
+     44.3
+    ]
+   ],
+   "dia": 16,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:56",
+   "evidence": "leader",
+   "shape_expanded": true,
+   "geometric_mm": 1840.4,
+   "residual_mm": -9.6,
+   "mark": "D",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 1850.0,
+   "weight_kg": 2.923
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):D:1",
+   "pts": [
+    [
+     249.3,
+     251.1,
+     60.4
+    ],
+    [
+     249.3,
+     251.1,
+     824.4
+    ],
+    [
+     249.9,
+     251.1,
+     830.7
+    ],
+    [
+     251.7,
+     251.1,
+     836.7
+    ],
+    [
+     254.7,
+     251.1,
+     842.3
+    ],
+    [
+     258.7,
+     251.1,
+     847.2
+    ],
+    [
+     263.6,
+     251.1,
+     851.2
+    ],
+    [
+     269.1,
+     251.1,
+     854.1
+    ],
+    [
+     275.1,
+     251.1,
+     856.0
+    ],
+    [
+     281.4,
+     251.1,
+     856.6
+    ],
+    [
+     502.6,
+     251.1,
+     856.6
+    ],
+    [
+     508.9,
+     251.1,
+     856.0
+    ],
+    [
+     514.9,
+     251.1,
+     854.1
+    ],
+    [
+     520.4,
+     251.1,
+     851.2
+    ],
+    [
+     525.3,
+     251.1,
+     847.2
+    ],
+    [
+     529.3,
+     251.1,
+     842.3
+    ],
+    [
+     532.3,
+     251.1,
+     836.7
+    ],
+    [
+     534.1,
+     251.1,
+     830.7
+    ],
+    [
+     534.7,
+     251.1,
+     824.4
+    ],
+    [
+     534.7,
+     251.1,
+     60.4
+    ]
+   ],
+   "dia": 16,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:35",
+   "evidence": "array_signature",
+   "shape_expanded": true,
+   "geometric_mm": 1840.4,
+   "residual_mm": -9.6,
+   "mark": "D",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 1850.0,
+   "weight_kg": 2.923
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):D:2",
+   "pts": [
+    [
+     249.3,
+     151.1,
+     60.4
+    ],
+    [
+     249.3,
+     151.1,
+     824.4
+    ],
+    [
+     249.9,
+     151.1,
+     830.7
+    ],
+    [
+     251.7,
+     151.1,
+     836.7
+    ],
+    [
+     254.7,
+     151.1,
+     842.3
+    ],
+    [
+     258.7,
+     151.1,
+     847.2
+    ],
+    [
+     263.6,
+     151.1,
+     851.2
+    ],
+    [
+     269.1,
+     151.1,
+     854.1
+    ],
+    [
+     275.1,
+     151.1,
+     856.0
+    ],
+    [
+     281.4,
+     151.1,
+     856.6
+    ],
+    [
+     502.6,
+     151.1,
+     856.6
+    ],
+    [
+     508.9,
+     151.1,
+     856.0
+    ],
+    [
+     514.9,
+     151.1,
+     854.1
+    ],
+    [
+     520.4,
+     151.1,
+     851.2
+    ],
+    [
+     525.3,
+     151.1,
+     847.2
+    ],
+    [
+     529.3,
+     151.1,
+     842.3
+    ],
+    [
+     532.3,
+     151.1,
+     836.7
+    ],
+    [
+     534.1,
+     151.1,
+     830.7
+    ],
+    [
+     534.7,
+     151.1,
+     824.4
+    ],
+    [
+     534.7,
+     151.1,
+     60.4
+    ]
+   ],
+   "dia": 16,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:36",
+   "evidence": "array_signature",
+   "shape_expanded": true,
+   "geometric_mm": 1840.4,
+   "residual_mm": -9.6,
+   "mark": "D",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 1850.0,
+   "weight_kg": 2.923
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):C1:0",
+   "pts": [
+    [
+     35.0,
+     69.37413737655379,
+     1019.9999999996967
+    ],
+    [
+     1785.0,
+     69.37413737655379,
+     1019.9999999996967
+    ]
+   ],
+   "dia": 10,
+   "sheet": "PC-GF-01_R",
+   "view": "end_cut",
+   "array": null,
+   "evidence": "section",
+   "mark": "C1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 1750.0,
+   "weight_kg": 1.08
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):C:0",
+   "pts": [
+    [
+     137.4,
+     69.4,
+     1020.0
+    ],
+    [
+     428.6,
+     69.4,
+     1020.0
+    ]
+   ],
+   "dia": 10,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:0",
+   "evidence": "leader",
+   "mark": "C",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 1600.0,
+   "weight_kg": 0.99
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):B1:0",
+   "pts": [
+    [
+     44.0,
+     200.0,
+     44.0
+    ],
+    [
+     456.0,
+     200.0,
+     44.0
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:68",
+   "evidence": "array_note",
+   "mark": "B1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 575.0,
+   "weight_kg": 0.227
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):B1:1",
+   "pts": [
+    [
+     44.0,
+     200.0,
+     132.2
+    ],
+    [
+     456.0,
+     200.0,
+     132.2
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:72",
+   "evidence": "array_note",
+   "mark": "B1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 575.0,
+   "weight_kg": 0.227
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):B1:2",
+   "pts": [
+    [
+     44.0,
+     200.0,
+     220.5
+    ],
+    [
+     456.0,
+     200.0,
+     220.5
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:76",
+   "evidence": "array_note",
+   "mark": "B1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 575.0,
+   "weight_kg": 0.227
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):B1:3",
+   "pts": [
+    [
+     44.0,
+     200.0,
+     308.8
+    ],
+    [
+     456.0,
+     200.0,
+     308.8
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:80",
+   "evidence": "array_note",
+   "mark": "B1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 575.0,
+   "weight_kg": 0.227
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):B1:4",
+   "pts": [
+    [
+     44.0,
+     200.0,
+     397.0
+    ],
+    [
+     456.0,
+     200.0,
+     397.0
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:84",
+   "evidence": "array_note",
+   "mark": "B1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 575.0,
+   "weight_kg": 0.227
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):B1:5",
+   "pts": [
+    [
+     44.0,
+     200.0,
+     485.2
+    ],
+    [
+     456.0,
+     200.0,
+     485.2
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:87",
+   "evidence": "array_note",
+   "mark": "B1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 575.0,
+   "weight_kg": 0.227
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):B1:6",
+   "pts": [
+    [
+     44.0,
+     200.0,
+     573.5
+    ],
+    [
+     456.0,
+     200.0,
+     573.5
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:90",
+   "evidence": "array_note",
+   "mark": "B1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 575.0,
+   "weight_kg": 0.227
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):B1:7",
+   "pts": [
+    [
+     44.0,
+     200.0,
+     661.8
+    ],
+    [
+     456.0,
+     200.0,
+     661.8
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:93",
+   "evidence": "array_note",
+   "mark": "B1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 575.0,
+   "weight_kg": 0.227
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):B1:8",
+   "pts": [
+    [
+     44.0,
+     200.0,
+     750.0
+    ],
+    [
+     456.0,
+     200.0,
+     750.0
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:96",
+   "evidence": "array_note",
+   "mark": "B1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 575.0,
+   "weight_kg": 0.227
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):B1:9",
+   "pts": [
+    [
+     44.0,
+     200.0,
+     883.3
+    ],
+    [
+     456.0,
+     200.0,
+     883.3
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:101",
+   "evidence": "array_note",
+   "mark": "B1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 575.0,
+   "weight_kg": 0.227
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):B1:10",
+   "pts": [
+    [
+     44.0,
+     200.0,
+     1075.1
+    ],
+    [
+     456.0,
+     200.0,
+     1075.1
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:104",
+   "evidence": "array_note",
+   "mark": "B1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 575.0,
+   "weight_kg": 0.227
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):B1:11",
+   "pts": [
+    [
+     44.0,
+     200.0,
+     1266.9
+    ],
+    [
+     456.0,
+     200.0,
+     1266.9
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:107",
+   "evidence": "array_note",
+   "mark": "B1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 575.0,
+   "weight_kg": 0.227
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):B1:12",
+   "pts": [
+    [
+     44.0,
+     200.0,
+     1458.8
+    ],
+    [
+     456.0,
+     200.0,
+     1458.8
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:110",
+   "evidence": "array_note",
+   "mark": "B1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 575.0,
+   "weight_kg": 0.227
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):B1:13",
+   "pts": [
+    [
+     44.0,
+     200.0,
+     1842.4
+    ],
+    [
+     456.0,
+     200.0,
+     1842.4
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:116",
+   "evidence": "array_note",
+   "mark": "B1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 575.0,
+   "weight_kg": 0.227
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):B1:14",
+   "pts": [
+    [
+     44.0,
+     200.0,
+     2034.3
+    ],
+    [
+     456.0,
+     200.0,
+     2034.3
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:119",
+   "evidence": "array_note",
+   "mark": "B1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 575.0,
+   "weight_kg": 0.227
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):B1:15",
+   "pts": [
+    [
+     44.0,
+     200.0,
+     2226.1
+    ],
+    [
+     456.0,
+     200.0,
+     2226.1
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:122",
+   "evidence": "array_note",
+   "mark": "B1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 575.0,
+   "weight_kg": 0.227
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):B1:16",
+   "pts": [
+    [
+     44.0,
+     200.0,
+     2417.9
+    ],
+    [
+     456.0,
+     200.0,
+     2417.9
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:125",
+   "evidence": "array_note",
+   "mark": "B1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 575.0,
+   "weight_kg": 0.227
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):B1:17",
+   "pts": [
+    [
+     44.0,
+     200.0,
+     2593.3
+    ],
+    [
+     456.0,
+     200.0,
+     2593.3
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:126",
+   "evidence": "array_note",
+   "mark": "B1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 575.0,
+   "weight_kg": 0.227
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):B1:18",
+   "pts": [
+    [
+     44.0,
+     200.0,
+     2609.8
+    ],
+    [
+     456.0,
+     200.0,
+     2609.8
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:128",
+   "evidence": "array_note",
+   "mark": "B1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 575.0,
+   "weight_kg": 0.227
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):B1:19",
+   "pts": [
+    [
+     44.0,
+     200.0,
+     2785.2
+    ],
+    [
+     456.0,
+     200.0,
+     2785.2
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:129",
+   "evidence": "array_note",
+   "mark": "B1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 575.0,
+   "weight_kg": 0.227
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):B1:20",
+   "pts": [
+    [
+     44.0,
+     200.0,
+     2801.6
+    ],
+    [
+     456.0,
+     200.0,
+     2801.6
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:131",
+   "evidence": "array_note",
+   "mark": "B1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 575.0,
+   "weight_kg": 0.227
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):B1:21",
+   "pts": [
+    [
+     44.0,
+     200.0,
+     2993.4
+    ],
+    [
+     456.0,
+     200.0,
+     2993.4
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:134",
+   "evidence": "array_note",
+   "mark": "B1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 575.0,
+   "weight_kg": 0.227
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):B1:22",
+   "pts": [
+    [
+     44.0,
+     200.0,
+     3361.0
+    ],
+    [
+     456.0,
+     200.0,
+     3361.0
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:137",
+   "evidence": "array_note",
+   "mark": "B1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 575.0,
+   "weight_kg": 0.227
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):B1:23",
+   "pts": [
+    [
+     44.0,
+     200.0,
+     3377.1
+    ],
+    [
+     456.0,
+     200.0,
+     3377.1
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:139",
+   "evidence": "array_note",
+   "mark": "B1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 575.0,
+   "weight_kg": 0.227
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):B1:24",
+   "pts": [
+    [
+     64.0,
+     200.0,
+     1650.6
+    ],
+    [
+     456.0,
+     200.0,
+     1650.6
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:113",
+   "evidence": "array_note",
+   "mark": "B1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 575.0,
+   "weight_kg": 0.227
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):B1:25",
+   "pts": [
+    [
+     44.0,
+     200.0,
+     148.3
+    ],
+    [
+     113.0,
+     200.0,
+     148.3
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:74",
+   "evidence": "array_note",
+   "mark": "B1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 575.0,
+   "weight_kg": 0.227
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):B1:26",
+   "pts": [
+    [
+     387.0,
+     200.0,
+     148.3
+    ],
+    [
+     456.0,
+     200.0,
+     148.3
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:75",
+   "evidence": "array_note",
+   "mark": "B1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 575.0,
+   "weight_kg": 0.227
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):B1:27",
+   "pts": [
+    [
+     44.0,
+     200.0,
+     236.6
+    ],
+    [
+     113.0,
+     200.0,
+     236.6
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:78",
+   "evidence": "array_note",
+   "mark": "B1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 575.0,
+   "weight_kg": 0.227
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):B1:28",
+   "pts": [
+    [
+     387.0,
+     200.0,
+     236.6
+    ],
+    [
+     456.0,
+     200.0,
+     236.6
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:79",
+   "evidence": "array_note",
+   "mark": "B1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 575.0,
+   "weight_kg": 0.227
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):B1:29",
+   "pts": [
+    [
+     44.0,
+     200.0,
+     324.8
+    ],
+    [
+     113.0,
+     200.0,
+     324.8
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:82",
+   "evidence": "array_note",
+   "mark": "B1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 575.0,
+   "weight_kg": 0.227
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):B1:30",
+   "pts": [
+    [
+     387.0,
+     200.0,
+     324.8
+    ],
+    [
+     456.0,
+     200.0,
+     324.8
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:83",
+   "evidence": "array_note",
+   "mark": "B1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 575.0,
+   "weight_kg": 0.227
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):B1:31",
+   "pts": [
+    [
+     44.0,
+     200.0,
+     413.1
+    ],
+    [
+     113.0,
+     200.0,
+     413.1
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:86",
+   "evidence": "array_note",
+   "mark": "B1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 575.0,
+   "weight_kg": 0.227
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):B1:32",
+   "pts": [
+    [
+     44.0,
+     200.0,
+     501.3
+    ],
+    [
+     113.0,
+     200.0,
+     501.3
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:89",
+   "evidence": "array_note",
+   "mark": "B1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 575.0,
+   "weight_kg": 0.227
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):B:0",
+   "pts": [
+    [
+     250.0,
+     44.0,
+     81.9
+    ],
+    [
+     250.0,
+     44.0,
+     436.0
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:48",
+   "evidence": "array_note",
+   "mark": "B",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 500.0,
+   "weight_kg": 0.198
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):B:1",
+   "pts": [
+    [
+     250.0,
+     44.0,
+     81.9
+    ],
+    [
+     250.0,
+     44.0,
+     436.0
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:51",
+   "evidence": "array_note",
+   "mark": "B",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 500.0,
+   "weight_kg": 0.198
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):B:2",
+   "pts": [
+    [
+     72.8,
+     200.0,
+     4917.2
+    ],
+    [
+     422.0,
+     200.0,
+     4917.2
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:187",
+   "evidence": "array_note",
+   "mark": "B",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 500.0,
+   "weight_kg": 0.198
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):B:3",
+   "pts": [
+    [
+     72.8,
+     200.0,
+     5015.0
+    ],
+    [
+     422.0,
+     200.0,
+     5015.0
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:189",
+   "evidence": "array_note",
+   "mark": "B",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 500.0,
+   "weight_kg": 0.198
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):B:4",
+   "pts": [
+    [
+     75.9,
+     200.0,
+     4803.2
+    ],
+    [
+     423.7,
+     200.0,
+     4803.2
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:184",
+   "evidence": "array_note",
+   "mark": "B",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 500.0,
+   "weight_kg": 0.198
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):B:5",
+   "pts": [
+    [
+     75.9,
+     200.0,
+     4998.6
+    ],
+    [
+     423.7,
+     200.0,
+     4998.6
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:188",
+   "evidence": "array_note",
+   "mark": "B",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 500.0,
+   "weight_kg": 0.198
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):A3:0",
+   "pts": [
+    [
+     44.0,
+     200.0,
+     589.6
+    ],
+    [
+     113.0,
+     200.0,
+     589.6
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:92",
+   "evidence": "array_note",
+   "mark": "A3",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 1575.0,
+   "weight_kg": 0.622
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):A3:1",
+   "pts": [
+    [
+     44.0,
+     200.0,
+     677.8
+    ],
+    [
+     113.0,
+     200.0,
+     677.8
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:95",
+   "evidence": "array_note",
+   "mark": "A3",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 1575.0,
+   "weight_kg": 0.622
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):A3:2",
+   "pts": [
+    [
+     44.0,
+     200.0,
+     766.1
+    ],
+    [
+     113.0,
+     200.0,
+     766.1
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:98",
+   "evidence": "array_note",
+   "mark": "A3",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 1575.0,
+   "weight_kg": 0.622
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):A3:3",
+   "pts": [
+    [
+     86.8,
+     200.0,
+     4294.7
+    ],
+    [
+     160.6,
+     200.0,
+     4294.7
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:170",
+   "evidence": "array_note",
+   "mark": "A3",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 1575.0,
+   "weight_kg": 0.622
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):A3:4",
+   "pts": [
+    [
+     83.8,
+     200.0,
+     3552.9
+    ],
+    [
+     160.6,
+     200.0,
+     3552.9
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:140",
+   "evidence": "array_note",
+   "mark": "A3",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 1575.0,
+   "weight_kg": 0.622
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):A3:5",
+   "pts": [
+    [
+     83.8,
+     200.0,
+     3668.9
+    ],
+    [
+     160.6,
+     200.0,
+     3668.9
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:144",
+   "evidence": "array_note",
+   "mark": "A3",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 1575.0,
+   "weight_kg": 0.622
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):A3:6",
+   "pts": [
+    [
+     83.8,
+     200.0,
+     3757.2
+    ],
+    [
+     160.6,
+     200.0,
+     3757.2
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:148",
+   "evidence": "array_note",
+   "mark": "A3",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 1575.0,
+   "weight_kg": 0.622
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):A3:7",
+   "pts": [
+    [
+     83.8,
+     200.0,
+     4030.0
+    ],
+    [
+     160.6,
+     200.0,
+     4030.0
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:161",
+   "evidence": "array_note",
+   "mark": "A3",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 1575.0,
+   "weight_kg": 0.622
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):A3:8",
+   "pts": [
+    [
+     83.8,
+     200.0,
+     4118.2
+    ],
+    [
+     160.6,
+     200.0,
+     4118.2
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:164",
+   "evidence": "array_note",
+   "mark": "A3",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 1575.0,
+   "weight_kg": 0.622
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):A3:9",
+   "pts": [
+    [
+     83.8,
+     200.0,
+     4206.5
+    ],
+    [
+     160.6,
+     200.0,
+     4206.5
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:167",
+   "evidence": "array_note",
+   "mark": "A3",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 1575.0,
+   "weight_kg": 0.622
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):A3:10",
+   "pts": [
+    [
+     44.0,
+     34.0,
+     501.4000000000002
+    ],
+    [
+     113.0,
+     34.0,
+     501.4000000000002
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:92:ext",
+   "evidence": "pitch_extended",
+   "mark": "A3",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 1575.0,
+   "weight_kg": 0.622
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):A3:11",
+   "pts": [
+    [
+     44.0,
+     34.0,
+     413.2000000000004
+    ],
+    [
+     113.0,
+     34.0,
+     413.2000000000004
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:92:ext",
+   "evidence": "pitch_extended",
+   "mark": "A3",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 1575.0,
+   "weight_kg": 0.622
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):A3:12",
+   "pts": [
+    [
+     44.0,
+     34.0,
+     325.00000000000057
+    ],
+    [
+     113.0,
+     34.0,
+     325.00000000000057
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:92:ext",
+   "evidence": "pitch_extended",
+   "mark": "A3",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 1575.0,
+   "weight_kg": 0.622
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):A3:13",
+   "pts": [
+    [
+     44.0,
+     34.0,
+     236.80000000000075
+    ],
+    [
+     113.0,
+     34.0,
+     236.80000000000075
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:92:ext",
+   "evidence": "pitch_extended",
+   "mark": "A3",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 1575.0,
+   "weight_kg": 0.622
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):A3:14",
+   "pts": [
+    [
+     44.0,
+     34.0,
+     148.60000000000093
+    ],
+    [
+     113.0,
+     34.0,
+     148.60000000000093
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:92:ext",
+   "evidence": "pitch_extended",
+   "mark": "A3",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 1575.0,
+   "weight_kg": 0.622
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):A3:15",
+   "pts": [
+    [
+     44.0,
+     34.0,
+     60.400000000001114
+    ],
+    [
+     113.0,
+     34.0,
+     60.400000000001114
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:92:ext",
+   "evidence": "pitch_extended",
+   "mark": "A3",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 1575.0,
+   "weight_kg": 0.622
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):A3:16",
+   "pts": [
+    [
+     44.0,
+     34.0,
+     -27.799999999998704
+    ],
+    [
+     113.0,
+     34.0,
+     -27.799999999998704
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:92:ext",
+   "evidence": "pitch_extended",
+   "mark": "A3",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 1575.0,
+   "weight_kg": 0.622
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):A3:17",
+   "pts": [
+    [
+     44.0,
+     34.0,
+     4382.9
+    ],
+    [
+     113.0,
+     34.0,
+     4382.9
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:92:ext",
+   "evidence": "pitch_extended",
+   "mark": "A3",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 1575.0,
+   "weight_kg": 0.622
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):A2:0",
+   "pts": [
+    [
+     89.2,
+     200.0,
+     1441.8
+    ],
+    [
+     456.0,
+     200.0,
+     1441.8
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:108",
+   "evidence": "array_signature",
+   "mark": "A2",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 1325.0,
+   "weight_kg": 0.523
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):A2:1",
+   "pts": [
+    [
+     250.0,
+     353.8,
+     65.5
+    ],
+    [
+     250.0,
+     353.8,
+     292.9
+    ],
+    [
+     250.0,
+     353.5,
+     296.0
+    ],
+    [
+     250.0,
+     352.6,
+     299.0
+    ],
+    [
+     250.0,
+     351.2,
+     301.7
+    ],
+    [
+     250.0,
+     349.2,
+     304.1
+    ],
+    [
+     250.0,
+     346.8,
+     306.1
+    ],
+    [
+     250.0,
+     344.1,
+     307.6
+    ],
+    [
+     250.0,
+     341.1,
+     308.5
+    ],
+    [
+     250.0,
+     338.0,
+     308.8
+    ],
+    [
+     250.0,
+     26.5,
+     308.8
+    ],
+    [
+     250.0,
+     23.4,
+     308.5
+    ],
+    [
+     250.0,
+     20.5,
+     307.6
+    ],
+    [
+     250.0,
+     17.7,
+     306.1
+    ],
+    [
+     250.0,
+     15.3,
+     304.1
+    ],
+    [
+     250.0,
+     13.4,
+     301.7
+    ],
+    [
+     250.0,
+     11.9,
+     299.0
+    ],
+    [
+     250.0,
+     11.0,
+     296.0
+    ],
+    [
+     250.0,
+     10.7,
+     292.9
+    ],
+    [
+     250.0,
+     10.7,
+     85.3
+    ],
+    [
+     250.0,
+     11.0,
+     82.2
+    ],
+    [
+     250.0,
+     11.9,
+     79.2
+    ],
+    [
+     250.0,
+     13.4,
+     76.5
+    ],
+    [
+     250.0,
+     15.3,
+     74.1
+    ],
+    [
+     250.0,
+     17.7,
+     72.1
+    ],
+    [
+     250.0,
+     20.5,
+     70.7
+    ],
+    [
+     250.0,
+     23.4,
+     69.8
+    ],
+    [
+     250.0,
+     26.5,
+     69.5
+    ],
+    [
+     250.0,
+     357.8,
+     69.5
+    ],
+    [
+     250.0,
+     353.8,
+     65.5
+    ],
+    [
+     250.0,
+     402.8,
+     16.6
+    ],
+    [
+     250.0,
+     304.9,
+     16.6
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:44",
+   "evidence": "array_signature",
+   "shape_expanded": true,
+   "geometric_mm": 1339.9,
+   "residual_mm": 14.9,
+   "mark": "A2",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 1325.0,
+   "weight_kg": 0.523
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):A2:2",
+   "pts": [
+    [
+     250.0,
+     165.3,
+     64.0
+    ],
+    [
+     250.0,
+     165.3,
+     436.0
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:46",
+   "evidence": "array_signature",
+   "mark": "A2",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 1325.0,
+   "weight_kg": 0.523
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):A2:3",
+   "pts": [
+    [
+     250.0,
+     353.8,
+     65.5
+    ],
+    [
+     250.0,
+     353.8,
+     292.9
+    ],
+    [
+     250.0,
+     353.5,
+     296.0
+    ],
+    [
+     250.0,
+     352.6,
+     299.0
+    ],
+    [
+     250.0,
+     351.2,
+     301.7
+    ],
+    [
+     250.0,
+     349.2,
+     304.1
+    ],
+    [
+     250.0,
+     346.8,
+     306.1
+    ],
+    [
+     250.0,
+     344.1,
+     307.6
+    ],
+    [
+     250.0,
+     341.1,
+     308.5
+    ],
+    [
+     250.0,
+     338.0,
+     308.8
+    ],
+    [
+     250.0,
+     26.5,
+     308.8
+    ],
+    [
+     250.0,
+     23.4,
+     308.5
+    ],
+    [
+     250.0,
+     20.5,
+     307.6
+    ],
+    [
+     250.0,
+     17.7,
+     306.1
+    ],
+    [
+     250.0,
+     15.3,
+     304.1
+    ],
+    [
+     250.0,
+     13.4,
+     301.7
+    ],
+    [
+     250.0,
+     11.9,
+     299.0
+    ],
+    [
+     250.0,
+     11.0,
+     296.0
+    ],
+    [
+     250.0,
+     10.7,
+     292.9
+    ],
+    [
+     250.0,
+     10.7,
+     85.3
+    ],
+    [
+     250.0,
+     11.0,
+     82.2
+    ],
+    [
+     250.0,
+     11.9,
+     79.2
+    ],
+    [
+     250.0,
+     13.4,
+     76.5
+    ],
+    [
+     250.0,
+     15.3,
+     74.1
+    ],
+    [
+     250.0,
+     17.7,
+     72.1
+    ],
+    [
+     250.0,
+     20.5,
+     70.7
+    ],
+    [
+     250.0,
+     23.4,
+     69.8
+    ],
+    [
+     250.0,
+     26.5,
+     69.5
+    ],
+    [
+     250.0,
+     357.8,
+     69.5
+    ],
+    [
+     250.0,
+     353.8,
+     65.5
+    ],
+    [
+     250.0,
+     402.8,
+     16.6
+    ],
+    [
+     250.0,
+     304.9,
+     16.6
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:49",
+   "evidence": "array_signature",
+   "shape_expanded": true,
+   "geometric_mm": 1339.9,
+   "residual_mm": 14.9,
+   "mark": "A2",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 1325.0,
+   "weight_kg": 0.523
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):A2:4",
+   "pts": [
+    [
+     250.0,
+     165.3,
+     64.0
+    ],
+    [
+     250.0,
+     165.3,
+     436.0
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:50",
+   "evidence": "array_signature",
+   "mark": "A2",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 1325.0,
+   "weight_kg": 0.523
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):A2:5",
+   "pts": [
+    [
+     83.8,
+     200.0,
+     866.1
+    ],
+    [
+     456.0,
+     200.0,
+     866.1
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:99",
+   "evidence": "array_signature",
+   "mark": "A2",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 1325.0,
+   "weight_kg": 0.523
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):A1:0",
+   "pts": [
+    [
+     160.6,
+     200.0,
+     52.1
+    ],
+    [
+     337.4,
+     200.0,
+     52.1
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:69",
+   "evidence": "array_signature",
+   "mark": "A1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 1125.0,
+   "weight_kg": 0.445
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):A1:1",
+   "pts": [
+    [
+     160.6,
+     200.0,
+     140.3
+    ],
+    [
+     337.4,
+     200.0,
+     140.3
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:73",
+   "evidence": "array_signature",
+   "mark": "A1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 1125.0,
+   "weight_kg": 0.445
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):A1:2",
+   "pts": [
+    [
+     160.6,
+     200.0,
+     228.6
+    ],
+    [
+     337.4,
+     200.0,
+     228.6
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:77",
+   "evidence": "array_signature",
+   "mark": "A1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 1125.0,
+   "weight_kg": 0.445
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):A1:3",
+   "pts": [
+    [
+     160.6,
+     200.0,
+     316.8
+    ],
+    [
+     337.4,
+     200.0,
+     316.8
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:81",
+   "evidence": "array_signature",
+   "mark": "A1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 1125.0,
+   "weight_kg": 0.445
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):A1:4",
+   "pts": [
+    [
+     160.6,
+     200.0,
+     405.1
+    ],
+    [
+     337.4,
+     200.0,
+     405.1
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:85",
+   "evidence": "array_signature",
+   "mark": "A1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 1125.0,
+   "weight_kg": 0.445
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):A1:5",
+   "pts": [
+    [
+     160.6,
+     200.0,
+     493.3
+    ],
+    [
+     337.4,
+     200.0,
+     493.3
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:88",
+   "evidence": "array_signature",
+   "mark": "A1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 1125.0,
+   "weight_kg": 0.445
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):A1:6",
+   "pts": [
+    [
+     160.6,
+     200.0,
+     581.6
+    ],
+    [
+     337.4,
+     200.0,
+     581.6
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:91",
+   "evidence": "array_signature",
+   "mark": "A1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 1125.0,
+   "weight_kg": 0.445
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):A1:7",
+   "pts": [
+    [
+     160.6,
+     200.0,
+     669.8
+    ],
+    [
+     337.4,
+     200.0,
+     669.8
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:94",
+   "evidence": "array_signature",
+   "mark": "A1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 1125.0,
+   "weight_kg": 0.445
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):A1:8",
+   "pts": [
+    [
+     160.6,
+     200.0,
+     758.1
+    ],
+    [
+     337.4,
+     200.0,
+     758.1
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:97",
+   "evidence": "array_signature",
+   "mark": "A1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 1125.0,
+   "weight_kg": 0.445
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):A1:9",
+   "pts": [
+    [
+     160.6,
+     200.0,
+     874.9
+    ],
+    [
+     337.4,
+     200.0,
+     874.9
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:100",
+   "evidence": "array_signature",
+   "mark": "A1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 1125.0,
+   "weight_kg": 0.445
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):A1:10",
+   "pts": [
+    [
+     160.6,
+     200.0,
+     1066.7
+    ],
+    [
+     337.4,
+     200.0,
+     1066.7
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:103",
+   "evidence": "array_signature",
+   "mark": "A1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 1125.0,
+   "weight_kg": 0.445
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):A1:11",
+   "pts": [
+    [
+     160.6,
+     200.0,
+     1258.6
+    ],
+    [
+     337.4,
+     200.0,
+     1258.6
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:106",
+   "evidence": "array_signature",
+   "mark": "A1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 1125.0,
+   "weight_kg": 0.445
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):A1:12",
+   "pts": [
+    [
+     160.6,
+     200.0,
+     1450.4
+    ],
+    [
+     337.4,
+     200.0,
+     1450.4
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:109",
+   "evidence": "array_signature",
+   "mark": "A1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 1125.0,
+   "weight_kg": 0.445
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):A1:13",
+   "pts": [
+    [
+     160.6,
+     200.0,
+     1642.3
+    ],
+    [
+     337.4,
+     200.0,
+     1642.3
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:112",
+   "evidence": "array_signature",
+   "mark": "A1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 1125.0,
+   "weight_kg": 0.445
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):A1:14",
+   "pts": [
+    [
+     160.6,
+     200.0,
+     1834.1
+    ],
+    [
+     337.4,
+     200.0,
+     1834.1
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:115",
+   "evidence": "array_signature",
+   "mark": "A1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 1125.0,
+   "weight_kg": 0.445
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):A1:15",
+   "pts": [
+    [
+     160.6,
+     200.0,
+     2026.0
+    ],
+    [
+     337.4,
+     200.0,
+     2026.0
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:118",
+   "evidence": "array_signature",
+   "mark": "A1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 1125.0,
+   "weight_kg": 0.445
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):A1:16",
+   "pts": [
+    [
+     160.6,
+     200.0,
+     2217.9
+    ],
+    [
+     337.4,
+     200.0,
+     2217.9
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:121",
+   "evidence": "array_signature",
+   "mark": "A1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 1125.0,
+   "weight_kg": 0.445
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):A1:17",
+   "pts": [
+    [
+     160.6,
+     200.0,
+     2409.7
+    ],
+    [
+     337.4,
+     200.0,
+     2409.7
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:124",
+   "evidence": "array_signature",
+   "mark": "A1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 1125.0,
+   "weight_kg": 0.445
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):A1:18",
+   "pts": [
+    [
+     160.6,
+     200.0,
+     2601.6
+    ],
+    [
+     337.4,
+     200.0,
+     2601.6
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:127",
+   "evidence": "array_signature",
+   "mark": "A1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 1125.0,
+   "weight_kg": 0.445
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):A1:19",
+   "pts": [
+    [
+     160.6,
+     200.0,
+     2793.4
+    ],
+    [
+     337.4,
+     200.0,
+     2793.4
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:130",
+   "evidence": "array_signature",
+   "mark": "A1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 1125.0,
+   "weight_kg": 0.445
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):A1:20",
+   "pts": [
+    [
+     160.6,
+     200.0,
+     2985.3
+    ],
+    [
+     337.4,
+     200.0,
+     2985.3
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:133",
+   "evidence": "array_signature",
+   "mark": "A1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 1125.0,
+   "weight_kg": 0.445
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):A1:21",
+   "pts": [
+    [
+     160.6,
+     200.0,
+     3177.2
+    ],
+    [
+     337.4,
+     200.0,
+     3177.2
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:136",
+   "evidence": "array_signature",
+   "mark": "A1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 1125.0,
+   "weight_kg": 0.445
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):A1:22",
+   "pts": [
+    [
+     160.6,
+     200.0,
+     3369.0
+    ],
+    [
+     337.4,
+     200.0,
+     3369.0
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:138",
+   "evidence": "array_signature",
+   "mark": "A1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 1125.0,
+   "weight_kg": 0.445
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):A1:23",
+   "pts": [
+    [
+     160.6,
+     200.0,
+     4021.9
+    ],
+    [
+     337.4,
+     200.0,
+     4021.9
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:160",
+   "evidence": "array_signature",
+   "mark": "A1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 1125.0,
+   "weight_kg": 0.445
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):A1:24",
+   "pts": [
+    [
+     160.6,
+     200.0,
+     4110.2
+    ],
+    [
+     337.4,
+     200.0,
+     4110.2
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:163",
+   "evidence": "array_signature",
+   "mark": "A1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 1125.0,
+   "weight_kg": 0.445
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):A1:25",
+   "pts": [
+    [
+     160.6,
+     200.0,
+     4198.4
+    ],
+    [
+     337.4,
+     200.0,
+     4198.4
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:166",
+   "evidence": "array_signature",
+   "mark": "A1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 1125.0,
+   "weight_kg": 0.445
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):A1:26",
+   "pts": [
+    [
+     160.6,
+     200.0,
+     4286.7
+    ],
+    [
+     337.4,
+     200.0,
+     4286.7
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:169",
+   "evidence": "array_signature",
+   "mark": "A1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 1125.0,
+   "weight_kg": 0.445
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):A1:27",
+   "pts": [
+    [
+     160.6,
+     200.0,
+     4374.9
+    ],
+    [
+     337.4,
+     200.0,
+     4374.9
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:172",
+   "evidence": "array_signature",
+   "mark": "A1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 1125.0,
+   "weight_kg": 0.445
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):A1:28",
+   "pts": [
+    [
+     161.8,
+     36.2,
+     4463.1
+    ],
+    [
+     324.8,
+     36.2,
+     4463.1
+    ],
+    [
+     327.9,
+     36.5,
+     4463.1
+    ],
+    [
+     330.8,
+     37.4,
+     4463.1
+    ],
+    [
+     333.6,
+     38.8,
+     4463.1
+    ],
+    [
+     336.0,
+     40.8,
+     4463.1
+    ],
+    [
+     337.9,
+     43.2,
+     4463.1
+    ],
+    [
+     339.4,
+     45.9,
+     4463.1
+    ],
+    [
+     340.3,
+     48.9,
+     4463.1
+    ],
+    [
+     340.6,
+     52.0,
+     4463.1
+    ],
+    [
+     340.6,
+     328.5,
+     4463.1
+    ],
+    [
+     340.3,
+     331.6,
+     4463.1
+    ],
+    [
+     339.4,
+     334.5,
+     4463.1
+    ],
+    [
+     337.9,
+     337.3,
+     4463.1
+    ],
+    [
+     336.0,
+     339.7,
+     4463.1
+    ],
+    [
+     333.6,
+     341.6,
+     4463.1
+    ],
+    [
+     330.8,
+     343.1,
+     4463.1
+    ],
+    [
+     327.9,
+     344.0,
+     4463.1
+    ],
+    [
+     324.8,
+     344.3,
+     4463.1
+    ],
+    [
+     186.5,
+     344.3,
+     4463.1
+    ],
+    [
+     183.4,
+     344.0,
+     4463.1
+    ],
+    [
+     180.5,
+     343.1,
+     4463.1
+    ],
+    [
+     177.7,
+     341.6,
+     4463.1
+    ],
+    [
+     175.4,
+     339.7,
+     4463.1
+    ],
+    [
+     173.4,
+     337.3,
+     4463.1
+    ],
+    [
+     171.9,
+     334.5,
+     4463.1
+    ],
+    [
+     171.0,
+     331.6,
+     4463.1
+    ],
+    [
+     170.7,
+     328.5,
+     4463.1
+    ],
+    [
+     170.7,
+     32.2,
+     4463.1
+    ],
+    [
+     161.8,
+     36.2,
+     4463.1
+    ],
+    [
+     113.0,
+     -12.7,
+     4463.1
+    ],
+    [
+     113.0,
+     85.0,
+     4463.1
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:69:ext",
+   "evidence": "pitch_extended",
+   "shape_expanded": true,
+   "geometric_mm": 1139.1,
+   "residual_mm": 14.1,
+   "mark": "A1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 1125.0,
+   "weight_kg": 0.445
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):A:0",
+   "pts": [
+    [
+     178.1,
+     200.0,
+     4509.9
+    ],
+    [
+     321.1,
+     200.0,
+     4509.9
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:175",
+   "evidence": "array_signature",
+   "mark": "A",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 900.0,
+   "weight_kg": 0.355
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):A:1",
+   "pts": [
+    [
+     178.1,
+     200.0,
+     4607.7
+    ],
+    [
+     321.1,
+     200.0,
+     4607.7
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:178",
+   "evidence": "array_signature",
+   "mark": "A",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 900.0,
+   "weight_kg": 0.355
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):A:2",
+   "pts": [
+    [
+     178.1,
+     200.0,
+     4705.4
+    ],
+    [
+     321.1,
+     200.0,
+     4705.4
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:181",
+   "evidence": "array_signature",
+   "mark": "A",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 900.0,
+   "weight_kg": 0.355
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):A:3",
+   "pts": [
+    [
+     178.1,
+     200.0,
+     4900.9
+    ],
+    [
+     321.1,
+     200.0,
+     4900.9
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:186",
+   "evidence": "array_signature",
+   "mark": "A",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 900.0,
+   "weight_kg": 0.355
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):A:4",
+   "pts": [
+    [
+     184.9,
+     197.5,
+     3568.9
+    ],
+    [
+     407.5,
+     197.5,
+     3568.9
+    ],
+    [
+     410.6,
+     197.2,
+     3568.9
+    ],
+    [
+     413.5,
+     196.3,
+     3568.9
+    ],
+    [
+     416.1,
+     194.9,
+     3568.9
+    ],
+    [
+     418.5,
+     193.0,
+     3568.9
+    ],
+    [
+     420.4,
+     190.6,
+     3568.9
+    ],
+    [
+     421.8,
+     187.9,
+     3568.9
+    ],
+    [
+     422.7,
+     185.0,
+     3568.9
+    ],
+    [
+     423.0,
+     182.0,
+     3568.9
+    ],
+    [
+     423.0,
+     75.5,
+     3568.9
+    ],
+    [
+     422.7,
+     72.5,
+     3568.9
+    ],
+    [
+     421.8,
+     69.6,
+     3568.9
+    ],
+    [
+     420.4,
+     66.9,
+     3568.9
+    ],
+    [
+     418.5,
+     64.6,
+     3568.9
+    ],
+    [
+     416.1,
+     62.7,
+     3568.9
+    ],
+    [
+     413.5,
+     61.2,
+     3568.9
+    ],
+    [
+     410.6,
+     60.4,
+     3568.9
+    ],
+    [
+     407.5,
+     60.1,
+     3568.9
+    ],
+    [
+     204.3,
+     60.1,
+     3568.9
+    ],
+    [
+     201.3,
+     60.4,
+     3568.9
+    ],
+    [
+     198.4,
+     61.2,
+     3568.9
+    ],
+    [
+     195.7,
+     62.7,
+     3568.9
+    ],
+    [
+     193.3,
+     64.6,
+     3568.9
+    ],
+    [
+     191.4,
+     66.9,
+     3568.9
+    ],
+    [
+     190.0,
+     69.6,
+     3568.9
+    ],
+    [
+     189.1,
+     72.5,
+     3568.9
+    ],
+    [
+     188.8,
+     75.5,
+     3568.9
+    ],
+    [
+     188.8,
+     201.4,
+     3568.9
+    ],
+    [
+     184.9,
+     197.5,
+     3568.9
+    ],
+    [
+     137.0,
+     245.4,
+     3568.9
+    ],
+    [
+     137.0,
+     149.6,
+     3568.9
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:143",
+   "evidence": "array_signature",
+   "shape_expanded": true,
+   "geometric_mm": 929.9,
+   "residual_mm": 29.9,
+   "mark": "A",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 900.0,
+   "weight_kg": 0.355
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01 (A):A:5",
+   "pts": [
+    [
+     184.9,
+     197.5,
+     3685.0
+    ],
+    [
+     407.5,
+     197.5,
+     3685.0
+    ],
+    [
+     410.6,
+     197.2,
+     3685.0
+    ],
+    [
+     413.5,
+     196.3,
+     3685.0
+    ],
+    [
+     416.1,
+     194.9,
+     3685.0
+    ],
+    [
+     418.5,
+     193.0,
+     3685.0
+    ],
+    [
+     420.4,
+     190.6,
+     3685.0
+    ],
+    [
+     421.8,
+     187.9,
+     3685.0
+    ],
+    [
+     422.7,
+     185.0,
+     3685.0
+    ],
+    [
+     423.0,
+     182.0,
+     3685.0
+    ],
+    [
+     423.0,
+     75.5,
+     3685.0
+    ],
+    [
+     422.7,
+     72.5,
+     3685.0
+    ],
+    [
+     421.8,
+     69.6,
+     3685.0
+    ],
+    [
+     420.4,
+     66.9,
+     3685.0
+    ],
+    [
+     418.5,
+     64.6,
+     3685.0
+    ],
+    [
+     416.1,
+     62.7,
+     3685.0
+    ],
+    [
+     413.5,
+     61.2,
+     3685.0
+    ],
+    [
+     410.6,
+     60.4,
+     3685.0
+    ],
+    [
+     407.5,
+     60.1,
+     3685.0
+    ],
+    [
+     204.3,
+     60.1,
+     3685.0
+    ],
+    [
+     201.3,
+     60.4,
+     3685.0
+    ],
+    [
+     198.4,
+     61.2,
+     3685.0
+    ],
+    [
+     195.7,
+     62.7,
+     3685.0
+    ],
+    [
+     193.3,
+     64.6,
+     3685.0
+    ],
+    [
+     191.4,
+     66.9,
+     3685.0
+    ],
+    [
+     190.0,
+     69.6,
+     3685.0
+    ],
+    [
+     189.1,
+     72.5,
+     3685.0
+    ],
+    [
+     188.8,
+     75.5,
+     3685.0
+    ],
+    [
+     188.8,
+     201.4,
+     3685.0
+    ],
+    [
+     184.9,
+     197.5,
+     3685.0
+    ],
+    [
+     137.0,
+     245.4,
+     3685.0
+    ],
+    [
+     137.0,
+     149.6,
+     3685.0
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:147",
+   "evidence": "array_signature",
+   "shape_expanded": true,
+   "geometric_mm": 929.9,
+   "residual_mm": 29.9,
+   "mark": "A",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "cut_length_mm": 900.0,
+   "weight_kg": 0.355
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01(B):E3:0",
+   "pts": [
+    [
+     303.4,
+     200.0,
+     56.1
+    ],
+    [
+     303.4,
+     200.0,
+     5881.4
+    ]
+   ],
+   "dia": 16,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:57",
+   "evidence": "leader",
+   "mark": "E3",
+   "schedule": "Rebar schedule for PC-GF-01(B)",
+   "cut_length_mm": 5850.0,
+   "weight_kg": 9.245
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01(B):E3:1",
+   "pts": [
+    [
+     58.6,
+     200.0,
+     1699.8
+    ],
+    [
+     58.6,
+     200.0,
+     4147.7
+    ]
+   ],
+   "dia": 16,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:63",
+   "evidence": "array_signature",
+   "mark": "E3",
+   "schedule": "Rebar schedule for PC-GF-01(B)",
+   "cut_length_mm": 5850.0,
+   "weight_kg": 9.245
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01(B):E3:2",
+   "pts": [
+    [
+     379.0,
+     200.0,
+     48.0
+    ],
+    [
+     379.0,
+     200.0,
+     976.8
+    ]
+   ],
+   "dia": 16,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:55",
+   "evidence": "array_signature",
+   "mark": "E3",
+   "schedule": "Rebar schedule for PC-GF-01(B)",
+   "cut_length_mm": 5850.0,
+   "weight_kg": 9.245
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01(B):E3:3",
+   "pts": [
+    [
+     121.0,
+     200.0,
+     48.0
+    ],
+    [
+     121.0,
+     200.0,
+     976.8
+    ]
+   ],
+   "dia": 16,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:61",
+   "evidence": "array_signature",
+   "mark": "E3",
+   "schedule": "Rebar schedule for PC-GF-01(B)",
+   "cut_length_mm": 5850.0,
+   "weight_kg": 9.245
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01(B):E2:0",
+   "pts": [
+    [
+     196.6,
+     200.0,
+     56.1
+    ],
+    [
+     196.6,
+     200.0,
+     5881.4
+    ]
+   ],
+   "dia": 16,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:59",
+   "evidence": "array_note",
+   "mark": "E2",
+   "schedule": "Rebar schedule for PC-GF-01(B)",
+   "cut_length_mm": 5850.0,
+   "weight_kg": 9.245
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01(B):E2:1",
+   "pts": [
+    [
+     250.0,
+     58.6,
+     1699.8
+    ],
+    [
+     250.0,
+     58.6,
+     4147.7
+    ]
+   ],
+   "dia": 16,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:38",
+   "evidence": "array_note",
+   "mark": "E2",
+   "schedule": "Rebar schedule for PC-GF-01(B)",
+   "cut_length_mm": 5850.0,
+   "weight_kg": 9.245
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01(B):E1:0",
+   "pts": [
+    [
+     90.0,
+     200.0,
+     4406.5
+    ],
+    [
+     90.0,
+     200.0,
+     5875.0
+    ]
+   ],
+   "dia": 16,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:62",
+   "evidence": "leader",
+   "mark": "E1",
+   "schedule": "Rebar schedule for PC-GF-01(B)",
+   "cut_length_mm": 5850.0,
+   "weight_kg": 9.245
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01(B):E1:1",
+   "pts": [
+    [
+     250.0,
+     341.4,
+     1699.8
+    ],
+    [
+     250.0,
+     341.4,
+     4147.7
+    ]
+   ],
+   "dia": 16,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:33",
+   "evidence": "array_note",
+   "mark": "E1",
+   "schedule": "Rebar schedule for PC-GF-01(B)",
+   "cut_length_mm": 5850.0,
+   "weight_kg": 9.245
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01(B):E:0",
+   "pts": [
+    [
+     410.0,
+     200.0,
+     4358.5
+    ],
+    [
+     410.0,
+     200.0,
+     5875.2
+    ]
+   ],
+   "dia": 16,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:54",
+   "evidence": "leader",
+   "mark": "E",
+   "schedule": "Rebar schedule for PC-GF-01(B)",
+   "cut_length_mm": 5850.0,
+   "weight_kg": 9.245
+  },
+  {
+   "id": "Rebar schedule for PC-GF-01(B):E:1",
+   "pts": [
+    [
+     441.4,
+     200.0,
+     1699.8
+    ],
+    [
+     441.4,
+     200.0,
+     4099.7
+    ]
+   ],
+   "dia": 16,
+   "sheet": "PC-GF-01_R",
+   "view": "elevation",
+   "array": "PC-GF-01_R:elevation:53",
+   "evidence": "array_note",
+   "mark": "E",
+   "schedule": "Rebar schedule for PC-GF-01(B)",
+   "cut_length_mm": 5850.0,
+   "weight_kg": 9.245
+  }
+ ],
+ "reconciliation": [
+  {
+   "mark": "D1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "dia_mm": 16.0,
+   "shape": "M_17",
+   "cut_length_mm": 1950.0,
+   "qty": 2,
+   "located": 2,
+   "unlocated": 0,
+   "over_bound": false,
+   "located_over_by": 0,
+   "evidence": {
+    "leader": 1,
+    "array_signature": 1
+   },
+   "arrays": [
+    {
+     "id": "PC-GF-01_R:elevation:17",
+     "n": 1,
+     "taken": 1,
+     "len": 424.0,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": -999997.7,
+     "evidence": [
+      "leader"
+     ],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:45",
+     "n": 1,
+     "taken": 1,
+     "len": 388.0,
+     "pitch": null,
+     "axis": "v",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 25.5,
+     "evidence": [],
+     "surplus": 0
+    }
+   ],
+   "length_mm_scheduled": 3900.0,
+   "length_mm_located": 3900.0
+  },
+  {
+   "mark": "D",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "dia_mm": 16.0,
+   "shape": "M_17",
+   "cut_length_mm": 1850.0,
+   "qty": 3,
+   "located": 3,
+   "unlocated": 0,
+   "over_bound": false,
+   "located_over_by": 0,
+   "evidence": {
+    "leader": 1,
+    "array_signature": 2
+   },
+   "arrays": [
+    {
+     "id": "PC-GF-01_R:elevation:56",
+     "n": 1,
+     "taken": 1,
+     "len": 792.0,
+     "pitch": null,
+     "axis": "v",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": -999997.8,
+     "evidence": [
+      "leader"
+     ],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:35",
+     "n": 1,
+     "taken": 1,
+     "len": 792.0,
+     "pitch": null,
+     "axis": "v",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 31.0,
+     "evidence": [],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:36",
+     "n": 1,
+     "taken": 1,
+     "len": 792.0,
+     "pitch": null,
+     "axis": "v",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 31.0,
+     "evidence": [],
+     "surplus": 0
+    }
+   ],
+   "length_mm_scheduled": 5550.0,
+   "length_mm_located": 5550.0
+  },
+  {
+   "mark": "C1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "dia_mm": 10.0,
+   "shape": "M_17A",
+   "cut_length_mm": 1750.0,
+   "qty": 1,
+   "located": 1,
+   "unlocated": 0,
+   "over_bound": false,
+   "located_over_by": 0,
+   "evidence": {
+    "section": 1
+   },
+   "arrays": [],
+   "length_mm_scheduled": 1750.0,
+   "length_mm_located": 1750.0
+  },
+  {
+   "mark": "C",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "dia_mm": 10.0,
+   "shape": "M_17A",
+   "cut_length_mm": 1600.0,
+   "qty": 1,
+   "located": 1,
+   "unlocated": 0,
+   "over_bound": false,
+   "located_over_by": 0,
+   "evidence": {
+    "leader": 1
+   },
+   "arrays": [
+    {
+     "id": "PC-GF-01_R:elevation:0",
+     "n": 1,
+     "taken": 1,
+     "len": 291.2,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": -999999.0,
+     "evidence": [
+      "leader"
+     ],
+     "surplus": 0
+    }
+   ],
+   "length_mm_scheduled": 1600.0,
+   "length_mm_located": 1600.0
+  },
+  {
+   "mark": "B1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "dia_mm": 8.0,
+   "shape": "M_T10",
+   "cut_length_mm": 575.0,
+   "qty": 33,
+   "located": 33,
+   "unlocated": 0,
+   "over_bound": false,
+   "located_over_by": 0,
+   "evidence": {
+    "array_note": 33
+   },
+   "arrays": [
+    {
+     "id": "PC-GF-01_R:elevation:68",
+     "n": 1,
+     "taken": 1,
+     "len": 412.0,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 31.5,
+     "evidence": [
+      "shared_array_split"
+     ],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:72",
+     "n": 1,
+     "taken": 1,
+     "len": 412.0,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 31.5,
+     "evidence": [
+      "shared_array_split"
+     ],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:76",
+     "n": 1,
+     "taken": 1,
+     "len": 412.0,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 31.5,
+     "evidence": [
+      "shared_array_split"
+     ],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:80",
+     "n": 1,
+     "taken": 1,
+     "len": 412.0,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 31.5,
+     "evidence": [
+      "shared_array_split"
+     ],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:84",
+     "n": 1,
+     "taken": 1,
+     "len": 412.0,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 31.5,
+     "evidence": [
+      "shared_array_split"
+     ],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:87",
+     "n": 1,
+     "taken": 1,
+     "len": 412.0,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 31.5,
+     "evidence": [
+      "shared_array_split"
+     ],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:90",
+     "n": 1,
+     "taken": 1,
+     "len": 412.0,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 31.5,
+     "evidence": [
+      "shared_array_split"
+     ],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:93",
+     "n": 1,
+     "taken": 1,
+     "len": 412.0,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 31.5,
+     "evidence": [
+      "shared_array_split"
+     ],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:96",
+     "n": 1,
+     "taken": 1,
+     "len": 412.0,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 31.5,
+     "evidence": [
+      "shared_array_split"
+     ],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:101",
+     "n": 1,
+     "taken": 1,
+     "len": 412.0,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 31.5,
+     "evidence": [
+      "shared_array_split"
+     ],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:104",
+     "n": 1,
+     "taken": 1,
+     "len": 412.0,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 31.5,
+     "evidence": [
+      "shared_array_split"
+     ],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:107",
+     "n": 1,
+     "taken": 1,
+     "len": 412.0,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 31.5,
+     "evidence": [
+      "shared_array_split"
+     ],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:110",
+     "n": 1,
+     "taken": 1,
+     "len": 412.0,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 31.5,
+     "evidence": [
+      "shared_array_split"
+     ],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:116",
+     "n": 1,
+     "taken": 1,
+     "len": 412.0,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 31.5,
+     "evidence": [
+      "shared_array_split"
+     ],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:119",
+     "n": 1,
+     "taken": 1,
+     "len": 412.0,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 31.5,
+     "evidence": [
+      "shared_array_split"
+     ],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:122",
+     "n": 1,
+     "taken": 1,
+     "len": 412.0,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 31.5,
+     "evidence": [
+      "shared_array_split"
+     ],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:125",
+     "n": 1,
+     "taken": 1,
+     "len": 412.0,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 31.5,
+     "evidence": [
+      "shared_array_split"
+     ],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:126",
+     "n": 1,
+     "taken": 1,
+     "len": 412.0,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 31.5,
+     "evidence": [
+      "shared_array_split"
+     ],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:128",
+     "n": 1,
+     "taken": 1,
+     "len": 412.0,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 31.5,
+     "evidence": [
+      "shared_array_split"
+     ],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:129",
+     "n": 1,
+     "taken": 1,
+     "len": 412.0,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 31.5,
+     "evidence": [
+      "shared_array_split"
+     ],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:131",
+     "n": 1,
+     "taken": 1,
+     "len": 412.0,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 31.5,
+     "evidence": [
+      "shared_array_split"
+     ],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:134",
+     "n": 1,
+     "taken": 1,
+     "len": 412.0,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 31.5,
+     "evidence": [
+      "shared_array_split"
+     ],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:137",
+     "n": 1,
+     "taken": 1,
+     "len": 412.0,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 31.5,
+     "evidence": [
+      "shared_array_split"
+     ],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:139",
+     "n": 1,
+     "taken": 1,
+     "len": 412.0,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 31.5,
+     "evidence": [
+      "shared_array_split"
+     ],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:113",
+     "n": 1,
+     "taken": 1,
+     "len": 392.0,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 36.2,
+     "evidence": [
+      "shared_array_split"
+     ],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:74",
+     "n": 1,
+     "taken": 1,
+     "len": 69.0,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 71.0,
+     "evidence": [
+      "shared_array_split"
+     ],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:75",
+     "n": 1,
+     "taken": 1,
+     "len": 69.0,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 71.0,
+     "evidence": [
+      "shared_array_split"
+     ],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:78",
+     "n": 1,
+     "taken": 1,
+     "len": 69.0,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 71.0,
+     "evidence": [
+      "shared_array_split"
+     ],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:79",
+     "n": 1,
+     "taken": 1,
+     "len": 69.0,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 71.0,
+     "evidence": [
+      "shared_array_split"
+     ],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:82",
+     "n": 1,
+     "taken": 1,
+     "len": 69.0,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 71.0,
+     "evidence": [
+      "shared_array_split"
+     ],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:83",
+     "n": 1,
+     "taken": 1,
+     "len": 69.0,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 71.0,
+     "evidence": [
+      "shared_array_split"
+     ],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:86",
+     "n": 1,
+     "taken": 1,
+     "len": 69.0,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 71.0,
+     "evidence": [
+      "shared_array_split"
+     ],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:89",
+     "n": 1,
+     "taken": 1,
+     "len": 69.0,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 71.0,
+     "evidence": [
+      "shared_array_split"
+     ],
+     "surplus": 0
+    }
+   ],
+   "length_mm_scheduled": 18975.0,
+   "length_mm_located": 18975.0
+  },
+  {
+   "mark": "B",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "dia_mm": 8.0,
+   "shape": "M_T10",
+   "cut_length_mm": 500.0,
+   "qty": 6,
+   "located": 6,
+   "unlocated": 0,
+   "over_bound": false,
+   "located_over_by": 0,
+   "evidence": {
+    "array_note": 6
+   },
+   "arrays": [
+    {
+     "id": "PC-GF-01_R:elevation:48",
+     "n": 1,
+     "taken": 1,
+     "len": 354.1,
+     "pitch": null,
+     "axis": "v",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 27.8,
+     "evidence": [
+      "shared_array_split"
+     ],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:51",
+     "n": 1,
+     "taken": 1,
+     "len": 354.1,
+     "pitch": null,
+     "axis": "v",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 27.8,
+     "evidence": [
+      "shared_array_split"
+     ],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:187",
+     "n": 1,
+     "taken": 1,
+     "len": 349.2,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 29.1,
+     "evidence": [
+      "shared_array_split"
+     ],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:189",
+     "n": 1,
+     "taken": 1,
+     "len": 349.2,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 29.1,
+     "evidence": [
+      "shared_array_split"
+     ],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:184",
+     "n": 1,
+     "taken": 1,
+     "len": 347.8,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 29.5,
+     "evidence": [
+      "shared_array_split"
+     ],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:188",
+     "n": 1,
+     "taken": 1,
+     "len": 347.8,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 29.5,
+     "evidence": [
+      "shared_array_split"
+     ],
+     "surplus": 0
+    }
+   ],
+   "length_mm_scheduled": 3000.0,
+   "length_mm_located": 3000.0
+  },
+  {
+   "mark": "A3",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "dia_mm": 8.0,
+   "shape": "M_T1",
+   "cut_length_mm": 1575.0,
+   "qty": 33,
+   "located": 18,
+   "unlocated": 15,
+   "over_bound": false,
+   "located_over_by": 0,
+   "evidence": {
+    "array_note": 10,
+    "pitch_extended": 8
+   },
+   "arrays": [
+    {
+     "id": "PC-GF-01_R:elevation:92",
+     "n": 1,
+     "taken": 1,
+     "len": 69.0,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 71.0,
+     "evidence": [
+      "shared_array_split"
+     ],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:95",
+     "n": 1,
+     "taken": 1,
+     "len": 69.0,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 71.0,
+     "evidence": [
+      "shared_array_split"
+     ],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:98",
+     "n": 1,
+     "taken": 1,
+     "len": 69.0,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 71.0,
+     "evidence": [
+      "shared_array_split"
+     ],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:170",
+     "n": 1,
+     "taken": 1,
+     "len": 73.8,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 75.0,
+     "evidence": [
+      "shared_array_split"
+     ],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:140",
+     "n": 1,
+     "taken": 1,
+     "len": 76.8,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 79.3,
+     "evidence": [
+      "shared_array_split"
+     ],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:144",
+     "n": 1,
+     "taken": 1,
+     "len": 76.8,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 79.3,
+     "evidence": [
+      "shared_array_split"
+     ],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:148",
+     "n": 1,
+     "taken": 1,
+     "len": 76.8,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 79.3,
+     "evidence": [
+      "shared_array_split"
+     ],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:161",
+     "n": 1,
+     "taken": 1,
+     "len": 76.8,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 79.3,
+     "evidence": [
+      "shared_array_split"
+     ],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:164",
+     "n": 1,
+     "taken": 1,
+     "len": 76.8,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 79.3,
+     "evidence": [
+      "shared_array_split"
+     ],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:167",
+     "n": 1,
+     "taken": 1,
+     "len": 76.8,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 79.3,
+     "evidence": [
+      "shared_array_split"
+     ],
+     "surplus": 0
+    }
+   ],
+   "length_mm_scheduled": 51975.0,
+   "length_mm_located": 28350.0,
+   "reason": "only 18 of 33 drawn: matching arrays hold 18 bars, the rest are not drawn in any available view"
+  },
+  {
+   "mark": "A2",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "dia_mm": 8.0,
+   "shape": "M_T1",
+   "cut_length_mm": 1325.0,
+   "qty": 6,
+   "located": 6,
+   "unlocated": 0,
+   "over_bound": false,
+   "located_over_by": 0,
+   "evidence": {
+    "array_signature": 6
+   },
+   "arrays": [
+    {
+     "id": "PC-GF-01_R:elevation:108",
+     "n": 1,
+     "taken": 1,
+     "len": 366.8,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 30.8,
+     "evidence": [],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:44",
+     "n": 1,
+     "taken": 1,
+     "len": 372.0,
+     "pitch": null,
+     "axis": "v",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 32.3,
+     "evidence": [],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:46",
+     "n": 1,
+     "taken": 1,
+     "len": 372.0,
+     "pitch": null,
+     "axis": "v",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 32.3,
+     "evidence": [],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:49",
+     "n": 1,
+     "taken": 1,
+     "len": 372.0,
+     "pitch": null,
+     "axis": "v",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 32.3,
+     "evidence": [],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:50",
+     "n": 1,
+     "taken": 1,
+     "len": 372.0,
+     "pitch": null,
+     "axis": "v",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 32.3,
+     "evidence": [],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:99",
+     "n": 1,
+     "taken": 1,
+     "len": 372.2,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 32.3,
+     "evidence": [],
+     "surplus": 0
+    }
+   ],
+   "length_mm_scheduled": 7950.0,
+   "length_mm_located": 7950.0
+  },
+  {
+   "mark": "A1",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "dia_mm": 8.0,
+   "shape": "M_T1",
+   "cut_length_mm": 1125.0,
+   "qty": 33,
+   "located": 29,
+   "unlocated": 4,
+   "over_bound": false,
+   "located_over_by": 0,
+   "evidence": {
+    "array_signature": 28,
+    "pitch_extended": 1
+   },
+   "arrays": [
+    {
+     "id": "PC-GF-01_R:elevation:69",
+     "n": 1,
+     "taken": 1,
+     "len": 176.8,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 36.3,
+     "evidence": [],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:73",
+     "n": 1,
+     "taken": 1,
+     "len": 176.8,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 36.3,
+     "evidence": [],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:77",
+     "n": 1,
+     "taken": 1,
+     "len": 176.8,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 36.3,
+     "evidence": [],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:81",
+     "n": 1,
+     "taken": 1,
+     "len": 176.8,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 36.3,
+     "evidence": [],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:85",
+     "n": 1,
+     "taken": 1,
+     "len": 176.8,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 36.3,
+     "evidence": [],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:88",
+     "n": 1,
+     "taken": 1,
+     "len": 176.8,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 36.3,
+     "evidence": [],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:91",
+     "n": 1,
+     "taken": 1,
+     "len": 176.8,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 36.3,
+     "evidence": [],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:94",
+     "n": 1,
+     "taken": 1,
+     "len": 176.8,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 36.3,
+     "evidence": [],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:97",
+     "n": 1,
+     "taken": 1,
+     "len": 176.8,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 36.3,
+     "evidence": [],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:100",
+     "n": 1,
+     "taken": 1,
+     "len": 176.8,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 36.3,
+     "evidence": [],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:103",
+     "n": 1,
+     "taken": 1,
+     "len": 176.8,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 36.3,
+     "evidence": [],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:106",
+     "n": 1,
+     "taken": 1,
+     "len": 176.8,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 36.3,
+     "evidence": [],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:109",
+     "n": 1,
+     "taken": 1,
+     "len": 176.8,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 36.3,
+     "evidence": [],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:112",
+     "n": 1,
+     "taken": 1,
+     "len": 176.8,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 36.3,
+     "evidence": [],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:115",
+     "n": 1,
+     "taken": 1,
+     "len": 176.8,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 36.3,
+     "evidence": [],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:118",
+     "n": 1,
+     "taken": 1,
+     "len": 176.8,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 36.3,
+     "evidence": [],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:121",
+     "n": 1,
+     "taken": 1,
+     "len": 176.8,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 36.3,
+     "evidence": [],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:124",
+     "n": 1,
+     "taken": 1,
+     "len": 176.8,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 36.3,
+     "evidence": [],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:127",
+     "n": 1,
+     "taken": 1,
+     "len": 176.8,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 36.3,
+     "evidence": [],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:130",
+     "n": 1,
+     "taken": 1,
+     "len": 176.8,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 36.3,
+     "evidence": [],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:133",
+     "n": 1,
+     "taken": 1,
+     "len": 176.8,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 36.3,
+     "evidence": [],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:136",
+     "n": 1,
+     "taken": 1,
+     "len": 176.8,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 36.3,
+     "evidence": [],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:138",
+     "n": 1,
+     "taken": 1,
+     "len": 176.8,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 36.3,
+     "evidence": [],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:160",
+     "n": 1,
+     "taken": 1,
+     "len": 176.8,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 36.3,
+     "evidence": [],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:163",
+     "n": 1,
+     "taken": 1,
+     "len": 176.8,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 36.3,
+     "evidence": [],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:166",
+     "n": 1,
+     "taken": 1,
+     "len": 176.8,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 36.3,
+     "evidence": [],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:169",
+     "n": 1,
+     "taken": 1,
+     "len": 176.8,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 36.3,
+     "evidence": [],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:172",
+     "n": 1,
+     "taken": 1,
+     "len": 176.8,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 36.3,
+     "evidence": [],
+     "surplus": 0
+    }
+   ],
+   "length_mm_scheduled": 37125.0,
+   "length_mm_located": 32625.0,
+   "reason": "only 29 of 33 drawn: matching arrays hold 29 bars, the rest are not drawn in any available view"
+  },
+  {
+   "mark": "A",
+   "schedule": "Rebar schedule for PC-GF-01 (A)",
+   "dia_mm": 8.0,
+   "shape": "M_T1",
+   "cut_length_mm": 900.0,
+   "qty": 6,
+   "located": 6,
+   "unlocated": 0,
+   "over_bound": false,
+   "located_over_by": 0,
+   "evidence": {
+    "array_signature": 6
+   },
+   "arrays": [
+    {
+     "id": "PC-GF-01_R:elevation:175",
+     "n": 1,
+     "taken": 1,
+     "len": 143.0,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 37.2,
+     "evidence": [],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:178",
+     "n": 1,
+     "taken": 1,
+     "len": 143.0,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 37.2,
+     "evidence": [],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:181",
+     "n": 1,
+     "taken": 1,
+     "len": 143.0,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 37.2,
+     "evidence": [],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:186",
+     "n": 1,
+     "taken": 1,
+     "len": 143.0,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 37.2,
+     "evidence": [],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:143",
+     "n": 1,
+     "taken": 1,
+     "len": 136.8,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 41.3,
+     "evidence": [],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:147",
+     "n": 1,
+     "taken": 1,
+     "len": 136.8,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 41.3,
+     "evidence": [],
+     "surplus": 0
+    }
+   ],
+   "length_mm_scheduled": 5400.0,
+   "length_mm_located": 5400.0
+  },
+  {
+   "mark": "E3",
+   "schedule": "Rebar schedule for PC-GF-01(B)",
+   "dia_mm": 16.0,
+   "shape": "Rebar Shape 30",
+   "cut_length_mm": 5850.0,
+   "qty": 4,
+   "located": 4,
+   "unlocated": 0,
+   "over_bound": false,
+   "located_over_by": 0,
+   "evidence": {
+    "leader": 1,
+    "array_signature": 3
+   },
+   "arrays": [
+    {
+     "id": "PC-GF-01_R:elevation:57",
+     "n": 1,
+     "taken": 1,
+     "len": 5825.3,
+     "pitch": null,
+     "axis": "v",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": -999997.9,
+     "evidence": [
+      "leader"
+     ],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:63",
+     "n": 1,
+     "taken": 1,
+     "len": 2447.9,
+     "pitch": null,
+     "axis": "v",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 36.6,
+     "evidence": [],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:55",
+     "n": 1,
+     "taken": 1,
+     "len": 928.8,
+     "pitch": null,
+     "axis": "v",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 33.5,
+     "evidence": [],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:61",
+     "n": 1,
+     "taken": 1,
+     "len": 928.8,
+     "pitch": null,
+     "axis": "v",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 33.5,
+     "evidence": [],
+     "surplus": 0
+    }
+   ],
+   "length_mm_scheduled": 23400.0,
+   "length_mm_located": 23400.0
+  },
+  {
+   "mark": "E2",
+   "schedule": "Rebar schedule for PC-GF-01(B)",
+   "dia_mm": 16.0,
+   "shape": "Rebar Shape 30",
+   "cut_length_mm": 5850.0,
+   "qty": 2,
+   "located": 2,
+   "unlocated": 0,
+   "over_bound": false,
+   "located_over_by": 0,
+   "evidence": {
+    "array_note": 2
+   },
+   "arrays": [
+    {
+     "id": "PC-GF-01_R:elevation:59",
+     "n": 1,
+     "taken": 1,
+     "len": 5825.3,
+     "pitch": null,
+     "axis": "v",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 7.9,
+     "evidence": [
+      "shared_array_split"
+     ],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:38",
+     "n": 1,
+     "taken": 1,
+     "len": 2447.9,
+     "pitch": null,
+     "axis": "v",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 31.5,
+     "evidence": [
+      "shared_array_split"
+     ],
+     "surplus": 0
+    }
+   ],
+   "length_mm_scheduled": 11700.0,
+   "length_mm_located": 11700.0
+  },
+  {
+   "mark": "E1",
+   "schedule": "Rebar schedule for PC-GF-01(B)",
+   "dia_mm": 16.0,
+   "shape": "Rebar Shape 30",
+   "cut_length_mm": 5850.0,
+   "qty": 2,
+   "located": 2,
+   "unlocated": 0,
+   "over_bound": false,
+   "located_over_by": 0,
+   "evidence": {
+    "leader": 1,
+    "array_note": 1
+   },
+   "arrays": [
+    {
+     "id": "PC-GF-01_R:elevation:62",
+     "n": 1,
+     "taken": 1,
+     "len": 1468.5,
+     "pitch": null,
+     "axis": "v",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": -999986.0,
+     "evidence": [
+      "leader"
+     ],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:33",
+     "n": 1,
+     "taken": 1,
+     "len": 2447.9,
+     "pitch": null,
+     "axis": "v",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 27.8,
+     "evidence": [
+      "shared_array_split"
+     ],
+     "surplus": 0
+    }
+   ],
+   "length_mm_scheduled": 11700.0,
+   "length_mm_located": 11700.0
+  },
+  {
+   "mark": "E",
+   "schedule": "Rebar schedule for PC-GF-01(B)",
+   "dia_mm": 16.0,
+   "shape": "Rebar Shape 30",
+   "cut_length_mm": 5850.0,
+   "qty": 2,
+   "located": 2,
+   "unlocated": 0,
+   "over_bound": false,
+   "located_over_by": 0,
+   "evidence": {
+    "leader": 1,
+    "array_note": 1
+   },
+   "arrays": [
+    {
+     "id": "PC-GF-01_R:elevation:54",
+     "n": 1,
+     "taken": 1,
+     "len": 1516.7,
+     "pitch": null,
+     "axis": "v",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": -999988.3,
+     "evidence": [
+      "leader"
+     ],
+     "surplus": 0
+    },
+    {
+     "id": "PC-GF-01_R:elevation:53",
+     "n": 1,
+     "taken": 1,
+     "len": 2399.9,
+     "pitch": null,
+     "axis": "v",
+     "sheet": "PC-GF-01_R",
+     "view": "elevation",
+     "score": 27.7,
+     "evidence": [
+      "shared_array_split"
+     ],
+     "surplus": 0
+    }
+   ],
+   "length_mm_scheduled": 11700.0,
+   "length_mm_located": 11700.0
+  }
+ ]
+}

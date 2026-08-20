@@ -1,0 +1,515 @@
+{
+ "elements": [
+  {
+   "element": "PC-GF-01",
+   "source": "lift",
+   "sheets": [
+    "PC-GF-01_R"
+   ],
+   "marks": 14,
+   "qty_scheduled": 134,
+   "qty_located": 115,
+   "length_mm_scheduled": 195725.0,
+   "length_mm_located": 167600.0,
+   "located_frac_by_length": 0.8563,
+   "arrays_total": 190,
+   "arrays_bound": 105,
+   "drawn_bars_unbound": 85,
+   "over_bound_marks": [],
+   "evidence": {
+    "leader": 6,
+    "array_signature": 46,
+    "section": 1,
+    "array_note": 53,
+    "pitch_extended": 9
+   }
+  },
+  {
+   "element": "PW-GF-01",
+   "source": "lift",
+   "sheets": [
+    "PW-GF-01_R"
+   ],
+   "marks": 15,
+   "qty_scheduled": 421,
+   "qty_located": 421,
+   "length_mm_scheduled": 735300.0,
+   "length_mm_located": 735300.0,
+   "located_frac_by_length": 1.0,
+   "arrays_total": 437,
+   "arrays_bound": 374,
+   "drawn_bars_unbound": 63,
+   "over_bound_marks": [],
+   "evidence": {
+    "leader": 4,
+    "section": 22,
+    "array_signature": 153,
+    "pitch_extended": 10,
+    "array_note": 217,
+    "note_pitch_extended": 15
+   }
+  },
+  {
+   "element": "PW-GF-02",
+   "source": "lift",
+   "sheets": [
+    "PW-GF-02_R"
+   ],
+   "marks": 14,
+   "qty_scheduled": 375,
+   "qty_located": 354,
+   "length_mm_scheduled": 500950.0,
+   "length_mm_located": 315950.0,
+   "located_frac_by_length": 0.6307,
+   "arrays_total": 351,
+   "arrays_bound": 125,
+   "drawn_bars_unbound": 226,
+   "over_bound_marks": [],
+   "evidence": {
+    "array_signature": 116,
+    "section": 209,
+    "array_note": 9,
+    "pitch_extended": 20
+   }
+  },
+  {
+   "element": "PW-GF-05",
+   "source": "lift",
+   "sheets": [
+    "PW-GF-05_R1"
+   ],
+   "marks": 35,
+   "qty_scheduled": 348,
+   "qty_located": 348,
+   "length_mm_scheduled": 541475.0,
+   "length_mm_located": 541475.0,
+   "located_frac_by_length": 1.0,
+   "arrays_total": 334,
+   "arrays_bound": 229,
+   "drawn_bars_unbound": 105,
+   "over_bound_marks": [],
+   "evidence": {
+    "array_signature": 57,
+    "section": 49,
+    "leader": 4,
+    "array_note": 168,
+    "pitch_extended": 70
+   }
+  },
+  {
+   "element": "PW-GF-06",
+   "source": "lift",
+   "sheets": [
+    "PW-GF-06_R"
+   ],
+   "marks": 28,
+   "qty_scheduled": 322,
+   "qty_located": 322,
+   "length_mm_scheduled": 459425.0,
+   "length_mm_located": 459425.0,
+   "located_frac_by_length": 1.0,
+   "arrays_total": 421,
+   "arrays_bound": 237,
+   "drawn_bars_unbound": 184,
+   "over_bound_marks": [],
+   "evidence": {
+    "leader": 6,
+    "array_signature": 88,
+    "section": 76,
+    "array_note": 143,
+    "pitch_extended": 3,
+    "note_pitch_extended": 6
+   }
+  },
+  {
+   "element": "PW-GF-07",
+   "source": "lift",
+   "sheets": [
+    "PW-GF-07_R"
+   ],
+   "marks": 17,
+   "qty_scheduled": 254,
+   "qty_located": 254,
+   "length_mm_scheduled": 463800.0,
+   "length_mm_located": 463800.0,
+   "located_frac_by_length": 1.0,
+   "arrays_total": 278,
+   "arrays_bound": 193,
+   "drawn_bars_unbound": 85,
+   "over_bound_marks": [],
+   "evidence": {
+    "leader": 2,
+    "section": 40,
+    "array_note": 122,
+    "array_signature": 69,
+    "pitch_extended": 20,
+    "note_pitch_extended": 1
+   }
+  },
+  {
+   "element": "PW-GF-08 [2155x5095x200]",
+   "source": "drawing",
+   "sheets": [
+    "PW-GF-08_R2"
+   ],
+   "marks": 26,
+   "qty_scheduled": 335,
+   "qty_located": 277,
+   "length_mm_scheduled": 551025.0,
+   "length_mm_located": 492175.0,
+   "located_frac_by_length": 0.8932,
+   "arrays_total": 50,
+   "arrays_bound": 27,
+   "drawn_bars_unbound": 33,
+   "over_bound_marks": [],
+   "evidence": {
+    "leader": 46,
+    "array_signature": 24,
+    "section": 172,
+    "pitch_extended": 31,
+    "array_note": 4
+   }
+  },
+  {
+   "element": "PW-GF-09 [1500x5055x400]",
+   "source": "drawing",
+   "sheets": [
+    "PW-GF-09_R2"
+   ],
+   "marks": 24,
+   "qty_scheduled": 289,
+   "qty_located": 289,
+   "length_mm_scheduled": 410175.0,
+   "length_mm_located": 410175.0,
+   "located_frac_by_length": 1.0,
+   "arrays_total": 74,
+   "arrays_bound": 37,
+   "drawn_bars_unbound": 61,
+   "over_bound_marks": [],
+   "evidence": {
+    "leader": 44,
+    "array_signature": 48,
+    "section": 32,
+    "pitch_extended": 71,
+    "array_note": 32,
+    "note_pitch_extended": 62
+   }
+  },
+  {
+   "element": "PW-GF-09 [1500x5095x200]",
+   "source": "lift",
+   "sheets": [
+    "PW-GF-09_R1"
+   ],
+   "marks": 7,
+   "qty_scheduled": 13,
+   "qty_located": 13,
+   "length_mm_scheduled": 33725.0,
+   "length_mm_located": 33725.0,
+   "located_frac_by_length": 1.0,
+   "arrays_total": 310,
+   "arrays_bound": 9,
+   "drawn_bars_unbound": 301,
+   "over_bound_marks": [],
+   "evidence": {
+    "section": 4,
+    "array_signature": 6,
+    "leader": 1,
+    "array_note": 2
+   }
+  },
+  {
+   "element": "PW-GF-11",
+   "source": "lift",
+   "sheets": [
+    "PW-GF-11_R1"
+   ],
+   "marks": 24,
+   "qty_scheduled": 511,
+   "qty_located": 506,
+   "length_mm_scheduled": 1077950.0,
+   "length_mm_located": 1065975.0,
+   "located_frac_by_length": 0.9889,
+   "arrays_total": 660,
+   "arrays_bound": 378,
+   "drawn_bars_unbound": 282,
+   "over_bound_marks": [],
+   "evidence": {
+    "array_signature": 132,
+    "array_note": 243,
+    "pitch_extended": 32,
+    "leader": 3,
+    "section": 58,
+    "note_pitch_extended": 38
+   }
+  },
+  {
+   "element": "PW-GF-18",
+   "source": "lift",
+   "sheets": [
+    "PW-GF-18_R"
+   ],
+   "marks": 28,
+   "qty_scheduled": 281,
+   "qty_located": 281,
+   "length_mm_scheduled": 407300.0,
+   "length_mm_located": 407300.0,
+   "located_frac_by_length": 1.0,
+   "arrays_total": 333,
+   "arrays_bound": 201,
+   "drawn_bars_unbound": 132,
+   "over_bound_marks": [],
+   "evidence": {
+    "leader": 5,
+    "section": 42,
+    "array_note": 127,
+    "array_signature": 69,
+    "pitch_extended": 33,
+    "note_pitch_extended": 5
+   }
+  },
+  {
+   "element": "PW-GF-25",
+   "source": "lift",
+   "sheets": [
+    "PW-GF-25_R"
+   ],
+   "marks": 25,
+   "qty_scheduled": 249,
+   "qty_located": 249,
+   "length_mm_scheduled": 370575.0,
+   "length_mm_located": 370575.0,
+   "located_frac_by_length": 1.0,
+   "arrays_total": 315,
+   "arrays_bound": 219,
+   "drawn_bars_unbound": 96,
+   "over_bound_marks": [],
+   "evidence": {
+    "array_signature": 84,
+    "array_note": 131,
+    "leader": 4,
+    "pitch_extended": 26,
+    "note_pitch_extended": 4
+   }
+  },
+  {
+   "element": "PW-GF-26",
+   "source": "lift",
+   "sheets": [
+    "PW-GF-26_R"
+   ],
+   "marks": 13,
+   "qty_scheduled": 231,
+   "qty_located": 231,
+   "length_mm_scheduled": 369225.0,
+   "length_mm_located": 369225.0,
+   "located_frac_by_length": 1.0,
+   "arrays_total": 238,
+   "arrays_bound": 210,
+   "drawn_bars_unbound": 28,
+   "over_bound_marks": [],
+   "evidence": {
+    "leader": 7,
+    "array_signature": 49,
+    "array_note": 154,
+    "pitch_extended": 21
+   }
+  },
+  {
+   "element": "PW-GF-27",
+   "source": "lift",
+   "sheets": [
+    "PW-GF-27_R1"
+   ],
+   "marks": 27,
+   "qty_scheduled": 292,
+   "qty_located": 292,
+   "length_mm_scheduled": 422375.0,
+   "length_mm_located": 422375.0,
+   "located_frac_by_length": 1.0,
+   "arrays_total": 312,
+   "arrays_bound": 227,
+   "drawn_bars_unbound": 85,
+   "over_bound_marks": [],
+   "evidence": {
+    "array_signature": 78,
+    "leader": 9,
+    "array_note": 140,
+    "pitch_extended": 22,
+    "section": 29,
+    "note_pitch_extended": 14
+   }
+  },
+  {
+   "element": "PW-GF-30",
+   "source": "lift",
+   "sheets": [
+    "PW-GF-30_R1"
+   ],
+   "marks": 15,
+   "qty_scheduled": 407,
+   "qty_located": 407,
+   "length_mm_scheduled": 820150.0,
+   "length_mm_located": 820150.0,
+   "located_frac_by_length": 1.0,
+   "arrays_total": 446,
+   "arrays_bound": 369,
+   "drawn_bars_unbound": 77,
+   "over_bound_marks": [],
+   "evidence": {
+    "array_signature": 147,
+    "leader": 5,
+    "pitch_extended": 22,
+    "array_note": 217,
+    "section": 13,
+    "note_pitch_extended": 3
+   }
+  }
+ ],
+ "total": {
+  "length_mm_scheduled": 7359175.0,
+  "length_mm_located": 7075225.0,
+  "located_frac_by_length": 0.9614
+ },
+ "unlocated": {
+  "PC-GF-01": [
+   {
+    "mark": "A3",
+    "schedule": "Rebar schedule for PC-GF-01 (A)",
+    "dia_mm": 8.0,
+    "cut_length_mm": 1575.0,
+    "qty": 33,
+    "located": 18,
+    "unlocated": 15,
+    "reason": "only 18 of 33 drawn: matching arrays hold 18 bars, the rest are not drawn in any available view"
+   },
+   {
+    "mark": "A1",
+    "schedule": "Rebar schedule for PC-GF-01 (A)",
+    "dia_mm": 8.0,
+    "cut_length_mm": 1125.0,
+    "qty": 33,
+    "located": 29,
+    "unlocated": 4,
+    "reason": "only 29 of 33 drawn: matching arrays hold 29 bars, the rest are not drawn in any available view"
+   }
+  ],
+  "PW-GF-01": [],
+  "PW-GF-02": [
+   {
+    "mark": "E",
+    "schedule": "Rebar schedule for PW-GF-02(A)",
+    "dia_mm": 16.0,
+    "cut_length_mm": 8800.0,
+    "qty": 4,
+    "located": 0,
+    "unlocated": 4,
+    "reason": "T16 drawn, but no run matches cut 8800 or any leg (nearest drawn run 3700 mm)"
+   },
+   {
+    "mark": "C2",
+    "schedule": "Rebar schedule for PW-GF-02(A)",
+    "dia_mm": 12.0,
+    "cut_length_mm": 8800.0,
+    "qty": 16,
+    "located": 0,
+    "unlocated": 16,
+    "reason": "T12 drawn, but no run matches cut 8800 or any leg (nearest drawn run 2870 mm)"
+   },
+   {
+    "mark": "I",
+    "schedule": "Rebar schedule for PW-GF-02(C)",
+    "dia_mm": 20.0,
+    "cut_length_mm": 9000.0,
+    "qty": 1,
+    "located": 0,
+    "unlocated": 1,
+    "reason": "T20 drawn, but no run matches cut 9000 or any leg (nearest drawn run 748 mm)"
+   }
+  ],
+  "PW-GF-05": [],
+  "PW-GF-06": [],
+  "PW-GF-07": [],
+  "PW-GF-08 [2155x5095x200]": [
+   {
+    "mark": "D",
+    "schedule": "Rebar schedule for PW-GF-08(A)",
+    "dia_mm": 8.0,
+    "cut_length_mm": 1200.0,
+    "qty": 24,
+    "located": 0,
+    "unlocated": 24,
+    "reason": "no run matches the 1200 mm cut length itself; only 1 bar(s) coincidentally match one of this mark's short legs (unreliable signature, shared by other marks) -- the mark has no real evidence, this is not a binding conflict"
+   },
+   {
+    "mark": "B2",
+    "schedule": "Rebar schedule for PW-GF-08(A)",
+    "dia_mm": 8.0,
+    "cut_length_mm": 900.0,
+    "qty": 59,
+    "located": 49,
+    "unlocated": 10,
+    "reason": "only 49 of 59 drawn: matching arrays hold 49 bars, the rest are not drawn in any available view"
+   },
+   {
+    "mark": "B1",
+    "schedule": "Rebar schedule for PW-GF-08(A)",
+    "dia_mm": 8.0,
+    "cut_length_mm": 900.0,
+    "qty": 22,
+    "located": 20,
+    "unlocated": 2,
+    "reason": "only 20 of 22 drawn: matching arrays hold 20 bars, the rest are not drawn in any available view"
+   },
+   {
+    "mark": "B",
+    "schedule": "Rebar schedule for PW-GF-08(A)",
+    "dia_mm": 8.0,
+    "cut_length_mm": 875.0,
+    "qty": 52,
+    "located": 30,
+    "unlocated": 22,
+    "reason": "only 30 of 52 drawn: matching arrays hold 30 bars, the rest are not drawn in any available view"
+   }
+  ],
+  "PW-GF-09 [1500x5055x400]": [],
+  "PW-GF-09 [1500x5095x200]": [],
+  "PW-GF-11": [
+   {
+    "mark": "M",
+    "schedule": "Rebar schedule for PW-GF-11(A)",
+    "dia_mm": 20.0,
+    "cut_length_mm": 1425.0,
+    "qty": 2,
+    "located": 1,
+    "unlocated": 1,
+    "reason": "only 1 of 2 drawn: matching arrays hold 1 bars, the rest are not drawn in any available view"
+   },
+   {
+    "mark": "L",
+    "schedule": "Rebar schedule for PW-GF-11(A)",
+    "dia_mm": 20.0,
+    "cut_length_mm": 1675.0,
+    "qty": 3,
+    "located": 1,
+    "unlocated": 2,
+    "reason": "only 1 of 3 drawn: matching arrays hold 1 bars, the rest are not drawn in any available view"
+   },
+   {
+    "mark": "J2",
+    "schedule": "Rebar schedule for PW-GF-11(A)",
+    "dia_mm": 16.0,
+    "cut_length_mm": 3600.0,
+    "qty": 4,
+    "located": 2,
+    "unlocated": 2,
+    "reason": "only 2 of 4 drawn: matching arrays hold 2 bars, the rest are not drawn in any available view"
+   }
+  ],
+  "PW-GF-18": [],
+  "PW-GF-25": [],
+  "PW-GF-26": [],
+  "PW-GF-27": [],
+  "PW-GF-30": []
+ }
+}

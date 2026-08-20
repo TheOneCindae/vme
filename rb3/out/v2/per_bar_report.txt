@@ -1,0 +1,385 @@
+====================================================================================================
+EVERY BAR -- by diameter, by shape family, by mark
+====================================================================================================
+
+                STRAIGHT           U-BAR        LINK/TIE    BENT (other)           TOTAL
+T8       1177/1177   100% 1757/1791    98%  742/785     95%   71/71     100%  3747/3824   98%
+T10       110/110    100%    8/8      100%    3/3      100%   65/65     100%   186/186   100%
+T12        60/76      79%   41/41     100%   33/33     100%              --   134/150    89%
+T16        48/52      92%  112/114     98%              --   60/60     100%   220/226    97%
+T20        22/24      92%   12/13      92%              --   24/25      96%    58/62     94%
+T25         8/8      100%    6/6      100%              --              --    14/14    100%
+TOTAL                                                                     4359/4462   98%
+
+
+### T8  --  3747/3824 bars located (98.0%)   1813.3/1847.7 kg
+----------------------------------------------------------------------------------------------------
+  -- STRAIGHT       1177/1177 bars (100.0%) --
+     panel           mark  shape              cut mm   qty  located      %   evidence
+     PW-GF-01        A     M_00                 1175    62       62  100.0   array_note:61, pitch_extended:1
+     PW-GF-01        A1    M_00                 1250    61       61  100.0   array_note:45, array_signature:1, note_pitch_extended:15
+     PW-GF-02        A     M_00                  600    60       60  100.0   section:60
+     PW-GF-02        A1    M_00                  625    60       60  100.0   array_note:4, array_signature:27, pitch_extended:17, section:12
+     PW-GF-05        A     M_00                  600     5        5  100.0   section:5
+     PW-GF-05        A1    M_00                 1100     5        5  100.0   section:5
+     PW-GF-05        A2    M_00                 1375    30       30  100.0   array_note:30
+     PW-GF-05        A3    M_00                 1425    30       30  100.0   array_signature:14, pitch_extended:16
+     PW-GF-06        A     M_00                  775     5        5  100.0   array_note:5
+     PW-GF-06        A1    M_00                  800     5        5  100.0   array_note:5
+     PW-GF-06        A2    M_00                 1075    31       31  100.0   array_note:31
+     PW-GF-06        A3    M_00                 1125    31       31  100.0   array_signature:31
+     PW-GF-06        A4    M_00                 4375     8        8  100.0   array_signature:7, pitch_extended:1
+     PW-GF-06        A5    M_00                 5000     9        9  100.0   array_note:9
+     PW-GF-06        A6    M_00                 5050     8        8  100.0   array_signature:2, note_pitch_extended:6
+     PW-GF-07        A     M_00                 2075    30       30  100.0   array_note:30
+     PW-GF-07        A1    M_00                 2100    30       30  100.0   array_signature:26, pitch_extended:4
+     PW-GF-07        A2    M_00                 5000    12       12  100.0   array_note:12
+     PW-GF-07        A3    M_00                 5050    11       11  100.0   array_signature:4, note_pitch_extended:1, pitch_extended:6
+     PW-GF-08        A     M_00                 2025    30       30  100.0   section:30
+     PW-GF-08        A1    M_00                 2100    30       30  100.0   section:30
+     PW-GF-08        A2    M_00                 5000    12       12  100.0   leader:2, pitch_extended:10
+     PW-GF-08        A3    M_00                 5050    11       11  100.0   section:11
+     PW-GF-09        A     M_00                 1125     5        5  100.0   array_signature:5
+     PW-GF-09        A1    M_00                 1350    26       26  100.0   array_note:1, note_pitch_extended:25
+     PW-GF-09        A2    M_00                 1450    30       30  100.0   leader:1, note_pitch_extended:29
+     PW-GF-09        A3    M_00                 5000     9        9  100.0   array_note:1, note_pitch_extended:8
+     PW-GF-09        A4    M_00                 5050     7        7  100.0   section:7
+     PW-GF-11        A     M_00                 2175    53       53  100.0   array_note:53
+     PW-GF-11        A1    M_00                 2200    53       53  100.0   array_note:5, array_signature:24, pitch_extended:24
+     PW-GF-18        A     M_00                 1100     5        5  100.0   array_note:3, array_signature:2
+     PW-GF-18        A1    M_00                 1350    26       26  100.0   array_note:25, array_signature:1
+     PW-GF-18        A2    M_00                 1450    30       30  100.0   array_note:2, array_signature:14, note_pitch_extended:5, pitch_extended:9
+     PW-GF-18        A3    M_00                 5000     9        9  100.0   array_note:9
+     PW-GF-18        A4    M_00                 5050     7        7  100.0   array_signature:2, pitch_extended:5
+     PW-GF-25        A     M_00                 1100     5        5  100.0   array_note:5
+     PW-GF-25        A1    M_00                 1400    26       26  100.0   array_note:26
+     PW-GF-25        A2    M_00                 1450    30       30  100.0   array_note:2, array_signature:25, note_pitch_extended:2, pitch_extended:1
+     PW-GF-25        A3    M_00                 5000     9        9  100.0   array_note:9
+     PW-GF-25        A4    M_00                 5050     7        7  100.0   array_signature:7
+     PW-GF-26        A     M_00                 1575    30       30  100.0   array_signature:26, leader:1, pitch_extended:3
+     PW-GF-26        A1    M_00                 1650    30       30  100.0   array_note:30
+     PW-GF-26        A2    M_00                 5000    10       10  100.0   array_note:9, leader:1
+     PW-GF-26        A3    M_00                 5050     9        9  100.0   array_signature:7, leader:1, pitch_extended:1
+     PW-GF-27        A     M_00                 1050     4        4  100.0   array_note:3, leader:1
+     PW-GF-27        A1    M_00                 1075     3        3  100.0   array_note:3
+     PW-GF-27        A2    M_00                 1125     6        6  100.0   leader:1, note_pitch_extended:5
+     PW-GF-27        A3    M_00                 1350    26       26  100.0   array_note:2, array_signature:23, leader:1
+     PW-GF-27        A4    M_00                 1450    26       26  100.0   array_signature:5, leader:1, note_pitch_extended:9, pitch_extended:11
+     PW-GF-27        A5    M_00                 4750     7        7  100.0   array_note:6, leader:1
+     PW-GF-27        A6    M_00                 4900     7        7  100.0   array_signature:6, leader:1
+     PW-GF-30        A     M_00                 1650    53       53  100.0   array_note:53
+     PW-GF-30        A1    M_00                 1725    53       53  100.0   array_note:4, array_signature:44, pitch_extended:5
+  -- U-BAR          1757/1791 bars ( 98.1%) --
+     panel           mark  shape              cut mm   qty  located      %   evidence
+     PW-GF-01        B     M_17                  900   122      122  100.0   array_note:5, array_signature:107, pitch_extended:2, section:8
+     PW-GF-01        B1    M_17                  950    92       92  100.0   array_note:86, array_signature:5, section:1
+     PW-GF-01        C     M_17A                 875     7        7  100.0   array_note:4, array_signature:3
+     PW-GF-02        B     M_17                  900   118      118  100.0   section:118
+     PW-GF-02        B1    M_17                  950    45       45  100.0   array_note:3, array_signature:42
+     PW-GF-05        B     M_17                  875    23       23  100.0   array_signature:6, pitch_extended:10, section:7
+     PW-GF-05        B1    M_17                  900    12       12  100.0   array_note:2, array_signature:8, pitch_extended:2
+     PW-GF-05        C     M_17A                 850     4        4  100.0   array_signature:4
+     PW-GF-06        B     M_17                  900    16       16  100.0   array_note:10, pitch_extended:2, section:4
+     PW-GF-06        B1    M_17                  900    68       68  100.0   section:68
+     PW-GF-06        B2    M_17                  950    25       25  100.0   array_note:25
+     PW-GF-06        C     M_17A                1075     5        5  100.0   array_signature:5
+     PW-GF-07        B     M_17                  875    26       26  100.0   array_note:26
+     PW-GF-07        B1    M_17                  900    22       22  100.0   array_note:22
+     PW-GF-07        B2    M_17                  900    59       59  100.0   array_signature:25, section:34
+     PW-GF-07        C     M_17A                1225    10       10  100.0   array_signature:4, pitch_extended:6
+     PW-GF-08        B     M_17                  875    52       30   57.7   section:30 <<< partial
+     PW-GF-08        B1    M_17                  900    22       20   90.9   array_signature:2, leader:16, pitch_extended:2 <<< partial
+     PW-GF-08        B2    M_17                  900    59       49   83.1   array_note:1, section:48 <<< partial
+     PW-GF-08        C     M_17A                1225    11       11  100.0   array_signature:1, leader:10
+     PW-GF-09        B     M_17                  900    14       14  100.0   array_note:2, array_signature:4, leader:8
+     PW-GF-09        B1    M_17                  900    30       30  100.0   array_note:2, array_signature:3, pitch_extended:25
+     PW-GF-09        B2    M_17                  950    49       49  100.0   array_signature:3, pitch_extended:28, section:18
+     PW-GF-09        C     M_17A                 950     6        6  100.0   leader:5, pitch_extended:1
+     PW-GF-11        B     M_17                  875    92       92  100.0   array_note:92
+     PW-GF-11        B1    M_17                  900    42       42  100.0   array_note:42
+     PW-GF-11        B2    M_17                  900   104      104  100.0   array_signature:48, pitch_extended:6, section:50
+     PW-GF-11        C     M_17A                1225    12       12  100.0   array_note:2, array_signature:2, note_pitch_extended:8
+     PW-GF-18        B     M_17                  875    49       49  100.0   array_signature:8, pitch_extended:9, section:32
+     PW-GF-18        B1    M_17                  900    14       14  100.0   array_note:14
+     PW-GF-18        B2    M_17                  900    30       30  100.0   array_note:18, array_signature:4, pitch_extended:8
+     PW-GF-18        C     M_17A                 950     6        6  100.0   array_note:6
+     PW-GF-25        B     M_17                  900    14       14  100.0   array_note:14
+     PW-GF-25        B1    M_17                  900    29       29  100.0   array_note:1, array_signature:2, note_pitch_extended:2, pitch_extended:24
+     PW-GF-25        B2    M_17                  950    26       26  100.0   array_note:24, array_signature:1, pitch_extended:1
+     PW-GF-25        C     M_17A                 975     7        7  100.0   array_note:7
+     PW-GF-26        B     M_17                  900    18       18  100.0   array_note:18
+     PW-GF-26        B1    M_17                  900    59       59  100.0   array_note:51, array_signature:1, pitch_extended:7
+     PW-GF-26        B2    M_17                  950    52       52  100.0   array_note:44, array_signature:5, pitch_extended:3
+     PW-GF-26        C     M_17A                 875     9        9  100.0   array_signature:2, pitch_extended:7
+     PW-GF-26        C1    M_17A                 950     2        2  100.0   array_note:2
+     PW-GF-27        B     M_17                  900    12       12  100.0   array_note:12
+     PW-GF-27        B1    M_17                  900    30       30  100.0   array_note:30
+     PW-GF-27        B2    M_17                  950    48       48  100.0   array_note:23, array_signature:16, section:9
+     PW-GF-30        B     M_17                  900    34       34  100.0   array_note:34
+     PW-GF-30        B1    M_17                  900   104      104  100.0   array_note:28, array_signature:74, pitch_extended:2
+     PW-GF-30        B2    M_17                  950    92       92  100.0   array_note:77, array_signature:1, pitch_extended:2, section:12
+     PW-GF-30        C     M_17A                1075     9        9  100.0   array_note:1, array_signature:4, note_pitch_extended:3, pitch_extended:1
+  -- LINK/TIE        742/785  bars ( 94.5%) --
+     panel           mark  shape              cut mm   qty  located      %   evidence
+     PC-GF-01        A     M_T1                  900     6        6  100.0   array_signature:6
+     PC-GF-01        A1    M_T1                 1125    33       29   87.9   array_signature:28, pitch_extended:1 <<< partial
+     PC-GF-01        A2    M_T1                 1325     6        6  100.0   array_signature:6
+     PC-GF-01        A3    M_T1                 1575    33       18   54.5   array_note:10, pitch_extended:8 <<< partial
+     PC-GF-01        B     M_T10                 500     6        6  100.0   array_note:6
+     PC-GF-01        B1    M_T10                 575    33       33  100.0   array_note:33
+     PW-GF-05        D     M_T1                 1175    33       33  100.0   array_note:30, array_signature:3
+     PW-GF-05        D1    M_T1                 1200    38       38  100.0   array_note:32, pitch_extended:6
+     PW-GF-05        D2    M_T1                 1600    33       33  100.0   array_note:2, pitch_extended:22, section:9
+     PW-GF-05        E     M_T10                 375    38       38  100.0   array_note:36, array_signature:2
+     PW-GF-05        E1    M_T10                 575    33       33  100.0   array_note:14, pitch_extended:3, section:16
+     PW-GF-06        D     M_T1                 1200    38       38  100.0   array_note:38
+     PW-GF-06        E     M_T10                 375    38       38  100.0   array_note:14, array_signature:24
+     PW-GF-08        D     M_T1                 1200    24        0    0.0    <<< MISSING
+     PW-GF-08        E     M_T10                 375    24       24  100.0   array_note:1, array_signature:6, pitch_extended:17
+     PW-GF-09        D     M_T1                 1200    37       37  100.0   array_note:3, array_signature:32, pitch_extended:2
+     PW-GF-09        E     M_T10                 375    37       37  100.0   array_note:23, leader:1, pitch_extended:13
+     PW-GF-11        D     M_T1                 1200    24       24  100.0   array_note:1, array_signature:23
+     PW-GF-11        E     M_T10                 375    24       24  100.0   array_note:17, array_signature:7
+     PW-GF-18        D     M_T1                 1200    37       37  100.0   array_note:3, array_signature:25, section:9
+     PW-GF-18        E     M_T10                 375    37       37  100.0   array_note:37
+     PW-GF-25        D     M_T1                 1200    37       37  100.0   array_signature:37
+     PW-GF-25        E     M_T10                 375    37       37  100.0   array_note:37
+     PW-GF-27        C     M_T1                 1050    24       24  100.0   array_note:5, array_signature:9, pitch_extended:10
+     PW-GF-27        C1    M_T1                 1125     9        9  100.0   array_note:2, array_signature:7
+     PW-GF-27        C2    M_T1                 1575    33       33  100.0   array_note:12, pitch_extended:1, section:20
+     PW-GF-27        D     M_T10                 575    33       33  100.0   array_note:33
+  -- BENT (other)     71/71   bars (100.0%) --
+     panel           mark  shape              cut mm   qty  located      %   evidence
+     PW-GF-02        G     Rebar Shape 9        1100    45       45  100.0   array_note:2, array_signature:38, pitch_extended:3, section:2
+     PW-GF-07        H     Rebar Shape 9        1175    26       26  100.0   array_note:26
+
+### T10  --  186/186 bars located (100.0%)   627.5/627.5 kg
+----------------------------------------------------------------------------------------------------
+  -- STRAIGHT        110/110  bars (100.0%) --
+     panel           mark  shape              cut mm   qty  located      %   evidence
+     PW-GF-05        F     M_00                 4375    10       10  100.0   array_signature:5, pitch_extended:5
+     PW-GF-05        F1    M_00                 5000    10       10  100.0   array_note:4, pitch_extended:6
+     PW-GF-05        F2    M_00                 5050     6        6  100.0   array_note:1, section:5
+     PW-GF-06        F     M_00                 1125     2        2  100.0   section:2
+     PW-GF-11        F     M_00                 9000    23       23  100.0   array_note:23
+     PW-GF-11        F1    M_00                 9050    23       23  100.0   array_signature:3, note_pitch_extended:20
+     PW-GF-30        D     M_00                 9000    19       19  100.0   array_note:18, leader:1
+     PW-GF-30        D1    M_00                 9050    17       17  100.0   array_signature:8, leader:1, pitch_extended:8
+  -- U-BAR             8/8    bars (100.0%) --
+     panel           mark  shape              cut mm   qty  located      %   evidence
+     PC-GF-01        C     M_17A                1600     1        1  100.0   leader:1
+     PC-GF-01        C1    M_17A                1750     1        1  100.0   section:1
+     PW-GF-05        G     M_17A                1050     2        2  100.0   array_signature:2
+     PW-GF-25        F     M_17A                1050     2        2  100.0   array_signature:2
+     PW-GF-27        E     M_17A                1050     2        2  100.0   array_signature:2
+  -- LINK/TIE          3/3    bars (100.0%) --
+     panel           mark  shape              cut mm   qty  located      %   evidence
+     PW-GF-01        D     M_T1                 1425     3        3  100.0   array_signature:3
+  -- BENT (other)     65/65   bars (100.0%) --
+     panel           mark  shape              cut mm   qty  located      %   evidence
+     PW-GF-02        H     Rebar Shape 9        1850     3        3  100.0   array_signature:3
+     PW-GF-06        L     Rebar Shape 9        1825     5        5  100.0   array_signature:5
+     PW-GF-07        I     Rebar Shape 9        2250    10       10  100.0   array_signature:6, pitch_extended:4
+     PW-GF-08        O     Rebar Shape 9        2250    11       11  100.0   array_signature:11
+     PW-GF-09        P     Rebar Shape 9        2250     7        7  100.0   array_signature:2, leader:5
+     PW-GF-11        P     Rebar Shape 9        2175    12       12  100.0   array_signature:12
+     PW-GF-18        J     Rebar Shape 9        2250     7        7  100.0   array_signature:6, pitch_extended:1
+     PW-GF-30        I     Rebar Shape 9        1675    10       10  100.0   array_signature:8, pitch_extended:2
+
+### T12  --  134/150 bars located (89.3%)   354.8/480.0 kg
+----------------------------------------------------------------------------------------------------
+  -- STRAIGHT         60/76   bars ( 78.9%) --
+     panel           mark  shape              cut mm   qty  located      %   evidence
+     PW-GF-01        E     M_00                 9000    15       15  100.0   array_note:15
+     PW-GF-01        E1    M_00                 9050    14       14  100.0   array_signature:7, pitch_extended:7
+     PW-GF-02        C     M_00                  425     2        2  100.0   section:2
+     PW-GF-02        C1    M_00                  600     2        2  100.0   section:2
+     PW-GF-02        C2    M_00                 8800    16        0    0.0    <<< MISSING
+     PW-GF-06        G     M_00                  825     2        2  100.0   array_signature:2
+     PW-GF-07        D     M_00                 1875     3        3  100.0   array_note:1, section:2
+     PW-GF-07        D1    M_00                 1975     2        2  100.0   array_note:2
+     PW-GF-08        F     M_00                 1975     1        1  100.0   array_note:1
+     PW-GF-08        F1    M_00                 2100     3        3  100.0   section:3
+     PW-GF-09        F     M_00                 1075     1        1  100.0   section:1
+     PW-GF-09        F1    M_00                 1125     3        3  100.0   section:3
+     PW-GF-11        G     M_00                 2225     4        4  100.0   array_signature:3, pitch_extended:1
+     PW-GF-18        F     M_00                 1125     1        1  100.0   array_note:1
+     PW-GF-18        F1    M_00                 1125     3        3  100.0   array_signature:2, pitch_extended:1
+     PW-GF-30        E     M_00                 1650     2        2  100.0   array_signature:1, section:1
+     PW-GF-30        E1    M_00                 1725     2        2  100.0   array_note:2
+  -- U-BAR            41/41   bars (100.0%) --
+     panel           mark  shape              cut mm   qty  located      %   evidence
+     PW-GF-01        F     M_17                 1300    27       27  100.0   array_signature:19, section:8
+     PW-GF-02        D     M_17                 1300    14       14  100.0   array_signature:1, section:13
+  -- LINK/TIE         33/33   bars (100.0%) --
+     panel           mark  shape              cut mm   qty  located      %   evidence
+     PW-GF-08        G     M_T1                 1150    11       11  100.0   leader:11
+     PW-GF-09        H     M_T1                 1150    11       11  100.0   leader:11
+     PW-GF-11        H     M_T1                 1150    11       11  100.0   array_signature:1, note_pitch_extended:10
+
+### T16  --  220/226 bars located (97.3%)   1296.6/1363.6 kg
+----------------------------------------------------------------------------------------------------
+  -- STRAIGHT         48/52   bars ( 92.3%) --
+     panel           mark  shape              cut mm   qty  located      %   evidence
+     PW-GF-01        G     M_00                 9000     4        4  100.0   array_signature:1, section:3
+     PW-GF-02        E     M_00                 8800     4        0    0.0    <<< MISSING
+     PW-GF-06        H     M_00                 5000     4        4  100.0   array_signature:4
+     PW-GF-07        E     M_00                 5000     4        4  100.0   array_signature:2, section:2
+     PW-GF-08        H     M_00                 2375     6        6  100.0   section:6
+     PW-GF-08        H1    M_00                 5000     4        4  100.0   section:4
+     PW-GF-09        I     M_00                 5000     2        2  100.0   section:2
+     PW-GF-11        I     M_00                 2375     6        6  100.0   array_signature:1, section:5
+     PW-GF-11        I1    M_00                 9000     4        4  100.0   leader:1, section:3
+     PW-GF-18        G     M_00                 5000     2        2  100.0   array_signature:2
+     PW-GF-25        G     M_00                 5000     2        2  100.0   array_signature:2
+     PW-GF-26        D     M_00                 5000     4        4  100.0   array_signature:3, leader:1
+     PW-GF-27        F     M_00                 4750     2        2  100.0   array_signature:1, leader:1
+     PW-GF-30        F     M_00                 9050     4        4  100.0   array_signature:1, leader:1, pitch_extended:2
+  -- U-BAR           112/114  bars ( 98.2%) --
+     panel           mark  shape              cut mm   qty  located      %   evidence
+     PC-GF-01        D     M_17                 1850     3        3  100.0   array_signature:2, leader:1
+     PC-GF-01        D1    M_17                 1950     2        2  100.0   array_signature:1, leader:1
+     PW-GF-01        H     M_17                 2675     4        4  100.0   array_signature:2, leader:2
+     PW-GF-02        F     M_17                 2100     4        4  100.0   array_signature:4
+     PW-GF-05        H     M_17                 1750     3        3  100.0   array_note:3
+     PW-GF-05        H1    M_17                 1850     5        5  100.0   array_signature:4, leader:1
+     PW-GF-05        H2    M_17                 1950     2        2  100.0   array_note:1, leader:1
+     PW-GF-05        H3    M_17                 2125     2        2  100.0   array_note:2
+     PW-GF-05        H4    M_17                 2925     2        2  100.0   array_note:2
+     PW-GF-06        I     M_17                 1750     3        3  100.0   array_note:2, leader:1
+     PW-GF-06        I1    M_17                 1850     2        2  100.0   array_note:1, leader:1
+     PW-GF-06        I2    M_17                 2300     4        4  100.0   array_signature:4
+     PW-GF-07        F     M_17                 3525     2        2  100.0   array_note:2
+     PW-GF-07        F1    M_17                 3575     2        2  100.0   array_note:1, array_signature:1
+     PW-GF-08        I     M_17                 1750     3        3  100.0   array_signature:1, leader:1, section:1
+     PW-GF-08        I1    M_17                 1850     2        2  100.0   array_note:1, leader:1
+     PW-GF-08        I2    M_17                 3525     4        4  100.0   leader:2, pitch_extended:2
+     PW-GF-08        J     M_17A                2050     4        4  100.0   array_signature:1, section:3
+     PW-GF-09        J     M_17                 1850     3        3  100.0   leader:3
+     PW-GF-09        J1    M_17                 1850     2        2  100.0   leader:2
+     PW-GF-09        J2    M_17                 2625     2        2  100.0   array_signature:2
+     PW-GF-09        J3    M_17                 2900     2        2  100.0   section:2
+     PW-GF-09        K     M_17A                2050     4        4  100.0   array_signature:1, leader:1, pitch_extended:2
+     PW-GF-11        J     M_17                 1750     3        3  100.0   array_note:3
+     PW-GF-11        J1    M_17                 1850     2        2  100.0   array_note:2
+     PW-GF-11        J2    M_17                 3600     4        2   50.0   array_signature:1, leader:1 <<< partial
+     PW-GF-11        K     M_17A                2050     4        4  100.0   array_note:3, pitch_extended:1
+     PW-GF-18        H     M_17                 1750     3        3  100.0   array_note:2, leader:1
+     PW-GF-18        H1    M_17                 1850     2        2  100.0   array_note:1, leader:1
+     PW-GF-18        H2    M_17                 2625     2        2  100.0   array_note:2
+     PW-GF-18        H3    M_17                 2900     2        2  100.0   array_note:1, array_signature:1
+     PW-GF-25        H     M_17                 1750     3        3  100.0   array_signature:2, leader:1
+     PW-GF-25        H1    M_17                 1850     2        2  100.0   array_note:1, leader:1
+     PW-GF-25        H2    M_17                 2625     2        2  100.0   array_signature:2
+     PW-GF-25        H3    M_17                 2900     2        2  100.0   array_note:2
+     PW-GF-26        E     M_17                 3075     4        4  100.0   array_signature:3, leader:1
+     PW-GF-27        G     M_17                 1850     3        3  100.0   array_signature:3
+     PW-GF-27        G1    M_17                 1950     2        2  100.0   array_note:2
+     PW-GF-27        G2    M_17                 2625     2        2  100.0   array_signature:2, leader:2
+     PW-GF-27        G2    M_17                 2475     2        2  100.0   array_signature:2, leader:2
+     PW-GF-30        G     M_17                 3150     4        4  100.0   array_signature:3, leader:1
+  -- BENT (other)     60/60   bars (100.0%) --
+     panel           mark  shape              cut mm   qty  located      %   evidence
+     PC-GF-01        E     Rebar Shape 30       5850     2        2  100.0   array_note:1, leader:1
+     PC-GF-01        E1    Rebar Shape 30       5850     2        2  100.0   array_note:1, leader:1
+     PC-GF-01        E2    Rebar Shape 30       5850     2        2  100.0   array_note:2
+     PC-GF-01        E3    Rebar Shape 30       5850     4        4  100.0   array_signature:3, leader:1
+     PW-GF-05        K     Rebar Shape 30       5000     1        1  100.0   array_note:1
+     PW-GF-05        K1    Rebar Shape 30       5000     1        1  100.0   leader:1
+     PW-GF-05        K2    Rebar Shape 30       5000     2        2  100.0   array_note:2
+     PW-GF-05        K3    Rebar Shape 30       5000     2        2  100.0   array_note:2
+     PW-GF-05        K4    Rebar Shape 30       5000     4        4  100.0   array_signature:4
+     PW-GF-05        L     26                   4275     1        1  100.0   array_note:1
+     PW-GF-05        L1    26                   4350     1        1  100.0   array_note:1
+     PW-GF-05        L2    26                   4375     1        1  100.0   array_note:1
+     PW-GF-05        L3    26                   4375     1        1  100.0   array_note:1
+     PW-GF-05        L4    26                   4375     2        2  100.0   array_signature:2
+     PW-GF-06        M     26                   4375     2        2  100.0   array_signature:2
+     PW-GF-06        M1    26                   4375     2        2  100.0   array_note:1, leader:1
+     PW-GF-06        M2    26                   4375     1        1  100.0   array_note:1
+     PW-GF-06        M3    26                   4375     1        1  100.0   array_note:1
+     PW-GF-09        Q     Rebar Shape 31       5850     1        1  100.0   array_signature:1
+     PW-GF-09        Q1    Rebar Shape 31       5850     1        1  100.0   leader:1
+     PW-GF-09        Q2    Rebar Shape 31       5850     1        1  100.0   array_note:1
+     PW-GF-09        Q3    Rebar Shape 31       5850     1        1  100.0   array_note:1
+     PW-GF-09        Q4    Rebar Shape 31       5850     2        2  100.0   leader:2
+     PW-GF-18        K     Rebar Shape 31       6000     1        1  100.0   array_signature:1
+     PW-GF-18        K1    Rebar Shape 31       6000     1        1  100.0   leader:1
+     PW-GF-18        K2    Rebar Shape 31       6000     1        1  100.0   array_note:1
+     PW-GF-18        K3    Rebar Shape 31       6000     1        1  100.0   array_note:1
+     PW-GF-18        K4    Rebar Shape 31       6000     1        1  100.0   leader:1
+     PW-GF-18        K5    Rebar Shape 31       6000     1        1  100.0   array_note:1
+     PW-GF-25        J     Rebar Shape 31       5000     1        1  100.0   array_signature:1
+     PW-GF-25        J1    Rebar Shape 31       5000     1        1  100.0   array_note:1
+     PW-GF-25        J2    Rebar Shape 31       5000     1        1  100.0   leader:1
+     PW-GF-25        J3    Rebar Shape 31       5000     1        1  100.0   leader:1
+     PW-GF-25        J4    Rebar Shape 31       5000     1        1  100.0   array_note:1
+     PW-GF-25        J5    Rebar Shape 31       5000     1        1  100.0   array_note:1
+     PW-GF-27        I     Rebar Shape 30       4850     1        1  100.0   array_note:1
+     PW-GF-27        J     26                   4375     1        1  100.0   array_note:1
+     PW-GF-27        J1    26                   4375     1        1  100.0   array_note:1
+     PW-GF-27        J2    26                   4375     3        3  100.0   array_signature:3
+     PW-GF-27        J3    26                   4375     1        1  100.0   array_note:1
+     PW-GF-27        J4    26                   4375     3        3  100.0   array_note:3
+
+### T20  --  58/62 bars located (93.5%)   538.4/572.5 kg
+----------------------------------------------------------------------------------------------------
+  -- STRAIGHT         22/24   bars ( 91.7%) --
+     panel           mark  shape              cut mm   qty  located      %   evidence
+     PW-GF-01        I     M_00                 1700     3        3  100.0   leader:1, section:2
+     PW-GF-05        I     M_00                 2025     1        1  100.0   array_signature:1
+     PW-GF-05        I1    M_00                 2700     1        1  100.0   leader:1
+     PW-GF-07        G     M_00                 2025     3        3  100.0   leader:1, section:2
+     PW-GF-08        K     M_00                 2025     3        3  100.0   leader:1, section:2
+     PW-GF-09        L     M_00                 2025     2        2  100.0   section:2
+     PW-GF-11        L     M_00                 1675     3        1   33.3   array_signature:1 <<< partial
+     PW-GF-18        I     M_00                 2025     1        1  100.0   section:1
+     PW-GF-18        I1    M_00                 2025     1        1  100.0   leader:1
+     PW-GF-25        I     M_00                 2025     1        1  100.0   array_signature:1
+     PW-GF-26        F     M_00                 2025     2        2  100.0   array_signature:1, leader:1
+     PW-GF-27        H     M_00                 2700     1        1  100.0   array_signature:1
+     PW-GF-30        H     M_00                 1675     2        2  100.0   array_signature:2
+  -- U-BAR            12/13   bars ( 92.3%) --
+     panel           mark  shape              cut mm   qty  located      %   evidence
+     PW-GF-06        J     M_17                 1425     1        1  100.0   section:1
+     PW-GF-08        L     M_17                 1425     2        2  100.0   section:2
+     PW-GF-08        L1    M_17                 2275     2        2  100.0   leader:1, section:1
+     PW-GF-09        M     M_17                 1450     2        2  100.0   leader:2
+     PW-GF-09        M1    M_17                 2275     2        2  100.0   array_signature:1, section:1
+     PW-GF-11        M     M_17                 1425     2        1   50.0   array_signature:1 <<< partial
+     PW-GF-11        M1    M_17                 2275     2        2  100.0   array_signature:2
+  -- BENT (other)     24/25   bars ( 96.0%) --
+     panel           mark  shape              cut mm   qty  located      %   evidence
+     PW-GF-01        J     Rebar Shape 8        1575     2        2  100.0   array_note:1, array_signature:1
+     PW-GF-01        K     Rebar Shape 9        2450     3        3  100.0   array_signature:3
+     PW-GF-01        L     26                   9750     2        2  100.0   array_signature:1, leader:1
+     PW-GF-02        I     26                   9000     1        0    0.0    <<< MISSING
+     PW-GF-02        I1    26                   9800     1        1  100.0   array_signature:1
+     PW-GF-06        N     26                   6050     1        1  100.0   leader:1
+     PW-GF-06        N1    26                   6075     1        1  100.0   section:1
+     PW-GF-07        J     26                   6100     2        2  100.0   array_signature:1, leader:1
+     PW-GF-08        N     26                   6100     1        1  100.0   array_signature:1
+     PW-GF-08        N1    26                   6100     1        1  100.0   section:1
+     PW-GF-09        O     26                   6100     1        1  100.0   leader:1
+     PW-GF-11        O     26                   9750     2        2  100.0   array_signature:1, leader:1
+     PW-GF-18        L     26                   6100     1        1  100.0   array_signature:1
+     PW-GF-25        K     26                   6100     2        2  100.0   array_signature:2
+     PW-GF-26        G     26                   6100     2        2  100.0   array_signature:1, leader:1
+     PW-GF-30        J     26                   9750     2        2  100.0   array_signature:1, leader:1
+
+### T25  --  14/14 bars located (100.0%)   122.1/122.1 kg
+----------------------------------------------------------------------------------------------------
+  -- STRAIGHT          8/8    bars (100.0%) --
+     panel           mark  shape              cut mm   qty  located      %   evidence
+     PW-GF-05        J     M_00                 1850     3        3  100.0   array_signature:1, section:2
+     PW-GF-05        J1    M_00                 3200     1        1  100.0   array_signature:1
+     PW-GF-06        K     M_00                 1850     4        4  100.0   array_signature:2, leader:2
+  -- U-BAR             6/6    bars (100.0%) --
+     panel           mark  shape              cut mm   qty  located      %   evidence
+     PW-GF-08        M     M_17                 2600     2        2  100.0   array_signature:1, leader:1
+     PW-GF-09        N     M_17                 2575     2        2  100.0   leader:2
+     PW-GF-11        N     M_17                 2575     2        2  100.0   array_signature:2
+
+====================================================================================================
+GRAND TOTAL: 4359/4462 bars located (97.7%)   4752.80/5013.35 kg (94.8%)
+====================================================================================================

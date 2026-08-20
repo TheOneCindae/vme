@@ -1,0 +1,370 @@
+rb3 v2 — accuracy of the reconstruction against the drawing
+model source: out/v2/bound/*.json
+
+Per element, primary view (elevation where one exists):
+element                       view         drawn  model  med mm  p90 mm  <=25mm  dens%
+PC-GF-01                      elevation      146    105     0.0    16.3     93%   10.1
+PW-GF-01                      elevation      439    419     0.0    23.7     91%   10.6
+PW-GF-02                      elevation      183    178    22.6   540.5     51%   26.4
+PW-GF-05                      elevation      310    336     4.0    52.0     74%   11.0
+PW-GF-06                      elevation      280    228     0.8    23.7     90%   12.9
+PW-GF-07                      elevation      275    232     0.0    31.4     88%   10.7
+PW-GF-08 [2155x5095x200]      end_cut         78    140     0.0  4980.8     72%   34.0
+PW-GF-09 [1500x5055x400]      end_cut         89    193       -       -       -      -
+PW-GF-09 [1500x5095x200]      elevation      383     12     0.0    51.0     75%   37.3
+PW-GF-11                      elevation      728    498     0.7    29.3     88%   11.1
+PW-GF-18                      elevation      314    254     2.8    30.1     86%   15.6
+PW-GF-25                      elevation      255    238     2.8    34.4     80%   10.4
+PW-GF-26                      elevation      235    220     0.0    11.6     95%    7.5
+PW-GF-27                      elevation      268    267     1.2    22.0     91%    9.4
+PW-GF-30                      elevation      448    401     0.0    21.8     92%    8.6
+
+OVERALL  drawn 4431 bars vs model 3721 in the primary views
+  median offset      2.5 mm (mean over elements)
+  p90 offset         419.2 mm
+  within 25 mm       80%
+  density mismatch   15.4 %
+
+Per view detail (counts by diameter, drawn vs model):
+
+PC-GF-01   sheet PC-GF-01_R   115 model bars
+  end_cut    400x4435 mm   median 0.0 p90 0.0   within25 100%   density X/Y 98.9/96.3%
+      T10   runs    1/0    sections    2/1    length        831/0          mm
+      T16   runs   15/12   sections    0/1    length      20541/24648      mm
+      T8    runs  124/6    sections    0/86   length      21454/3675       mm
+  elevation  500x4435 mm   median 0.0 p90 16.3   within25 93%   density X/Y 9.8/10.5%
+      T10   runs    1/2    sections    2/0    length        291/2041       mm
+      T16   runs   26/13   sections    0/0    length      27080/28301      mm
+      T8    runs  117/90   sections    0/0    length      25717/22152      mm
+
+PW-GF-01   sheet PW-GF-01_R   421 model bars
+  elevation  1310x9095 mm   median 0.0 p90 23.7   within25 91%   density X/Y 13.8/7.3%
+      T10   runs    4/3    sections    0/0    length       1298/720        mm
+      T12   runs   74/56   sections    0/0    length     248557/294249     mm
+      T16   runs    4/7    sections    0/0    length      18240/42488      mm
+      T20   runs   16/10   sections    0/0    length      11427/23926      mm
+      T25   runs    7/0    sections    0/0    length        798/0          mm
+      T8    runs  327/343  sections    7/0    length     208901/337400     mm
+  end_cut    200x9095 mm   median 0.0 p90 0.9   within25 97%   density X/Y 5.3/8.2%
+      T10   runs    5/0    sections    0/3    length       1223/0          mm
+      T12   runs    6/17   sections    0/0    length      19778/91678      mm
+      T16   runs    0/6    sections    4/1    length          0/30830      mm
+      T20   runs    6/9    sections    0/0    length       4090/20957      mm
+      T8    runs    1/168  sections  123/116  length        280/20556      mm
+  plan_cut   1310x200 mm   median 0.0 p90 54.9   within25 76%   density X/Y 23.0/28.9%
+      T10   runs    0/1    sections    0/0    length          0/240        mm
+      T12   runs   14/27   sections   29/29   length       1624/3101       mm
+      T16   runs    2/4    sections    6/3    length       1138/5415       mm
+      T20   runs    0/3    sections    2/6    length          0/1573       mm
+      T8    runs    4/36   sections    0/0    length       2142/33902      mm
+  plan_cut   1310x200 mm   median 0.0 p90 47.2   within25 76%   density X/Y 29.0/34.6%
+      T10   runs    5/1    sections    0/0    length        894/240        mm
+      T12   runs    0/27   sections   29/29   length          0/3101       mm
+      T16   runs    0/4    sections    4/3    length          0/5415       mm
+      T20   runs    3/3    sections   10/6    length        976/1573       mm
+      T8    runs    6/36   sections    0/0    length       2562/33902      mm
+  plan_cut   1310x200 mm   median 0.0 p90 40.8   within25 79%   density X/Y 18.4/39.5%
+      T10   runs    0/1    sections    0/0    length          0/240        mm
+      T12   runs   13/27   sections   29/29   length       1302/3101       mm
+      T16   runs    8/4    sections    4/3    length        520/5415       mm
+      T20   runs    0/3    sections    5/6    length          0/1573       mm
+      T8    runs   14/36   sections    0/0    length       5760/33902      mm
+
+PW-GF-02   sheet PW-GF-02_R   354 model bars
+  elevation  3760x2930 mm   median 22.6 p90 540.5   within25 51%   density X/Y 18.2/34.7%
+      T10   runs    3/3    sections    0/0    length        800/5475       mm
+      T12   runs   21/12   sections    0/0    length      34240/12450      mm
+      T16   runs   39/4    sections    0/0    length      32867/4682       mm
+      T20   runs    4/1    sections    0/0    length       8792/5224       mm
+      T25   runs    1/0    sections    0/0    length        110/0          mm
+      T8    runs   96/158  sections   19/0    length      92546/104670     mm
+  end_cut    160x2930 mm   median 0.0 p90 0.0   within25 97%   density X/Y 63.0/22.8%
+      T10   runs    0/2    sections    8/1    length          0/1014       mm
+      T12   runs    3/7    sections    2/0    length       5859/5669       mm
+      T16   runs    7/3    sections   14/0    length       3151/3300       mm
+      T20   runs    0/1    sections    4/0    length          0/1580       mm
+      T8    runs   20/64   sections   94/38   length       1840/15203      mm
+  end_cut    160x2930 mm   median 384.5 p90 905.1   within25 0%   density X/Y 97.4/65.5%
+      T10   runs    0/2    sections    8/1    length          0/1014       mm
+      T12   runs    2/7    sections    2/0    length        412/5669       mm
+      T16   runs    1/3    sections    8/0    length        370/3300       mm
+      T20   runs    0/1    sections    4/0    length          0/1580       mm
+      T8    runs    5/64   sections   10/38   length       2112/15203      mm
+  end_cut    160x2930 mm   median 59.6 p90 106.0   within25 0%   density X/Y 97.4/43.3%
+      T10   runs    0/2    sections   10/1    length          0/1014       mm
+      T12   runs    2/7    sections    1/0    length        412/5669       mm
+      T16   runs    2/3    sections    8/0    length        940/3300       mm
+      T20   runs    0/1    sections    4/0    length          0/1580       mm
+      T8    runs    4/64   sections   26/38   length       4010/15203      mm
+  plan_cut   3760x160 mm   median 0.0 p90 221.6   within25 64%   density X/Y 14.8/33.7%
+      T10   runs    8/3    sections    0/0    length       4958/4530       mm
+      T12   runs    0/14   sections   20/4    length          0/1606       mm
+      T16   runs    2/1    sections   14/3    length        660/544        mm
+      T20   runs    1/1    sections    0/0    length        276/3680       mm
+      T8    runs   42/85   sections  156/85   length       7080/16494      mm
+  plan_cut   3760x160 mm   median 52.1 p90 1680.3   within25 40%   density X/Y 28.9/30.4%
+      T10   runs    0/3    sections    0/0    length          0/4530       mm
+      T12   runs    0/14   sections   20/4    length          0/1606       mm
+      T16   runs    0/1    sections    2/3    length          0/544        mm
+      T20   runs    0/1    sections    0/0    length          0/3680       mm
+      T8    runs   16/85   sections   24/85   length       3906/16494      mm
+  plan_cut   3760x160 mm   median 0.0 p90 45.4   within25 80%   density X/Y 14.9/18.7%
+      T10   runs    3/3    sections    0/0    length        477/4530       mm
+      T12   runs    1/14   sections   20/4    length        603/1606       mm
+      T16   runs    5/1    sections   12/3    length       1140/544        mm
+      T20   runs    1/1    sections    4/0    length        427/3680       mm
+      T25   runs    1/0    sections    0/0    length        431/0          mm
+      T8    runs   32/85   sections  151/85   length       2633/16494      mm
+
+PW-GF-05   sheet PW-GF-05_R1   348 model bars
+  elevation  1475x5095 mm   median 4.0 p90 52.0   within25 74%   density X/Y 15.7/6.2%
+      T10   runs   33/28   sections    2/0    length      68092/126150     mm
+      T16   runs   56/29   sections    0/0    length      39322/70125      mm
+      T20   runs    2/2    sections    0/0    length       4700/4720       mm
+      T25   runs    8/3    sections    0/0    length       5902/6900       mm
+      T32   runs    5/0    sections    0/0    length        729/0          mm
+      T8    runs  200/274  sections    4/0    length      80029/195980     mm
+
+PW-GF-06   sheet PW-GF-06_R   322 model bars
+  elevation  1180x5095 mm   median 0.8 p90 23.7   within25 90%   density X/Y 17.0/8.8%
+      T10   runs    9/4    sections    0/0    length       3385/6600       mm
+      T12   runs    4/2    sections    0/0    length       2218/1650       mm
+      T16   runs   23/15   sections    0/0    length      16032/42819      mm
+      T20   runs    7/3    sections    0/0    length       9606/12127      mm
+      T25   runs    3/2    sections    0/0    length       3941/3700       mm
+      T32   runs   10/0    sections    0/0    length       1674/0          mm
+      T8    runs  219/202  sections    5/0    length     181331/256119     mm
+  plan_cut   1180x400 mm   median 0.0 p90 76.9   within25 80%   density X/Y 26.7/15.0%
+      T10   runs    0/5    sections    0/2    length          0/2585       mm
+      T12   runs    0/2    sections    0/0    length          0/1650       mm
+      T16   runs   10/11   sections   24/8    length       1208/4444       mm
+      T20   runs    0/1    sections    2/2    length          0/622        mm
+      T25   runs    0/0    sections    0/4    length          0/0          mm
+      T8    runs   18/50   sections   41/30   length       4458/34008      mm
+  plan_cut   1180x400 mm   median 4.7 p90 57.3   within25 81%   density X/Y 23.4/22.0%
+      T10   runs    6/5    sections   10/2    length       1964/2585       mm
+      T12   runs    1/2    sections    0/0    length        805/1650       mm
+      T16   runs    0/11   sections   10/8    length          0/4444       mm
+      T20   runs    0/1    sections    4/2    length          0/622        mm
+      T25   runs    0/0    sections    0/4    length          0/0          mm
+      T8    runs    8/50   sections   25/30   length       3229/34008      mm
+  plan_cut   1180x400 mm   median 12.1 p90 226.8   within25 68%   density X/Y 31.9/16.5%
+      T10   runs    0/5    sections    0/2    length          0/2585       mm
+      T12   runs    0/2    sections    0/0    length          0/1650       mm
+      T16   runs    2/11   sections    4/8    length       1496/4444       mm
+      T20   runs    0/1    sections    2/2    length          0/622        mm
+      T25   runs    0/0    sections    4/4    length          0/0          mm
+      T8    runs   18/50   sections   17/30   length       6010/34008      mm
+
+PW-GF-07   sheet PW-GF-07_R   254 model bars
+  elevation  2154x5095 mm   median 0.0 p90 31.4   within25 88%   density X/Y 10.7/10.7%
+      T10   runs   10/10   sections    0/0    length       2242/22500      mm
+      T12   runs    9/5    sections    0/0    length       6749/9575       mm
+      T16   runs    6/5    sections    0/0    length       8789/20675      mm
+      T20   runs   12/5    sections    0/0    length      16136/15356      mm
+      T25   runs    2/0    sections    0/0    length        226/0          mm
+      T32   runs    1/0    sections    0/0    length         90/0          mm
+      T8    runs  225/207  sections   10/0    length     247901/332531     mm
+  end_cut    200x5095 mm   median 0.0 p90 72.3   within25 71%   density X/Y 25.3/18.3%
+      T10   runs    5/4    sections    0/0    length       2024/6629       mm
+      T12   runs    0/0    sections    5/3    length          0/0          mm
+      T16   runs    0/8    sections    4/0    length          0/27984      mm
+      T20   runs    1/3    sections    0/0    length       2020/8690       mm
+      T8    runs    4/72   sections   60/80   length      11212/56104      mm
+  plan_cut   2154x200 mm   median 0.0 p90 83.7   within25 73%   density X/Y 23.7/26.2%
+      T10   runs    9/10   sections    0/0    length       2442/6271       mm
+      T12   runs    8/5    sections    0/0    length       2819/9575       mm
+      T16   runs    9/4    sections    4/4    length       3309/6326       mm
+      T20   runs    0/0    sections    5/3    length          0/0          mm
+      T8    runs   27/97   sections   23/23   length       9540/48666      mm
+  plan_cut   2154x200 mm   median 0.0 p90 60.2   within25 67%   density X/Y 30.2/27.1%
+      T10   runs    0/10   sections    0/0    length          0/6271       mm
+      T12   runs    0/5    sections    0/0    length          0/9575       mm
+      T16   runs    6/4    sections    4/4    length       3957/6326       mm
+      T20   runs    0/0    sections    2/3    length          0/0          mm
+      T8    runs   20/97   sections   45/23   length       3912/48666      mm
+
+PW-GF-08 [2155x5095x200]   sheet PW-GF-08_R2   277 model bars
+  end_cut    200x5095 mm   median 0.0 p90 4980.8   within25 72%   density X/Y 52.3/15.6%
+      T10   runs    5/2    sections    0/0    length       2024/526        mm
+      T12   runs    0/0    sections    4/15   length          0/0          mm
+      T16   runs    0/17   sections    4/0    length          0/34385      mm
+      T20   runs    1/7    sections    0/0    length       2020/14876      mm
+      T25   runs    0/2    sections    0/0    length          0/1353       mm
+      T8    runs    4/65   sections   60/32   length      11212/40156      mm
+  plan_cut   2155x200 mm   median 96.8 p90 212.7   within25 38%   density X/Y 17.1/51.4%
+      T10   runs   11/0    sections    0/11   length       3211/0          mm
+      T12   runs    6/4    sections    0/0    length       3962/6413       mm
+      T16   runs    3/7    sections    4/13   length       4151/9016       mm
+      T20   runs    0/2    sections    5/7    length          0/1213       mm
+      T25   runs    0/0    sections    0/2    length          0/0          mm
+      T8    runs   25/20   sections   23/90   length       7976/6101       mm
+
+PW-GF-09 [1500x5055x400]   sheet PW-GF-09_R2   289 model bars
+  end_cut    400x5055 mm   median - p90 -   within25 -   density X/Y -/-%
+      T10   runs    1/3    sections    0/0    length         63/736        mm
+      T12   runs   11/3    sections    0/0    length       2616/1623       mm
+      T16   runs   18/15   sections    0/2    length      20942/33882      mm
+      T20   runs    2/4    sections    0/0    length        716/6222       mm
+      T25   runs    1/1    sections    0/1    length       1174/993        mm
+      T8    runs   56/112  sections    0/52   length      16843/49733      mm
+  plan_cut   1500x400 mm   median 209.4 p90 296.7   within25 35%   density X/Y 30.3/76.4%
+      T10   runs    9/0    sections    0/7    length       1831/0          mm
+      T12   runs    2/1    sections    0/10   length       2145/684        mm
+      T16   runs    5/8    sections    8/8    length       2249/6792       mm
+      T20   runs    0/0    sections    3/6    length          0/0          mm
+      T25   runs    0/1    sections    0/1    length          0/1174       mm
+      T8    runs   22/68   sections   16/23   length       5494/14124      mm
+  plan_cut   1500x400 mm   median 205.6 p90 256.8   within25 27%   density X/Y 34.7/77.8%
+      T10   runs    0/0    sections    0/7    length          0/0          mm
+      T12   runs   11/1    sections    0/10   length       2620/684        mm
+      T16   runs    0/8    sections    8/8    length          0/6792       mm
+      T20   runs    5/0    sections    5/6    length       3734/0          mm
+      T25   runs    4/1    sections    0/1    length       2204/1174       mm
+      T8    runs   10/68   sections   16/23   length       3841/14124      mm
+  plan_cut   1500x400 mm   median 208.6 p90 582.5   within25 27%   density X/Y 23.2/79.9%
+      T10   runs    0/0    sections    0/7    length          0/0          mm
+      T12   runs    0/1    sections    0/10   length          0/684        mm
+      T16   runs    8/8    sections   22/8    length       2361/6792       mm
+      T20   runs    1/0    sections    1/6    length        176/0          mm
+      T25   runs    0/1    sections    0/1    length          0/1174       mm
+      T8    runs   17/68   sections   30/23   length       4653/14124      mm
+
+PW-GF-09 [1500x5095x200]   sheet PW-GF-09_R1   13 model bars
+  elevation  1500x5095 mm   median 0.0 p90 51.0   within25 75%   density X/Y 26.5/48.0%
+      T10   runs    9/0    sections    0/0    length       4203/0          mm
+      T12   runs   14/3    sections    0/0    length       2158/3325       mm
+      T16   runs   29/3    sections    0/0    length      20456/5326       mm
+      T20   runs   13/1    sections    0/0    length      11018/1126       mm
+      T25   runs    8/0    sections    0/0    length        967/0          mm
+      T32   runs    3/0    sections    0/0    length        596/0          mm
+      T8    runs  301/5    sections    6/0    length     169196/5625       mm
+  end_cut    200x5095 mm   median 0.0 p90 0.0   within25 100%   density X/Y 47.8/66.7%
+      T10   runs    5/0    sections    0/0    length       2024/0          mm
+      T12   runs    0/0    sections    4/4    length          0/0          mm
+      T16   runs    0/2    sections    4/0    length          0/3721       mm
+      T20   runs    1/1    sections    0/0    length        922/1126       mm
+      T8    runs    4/0    sections   61/5    length      10938/0          mm
+
+PW-GF-11   sheet PW-GF-11_R1   506 model bars
+  elevation  2256x9095 mm   median 0.7 p90 29.3   within25 88%   density X/Y 11.2/10.9%
+      T10   runs  235/58   sections    0/0    length     349427/441097     mm
+      T12   runs   10/14   sections    0/0    length       7306/9293       mm
+      T16   runs   27/16   sections    0/0    length      27556/55050      mm
+      T20   runs   17/6    sections    0/0    length      24421/11272      mm
+      T25   runs    7/2    sections    0/0    length       1673/5150       mm
+      T32   runs    1/0    sections    0/0    length        343/0          mm
+      T8    runs  419/402  sections   12/0    length     279259/445519     mm
+  end_cut    200x9095 mm   median 0.0 p90 72.7   within25 74%   density X/Y 10.0/26.4%
+      T10   runs    7/21   sections    0/0    length      11592/131413     mm
+      T12   runs    0/1    sections    4/4    length          0/238        mm
+      T16   runs    0/11   sections    4/8    length          0/22481      mm
+      T20   runs    1/6    sections    0/0    length       1670/9469       mm
+      T25   runs    0/1    sections    0/0    length          0/1328       mm
+      T8    runs    6/238  sections  106/128  length       2622/39394      mm
+
+PW-GF-18   sheet PW-GF-18_R   281 model bars
+  elevation  1500x5095 mm   median 2.8 p90 30.1   within25 86%   density X/Y 14.9/16.2%
+      T10   runs   12/7    sections    0/0    length       4131/5884       mm
+      T12   runs    4/4    sections    0/0    length       2639/4500       mm
+      T16   runs   27/13   sections    0/0    length      18556/26667      mm
+      T20   runs    8/3    sections    0/0    length      12421/8685       mm
+      T32   runs    6/0    sections    0/0    length        644/0          mm
+      T8    runs  251/227  sections    6/0    length     167765/258366     mm
+  plan_cut   1500x400 mm   median 0.0 p90 213.7   within25 61%   density X/Y 29.9/43.4%
+      T10   runs    7/1    sections    0/6    length       1827/627        mm
+      T12   runs    3/4    sections    0/0    length       2146/4500       mm
+      T16   runs    2/7    sections    8/10   length       2132/4559       mm
+      T20   runs    0/0    sections    3/2    length          0/0          mm
+      T8    runs   21/109  sections   16/16   length       5571/53339      mm
+  plan_cut   1500x400 mm   median 34.0 p90 220.6   within25 46%   density X/Y 41.3/47.9%
+      T10   runs    0/1    sections    0/6    length          0/627        mm
+      T12   runs    0/4    sections    0/0    length          0/4500       mm
+      T16   runs    0/7    sections    8/10   length          0/4559       mm
+      T20   runs    0/0    sections    1/2    length          0/0          mm
+      T8    runs   11/109  sections   16/16   length       3258/53339      mm
+  plan_cut   1500x400 mm   median 38.1 p90 212.9   within25 43%   density X/Y 35.1/44.6%
+      T10   runs    0/1    sections    0/6    length          0/627        mm
+      T12   runs    0/4    sections    0/0    length          0/4500       mm
+      T16   runs    6/7    sections   22/10   length       3608/4559       mm
+      T20   runs    0/0    sections    1/2    length          0/0          mm
+      T8    runs   16/109  sections   30/16   length       5300/53339      mm
+
+PW-GF-25   sheet PW-GF-25_R   249 model bars
+  elevation  1500x5095 mm   median 2.8 p90 34.4   within25 80%   density X/Y 10.7/10.2%
+      T10   runs    5/2    sections    0/0    length       1236/1785       mm
+      T12   runs    3/0    sections    0/0    length        252/0          mm
+      T16   runs   20/15   sections    0/0    length      18049/46203      mm
+      T20   runs    9/3    sections    0/0    length      12944/7794       mm
+      T32   runs    4/0    sections    0/0    length        580/0          mm
+      T8    runs  207/218  sections    7/0    length     170354/239373     mm
+  plan_cut   1500x400 mm   median 19.6 p90 73.0   within25 57%   density X/Y 35.2/18.8%
+      T10   runs    0/2    sections    0/0    length          0/1018       mm
+      T16   runs    3/11   sections    8/6    length       1974/4147       mm
+      T20   runs    0/0    sections    3/3    length          0/0          mm
+      T8    runs   18/43   sections   16/28   length       7758/31500      mm
+  plan_cut   1500x400 mm   median 26.0 p90 73.0   within25 49%   density X/Y 31.4/16.7%
+      T10   runs    0/2    sections    0/0    length          0/1018       mm
+      T16   runs    0/11   sections    8/6    length          0/4147       mm
+      T20   runs    0/0    sections    2/3    length          0/0          mm
+      T8    runs    8/43   sections   16/28   length       3300/31500      mm
+  plan_cut   1500x400 mm   median 0.0 p90 63.0   within25 73%   density X/Y 21.3/21.4%
+      T10   runs    0/2    sections    0/0    length          0/1018       mm
+      T16   runs    6/11   sections   22/6    length       3392/4147       mm
+      T20   runs    0/0    sections    2/3    length          0/0          mm
+      T8    runs   14/43   sections   30/28   length       4050/31500      mm
+
+PW-GF-26   sheet PW-GF-26_R   231 model bars
+  elevation  1710x5095 mm   median 0.0 p90 11.6   within25 95%   density X/Y 6.5/8.4%
+      T10   runs    4/0    sections    0/0    length        832/0          mm
+      T12   runs    2/0    sections    0/0    length        153/0          mm
+      T16   runs    4/7    sections    0/0    length      12200/29225      mm
+      T20   runs    9/4    sections    0/0    length      16223/13321      mm
+      T8    runs  207/209  sections    9/0    length     224144/302889     mm
+  end_cut    200x5095 mm   median 0.0 p90 0.0   within25 95%   density X/Y 8.1/7.1%
+      T16   runs    0/6    sections    4/0    length          0/16106      mm
+      T20   runs    1/2    sections    0/0    length       6077/6660       mm
+      T8    runs    4/98   sections   60/60   length      11146/52042      mm
+  plan_cut   1710x200 mm   median 0.0 p90 62.4   within25 82%   density X/Y 26.7/19.3%
+      T16   runs    3/4    sections    6/4    length       3018/6305       mm
+      T20   runs    1/0    sections    2/4    length         56/0          mm
+      T8    runs   16/57   sections   37/19   length       3116/35088      mm
+  plan_cut   1710x200 mm   median 0.0 p90 21.3   within25 93%   density X/Y 7.4/18.5%
+      T16   runs    9/4    sections    4/4    length       2886/6305       mm
+      T20   runs    0/0    sections    4/4    length          0/0          mm
+      T8    runs   19/57   sections   19/19   length       7298/35088      mm
+
+PW-GF-27   sheet PW-GF-27_R1   292 model bars
+  elevation  1500x4955 mm   median 1.2 p90 22.0   within25 91%   density X/Y 10.2/8.6%
+      T10   runs    7/2    sections    2/0    length       1205/1360       mm
+      T12   runs    4/0    sections    0/0    length        460/0          mm
+      T16   runs   25/18   sections    0/0    length      29744/60250      mm
+      T20   runs    1/1    sections    0/0    length       2680/2700       mm
+      T32   runs    2/0    sections    0/0    length        384/0          mm
+      T8    runs  227/246  sections    0/0    length     159714/292824     mm
+  plan_cut   1500x400 mm   median 0.0 p90 56.0   within25 69%   density X/Y 38.8/34.7%
+      T10   runs    2/1    sections    0/1    length        220/284        mm
+      T16   runs   12/17   sections   23/2    length       3028/10539      mm
+      T20   runs    0/0    sections    0/1    length          0/0          mm
+      T8    runs   22/61   sections   26/24   length       4983/52642      mm
+  plan_cut   1500x400 mm   median 0.1 p90 72.5   within25 65%   density X/Y 37.6/37.1%
+      T10   runs    0/1    sections    0/1    length          0/284        mm
+      T16   runs    0/17   sections   12/2    length          0/10539      mm
+      T20   runs    0/0    sections    0/1    length          0/0          mm
+      T8    runs   14/61   sections   14/24   length       3972/52642      mm
+
+PW-GF-30   sheet PW-GF-30_R1   407 model bars
+  elevation  1775x9095 mm   median 0.0 p90 21.8   within25 92%   density X/Y 11.1/6.0%
+      T10   runs   94/46   sections    0/0    length     272236/337645     mm
+      T12   runs    5/4    sections    0/0    length       5026/6750       mm
+      T16   runs    5/6    sections    0/0    length      20872/42500      mm
+      T20   runs    8/4    sections    0/0    length      14944/12336      mm
+      T25   runs    4/0    sections    0/0    length       8049/0          mm
+      T32   runs    2/0    sections    0/0    length        618/0          mm
+      T8    runs  321/341  sections    9/0    length     233145/378736     mm
+  end_cut    200x9095 mm   median 0.0 p90 0.0   within25 94%   density X/Y 5.8/5.5%
+      T10   runs    7/21   sections    0/0    length      10849/117329     mm
+      T12   runs    0/0    sections    4/4    length          0/0          mm
+      T16   runs    0/6    sections    4/0    length          0/24485      mm
+      T20   runs    0/3    sections    0/0    length          0/10666      mm
+      T8    runs    6/133  sections  106/108  length       2472/21426      mm

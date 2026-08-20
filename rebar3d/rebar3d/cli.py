@@ -85,10 +85,24 @@ def drop_unscheduled_phantoms(panel: Panel, rows: list[ScheduleRow], include_sha
     class of artifact this function already removes for straight mesh,
     just surviving as a multi-point "shape" this time because it happened
     to chain across a bend.
+
+    Tried also gating v-mesh/h-mesh/diagonal behind the same
+    dedicated-summary trust check as "shape" above (root-caused on
+    PW-GF-30(R2): real T12 mesh steel deleted because R2's own local
+    table happens to omit T12, present only on sibling R1) -- reverted.
+    Full-batch testing showed the same signal can't distinguish that
+    case from the opposite one: PW-GF-27(R2) has no dedicated summary
+    either, and relaxing mesh-kind removal there let T6/T12/T25/T32
+    phantom mesh noise back in (110% of official, 4 diameters with zero
+    official weight showing "extra"). A per-sheet-local table's silence
+    on a diameter is genuinely ambiguous between "real steel lives on
+    the sibling sheet" and "this diameter never existed" -- needs a
+    sharper per-case signal (e.g. checking whether the sibling sheet's
+    OWN table lists that diameter) before revisiting, not a blanket gate.
     """
     official_dia = {r.diameter for r in rows}
-    drop_kinds = ("v-mesh", "h-mesh", "diagonal", "shape") if include_shape \
-        else ("v-mesh", "h-mesh", "diagonal")
+    drop_kinds = ["v-mesh", "h-mesh", "diagonal", "shape"] if include_shape \
+        else ["v-mesh", "h-mesh", "diagonal"]
     kept, dropped = [], 0
     for b in panel.bars:
         if b.kind in drop_kinds and b.z_source != "synthesized" \

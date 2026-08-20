@@ -944,7 +944,8 @@ def _icon_runs(elev_ents, dia: int, pitch: float) -> list[dict]:
 
 
 def _synthesize_hooks(bars: list[Bar3D], views: list[View], thickness: float,
-                      x0: float, y0: float) -> list[Bar3D]:
+                      x0: float, y0: float,
+                      sections: list | None = None) -> list[Bar3D]:
     """Boundary/edge "Hook" family bars, marked in the elevation only as a
     small fixed-size icon (never drawn to scale there) with their real
     bent geometry living in a separate, spatially-unrelated detail view.
@@ -959,6 +960,16 @@ def _synthesize_hooks(bars: list[Bar3D], views: list[View], thickness: float,
     since detail-view *coordinates* have no relation to panel space (huge,
     arbitrary offsets confirmed -- no shared origin or INSERT-block tie)
     even though the *shape itself* is drawn to true scale there.
+
+    Depth (z): before guessing panel mid-depth, check the same section-cut
+    evidence every other bar family in this file uses (`_z_lookup`) at
+    this hook's own position and diameter -- a hook sits where a real
+    vertical/horizontal bar terminates, and that bar's own section circle,
+    if the cut happens to pass through it, is real measured depth, not a
+    guess. Falls back to mid-depth only where no section corroborates
+    anything at this position -- still honestly labelled "synthesized"
+    either way (only the z_source tag distinguishes evidenced vs. guessed
+    when a caller needs to know which).
     """
     callouts = [(int(m.group(1)), int(m.group(2)))
                 for v in views for e in v.ents if e.kind in ("TEXT", "MTEXT")
@@ -973,34 +984,44 @@ def _synthesize_hooks(bars: list[Bar3D], views: list[View], thickness: float,
 
     cover = 30.0
     web_lo, web_hi = cover, thickness - cover
-    zc = (web_lo + web_hi) / 2.0
+    zc_default = (web_lo + web_hi) / 2.0
     half = unit_len / 2.0
+    r = dia / 2.0
 
     runs = _icon_runs(views[0].ents, dia, pitch)
     out: list[Bar3D] = []
-    for r in runs:
-        n = max(int(round((r["hi"] - r["lo"]) / pitch)) + 1, 1)
+    for run in runs:
+        n = max(int(round((run["hi"] - run["lo"]) / pitch)) + 1, 1)
         for k in range(n):
-            pos = r["lo"] + k * pitch
-            if pos > r["hi"] + 1.0:
+            pos = run["lo"] + k * pitch
+            if pos > run["hi"] + 1.0:
                 continue
             # a straight through-thickness run standing in for the real
-            # bend/leg geometry -- centered on the panel mid-depth and
-            # forced to the measured real unit length (correct weight)
-            # rather than clamped to the cover-to-cover span, since the
-            # true 3D bend direction isn't reconstructable from either
-            # view (same reasoning _synthesize_ties already applies to
-            # its own simplified corner-tail hook ends).
-            if r["axis"] == "v":
-                pts = [(r["coord"] - x0, pos - y0, zc - half), (r["coord"] - x0, pos - y0, zc + half)]
+            # bend/leg geometry -- centered on real section depth when a
+            # cut corroborates this position, else panel mid-depth as a
+            # last resort -- and forced to the measured real unit length
+            # (correct weight) rather than clamped to the cover-to-cover
+            # span, since the true 3D bend direction isn't reconstructable
+            # from either view (same reasoning _synthesize_ties already
+            # applies to its own simplified corner-tail hook ends).
+            zc, src = zc_default, "synthesized"
+            if sections:
+                role = "horizontal" if run["axis"] == "v" else "vertical"
+                zs = _z_lookup(sections, role, run["coord"] - (x0 if run["axis"] == "v" else y0), r)
+                if zs:
+                    zc = min(zs, key=lambda t: abs(t[0] - zc_default))[0]
+                    src = "section"
+            if run["axis"] == "v":
+                pts = [(run["coord"] - x0, pos - y0, zc - half), (run["coord"] - x0, pos - y0, zc + half)]
             else:
-                pts = [(pos - x0, r["coord"] - y0, zc - half), (pos - x0, r["coord"] - y0, zc + half)]
-            out.append(Bar3D(pts, dia, "hook", "synthesized"))
+                pts = [(pos - x0, run["coord"] - y0, zc - half), (pos - x0, run["coord"] - y0, zc + half)]
+            out.append(Bar3D(pts, dia, "hook", src))
     return bars + out
 
 
 def _synthesize_edge_caps(bars: list[Bar3D], views: list[View], thickness: float,
-                          panel_h: float, x0: float, y0: float) -> list[Bar3D]:
+                          panel_h: float, x0: float, y0: float,
+                          sections: list | None = None) -> list[Bar3D]:
     """Top/bottom-edge cap bars marked only by the same small fixed-size
     icon as the "Hook" family (see `_synthesize_hooks`), but at a drawing
     that never uses the "T{d} Hook @{p}mm" wording -- PW-01's own text
@@ -1076,16 +1097,25 @@ def _synthesize_edge_caps(bars: list[Bar3D], views: list[View], thickness: float
             # z-only run without blowing outside the panel (caught directly
             # by the sanity checker's z-bounds guard on the first attempt).
             # It folds back in-plane from the edge instead: represented as a
-            # straight run along y, inward from the edge, at mid-thickness --
-            # correct weight/length, simplified (unknown) bend shape, same
-            # trade-off `_synthesize_ties`' hook tails already make.
-            zc = thickness / 2.0
+            # straight run along y, inward from the edge, at real section
+            # depth where a cut corroborates this exact x/diameter (same
+            # `_z_lookup` every other bar family uses), else mid-thickness
+            # as a last resort -- correct weight/length either way,
+            # simplified (unknown) bend shape, same trade-off
+            # `_synthesize_ties`' hook tails already make.
             y_dir = -1.0 if local_y >= panel_h - 60 else 1.0
             y_far = local_y + y_dir * unit_len
             y_far = min(max(y_far, 0.0), panel_h)
+            zc_default = thickness / 2.0
             for lx in positions:
+                zc, src = zc_default, "synthesized"
+                if sections:
+                    zs = _z_lookup(sections, "horizontal", lx, dia / 2.0)
+                    if zs:
+                        zc = min(zs, key=lambda t: abs(t[0] - zc_default))[0]
+                        src = "section"
                 pts = [(lx, local_y, zc), (lx, y_far, zc)]
-                out.append(Bar3D(pts, dia, "hook", "synthesized"))
+                out.append(Bar3D(pts, dia, "hook", src))
     return bars + out
 
 
@@ -2157,7 +2187,8 @@ def chain_two_leg_bent_shapes(panel: "Panel", mark_rows: list, tol_frac: float =
                 claimed.add(id(b1))
                 claimed.add(id(b2))
                 k = n_added
-                pts = [(0.0, k * 50.0, panel.thickness / 2), (m.length_mm, k * 50.0, panel.thickness / 2)]
+                pts = _folded_placeholder_path(
+                    m.length_mm, panel.width, panel.height, k * 50.0, panel.thickness / 2)
                 panel.bars.append(Bar3D(pts, sdia, "shape", "two-leg-length-matched"))
                 n_added += 1
                 added_kg += sdia ** 2 / 162.0 * (m.length_mm / 1000.0)
@@ -2690,13 +2721,89 @@ def cap_unproven_mesh_to_schedule_need(panel: "Panel", mark_rows: list) -> tuple
         else:
             other_kg_by_dia[b.diameter] = other_kg_by_dia.get(b.diameter, 0.0) + bkg(b)
 
+    # Reference lengths every official mark declares at each diameter --
+    # used only to decide trim ORDER below, never which bars exist or
+    # their weight. Root-caused on PW-GF-11: mark E (T8, 375mm x24) has
+    # 200+ real in-bounds candidates matching its own declared length, but
+    # the combine-stage budget (tighter once other marks' synthesized
+    # bars are counted) forced trimming SOME T8 candidates regardless --
+    # with no length preference, real E-matching bars were being trimmed
+    # right alongside genuine dense-mesh noise at the same rate. A
+    # candidate whose own measured length already matches some real
+    # mark's own declared length is far more likely that mark's actual
+    # bar than incidental noise, so it's dropped last (kept preferentially)
+    # -- same reasoning as `straight_mark_lengths`, applied to trim order
+    # instead of a hard exemption so the total trimmed weight is unchanged.
+    # Cap protection at each mark's own declared qty (nearest-length
+    # candidates first) rather than an unbounded "matches within
+    # tolerance" flag -- a dense field mesh routinely has far more real
+    # candidates near a common spacing than any single mark's qty calls
+    # for (confirmed on PW-GF-11: 216 candidates within tolerance of
+    # mark E's 375mm, but E only declares 24), so an unbounded match
+    # would protect duplicate/unrelated mesh geometry from ever being
+    # trimmed, defeating the whole budget mechanism.
+    # A mark already fully covered by non-mesh (synthesized/shape) bars
+    # doesn't need its mesh-kind duplicates protected -- those duplicates
+    # are the same physical bar counted twice, one copy trusted (the
+    # synthesized one, weighted by the schedule's own count) and one
+    # copy sitting in this uncertain pool. Protecting both would let a
+    # well-covered mark's redundant mesh geometry crowd out budget a
+    # genuinely mesh-only mark (no synthesis path reaches it at all)
+    # actually needs -- confirmed on PW-GF-11: mark E (T8, 375mm) has
+    # zero synthesized coverage and relies entirely on this pool, while
+    # A/A1/B/B1/B2/C/D already have 80-90kg of real synthesized "shape"
+    # bars each, making their own mesh-kind candidates redundant.
+    other_bars = [b for b in panel.bars
+                  if not (b.kind in ("v-mesh", "h-mesh") and b.z_source != "section")]
+
+    def other_covers(dia: int, length_mm: float, qty: float) -> bool:
+        tol = max(30.0, 0.08 * length_mm)
+        n = sum(1 for b in other_bars if b.diameter == dia and abs(blen(b) - length_mm) <= tol)
+        return n >= qty
+
+    # Priority rank per candidate (higher = kept longer under budget
+    # pressure), not a binary flag -- even the full "protected" set can
+    # itself exceed budget (confirmed on PW-GF-11: protected T8 candidates
+    # alone total 63.9kg against a 41.0kg remaining budget), so a binary
+    # protected/unprotected split still arbitrarily trims INSIDE the
+    # protected tier once it's over budget, which could still cut an
+    # uncovered mark's bars if a covered mark's bars happen to sort first.
+    # Rank 2 = matches an uncovered mark (no other-kind evidence at all,
+    # like PW-GF-11's E) -- trimmed last. Rank 1 = matches a mark already
+    # covered by other-kind bars -- its own mesh duplicates are the least
+    # valuable evidence in the whole pool (redundant with trusted
+    # synthesis), trimmed before genuine unmatched noise. Rank 0 = matches
+    # no mark at all -- ordinary noise, trimmed first.
+    priority: dict[int, int] = {}
+    for dia, cands in cand_by_dia.items():
+        marks_here = [m for m in mark_rows if snap_diameter(m.diameter) == dia and m.length_mm > 0]
+        claimed: set[int] = set()
+        uncovered = [m for m in marks_here if not other_covers(dia, m.length_mm, m.qty)]
+        covered = [m for m in marks_here if other_covers(dia, m.length_mm, m.qty)]
+        for m in sorted(uncovered, key=lambda m: m.length_mm):
+            tol = max(30.0, 0.08 * m.length_mm)
+            nearby = sorted(
+                (b for b in cands if id(b) not in claimed and abs(blen(b) - m.length_mm) <= tol),
+                key=lambda b: abs(blen(b) - m.length_mm),
+            )
+            for b in nearby[: int(m.qty)]:
+                claimed.add(id(b))
+                priority[id(b)] = 2
+        for m in sorted(covered, key=lambda m: m.length_mm):
+            tol = max(30.0, 0.08 * m.length_mm)
+            nearby = [b for b in cands if id(b) not in claimed and abs(blen(b) - m.length_mm) <= tol]
+            for b in nearby:
+                claimed.add(id(b))
+                priority[id(b)] = 1
+
     n_dropped = 0
     dropped_kg = 0.0
     drop_ids: set[int] = set()
     for dia, cands in cand_by_dia.items():
         budget = need_by_dia[dia] - other_kg_by_dia.get(dia, 0.0)
         running = sum(bkg(b) for b in cands)
-        for b in cands:
+        ordered = sorted(cands, key=lambda b: priority.get(id(b), 0))  # lowest priority first
+        for b in ordered:
             if running <= budget:
                 break
             kg = bkg(b)
@@ -3268,6 +3375,138 @@ def _declash_link_bars(bars: list[Bar3D], pw: float, ph: float) -> int:
     return nudged
 
 
+def _declash_default_mesh_planes(bars: list[Bar3D], thickness: float) -> int:
+    """Separate v-mesh/h-mesh bars that land on the exact same z purely
+    because both lack their own depth evidence and fall back to the same
+    `thickness/2` placeholder (z_source "default", see the elevation-bar
+    loop above).
+
+    A two-way mesh is physically two layers -- horizontal bars can only
+    run in front of or behind the verticals they cross, never share their
+    exact plane, or every crossing would mean the two steel bars occupy
+    the same point in space. Confirmed visually (PC-GF-01: T8 h-mesh and
+    T16 v-mesh both reported at z=80, exact mid-thickness of a 160mm
+    panel) and confirmed as the intended reading of `_declash_link_bars`'s
+    own docstring, which already names this as the root mechanism for its
+    narrower link-vs-mesh case but never extended the fix to mesh-vs-mesh.
+
+    This does NOT claim to know which orientation is really nearer the
+    front face -- that's not evidence this pipeline has. It only asserts
+    the one fact that must be true regardless: the two orientations can't
+    be coplanar. v-mesh is shifted toward face A, h-mesh toward face B,
+    symmetric about thickness/2 so neither is preferred without evidence,
+    split by each crossing pair's own diameters (same per-bar-radius
+    approach as `_declash_link_bars`) so bars just clear rather than
+    touch. Only ever moves bars whose z_source is "default" -- a bar with
+    real section evidence is left exactly where the evidence puts it.
+    Length, diameter, weight, kind are all unchanged; z is the only thing
+    that moves.
+    """
+    v_bars = [b for b in bars if b.kind == "v-mesh" and b.z_source == "default"]
+    h_bars = [b for b in bars if b.kind == "h-mesh" and b.z_source == "default"]
+    if not v_bars or not h_bars:
+        return 0
+
+    def bounds(b: Bar3D):
+        xs = [p[0] for p in b.points]
+        ys = [p[1] for p in b.points]
+        return min(xs), max(xs), min(ys), max(ys)
+
+    max_gap = 0.0
+    for vb in v_bars:
+        vx0, vx1, vy0, vy1 = bounds(vb)
+        for hb in h_bars:
+            hx0, hx1, hy0, hy1 = bounds(hb)
+            # crossing test: the v-bar's x sits within the h-bar's x-span
+            # and the h-bar's y sits within the v-bar's y-span
+            if not (hx0 - 1.0 <= vx0 <= hx1 + 1.0):
+                continue
+            if not (vy0 - 1.0 <= hy0 <= vy1 + 1.0):
+                continue
+            gap = vb.diameter / 2.0 + hb.diameter / 2.0
+            max_gap = max(max_gap, gap)
+    if max_gap == 0.0:
+        return 0  # no v/h pair actually crosses -- nothing to separate
+
+    half = max_gap / 2.0
+    z_v = max(0.0, thickness / 2.0 - half)
+    z_h = min(thickness, thickness / 2.0 + half)
+    moved = 0
+    for b in v_bars:
+        b.points = [(px, py, z_v) for px, py, _ in b.points]
+        moved += 1
+    for b in h_bars:
+        b.points = [(px, py, z_h) for px, py, _ in b.points]
+        moved += 1
+    return moved
+
+
+_REAL_DEPTH_EVIDENCE = ("section", "section-weak", "section-origin", "section-layer-origin")
+
+
+def _declash_shape_bars(bars: list[Bar3D], thickness: float, cover: float = 30.0) -> int:
+    """Separate synthesized `shape` bars (bent/fragment placeholders with no
+    real depth evidence -- every synthesis path for this kind places them
+    at a flat `thickness/2`-ish z, see `synthesize_bent_shape_from_fragments`
+    and siblings) from each other and from the real v-mesh/h-mesh planes
+    `_declash_default_mesh_planes` just established.
+
+    Unlike that function, there's no physical fact here that says WHICH
+    side a given shape bar's real depth is on -- these are dozens of
+    unrelated bent bars from different marks, each with its own unknown
+    true position. Asserting a specific real depth per bar would be a
+    guess this pipeline has no evidence for. What's not a guess: two
+    unrelated bars cannot occupy the same 3D point, so wherever two
+    shape-bar placeholders (or a placeholder and a real mesh plane) cross
+    in (x,y) at overlapping z, at least one is rendering somewhere physically
+    impossible. This nudges the later one in z by just enough to clear
+    the earlier one at that crossing, using a bounding-box crossing test
+    (cheap, and conservative -- only trips when the bars' extents actually
+    overlap, not a full path/path intersection). Kept within [cover,
+    thickness-cover] like every other depth in this file. Weight/length/
+    diameter/kind/x/y are never touched, only z.
+    """
+    def bounds(b: Bar3D):
+        xs = [p[0] for p in b.points]
+        ys = [p[1] for p in b.points]
+        return min(xs), max(xs), min(ys), max(ys)
+
+    occupied_planes: list[tuple[float, float, float, float, float, float]] = []  # (x0,x1,y0,y1,z,radius)
+    for b in bars:
+        if b.kind in ("v-mesh", "h-mesh") or b.z_source in _REAL_DEPTH_EVIDENCE:
+            x0, x1, y0, y1 = bounds(b)
+            occupied_planes.append((x0, x1, y0, y1, b.points[0][2], b.diameter / 2.0))
+
+    shape_bars = [b for b in bars if b.kind == "shape" and b.z_source not in _REAL_DEPTH_EVIDENCE]
+    moved = 0
+    z_lo, z_hi = cover, max(cover, thickness - cover)
+    for b in shape_bars:
+        x0, x1, y0, y1 = bounds(b)
+        r = b.diameter / 2.0
+        z = b.points[0][2]
+        for _ in range(8):
+            clash = None
+            clash_gap = 0.0
+            for ox0, ox1, oy0, oy1, oz, orad in occupied_planes:
+                if x1 < ox0 or x0 > ox1 or y1 < oy0 or y0 > oy1:
+                    continue
+                gap = r + orad
+                if abs(z - oz) < gap:
+                    clash, clash_gap = oz, gap
+                    break
+            if clash is None:
+                break
+            z = clash + clash_gap
+            if z > z_hi:
+                z = clash - clash_gap
+            z = max(z_lo, min(z_hi, z))
+        if abs(z - b.points[0][2]) > 0.5:
+            b.points = [(px, py, z) for px, py, _ in b.points]
+            moved += 1
+        occupied_planes.append((x0, x1, y0, y1, z, r))
+    return moved
+
+
 def reconstruct_panel(
     name: str, views: list[View], tie_exempt_dias=frozenset(),
     straight_lengths: dict[int, list[float]] | None = None,
@@ -3582,8 +3821,8 @@ def reconstruct_panel(
     bars = _synthesize_hairpins(bars, elev.ents, thickness, ph)
     bars = _synthesize_labelled_singles(bars, elev.ents, x0, y0, thickness,
                                         [e for v in views for e in v.ents])
-    bars = _synthesize_hooks(bars, views, thickness, x0, y0)
-    bars = _synthesize_edge_caps(bars, views, thickness, ph, x0, y0)
+    bars = _synthesize_hooks(bars, views, thickness, x0, y0, sections)
+    bars = _synthesize_edge_caps(bars, views, thickness, ph, x0, y0, sections)
     if tie_exempt_dias:
         # Hide dowel-only diameters from the tie synthesizer entirely --
         # it's purely geometric (see `dowel_only_diameters`) and has no
@@ -3596,6 +3835,8 @@ def reconstruct_panel(
         bars = _synthesize_column_ties(bars, pw, ph, thickness, straight_lengths)
     bars = _merge_dowel_legs(bars, elev.ents, x0, y0)
     bars = _dedupe_near(bars)
+    n_mesh_planes_split = _declash_default_mesh_planes(bars, thickness)
+    n_shape_nudged = _declash_shape_bars(bars, thickness)
     n_link_nudged = _declash_link_bars(bars, pw, ph)
 
     # ---- cast-in features: sleeves, corbels, embeds, anchors, wire loops
@@ -3650,6 +3891,8 @@ def reconstruct_panel(
         "features": {k: sum(1 for f in features if f.kind == k)
                      for k in ("sleeve", "corbel", "embed", "anchor", "loop")},
         "link_bars_nudged": n_link_nudged,
+        "mesh_planes_split": n_mesh_planes_split,
+        "shape_bars_nudged": n_shape_nudged,
     }
     return Panel(name, pw, ph, thickness, openings, bars, stats,
                  mesh_families(bars), features)

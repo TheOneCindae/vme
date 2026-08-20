@@ -1,0 +1,224 @@
+{
+  "element": "PW-GF-06",
+  "panel": "PW-GF-06",
+  "sheet": "PW-GF-06_M1",
+  "sheets_considered": [
+    "PW-GF-06_R",
+    "PW-GF-06_M1",
+    "PW-GF-06_M2"
+  ],
+  "envelope": {
+    "width_mm": 1180.0,
+    "height_mm": 5095.0,
+    "thickness_mm": 400.0,
+    "n_elevation": 1,
+    "n_plan_cut": 0,
+    "n_end_cut": 1
+  },
+  "anchors": [
+    {
+      "type_key": "RR-SA-0_7-110",
+      "family": "RR-SA",
+      "capacity_t": 0.7,
+      "embed_length_mm": 110,
+      "source_block": "RR spread anchor face based - RR-SA-0_7-110-2888042-Elevation Front",
+      "n_view_duplicates": 1,
+      "pt": [
+        278.0,
+        200.0,
+        530.0
+      ],
+      "depth_source": "assumed_mid_thickness"
+    },
+    {
+      "type_key": "RR-SA-0_7-110",
+      "family": "RR-SA",
+      "capacity_t": 0.7,
+      "embed_length_mm": 110,
+      "source_block": "RR spread anchor face based - RR-SA-0_7-110-2888042-Elevation Front",
+      "n_view_duplicates": 1,
+      "pt": [
+        780.0,
+        200.0,
+        530.0
+      ],
+      "depth_source": "assumed_mid_thickness"
+    },
+    {
+      "type_key": "LIFT-12_9",
+      "family": "lifting_insert",
+      "capacity_t": null,
+      "embed_length_mm": null,
+      "source_block": "12_7\u00d8_ Lifting Insert_COLUMN - 12_9\u00d8 Lifting insert-1653057-Elevation Front",
+      "n_view_duplicates": 1,
+      "pt": [
+        1030.0,
+        -53.2,
+        900.0
+      ],
+      "depth_source": "section_view"
+    },
+    {
+      "type_key": "RR-SA-0_7-110",
+      "family": "RR-SA",
+      "capacity_t": 0.7,
+      "embed_length_mm": 110,
+      "source_block": "RR spread anchor face based - RR-SA-0_7-110-2888042-Elevation Front",
+      "n_view_duplicates": 1,
+      "pt": [
+        278.0,
+        200.0,
+        1970.0
+      ],
+      "depth_source": "assumed_mid_thickness"
+    },
+    {
+      "type_key": "RR-SA-0_7-110",
+      "family": "RR-SA",
+      "capacity_t": 0.7,
+      "embed_length_mm": 110,
+      "source_block": "RR spread anchor face based - RR-SA-0_7-110-2888042-Elevation Front",
+      "n_view_duplicates": 1,
+      "pt": [
+        780.0,
+        200.0,
+        1970.0
+      ],
+      "depth_source": "assumed_mid_thickness"
+    },
+    {
+      "type_key": "RR-SA-0_7-110",
+      "family": "RR-SA",
+      "capacity_t": 0.7,
+      "embed_length_mm": 110,
+      "source_block": "RR spread anchor face based - RR-SA-0_7-110-2888042-Elevation Front",
+      "n_view_duplicates": 1,
+      "pt": [
+        278.0,
+        200.0,
+        2952.0
+      ],
+      "depth_source": "assumed_mid_thickness"
+    },
+    {
+      "type_key": "RR-SA-0_7-110",
+      "family": "RR-SA",
+      "capacity_t": 0.7,
+      "embed_length_mm": 110,
+      "source_block": "RR spread anchor face based - RR-SA-0_7-110-2888042-Elevation Front",
+      "n_view_duplicates": 1,
+      "pt": [
+        780.0,
+        200.0,
+        2952.0
+      ],
+      "depth_source": "assumed_mid_thickness"
+    },
+    {
+      "type_key": "LIFT-12_9",
+      "family": "lifting_insert",
+      "capacity_t": null,
+      "embed_length_mm": null,
+      "source_block": "12_7\u00d8_ Lifting Insert_COLUMN - 12_9\u00d8 Lifting insert-1653057-Elevation Front",
+      "n_view_duplicates": 1,
+      "pt": [
+        1030.0,
+        -53.2,
+        3535.0
+      ],
+      "depth_source": "section_view"
+    },
+    {
+      "type_key": "RR-SA-0_7-110",
+      "family": "RR-SA",
+      "capacity_t": 0.7,
+      "embed_length_mm": 110,
+      "source_block": "RR spread anchor face based - RR-SA-0_7-110-1726815-Elevation Front",
+      "n_view_duplicates": 1,
+      "pt": [
+        278.0,
+        200.0,
+        4392.0
+      ],
+      "depth_source": "assumed_mid_thickness"
+    },
+    {
+      "type_key": "RR-SA-0_7-110",
+      "family": "RR-SA",
+      "capacity_t": 0.7,
+      "embed_length_mm": 110,
+      "source_block": "RR spread anchor face based - RR-SA-0_7-110-1726815-Elevation Front",
+      "n_view_duplicates": 1,
+      "pt": [
+        780.0,
+        200.0,
+        4392.0
+      ],
+      "depth_source": "assumed_mid_thickness"
+    },
+    {
+      "type_key": "LIFT-12_9",
+      "family": "lifting_insert",
+      "capacity_t": null,
+      "embed_length_mm": null,
+      "source_block": "12_7\u00d8_ Lifting Insert_COLUMN - 12_9\u00d8 Lifting insert-V1-Elevation Front",
+      "n_view_duplicates": 1,
+      "pt": [
+        1030.0,
+        200.0,
+        4488.2
+      ],
+      "depth_source": "section_view"
+    },
+    {
+      "type_key": "RR-SA-3_0-200",
+      "family": "RR-SA",
+      "capacity_t": 3.0,
+      "embed_length_mm": 200,
+      "source_block": "RR spread anchor face based - RR-SA-3_0-200-1726827-Elevation Front",
+      "n_view_duplicates": 1,
+      "pt": [
+        278.0,
+        200.0,
+        5102.5
+      ],
+      "depth_source": "assumed_mid_thickness"
+    },
+    {
+      "type_key": "RR-SA-3_0-200",
+      "family": "RR-SA",
+      "capacity_t": 3.0,
+      "embed_length_mm": 200,
+      "source_block": "RR spread anchor face based - RR-SA-3_0-200-1726827-Elevation Front",
+      "n_view_duplicates": 1,
+      "pt": [
+        780.0,
+        200.0,
+        5102.5
+      ],
+      "depth_source": "assumed_mid_thickness"
+    }
+  ],
+  "insert_schedule": [
+    {
+      "ref": "N1",
+      "type": "RR-SA-3.0-200",
+      "count": 2
+    },
+    {
+      "ref": "N1A",
+      "type": "12.9\u00d8 Lifting insert",
+      "count": 1
+    },
+    {
+      "ref": "N2",
+      "type": "RR-SA-0.7-110",
+      "count": 8
+    },
+    {
+      "ref": "N2A",
+      "type": "12.9\u00d8 Lifting insert",
+      "count": 2
+    }
+  ]
+}

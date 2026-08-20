@@ -1,0 +1,91 @@
+{
+  "element": "PW-GF-02",
+  "panel": "PW-GF-02",
+  "sheet": "PW-GF-02_M1",
+  "sheets_considered": [
+    "PW-GF-02_R",
+    "PW-GF-02_M1",
+    "PW-GF-02_M2"
+  ],
+  "envelope": {
+    "width_mm": 3760.0,
+    "height_mm": 2930.0,
+    "thickness_mm": 160.0,
+    "n_elevation": 1,
+    "n_plan_cut": 0,
+    "n_end_cut": 1
+  },
+  "anchors": [
+    {
+      "type_key": "RR-SA-1_4-160",
+      "family": "RR-SA",
+      "capacity_t": 1.4,
+      "embed_length_mm": 160,
+      "source_block": "RR spread anchor face based - RR-SA-1_4-160-614768-Elevation Front",
+      "n_view_duplicates": 1,
+      "pt": [
+        700.0,
+        80.0,
+        740.0
+      ],
+      "depth_source": "assumed_mid_thickness"
+    },
+    {
+      "type_key": "RR-SA-1_4-160",
+      "family": "RR-SA",
+      "capacity_t": 1.4,
+      "embed_length_mm": 160,
+      "source_block": "RR spread anchor face based - RR-SA-1_4-160-614768-Elevation Front",
+      "n_view_duplicates": 1,
+      "pt": [
+        2641.5,
+        80.0,
+        740.0
+      ],
+      "depth_source": "assumed_mid_thickness"
+    },
+    {
+      "type_key": "RR-SA-1_4-160",
+      "family": "RR-SA",
+      "capacity_t": 1.4,
+      "embed_length_mm": 160,
+      "source_block": "RR spread anchor face based - RR-SA-1_4-160-614768-Elevation Front",
+      "n_view_duplicates": 1,
+      "pt": [
+        780.0,
+        80.0,
+        2320.0
+      ],
+      "depth_source": "assumed_mid_thickness"
+    },
+    {
+      "type_key": "RR-SA-2_5-250",
+      "family": "RR-SA",
+      "capacity_t": 2.5,
+      "embed_length_mm": 250,
+      "source_block": "RR spread anchor face based - RR-SA-2_5-250-V4-Elevation Front",
+      "n_view_duplicates": 1,
+      "pt": [
+        2590.0,
+        80.0,
+        2971.5
+      ],
+      "depth_source": "assumed_mid_thickness"
+    },
+    {
+      "type_key": "RR-SA-2_5-250",
+      "family": "RR-SA",
+      "capacity_t": 2.5,
+      "embed_length_mm": 250,
+      "source_block": "RR spread anchor face based - RR-SA-2_5-250-614728-Elevation Front",
+      "n_view_duplicates": 1,
+      "pt": [
+        780.0,
+        80.0,
+        3013.2
+      ],
+      "depth_source": "assumed_mid_thickness"
+    }
+  ],
+  "insert_schedule": []
+}
