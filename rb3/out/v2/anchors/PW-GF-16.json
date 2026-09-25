@@ -1,0 +1,232 @@
+{
+  "element": "PW-GF-16",
+  "panel": "PW-GF-16",
+  "sheet": "PW-GF-16_M1",
+  "sheets_considered": [
+    "PW-GF-16_M1",
+    "PW-GF-16_M2"
+  ],
+  "envelope": {
+    "width_mm": 1640.0,
+    "height_mm": 9095.0,
+    "thickness_mm": 200.0,
+    "n_elevation": 1,
+    "n_plan_cut": 0,
+    "n_end_cut": 1
+  },
+  "anchors": [
+    {
+      "type_key": "RR-SA-1_4-160",
+      "family": "RR-SA",
+      "capacity_t": 1.4,
+      "embed_length_mm": 160,
+      "source_block": "RR spread anchor face based - RR-SA-1_4-160-1726851-Elevation Front",
+      "n_view_duplicates": 1,
+      "pt": [
+        400.0,
+        -17.5,
+        950.0
+      ],
+      "depth_source": "section_view"
+    },
+    {
+      "type_key": "RR-SA-1_4-160",
+      "family": "RR-SA",
+      "capacity_t": 1.4,
+      "embed_length_mm": 160,
+      "source_block": "RR spread anchor face based - RR-SA-1_4-160-1726851-Elevation Front",
+      "n_view_duplicates": 1,
+      "pt": [
+        1240.0,
+        -17.5,
+        950.0
+      ],
+      "depth_source": "section_view"
+    },
+    {
+      "type_key": "RR-SA-2_5-200",
+      "family": "RR-SA",
+      "capacity_t": 2.5,
+      "embed_length_mm": 200,
+      "source_block": "RR spread anchor face based - RR-SA-2_5-200-1726821-Elevation Front",
+      "n_view_duplicates": 1,
+      "pt": [
+        1620.0,
+        -17.5,
+        950.0
+      ],
+      "depth_source": "section_view"
+    },
+    {
+      "type_key": "RR-SA-1_4-160",
+      "family": "RR-SA",
+      "capacity_t": 1.4,
+      "embed_length_mm": 160,
+      "source_block": "RR spread anchor face based - RR-SA-1_4-160-1726851-Elevation Front",
+      "n_view_duplicates": 1,
+      "pt": [
+        400.0,
+        -17.5,
+        3600.0
+      ],
+      "depth_source": "section_view"
+    },
+    {
+      "type_key": "RR-SA-1_4-160",
+      "family": "RR-SA",
+      "capacity_t": 1.4,
+      "embed_length_mm": 160,
+      "source_block": "RR spread anchor face based - RR-SA-1_4-160-1726851-Elevation Front",
+      "n_view_duplicates": 1,
+      "pt": [
+        1240.0,
+        -17.5,
+        3600.0
+      ],
+      "depth_source": "section_view"
+    },
+    {
+      "type_key": "RR-SA-2_5-200",
+      "family": "RR-SA",
+      "capacity_t": 2.5,
+      "embed_length_mm": 200,
+      "source_block": "RR spread anchor face based - RR-SA-2_5-200-1726821-Elevation Front",
+      "n_view_duplicates": 1,
+      "pt": [
+        1620.0,
+        -17.5,
+        3600.0
+      ],
+      "depth_source": "section_view"
+    },
+    {
+      "type_key": "RR-SA-1_4-160",
+      "family": "RR-SA",
+      "capacity_t": 1.4,
+      "embed_length_mm": 160,
+      "source_block": "RR spread anchor face based - RR-SA-1_4-160-1726851-Elevation Front",
+      "n_view_duplicates": 1,
+      "pt": [
+        400.0,
+        -17.5,
+        5495.0
+      ],
+      "depth_source": "section_view"
+    },
+    {
+      "type_key": "RR-SA-1_4-160",
+      "family": "RR-SA",
+      "capacity_t": 1.4,
+      "embed_length_mm": 160,
+      "source_block": "RR spread anchor face based - RR-SA-1_4-160-1726851-Elevation Front",
+      "n_view_duplicates": 1,
+      "pt": [
+        1240.0,
+        -17.5,
+        5495.0
+      ],
+      "depth_source": "section_view"
+    },
+    {
+      "type_key": "RR-SA-2_5-200",
+      "family": "RR-SA",
+      "capacity_t": 2.5,
+      "embed_length_mm": 200,
+      "source_block": "RR spread anchor face based - RR-SA-2_5-200-1726821-Elevation Front",
+      "n_view_duplicates": 1,
+      "pt": [
+        1620.0,
+        -17.5,
+        5495.0
+      ],
+      "depth_source": "section_view"
+    },
+    {
+      "type_key": "RR-SA-1_4-160",
+      "family": "RR-SA",
+      "capacity_t": 1.4,
+      "embed_length_mm": 160,
+      "source_block": "RR spread anchor face based - RR-SA-1_4-160-1726851-Elevation Front",
+      "n_view_duplicates": 1,
+      "pt": [
+        400.0,
+        -17.5,
+        8145.0
+      ],
+      "depth_source": "section_view"
+    },
+    {
+      "type_key": "RR-SA-1_4-160",
+      "family": "RR-SA",
+      "capacity_t": 1.4,
+      "embed_length_mm": 160,
+      "source_block": "RR spread anchor face based - RR-SA-1_4-160-1726851-Elevation Front",
+      "n_view_duplicates": 1,
+      "pt": [
+        1240.0,
+        -17.5,
+        8145.0
+      ],
+      "depth_source": "section_view"
+    },
+    {
+      "type_key": "RR-SA-2_5-200",
+      "family": "RR-SA",
+      "capacity_t": 2.5,
+      "embed_length_mm": 200,
+      "source_block": "RR spread anchor face based - RR-SA-2_5-200-1726821-Elevation Front",
+      "n_view_duplicates": 1,
+      "pt": [
+        1620.0,
+        -17.5,
+        8145.0
+      ],
+      "depth_source": "section_view"
+    },
+    {
+      "type_key": "RR-SA-7_5-260",
+      "family": "RR-SA",
+      "capacity_t": 7.5,
+      "embed_length_mm": 260,
+      "source_block": "RR spread anchor face based - RR-SA-7_5-260-1726841-Elevation Front",
+      "n_view_duplicates": 1,
+      "pt": [
+        400.0,
+        100.0,
+        9111.4
+      ],
+      "depth_source": "assumed_mid_thickness"
+    },
+    {
+      "type_key": "RR-SA-7_5-260",
+      "family": "RR-SA",
+      "capacity_t": 7.5,
+      "embed_length_mm": 260,
+      "source_block": "RR spread anchor face based - RR-SA-7_5-260-1726841-Elevation Front",
+      "n_view_duplicates": 1,
+      "pt": [
+        1240.0,
+        100.0,
+        9111.4
+      ],
+      "depth_source": "assumed_mid_thickness"
+    }
+  ],
+  "insert_schedule": [
+    {
+      "ref": "N1",
+      "type": "RR-SA-7.5-260",
+      "count": 2
+    },
+    {
+      "ref": "N2",
+      "type": "RR-SA-1.4-160",
+      "count": 8
+    },
+    {
+      "ref": "N3",
+      "type": "RR-SA-2.5-200",
+      "count": 4
+    }
+  ]
+}

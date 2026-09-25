@@ -1,0 +1,6719 @@
+{
+ "PW-GF-01": {
+  "source": "PW-GF-01_S.dxf",
+  "bars": [
+   {
+    "schedule": "Rebar schedule for PW-GF-01(A)",
+    "mark": "I",
+    "dia_mm": 20.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 1680.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "1680 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 1700.0,
+    "qty": 3,
+    "total_length_mm": 5100.0,
+    "weight_kg": 12.59
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-01(A)",
+    "mark": "H",
+    "dia_mm": 16.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 800.0,
+     "C": 1150.0,
+     "D": 800.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "800 mm",
+     "C": "1150 mm",
+     "D": "800 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 2675.0,
+    "qty": 4,
+    "total_length_mm": 10700.0,
+    "weight_kg": 16.91
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-01(A)",
+    "mark": "G",
+    "dia_mm": 16.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 8995.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "8995 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 9000.0,
+    "qty": 4,
+    "total_length_mm": 36000.0,
+    "weight_kg": 56.89
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-01(A)",
+    "mark": "F",
+    "dia_mm": 12.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 600.0,
+     "C": 125.0,
+     "D": 600.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "600 mm",
+     "C": "125 mm",
+     "D": "600 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 1300.0,
+    "qty": 27,
+    "total_length_mm": 35100.0,
+    "weight_kg": 31.2
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-01(A)",
+    "mark": "E1",
+    "dia_mm": 12.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 9035.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "9035 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 9050.0,
+    "qty": 14,
+    "total_length_mm": 126700.0,
+    "weight_kg": 112.63
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-01(A)",
+    "mark": "E",
+    "dia_mm": 12.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 8990.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "8990 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 9000.0,
+    "qty": 15,
+    "total_length_mm": 135000.0,
+    "weight_kg": 120.01
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-01(A)",
+    "mark": "D",
+    "dia_mm": 10.0,
+    "shape": "M_T1",
+    "dims_mm": {
+     "A": 100.0,
+     "B": 250.0,
+     "C": 395.0,
+     "D": 250.0,
+     "E": 395.0,
+     "G": 100.0
+    },
+    "dims_raw": {
+     "A": "100 mm",
+     "B": "250 mm",
+     "C": "395 mm",
+     "D": "250 mm",
+     "E": "395 mm",
+     "G": "100 mm"
+    },
+    "bar_length_mm": 1425.0,
+    "qty": 3,
+    "total_length_mm": 4275.0,
+    "weight_kg": 2.64
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-01(A)",
+    "mark": "C",
+    "dia_mm": 8.0,
+    "shape": "M_17A",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 580.0,
+     "C": 300.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "580 mm",
+     "C": "300 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 875.0,
+    "qty": 7,
+    "total_length_mm": 6125.0,
+    "weight_kg": 2.42
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-01(A)",
+    "mark": "B1",
+    "dia_mm": 8.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 440.0,
+     "C": 90.0,
+     "D": 440.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "440 mm",
+     "C": "90 mm",
+     "D": "440 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 950.0,
+    "qty": 92,
+    "total_length_mm": 87400.0,
+    "weight_kg": 34.53
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-01(A)",
+    "mark": "B",
+    "dia_mm": 8.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 400.0,
+     "C": 140.0,
+     "D": 400.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "400 mm",
+     "C": "140 mm",
+     "D": "400 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 900.0,
+    "qty": 122,
+    "total_length_mm": 109800.0,
+    "weight_kg": 43.38
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-01(A)",
+    "mark": "A1",
+    "dia_mm": 8.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 1250.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "1250 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 1250.0,
+    "qty": 61,
+    "total_length_mm": 76250.0,
+    "weight_kg": 30.13
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-01(A)",
+    "mark": "A",
+    "dia_mm": 8.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 1170.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "1170 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 1175.0,
+    "qty": 62,
+    "total_length_mm": 72850.0,
+    "weight_kg": 28.78
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-01(B)",
+    "mark": "K",
+    "dia_mm": 20.0,
+    "shape": "Rebar Shape 9",
+    "dims_mm": {
+     "A": 900.0,
+     "B": 345.0,
+     "C": 200.0,
+     "D": 370.0,
+     "E": 835.0
+    },
+    "dims_raw": {
+     "A": "900 mm",
+     "B": "345 mm",
+     "C": "200 mm",
+     "D": "370 mm",
+     "E": "835 mm"
+    },
+    "bar_length_mm": 2450.0,
+    "qty": 3,
+    "total_length_mm": 7350.0,
+    "weight_kg": 18.15
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-01(B)",
+    "mark": "J",
+    "dia_mm": 20.0,
+    "shape": "Rebar Shape 8",
+    "dims_mm": {
+     "A": 420.0,
+     "B": 240.0,
+     "C": 1000.0,
+     "D": 0.0,
+     "E": 0.0
+    },
+    "dims_raw": {
+     "A": "420 mm",
+     "B": "240 mm",
+     "C": "1000 mm",
+     "D": "0 mm",
+     "E": "0 mm"
+    },
+    "bar_length_mm": 1575.0,
+    "qty": 2,
+    "total_length_mm": 3150.0,
+    "weight_kg": 7.78
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-01(C)",
+    "mark": "L",
+    "dia_mm": 20.0,
+    "shape": "26",
+    "dims_mm": {
+     "A": 1125.0,
+     "B": 365.0,
+     "C": 8260.0
+    },
+    "dims_raw": {
+     "A": "1125 mm",
+     "B": "365 mm",
+     "C": "8260 mm"
+    },
+    "bar_length_mm": 9750.0,
+    "qty": 2,
+    "total_length_mm": 19500.0,
+    "weight_kg": 48.15
+   }
+  ],
+  "summary": {
+   "by_diameter": {
+    "20": {
+     "length_mm": 35100.0,
+     "weight_kg": 86.67
+    },
+    "16": {
+     "length_mm": 46700.0,
+     "weight_kg": 73.8
+    },
+    "12": {
+     "length_mm": 296800.0,
+     "weight_kg": 263.84
+    },
+    "10": {
+     "length_mm": 4275.0,
+     "weight_kg": 2.64
+    },
+    "8": {
+     "length_mm": 352425.0,
+     "weight_kg": 139.24
+    }
+   },
+   "total": {
+    "length_mm": 735300.0,
+    "weight_kg": 566.19
+   }
+  },
+  "issues": []
+ },
+ "PW-GF-02": {
+  "source": "PW-GF-02_S.dxf",
+  "bars": [
+   {
+    "schedule": "Rebar schedule for PW-GF-02(A)",
+    "mark": "F",
+    "dia_mm": 16.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 800.0,
+     "C": 560.0,
+     "D": 800.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "800 mm",
+     "C": "560 mm",
+     "D": "800 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 2100.0,
+    "qty": 4,
+    "total_length_mm": 8400.0,
+    "weight_kg": 13.27
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-02(A)",
+    "mark": "E",
+    "dia_mm": 16.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 8800.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "8800 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 8800.0,
+    "qty": 4,
+    "total_length_mm": 35200.0,
+    "weight_kg": 55.63
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-02(A)",
+    "mark": "D",
+    "dia_mm": 12.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 600.0,
+     "C": 125.0,
+     "D": 600.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "600 mm",
+     "C": "125 mm",
+     "D": "600 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 1300.0,
+    "qty": 14,
+    "total_length_mm": 18200.0,
+    "weight_kg": 16.18
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-02(A)",
+    "mark": "C2",
+    "dia_mm": 12.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 8800.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "8800 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 8800.0,
+    "qty": 16,
+    "total_length_mm": 140800.0,
+    "weight_kg": 125.16
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-02(A)",
+    "mark": "C1",
+    "dia_mm": 12.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 580.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "580 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 600.0,
+    "qty": 2,
+    "total_length_mm": 1200.0,
+    "weight_kg": 1.07
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-02(A)",
+    "mark": "C",
+    "dia_mm": 12.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 410.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "410 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 425.0,
+    "qty": 2,
+    "total_length_mm": 850.0,
+    "weight_kg": 0.76
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-02(A)",
+    "mark": "B1",
+    "dia_mm": 8.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 440.0,
+     "C": 90.0,
+     "D": 440.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "440 mm",
+     "C": "90 mm",
+     "D": "440 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 950.0,
+    "qty": 45,
+    "total_length_mm": 42750.0,
+    "weight_kg": 16.89
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-02(A)",
+    "mark": "B",
+    "dia_mm": 8.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 400.0,
+     "C": 140.0,
+     "D": 400.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "400 mm",
+     "C": "140 mm",
+     "D": "400 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 900.0,
+    "qty": 118,
+    "total_length_mm": 106200.0,
+    "weight_kg": 41.96
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-02(A)",
+    "mark": "A1",
+    "dia_mm": 8.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 620.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "620 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 625.0,
+    "qty": 60,
+    "total_length_mm": 37500.0,
+    "weight_kg": 14.82
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-02(A)",
+    "mark": "A",
+    "dia_mm": 8.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 580.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "580 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 600.0,
+    "qty": 60,
+    "total_length_mm": 36000.0,
+    "weight_kg": 14.22
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-02(B)",
+    "mark": "H",
+    "dia_mm": 10.0,
+    "shape": "Rebar Shape 9",
+    "dims_mm": {
+     "A": 365.0,
+     "B": 255.0,
+     "C": 315.0,
+     "D": 275.0,
+     "E": 725.0
+    },
+    "dims_raw": {
+     "A": "365 mm",
+     "B": "255 mm",
+     "C": "315 mm",
+     "D": "275 mm",
+     "E": "725 mm"
+    },
+    "bar_length_mm": 1850.0,
+    "qty": 3,
+    "total_length_mm": 5550.0,
+    "weight_kg": 3.43
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-02(B)",
+    "mark": "G",
+    "dia_mm": 8.0,
+    "shape": "Rebar Shape 9",
+    "dims_mm": {
+     "A": 330.0,
+     "B": 145.0,
+     "C": 90.0,
+     "D": 170.0,
+     "E": 400.0
+    },
+    "dims_raw": {
+     "A": "330 mm",
+     "B": "145 mm",
+     "C": "90 mm",
+     "D": "170 mm",
+     "E": "400 mm"
+    },
+    "bar_length_mm": 1100.0,
+    "qty": 45,
+    "total_length_mm": 49500.0,
+    "weight_kg": 19.56
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-02(C)",
+    "mark": "I1",
+    "dia_mm": 20.0,
+    "shape": "26",
+    "dims_mm": {
+     "A": 1145.0,
+     "B": 790.0,
+     "C": 7840.0
+    },
+    "dims_raw": {
+     "A": "1145 mm",
+     "B": "790 mm",
+     "C": "7840 mm"
+    },
+    "bar_length_mm": 9800.0,
+    "qty": 1,
+    "total_length_mm": 9800.0,
+    "weight_kg": 24.2
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-02(C)",
+    "mark": "I",
+    "dia_mm": 20.0,
+    "shape": "26",
+    "dims_mm": {
+     "A": 1140.0,
+     "B": 500.0,
+     "C": 7350.0
+    },
+    "dims_raw": {
+     "A": "1140 mm",
+     "B": "500 mm",
+     "C": "7350 mm"
+    },
+    "bar_length_mm": 9000.0,
+    "qty": 1,
+    "total_length_mm": 9000.0,
+    "weight_kg": 22.22
+   }
+  ],
+  "summary": {
+   "by_diameter": {
+    "20": {
+     "length_mm": 18800.0,
+     "weight_kg": 46.42
+    },
+    "16": {
+     "length_mm": 43600.0,
+     "weight_kg": 68.9
+    },
+    "12": {
+     "length_mm": 161050.0,
+     "weight_kg": 143.16
+    },
+    "10": {
+     "length_mm": 5550.0,
+     "weight_kg": 3.43
+    },
+    "8": {
+     "length_mm": 271950.0,
+     "weight_kg": 107.44
+    }
+   },
+   "total": {
+    "length_mm": 500950.0,
+    "weight_kg": 369.36
+   }
+  },
+  "issues": []
+ },
+ "PW-GF-05": {
+  "source": "PW-GF-05_S.dxf",
+  "bars": [
+   {
+    "schedule": "Rebar schedule for PW-GF-05(A)",
+    "mark": "J1",
+    "dia_mm": 25.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 3180.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "3180 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 3200.0,
+    "qty": 1,
+    "total_length_mm": 3200.0,
+    "weight_kg": 12.35
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-05(A)",
+    "mark": "J",
+    "dia_mm": 25.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 1830.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "1830 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 1850.0,
+    "qty": 3,
+    "total_length_mm": 5550.0,
+    "weight_kg": 21.41
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-05(A)",
+    "mark": "I1",
+    "dia_mm": 20.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 2680.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "2680 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 2700.0,
+    "qty": 1,
+    "total_length_mm": 2700.0,
+    "weight_kg": 6.67
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-05(A)",
+    "mark": "I",
+    "dia_mm": 20.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 2020.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "2020 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 2025.0,
+    "qty": 1,
+    "total_length_mm": 2025.0,
+    "weight_kg": 5.0
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-05(A)",
+    "mark": "H4",
+    "dia_mm": 16.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 800.0,
+     "C": 1385.0,
+     "D": 800.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "800 mm",
+     "C": "1385 mm",
+     "D": "800 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 2925.0,
+    "qty": 2,
+    "total_length_mm": 5850.0,
+    "weight_kg": 9.25
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-05(A)",
+    "mark": "H3",
+    "dia_mm": 16.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 800.0,
+     "C": 590.0,
+     "D": 800.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "800 mm",
+     "C": "590 mm",
+     "D": "800 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 2125.0,
+    "qty": 2,
+    "total_length_mm": 4250.0,
+    "weight_kg": 6.72
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-05(A)",
+    "mark": "H2",
+    "dia_mm": 16.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 800.0,
+     "C": 400.0,
+     "D": 800.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "800 mm",
+     "C": "400 mm",
+     "D": "800 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 1950.0,
+    "qty": 2,
+    "total_length_mm": 3900.0,
+    "weight_kg": 6.16
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-05(A)",
+    "mark": "H1",
+    "dia_mm": 16.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 800.0,
+     "C": 310.0,
+     "D": 800.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "800 mm",
+     "C": "310 mm",
+     "D": "800 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 1850.0,
+    "qty": 5,
+    "total_length_mm": 9250.0,
+    "weight_kg": 14.62
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-05(A)",
+    "mark": "H",
+    "dia_mm": 16.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 800.0,
+     "C": 200.0,
+     "D": 800.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "800 mm",
+     "C": "200 mm",
+     "D": "800 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 1750.0,
+    "qty": 3,
+    "total_length_mm": 5250.0,
+    "weight_kg": 8.3
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-05(A)",
+    "mark": "G",
+    "dia_mm": 10.0,
+    "shape": "M_17A",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 305.0,
+     "C": 745.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "305 mm",
+     "C": "745 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 1050.0,
+    "qty": 2,
+    "total_length_mm": 2100.0,
+    "weight_kg": 1.3
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-05(A)",
+    "mark": "F2",
+    "dia_mm": 10.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 5035.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "5035 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 5050.0,
+    "qty": 6,
+    "total_length_mm": 30300.0,
+    "weight_kg": 18.7
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-05(A)",
+    "mark": "F1",
+    "dia_mm": 10.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 4995.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "4995 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 5000.0,
+    "qty": 10,
+    "total_length_mm": 50000.0,
+    "weight_kg": 30.87
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-05(A)",
+    "mark": "F",
+    "dia_mm": 10.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 4365.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "4365 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 4375.0,
+    "qty": 10,
+    "total_length_mm": 43750.0,
+    "weight_kg": 27.01
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-05(A)",
+    "mark": "E1",
+    "dia_mm": 8.0,
+    "shape": "M_T10",
+    "dims_mm": {
+     "A": 70.0,
+     "B": 420.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 70.0
+    },
+    "dims_raw": {
+     "A": "70 mm",
+     "B": "420 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "70 mm"
+    },
+    "bar_length_mm": 575.0,
+    "qty": 33,
+    "total_length_mm": 18975.0,
+    "weight_kg": 7.5
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-05(A)",
+    "mark": "E",
+    "dia_mm": 8.0,
+    "shape": "M_T10",
+    "dims_mm": {
+     "A": 70.0,
+     "B": 220.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 70.0
+    },
+    "dims_raw": {
+     "A": "70 mm",
+     "B": "220 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "70 mm"
+    },
+    "bar_length_mm": 375.0,
+    "qty": 38,
+    "total_length_mm": 14250.0,
+    "weight_kg": 5.63
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-05(A)",
+    "mark": "D2",
+    "dia_mm": 8.0,
+    "shape": "M_T1",
+    "dims_mm": {
+     "A": 70.0,
+     "B": 330.0,
+     "C": 420.0,
+     "D": 330.0,
+     "E": 420.0,
+     "G": 70.0
+    },
+    "dims_raw": {
+     "A": "70 mm",
+     "B": "330 mm",
+     "C": "420 mm",
+     "D": "330 mm",
+     "E": "420 mm",
+     "G": "70 mm"
+    },
+    "bar_length_mm": 1600.0,
+    "qty": 33,
+    "total_length_mm": 52800.0,
+    "weight_kg": 20.86
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-05(A)",
+    "mark": "D1",
+    "dia_mm": 8.0,
+    "shape": "M_T1",
+    "dims_mm": {
+     "A": 70.0,
+     "B": 330.0,
+     "C": 220.0,
+     "D": 330.0,
+     "E": 220.0,
+     "G": 70.0
+    },
+    "dims_raw": {
+     "A": "70 mm",
+     "B": "330 mm",
+     "C": "220 mm",
+     "D": "330 mm",
+     "E": "220 mm",
+     "G": "70 mm"
+    },
+    "bar_length_mm": 1200.0,
+    "qty": 38,
+    "total_length_mm": 45600.0,
+    "weight_kg": 18.02
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-05(A)",
+    "mark": "D",
+    "dia_mm": 8.0,
+    "shape": "M_T1",
+    "dims_mm": {
+     "A": 70.0,
+     "B": 200.0,
+     "C": 330.0,
+     "D": 200.0,
+     "E": 330.0,
+     "G": 70.0
+    },
+    "dims_raw": {
+     "A": "70 mm",
+     "B": "200 mm",
+     "C": "330 mm",
+     "D": "200 mm",
+     "E": "330 mm",
+     "G": "70 mm"
+    },
+    "bar_length_mm": 1175.0,
+    "qty": 33,
+    "total_length_mm": 38775.0,
+    "weight_kg": 15.32
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-05(A)",
+    "mark": "C",
+    "dia_mm": 8.0,
+    "shape": "M_17A",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 580.0,
+     "C": 265.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "580 mm",
+     "C": "265 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 850.0,
+    "qty": 4,
+    "total_length_mm": 3400.0,
+    "weight_kg": 1.34
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-05(A)",
+    "mark": "B1",
+    "dia_mm": 8.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 400.0,
+     "C": 120.0,
+     "D": 400.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "400 mm",
+     "C": "120 mm",
+     "D": "400 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 900.0,
+    "qty": 12,
+    "total_length_mm": 10800.0,
+    "weight_kg": 4.27
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-05(A)",
+    "mark": "B",
+    "dia_mm": 8.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 400.0,
+     "C": 90.0,
+     "D": 400.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "400 mm",
+     "C": "90 mm",
+     "D": "400 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 875.0,
+    "qty": 23,
+    "total_length_mm": 20125.0,
+    "weight_kg": 7.95
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-05(A)",
+    "mark": "A3",
+    "dia_mm": 8.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 1415.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "1415 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 1425.0,
+    "qty": 30,
+    "total_length_mm": 42750.0,
+    "weight_kg": 16.89
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-05(A)",
+    "mark": "A2",
+    "dia_mm": 8.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 1375.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "1375 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 1375.0,
+    "qty": 30,
+    "total_length_mm": 41250.0,
+    "weight_kg": 16.3
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-05(A)",
+    "mark": "A1",
+    "dia_mm": 8.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 1095.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "1095 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 1100.0,
+    "qty": 5,
+    "total_length_mm": 5500.0,
+    "weight_kg": 2.17
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-05(A)",
+    "mark": "A",
+    "dia_mm": 8.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 595.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "595 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 600.0,
+    "qty": 5,
+    "total_length_mm": 3000.0,
+    "weight_kg": 1.19
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-05(B)",
+    "mark": "K4",
+    "dia_mm": 16.0,
+    "shape": "Rebar Shape 30",
+    "dims_mm": {
+     "A": 950.0,
+     "B": 625.0,
+     "C": 2585.0,
+     "D": 195.0,
+     "E": 625.0
+    },
+    "dims_raw": {
+     "A": "950 mm",
+     "B": "625 mm",
+     "C": "2585 mm",
+     "D": "195 mm",
+     "E": "625 mm"
+    },
+    "bar_length_mm": 5000.0,
+    "qty": 4,
+    "total_length_mm": 20000.0,
+    "weight_kg": 31.61
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-05(B)",
+    "mark": "K3",
+    "dia_mm": 16.0,
+    "shape": "Rebar Shape 30",
+    "dims_mm": {
+     "A": 950.0,
+     "B": 625.0,
+     "C": 2550.0,
+     "D": 195.0
+    },
+    "dims_raw": {
+     "A": "950 mm",
+     "B": "625 mm",
+     "C": "2550 mm",
+     "D": "195 mm",
+     "E": "<varies>"
+    },
+    "bar_length_mm": 5000.0,
+    "qty": 2,
+    "total_length_mm": 10000.0,
+    "weight_kg": 15.8
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-05(B)",
+    "mark": "K2",
+    "dia_mm": 16.0,
+    "shape": "Rebar Shape 30",
+    "dims_mm": {
+     "A": 935.0,
+     "B": 720.0,
+     "C": 2455.0,
+     "D": 255.0,
+     "E": 610.0
+    },
+    "dims_raw": {
+     "A": "935 mm",
+     "B": "720 mm",
+     "C": "2455 mm",
+     "D": "255 mm",
+     "E": "610 mm"
+    },
+    "bar_length_mm": 5000.0,
+    "qty": 2,
+    "total_length_mm": 10000.0,
+    "weight_kg": 15.8
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-05(B)",
+    "mark": "K1",
+    "dia_mm": 16.0,
+    "shape": "Rebar Shape 30",
+    "dims_mm": {
+     "A": 935.0,
+     "B": 720.0,
+     "C": 2445.0,
+     "D": 255.0,
+     "E": 620.0
+    },
+    "dims_raw": {
+     "A": "935 mm",
+     "B": "720 mm",
+     "C": "2445 mm",
+     "D": "255 mm",
+     "E": "620 mm"
+    },
+    "bar_length_mm": 5000.0,
+    "qty": 1,
+    "total_length_mm": 5000.0,
+    "weight_kg": 7.9
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-05(B)",
+    "mark": "K",
+    "dia_mm": 16.0,
+    "shape": "Rebar Shape 30",
+    "dims_mm": {
+     "A": 935.0,
+     "B": 720.0,
+     "C": 2405.0,
+     "D": 255.0,
+     "E": 660.0
+    },
+    "dims_raw": {
+     "A": "935 mm",
+     "B": "720 mm",
+     "C": "2405 mm",
+     "D": "255 mm",
+     "E": "660 mm"
+    },
+    "bar_length_mm": 5000.0,
+    "qty": 1,
+    "total_length_mm": 5000.0,
+    "weight_kg": 7.9
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-05(C)",
+    "mark": "L4",
+    "dia_mm": 16.0,
+    "shape": "26",
+    "dims_mm": {
+     "A": 930.0,
+     "B": 435.0,
+     "C": 2990.0
+    },
+    "dims_raw": {
+     "A": "930 mm",
+     "B": "435 mm",
+     "C": "2990 mm"
+    },
+    "bar_length_mm": 4375.0,
+    "qty": 2,
+    "total_length_mm": 8750.0,
+    "weight_kg": 13.83
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-05(C)",
+    "mark": "L3",
+    "dia_mm": 16.0,
+    "shape": "26",
+    "dims_mm": {
+     "A": 930.0,
+     "B": 535.0,
+     "C": 2895.0
+    },
+    "dims_raw": {
+     "A": "930 mm",
+     "B": "535 mm",
+     "C": "2895 mm"
+    },
+    "bar_length_mm": 4375.0,
+    "qty": 1,
+    "total_length_mm": 4375.0,
+    "weight_kg": 6.91
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-05(C)",
+    "mark": "L2",
+    "dia_mm": 16.0,
+    "shape": "26",
+    "dims_mm": {
+     "A": 930.0,
+     "B": 545.0,
+     "C": 2885.0
+    },
+    "dims_raw": {
+     "A": "930 mm",
+     "B": "545 mm",
+     "C": "2885 mm"
+    },
+    "bar_length_mm": 4375.0,
+    "qty": 1,
+    "total_length_mm": 4375.0,
+    "weight_kg": 6.91
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-05(C)",
+    "mark": "L1",
+    "dia_mm": 16.0,
+    "shape": "26",
+    "dims_mm": {
+     "A": 905.0,
+     "B": 500.0,
+     "C": 2925.0
+    },
+    "dims_raw": {
+     "A": "905 mm",
+     "B": "500 mm",
+     "C": "2925 mm"
+    },
+    "bar_length_mm": 4350.0,
+    "qty": 1,
+    "total_length_mm": 4350.0,
+    "weight_kg": 6.87
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-05(C)",
+    "mark": "L",
+    "dia_mm": 16.0,
+    "shape": "26",
+    "dims_mm": {
+     "A": 595.0,
+     "B": 745.0,
+     "C": 2925.0
+    },
+    "dims_raw": {
+     "A": "595 mm",
+     "B": "745 mm",
+     "C": "2925 mm"
+    },
+    "bar_length_mm": 4275.0,
+    "qty": 1,
+    "total_length_mm": 4275.0,
+    "weight_kg": 6.76
+   }
+  ],
+  "summary": {
+   "by_diameter": {
+    "25": {
+     "length_mm": 8750.0,
+     "weight_kg": 33.76
+    },
+    "20": {
+     "length_mm": 4725.0,
+     "weight_kg": 11.67
+    },
+    "16": {
+     "length_mm": 104625.0,
+     "weight_kg": 165.34
+    },
+    "10": {
+     "length_mm": 126150.0,
+     "weight_kg": 77.88
+    },
+    "8": {
+     "length_mm": 297225.0,
+     "weight_kg": 117.43
+    }
+   },
+   "total": {
+    "length_mm": 541475.0,
+    "weight_kg": 406.08
+   }
+  },
+  "issues": []
+ },
+ "PW-GF-06": {
+  "source": "PW-GF-06_S.dxf",
+  "bars": [
+   {
+    "schedule": "Rebar schedule for PW-GF-06(A)",
+    "mark": "K",
+    "dia_mm": 25.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 1830.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "1830 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 1850.0,
+    "qty": 4,
+    "total_length_mm": 7400.0,
+    "weight_kg": 28.55
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-06(A)",
+    "mark": "J",
+    "dia_mm": 20.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 440.0,
+     "C": 640.0,
+     "D": 440.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "440 mm",
+     "C": "640 mm",
+     "D": "440 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 1425.0,
+    "qty": 1,
+    "total_length_mm": 1425.0,
+    "weight_kg": 3.52
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-06(A)",
+    "mark": "I2",
+    "dia_mm": 16.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 800.0,
+     "C": 760.0,
+     "D": 800.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "800 mm",
+     "C": "760 mm",
+     "D": "800 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 2300.0,
+    "qty": 4,
+    "total_length_mm": 9200.0,
+    "weight_kg": 14.54
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-06(A)",
+    "mark": "I1",
+    "dia_mm": 16.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 800.0,
+     "C": 310.0,
+     "D": 800.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "800 mm",
+     "C": "310 mm",
+     "D": "800 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 1850.0,
+    "qty": 2,
+    "total_length_mm": 3700.0,
+    "weight_kg": 5.85
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-06(A)",
+    "mark": "I",
+    "dia_mm": 16.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 800.0,
+     "C": 200.0,
+     "D": 800.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "800 mm",
+     "C": "200 mm",
+     "D": "800 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 1750.0,
+    "qty": 3,
+    "total_length_mm": 5250.0,
+    "weight_kg": 8.3
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-06(A)",
+    "mark": "H",
+    "dia_mm": 16.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 4995.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "4995 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 5000.0,
+    "qty": 4,
+    "total_length_mm": 20000.0,
+    "weight_kg": 31.61
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-06(A)",
+    "mark": "G",
+    "dia_mm": 12.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 805.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "805 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 825.0,
+    "qty": 2,
+    "total_length_mm": 1650.0,
+    "weight_kg": 1.47
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-06(A)",
+    "mark": "F",
+    "dia_mm": 10.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 1120.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "1120 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 1125.0,
+    "qty": 2,
+    "total_length_mm": 2250.0,
+    "weight_kg": 1.39
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-06(A)",
+    "mark": "E",
+    "dia_mm": 8.0,
+    "shape": "M_T10",
+    "dims_mm": {
+     "A": 70.0,
+     "B": 220.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 70.0
+    },
+    "dims_raw": {
+     "A": "70 mm",
+     "B": "220 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "70 mm"
+    },
+    "bar_length_mm": 375.0,
+    "qty": 38,
+    "total_length_mm": 14250.0,
+    "weight_kg": 5.63
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-06(A)",
+    "mark": "D",
+    "dia_mm": 8.0,
+    "shape": "M_T1",
+    "dims_mm": {
+     "A": 70.0,
+     "B": 330.0,
+     "C": 220.0,
+     "D": 330.0,
+     "E": 220.0,
+     "G": 70.0
+    },
+    "dims_raw": {
+     "A": "70 mm",
+     "B": "330 mm",
+     "C": "220 mm",
+     "D": "330 mm",
+     "E": "220 mm",
+     "G": "70 mm"
+    },
+    "bar_length_mm": 1200.0,
+    "qty": 38,
+    "total_length_mm": 45600.0,
+    "weight_kg": 18.02
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-06(A)",
+    "mark": "C",
+    "dia_mm": 8.0,
+    "shape": "M_17A",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 800.0,
+     "C": 265.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "800 mm",
+     "C": "265 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 1075.0,
+    "qty": 5,
+    "total_length_mm": 5375.0,
+    "weight_kg": 2.12
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-06(A)",
+    "mark": "B2",
+    "dia_mm": 8.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 440.0,
+     "C": 90.0,
+     "D": 440.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "440 mm",
+     "C": "90 mm",
+     "D": "440 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 950.0,
+    "qty": 25,
+    "total_length_mm": 23750.0,
+    "weight_kg": 9.38
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-06(A)",
+    "mark": "B1",
+    "dia_mm": 8.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 400.0,
+     "C": 140.0,
+     "D": 400.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "400 mm",
+     "C": "140 mm",
+     "D": "400 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 900.0,
+    "qty": 68,
+    "total_length_mm": 61200.0,
+    "weight_kg": 24.18
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-06(A)",
+    "mark": "B",
+    "dia_mm": 8.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 400.0,
+     "C": 120.0,
+     "D": 400.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "400 mm",
+     "C": "120 mm",
+     "D": "400 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 900.0,
+    "qty": 16,
+    "total_length_mm": 14400.0,
+    "weight_kg": 5.69
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-06(A)",
+    "mark": "A6",
+    "dia_mm": 8.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 5035.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "5035 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 5050.0,
+    "qty": 8,
+    "total_length_mm": 40400.0,
+    "weight_kg": 15.96
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-06(A)",
+    "mark": "A5",
+    "dia_mm": 8.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 4995.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "4995 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 5000.0,
+    "qty": 9,
+    "total_length_mm": 45000.0,
+    "weight_kg": 17.78
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-06(A)",
+    "mark": "A4",
+    "dia_mm": 8.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 4365.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "4365 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 4375.0,
+    "qty": 8,
+    "total_length_mm": 35000.0,
+    "weight_kg": 13.83
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-06(A)",
+    "mark": "A3",
+    "dia_mm": 8.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 1120.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "1120 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 1125.0,
+    "qty": 31,
+    "total_length_mm": 34875.0,
+    "weight_kg": 13.78
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-06(A)",
+    "mark": "A2",
+    "dia_mm": 8.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 1065.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "1065 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 1075.0,
+    "qty": 31,
+    "total_length_mm": 33325.0,
+    "weight_kg": 13.17
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-06(A)",
+    "mark": "A1",
+    "dia_mm": 8.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 800.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "800 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 800.0,
+    "qty": 5,
+    "total_length_mm": 4000.0,
+    "weight_kg": 1.58
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-06(A)",
+    "mark": "A",
+    "dia_mm": 8.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 760.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "760 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 775.0,
+    "qty": 5,
+    "total_length_mm": 3875.0,
+    "weight_kg": 1.53
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-06(B)",
+    "mark": "L",
+    "dia_mm": 10.0,
+    "shape": "Rebar Shape 9",
+    "dims_mm": {
+     "A": 490.0,
+     "B": 260.0,
+     "C": 240.0,
+     "D": 280.0,
+     "E": 640.0
+    },
+    "dims_raw": {
+     "A": "490 mm",
+     "B": "260 mm",
+     "C": "240 mm",
+     "D": "280 mm",
+     "E": "640 mm"
+    },
+    "bar_length_mm": 1825.0,
+    "qty": 5,
+    "total_length_mm": 9125.0,
+    "weight_kg": 5.63
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-06(C)",
+    "mark": "N1",
+    "dia_mm": 20.0,
+    "shape": "26",
+    "dims_mm": {
+     "A": 4510.0,
+     "B": 425.0,
+     "C": 1110.0
+    },
+    "dims_raw": {
+     "A": "4510 mm",
+     "B": "425 mm",
+     "C": "1110 mm"
+    },
+    "bar_length_mm": 6075.0,
+    "qty": 1,
+    "total_length_mm": 6075.0,
+    "weight_kg": 15.0
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-06(C)",
+    "mark": "N",
+    "dia_mm": 20.0,
+    "shape": "26",
+    "dims_mm": {
+     "A": 4630.0,
+     "B": 305.0,
+     "C": 1110.0
+    },
+    "dims_raw": {
+     "A": "4630 mm",
+     "B": "305 mm",
+     "C": "1110 mm"
+    },
+    "bar_length_mm": 6050.0,
+    "qty": 1,
+    "total_length_mm": 6050.0,
+    "weight_kg": 14.94
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-06(C)",
+    "mark": "M3",
+    "dia_mm": 16.0,
+    "shape": "26",
+    "dims_mm": {
+     "A": 930.0,
+     "B": 545.0,
+     "C": 2885.0
+    },
+    "dims_raw": {
+     "A": "930 mm",
+     "B": "545 mm",
+     "C": "2885 mm"
+    },
+    "bar_length_mm": 4375.0,
+    "qty": 1,
+    "total_length_mm": 4375.0,
+    "weight_kg": 6.91
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-06(C)",
+    "mark": "M2",
+    "dia_mm": 16.0,
+    "shape": "26",
+    "dims_mm": {
+     "A": 930.0,
+     "B": 535.0,
+     "C": 2895.0
+    },
+    "dims_raw": {
+     "A": "930 mm",
+     "B": "535 mm",
+     "C": "2895 mm"
+    },
+    "bar_length_mm": 4375.0,
+    "qty": 1,
+    "total_length_mm": 4375.0,
+    "weight_kg": 6.91
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-06(C)",
+    "mark": "M1",
+    "dia_mm": 16.0,
+    "shape": "26",
+    "dims_mm": {
+     "A": 930.0,
+     "B": 500.0,
+     "C": 2925.0
+    },
+    "dims_raw": {
+     "A": "930 mm",
+     "B": "500 mm",
+     "C": "2925 mm"
+    },
+    "bar_length_mm": 4375.0,
+    "qty": 2,
+    "total_length_mm": 8750.0,
+    "weight_kg": 13.83
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-06(C)",
+    "mark": "M",
+    "dia_mm": 16.0,
+    "shape": "26",
+    "dims_mm": {
+     "A": 930.0,
+     "B": 435.0,
+     "C": 2990.0
+    },
+    "dims_raw": {
+     "A": "930 mm",
+     "B": "435 mm",
+     "C": "2990 mm"
+    },
+    "bar_length_mm": 4375.0,
+    "qty": 2,
+    "total_length_mm": 8750.0,
+    "weight_kg": 13.83
+   }
+  ],
+  "summary": {
+   "by_diameter": {
+    "25": {
+     "length_mm": 7400.0,
+     "weight_kg": 28.55
+    },
+    "20": {
+     "length_mm": 13550.0,
+     "weight_kg": 33.46
+    },
+    "16": {
+     "length_mm": 64400.0,
+     "weight_kg": 101.77
+    },
+    "12": {
+     "length_mm": 1650.0,
+     "weight_kg": 1.47
+    },
+    "10": {
+     "length_mm": 11375.0,
+     "weight_kg": 7.02
+    },
+    "8": {
+     "length_mm": 361050.0,
+     "weight_kg": 142.65
+    }
+   },
+   "total": {
+    "length_mm": 459425.0,
+    "weight_kg": 314.92
+   }
+  },
+  "issues": []
+ },
+ "PW-GF-07": {
+  "source": "PW-GF-07_S.dxf",
+  "bars": [
+   {
+    "schedule": "Rebar schedule for PW-GF-07(A)",
+    "mark": "G",
+    "dia_mm": 20.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 2020.0,
+     "C": 0.0,
+     "D": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "2020 mm",
+     "C": "0 mm",
+     "D": "0 mm"
+    },
+    "bar_length_mm": 2025.0,
+    "qty": 3,
+    "total_length_mm": 6075.0,
+    "weight_kg": 15.0
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-07(A)",
+    "mark": "F1",
+    "dia_mm": 16.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 800.0,
+     "C": 2035.0,
+     "D": 800.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "800 mm",
+     "C": "2035 mm",
+     "D": "800 mm"
+    },
+    "bar_length_mm": 3575.0,
+    "qty": 2,
+    "total_length_mm": 7150.0,
+    "weight_kg": 11.3
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-07(A)",
+    "mark": "F",
+    "dia_mm": 16.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 800.0,
+     "C": 1995.0,
+     "D": 800.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "800 mm",
+     "C": "1995 mm",
+     "D": "800 mm"
+    },
+    "bar_length_mm": 3525.0,
+    "qty": 2,
+    "total_length_mm": 7050.0,
+    "weight_kg": 11.14
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-07(A)",
+    "mark": "E",
+    "dia_mm": 16.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 4995.0,
+     "C": 0.0,
+     "D": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "4995 mm",
+     "C": "0 mm",
+     "D": "0 mm"
+    },
+    "bar_length_mm": 5000.0,
+    "qty": 4,
+    "total_length_mm": 20000.0,
+    "weight_kg": 31.61
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-07(A)",
+    "mark": "D1",
+    "dia_mm": 12.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 1960.0,
+     "C": 0.0,
+     "D": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "1960 mm",
+     "C": "0 mm",
+     "D": "0 mm"
+    },
+    "bar_length_mm": 1975.0,
+    "qty": 2,
+    "total_length_mm": 3950.0,
+    "weight_kg": 3.51
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-07(A)",
+    "mark": "D",
+    "dia_mm": 12.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 1870.0,
+     "C": 0.0,
+     "D": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "1870 mm",
+     "C": "0 mm",
+     "D": "0 mm"
+    },
+    "bar_length_mm": 1875.0,
+    "qty": 3,
+    "total_length_mm": 5625.0,
+    "weight_kg": 5.0
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-07(A)",
+    "mark": "C",
+    "dia_mm": 8.0,
+    "shape": "M_17A",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 645.0,
+     "C": 580.0,
+     "D": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "645 mm",
+     "C": "580 mm",
+     "D": "0 mm"
+    },
+    "bar_length_mm": 1225.0,
+    "qty": 10,
+    "total_length_mm": 12250.0,
+    "weight_kg": 4.84
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-07(A)",
+    "mark": "B2",
+    "dia_mm": 8.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 400.0,
+     "C": 140.0,
+     "D": 400.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "400 mm",
+     "C": "140 mm",
+     "D": "400 mm"
+    },
+    "bar_length_mm": 900.0,
+    "qty": 59,
+    "total_length_mm": 53100.0,
+    "weight_kg": 20.98
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-07(A)",
+    "mark": "B1",
+    "dia_mm": 8.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 400.0,
+     "C": 120.0,
+     "D": 400.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "400 mm",
+     "C": "120 mm",
+     "D": "400 mm"
+    },
+    "bar_length_mm": 900.0,
+    "qty": 22,
+    "total_length_mm": 19800.0,
+    "weight_kg": 7.82
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-07(A)",
+    "mark": "B",
+    "dia_mm": 8.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 400.0,
+     "C": 90.0,
+     "D": 400.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "400 mm",
+     "C": "90 mm",
+     "D": "400 mm"
+    },
+    "bar_length_mm": 875.0,
+    "qty": 26,
+    "total_length_mm": 22750.0,
+    "weight_kg": 8.99
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-07(A)",
+    "mark": "A3",
+    "dia_mm": 8.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 5035.0,
+     "C": 0.0,
+     "D": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "5035 mm",
+     "C": "0 mm",
+     "D": "0 mm"
+    },
+    "bar_length_mm": 5050.0,
+    "qty": 11,
+    "total_length_mm": 55550.0,
+    "weight_kg": 21.95
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-07(A)",
+    "mark": "A2",
+    "dia_mm": 8.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 4995.0,
+     "C": 0.0,
+     "D": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "4995 mm",
+     "C": "0 mm",
+     "D": "0 mm"
+    },
+    "bar_length_mm": 5000.0,
+    "qty": 12,
+    "total_length_mm": 60000.0,
+    "weight_kg": 23.71
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-07(A)",
+    "mark": "A1",
+    "dia_mm": 8.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 2095.0,
+     "C": 0.0,
+     "D": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "2095 mm",
+     "C": "0 mm",
+     "D": "0 mm"
+    },
+    "bar_length_mm": 2100.0,
+    "qty": 30,
+    "total_length_mm": 63000.0,
+    "weight_kg": 24.89
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-07(A)",
+    "mark": "A",
+    "dia_mm": 8.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 2050.0,
+     "C": 0.0,
+     "D": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "2050 mm",
+     "C": "0 mm",
+     "D": "0 mm"
+    },
+    "bar_length_mm": 2075.0,
+    "qty": 30,
+    "total_length_mm": 62250.0,
+    "weight_kg": 24.59
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-07(B)",
+    "mark": "I",
+    "dia_mm": 10.0,
+    "shape": "Rebar Shape 9",
+    "dims_mm": {
+     "A": 740.0,
+     "B": 315.0,
+     "C": 200.0,
+     "D": 335.0,
+     "E": 745.0
+    },
+    "dims_raw": {
+     "A": "740 mm",
+     "B": "315 mm",
+     "C": "200 mm",
+     "D": "335 mm",
+     "E": "745 mm"
+    },
+    "bar_length_mm": 2250.0,
+    "qty": 10,
+    "total_length_mm": 22500.0,
+    "weight_kg": 13.89
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-07(B)",
+    "mark": "H",
+    "dia_mm": 8.0,
+    "shape": "Rebar Shape 9",
+    "dims_mm": {
+     "A": 400.0,
+     "B": 115.0,
+     "C": 90.0,
+     "D": 170.0,
+     "E": 435.0
+    },
+    "dims_raw": {
+     "A": "400 mm",
+     "B": "115 mm",
+     "C": "90 mm",
+     "D": "170 mm",
+     "E": "435 mm"
+    },
+    "bar_length_mm": 1175.0,
+    "qty": 26,
+    "total_length_mm": 30550.0,
+    "weight_kg": 12.07
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-07(C)",
+    "mark": "J",
+    "dia_mm": 20.0,
+    "shape": "26",
+    "dims_mm": {
+     "A": 1145.0,
+     "B": 290.0,
+     "C": 4650.0,
+     "D": 65.0,
+     "E": 285.0
+    },
+    "dims_raw": {
+     "A": "1145 mm",
+     "B": "290 mm",
+     "C": "4650 mm",
+     "D": "65 mm",
+     "E": "285 mm"
+    },
+    "bar_length_mm": 6100.0,
+    "qty": 2,
+    "total_length_mm": 12200.0,
+    "weight_kg": 30.13
+   }
+  ],
+  "summary": {
+   "by_diameter": {
+    "20": {
+     "length_mm": 18275.0,
+     "weight_kg": 45.13
+    },
+    "16": {
+     "length_mm": 34200.0,
+     "weight_kg": 54.05
+    },
+    "12": {
+     "length_mm": 9575.0,
+     "weight_kg": 8.51
+    },
+    "10": {
+     "length_mm": 22500.0,
+     "weight_kg": 13.89
+    },
+    "8": {
+     "length_mm": 379250.0,
+     "weight_kg": 149.84
+    }
+   },
+   "total": {
+    "length_mm": 463800.0,
+    "weight_kg": 271.41
+   }
+  },
+  "issues": []
+ },
+ "PW-GF-08": {
+  "source": "PW-GF-08_S.dxf",
+  "bars": [
+   {
+    "schedule": "Rebar schedule for PW-GF-08(A)",
+    "mark": "M",
+    "dia_mm": 25.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 230.0,
+     "C": 1330.0,
+     "D": 1125.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "230 mm",
+     "C": "1330 mm",
+     "D": "1125 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 2600.0,
+    "qty": 2,
+    "total_length_mm": 5200.0,
+    "weight_kg": 20.06
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-08(A)",
+    "mark": "L1",
+    "dia_mm": 20.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 230.0,
+     "C": 1330.0,
+     "D": 800.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "230 mm",
+     "C": "1330 mm",
+     "D": "800 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 2275.0,
+    "qty": 2,
+    "total_length_mm": 4550.0,
+    "weight_kg": 11.24
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-08(A)",
+    "mark": "L",
+    "dia_mm": 20.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 445.0,
+     "C": 620.0,
+     "D": 445.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "445 mm",
+     "C": "620 mm",
+     "D": "445 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 1425.0,
+    "qty": 2,
+    "total_length_mm": 2850.0,
+    "weight_kg": 7.04
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-08(A)",
+    "mark": "K",
+    "dia_mm": 20.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 2020.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "2020 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 2025.0,
+    "qty": 3,
+    "total_length_mm": 6075.0,
+    "weight_kg": 15.0
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-08(A)",
+    "mark": "J",
+    "dia_mm": 16.0,
+    "shape": "M_17A",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 1275.0,
+     "C": 800.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "1275 mm",
+     "C": "800 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 2050.0,
+    "qty": 4,
+    "total_length_mm": 8200.0,
+    "weight_kg": 12.96
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-08(A)",
+    "mark": "I2",
+    "dia_mm": 16.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 800.0,
+     "C": 1995.0,
+     "D": 800.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "800 mm",
+     "C": "1995 mm",
+     "D": "800 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 3525.0,
+    "qty": 4,
+    "total_length_mm": 14100.0,
+    "weight_kg": 22.28
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-08(A)",
+    "mark": "I1",
+    "dia_mm": 16.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 800.0,
+     "C": 310.0,
+     "D": 800.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "800 mm",
+     "C": "310 mm",
+     "D": "800 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 1850.0,
+    "qty": 2,
+    "total_length_mm": 3700.0,
+    "weight_kg": 5.85
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-08(A)",
+    "mark": "I",
+    "dia_mm": 16.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 800.0,
+     "C": 200.0,
+     "D": 800.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "800 mm",
+     "C": "200 mm",
+     "D": "800 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 1750.0,
+    "qty": 3,
+    "total_length_mm": 5250.0,
+    "weight_kg": 8.3
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-08(A)",
+    "mark": "H1",
+    "dia_mm": 16.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 4995.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "4995 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 5000.0,
+    "qty": 4,
+    "total_length_mm": 20000.0,
+    "weight_kg": 31.61
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-08(A)",
+    "mark": "H",
+    "dia_mm": 16.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 2365.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "2365 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 2375.0,
+    "qty": 6,
+    "total_length_mm": 14250.0,
+    "weight_kg": 22.52
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-08(A)",
+    "mark": "G",
+    "dia_mm": 12.0,
+    "shape": "M_T1",
+    "dims_mm": {
+     "A": 105.0,
+     "B": 250.0,
+     "C": 250.0,
+     "D": 250.0,
+     "E": 250.0,
+     "G": 105.0
+    },
+    "dims_raw": {
+     "A": "105 mm",
+     "B": "250 mm",
+     "C": "250 mm",
+     "D": "250 mm",
+     "E": "250 mm",
+     "G": "105 mm"
+    },
+    "bar_length_mm": 1150.0,
+    "qty": 11,
+    "total_length_mm": 12650.0,
+    "weight_kg": 11.25
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-08(A)",
+    "mark": "F1",
+    "dia_mm": 12.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 2095.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "2095 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 2100.0,
+    "qty": 3,
+    "total_length_mm": 6300.0,
+    "weight_kg": 5.6
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-08(A)",
+    "mark": "F",
+    "dia_mm": 12.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 1960.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "1960 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 1975.0,
+    "qty": 1,
+    "total_length_mm": 1975.0,
+    "weight_kg": 1.76
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-08(A)",
+    "mark": "E",
+    "dia_mm": 8.0,
+    "shape": "M_T10",
+    "dims_mm": {
+     "A": 70.0,
+     "B": 220.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 70.0
+    },
+    "dims_raw": {
+     "A": "70 mm",
+     "B": "220 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "70 mm"
+    },
+    "bar_length_mm": 375.0,
+    "qty": 24,
+    "total_length_mm": 9000.0,
+    "weight_kg": 3.56
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-08(A)",
+    "mark": "D",
+    "dia_mm": 8.0,
+    "shape": "M_T1",
+    "dims_mm": {
+     "A": 70.0,
+     "B": 330.0,
+     "C": 220.0,
+     "D": 330.0,
+     "E": 220.0,
+     "G": 70.0
+    },
+    "dims_raw": {
+     "A": "70 mm",
+     "B": "330 mm",
+     "C": "220 mm",
+     "D": "330 mm",
+     "E": "220 mm",
+     "G": "70 mm"
+    },
+    "bar_length_mm": 1200.0,
+    "qty": 24,
+    "total_length_mm": 28800.0,
+    "weight_kg": 11.38
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-08(A)",
+    "mark": "C",
+    "dia_mm": 8.0,
+    "shape": "M_17A",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 645.0,
+     "C": 580.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "645 mm",
+     "C": "580 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 1225.0,
+    "qty": 11,
+    "total_length_mm": 13475.0,
+    "weight_kg": 5.32
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-08(A)",
+    "mark": "B2",
+    "dia_mm": 8.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 400.0,
+     "C": 140.0,
+     "D": 400.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "400 mm",
+     "C": "140 mm",
+     "D": "400 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 900.0,
+    "qty": 59,
+    "total_length_mm": 53100.0,
+    "weight_kg": 20.98
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-08(A)",
+    "mark": "B1",
+    "dia_mm": 8.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 400.0,
+     "C": 120.0,
+     "D": 400.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "400 mm",
+     "C": "120 mm",
+     "D": "400 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 900.0,
+    "qty": 22,
+    "total_length_mm": 19800.0,
+    "weight_kg": 7.82
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-08(A)",
+    "mark": "B",
+    "dia_mm": 8.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 400.0,
+     "C": 90.0,
+     "D": 400.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "400 mm",
+     "C": "90 mm",
+     "D": "400 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 875.0,
+    "qty": 52,
+    "total_length_mm": 45500.0,
+    "weight_kg": 17.98
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-08(A)",
+    "mark": "A3",
+    "dia_mm": 8.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 5035.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "5035 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 5050.0,
+    "qty": 11,
+    "total_length_mm": 55550.0,
+    "weight_kg": 21.95
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-08(A)",
+    "mark": "A2",
+    "dia_mm": 8.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 4995.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "4995 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 5000.0,
+    "qty": 12,
+    "total_length_mm": 60000.0,
+    "weight_kg": 23.71
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-08(A)",
+    "mark": "A1",
+    "dia_mm": 8.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 2095.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "2095 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 2100.0,
+    "qty": 30,
+    "total_length_mm": 63000.0,
+    "weight_kg": 24.89
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-08(A)",
+    "mark": "A",
+    "dia_mm": 8.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 2015.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "2015 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 2025.0,
+    "qty": 30,
+    "total_length_mm": 60750.0,
+    "weight_kg": 24.0
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-08(B)",
+    "mark": "N1",
+    "dia_mm": 20.0,
+    "shape": "26",
+    "dims_mm": {
+     "A": 1145.0,
+     "B": 300.0,
+     "C": 4640.0
+    },
+    "dims_raw": {
+     "A": "1145 mm",
+     "B": "300 mm",
+     "C": "4640 mm"
+    },
+    "bar_length_mm": 6100.0,
+    "qty": 1,
+    "total_length_mm": 6100.0,
+    "weight_kg": 15.06
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-08(B)",
+    "mark": "N",
+    "dia_mm": 20.0,
+    "shape": "26",
+    "dims_mm": {
+     "A": 1145.0,
+     "B": 290.0,
+     "C": 4650.0
+    },
+    "dims_raw": {
+     "A": "1145 mm",
+     "B": "290 mm",
+     "C": "4650 mm"
+    },
+    "bar_length_mm": 6100.0,
+    "qty": 1,
+    "total_length_mm": 6100.0,
+    "weight_kg": 15.06
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-08(C",
+    "mark": "O",
+    "dia_mm": 10.0,
+    "shape": "Rebar Shape 9",
+    "dims_mm": {
+     "A": 740.0,
+     "B": 315.0,
+     "C": 200.0,
+     "D": 335.0,
+     "E": 745.0
+    },
+    "dims_raw": {
+     "A": "740 mm",
+     "B": "315 mm",
+     "C": "200 mm",
+     "D": "335 mm",
+     "E": "745 mm"
+    },
+    "bar_length_mm": 2250.0,
+    "qty": 11,
+    "total_length_mm": 24750.0,
+    "weight_kg": 15.28
+   }
+  ],
+  "summary": {
+   "by_diameter": {
+    "25": {
+     "length_mm": 5200.0,
+     "weight_kg": 20.06
+    },
+    "20": {
+     "length_mm": 25675.0,
+     "weight_kg": 63.4
+    },
+    "16": {
+     "length_mm": 65500.0,
+     "weight_kg": 103.51
+    },
+    "12": {
+     "length_mm": 20925.0,
+     "weight_kg": 18.6
+    },
+    "10": {
+     "length_mm": 24750.0,
+     "weight_kg": 15.28
+    },
+    "8": {
+     "length_mm": 408975.0,
+     "weight_kg": 161.58
+    }
+   },
+   "total": {
+    "length_mm": 551025.0,
+    "weight_kg": 382.44
+   }
+  },
+  "issues": []
+ },
+ "PW-GF-09": {
+  "source": "PW-GF-09_S.dxf",
+  "bars": [
+   {
+    "schedule": "Rebar schedule for PW-GF-09(A)",
+    "mark": "N",
+    "dia_mm": 25.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 235.0,
+     "C": 1320.0,
+     "D": 1100.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "235 mm",
+     "C": "1320 mm",
+     "D": "1100 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 2575.0,
+    "qty": 2,
+    "total_length_mm": 5150.0,
+    "weight_kg": 19.87
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-09(A)",
+    "mark": "M1",
+    "dia_mm": 20.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 235.0,
+     "C": 1320.0,
+     "D": 800.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "235 mm",
+     "C": "1320 mm",
+     "D": "800 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 2275.0,
+    "qty": 2,
+    "total_length_mm": 4550.0,
+    "weight_kg": 11.24
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-09(A)",
+    "mark": "M",
+    "dia_mm": 20.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 445.0,
+     "C": 640.0,
+     "D": 445.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "445 mm",
+     "C": "640 mm",
+     "D": "445 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 1450.0,
+    "qty": 2,
+    "total_length_mm": 2900.0,
+    "weight_kg": 7.16
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-09(A)",
+    "mark": "L",
+    "dia_mm": 20.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 2020.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "2020 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 2025.0,
+    "qty": 2,
+    "total_length_mm": 4050.0,
+    "weight_kg": 10.0
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-09(A)",
+    "mark": "K",
+    "dia_mm": 16.0,
+    "shape": "M_17A",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 1275.0,
+     "C": 800.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "1275 mm",
+     "C": "800 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 2050.0,
+    "qty": 4,
+    "total_length_mm": 8200.0,
+    "weight_kg": 12.96
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-09(A)",
+    "mark": "J3",
+    "dia_mm": 16.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 800.0,
+     "C": 1370.0,
+     "D": 800.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "800 mm",
+     "C": "1370 mm",
+     "D": "800 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 2900.0,
+    "qty": 2,
+    "total_length_mm": 5800.0,
+    "weight_kg": 9.17
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-09(A)",
+    "mark": "J2",
+    "dia_mm": 16.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 800.0,
+     "C": 1080.0,
+     "D": 800.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "800 mm",
+     "C": "1080 mm",
+     "D": "800 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 2625.0,
+    "qty": 2,
+    "total_length_mm": 5250.0,
+    "weight_kg": 8.3
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-09(A)",
+    "mark": "J1",
+    "dia_mm": 16.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 800.0,
+     "C": 310.0,
+     "D": 800.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "800 mm",
+     "C": "310 mm",
+     "D": "800 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 1850.0,
+    "qty": 2,
+    "total_length_mm": 3700.0,
+    "weight_kg": 5.85
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-09(A)",
+    "mark": "J",
+    "dia_mm": 16.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 800.0,
+     "C": 200.0,
+     "D": 900.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "800 mm",
+     "C": "200 mm",
+     "D": "900 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 1850.0,
+    "qty": 3,
+    "total_length_mm": 5550.0,
+    "weight_kg": 8.77
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-09(A)",
+    "mark": "I",
+    "dia_mm": 16.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 4995.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "4995 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 5000.0,
+    "qty": 2,
+    "total_length_mm": 10000.0,
+    "weight_kg": 15.8
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-09(A)",
+    "mark": "H",
+    "dia_mm": 12.0,
+    "shape": "M_T1",
+    "dims_mm": {
+     "A": 105.0,
+     "B": 250.0,
+     "C": 250.0,
+     "D": 250.0,
+     "E": 250.0,
+     "G": 105.0
+    },
+    "dims_raw": {
+     "A": "105 mm",
+     "B": "250 mm",
+     "C": "250 mm",
+     "D": "250 mm",
+     "E": "250 mm",
+     "G": "105 mm"
+    },
+    "bar_length_mm": 1150.0,
+    "qty": 11,
+    "total_length_mm": 12650.0,
+    "weight_kg": 11.25
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-09(A)",
+    "mark": "F1",
+    "dia_mm": 12.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 1120.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "1120 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 1125.0,
+    "qty": 3,
+    "total_length_mm": 3375.0,
+    "weight_kg": 3.0
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-09(A)",
+    "mark": "F",
+    "dia_mm": 12.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 1050.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "1050 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 1075.0,
+    "qty": 1,
+    "total_length_mm": 1075.0,
+    "weight_kg": 0.96
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-09(A)",
+    "mark": "E",
+    "dia_mm": 8.0,
+    "shape": "M_T10",
+    "dims_mm": {
+     "A": 70.0,
+     "B": 220.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 70.0
+    },
+    "dims_raw": {
+     "A": "70 mm",
+     "B": "220 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "70 mm"
+    },
+    "bar_length_mm": 375.0,
+    "qty": 37,
+    "total_length_mm": 13875.0,
+    "weight_kg": 5.48
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-09(A)",
+    "mark": "D",
+    "dia_mm": 8.0,
+    "shape": "M_T1",
+    "dims_mm": {
+     "A": 70.0,
+     "B": 330.0,
+     "C": 220.0,
+     "D": 330.0,
+     "E": 220.0,
+     "G": 70.0
+    },
+    "dims_raw": {
+     "A": "70 mm",
+     "B": "330 mm",
+     "C": "220 mm",
+     "D": "330 mm",
+     "E": "220 mm",
+     "G": "70 mm"
+    },
+    "bar_length_mm": 1200.0,
+    "qty": 37,
+    "total_length_mm": 44400.0,
+    "weight_kg": 17.54
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-09(A)",
+    "mark": "C",
+    "dia_mm": 8.0,
+    "shape": "M_17A",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 375.0,
+     "C": 580.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "375 mm",
+     "C": "580 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 950.0,
+    "qty": 6,
+    "total_length_mm": 5700.0,
+    "weight_kg": 2.25
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-09(A)",
+    "mark": "B2",
+    "dia_mm": 8.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 440.0,
+     "C": 90.0,
+     "D": 440.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "440 mm",
+     "C": "90 mm",
+     "D": "440 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 950.0,
+    "qty": 49,
+    "total_length_mm": 46550.0,
+    "weight_kg": 18.39
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-09(A)",
+    "mark": "B1",
+    "dia_mm": 8.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 400.0,
+     "C": 140.0,
+     "D": 400.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "400 mm",
+     "C": "140 mm",
+     "D": "400 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 900.0,
+    "qty": 30,
+    "total_length_mm": 27000.0,
+    "weight_kg": 10.67
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-09(A)",
+    "mark": "B",
+    "dia_mm": 8.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 400.0,
+     "C": 120.0,
+     "D": 400.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "400 mm",
+     "C": "120 mm",
+     "D": "400 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 900.0,
+    "qty": 14,
+    "total_length_mm": 12600.0,
+    "weight_kg": 4.98
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-09(A)",
+    "mark": "A4",
+    "dia_mm": 8.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 5035.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "5035 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 5050.0,
+    "qty": 7,
+    "total_length_mm": 35350.0,
+    "weight_kg": 13.97
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-09(A)",
+    "mark": "A3",
+    "dia_mm": 8.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 4995.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "4995 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 5000.0,
+    "qty": 9,
+    "total_length_mm": 45000.0,
+    "weight_kg": 17.78
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-09(A)",
+    "mark": "A2",
+    "dia_mm": 8.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 1440.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "1440 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 1450.0,
+    "qty": 30,
+    "total_length_mm": 43500.0,
+    "weight_kg": 17.19
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-09(A)",
+    "mark": "A1",
+    "dia_mm": 8.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 1335.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "1335 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 1350.0,
+    "qty": 26,
+    "total_length_mm": 35100.0,
+    "weight_kg": 13.87
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-09(A)",
+    "mark": "A",
+    "dia_mm": 8.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 1100.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "1100 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 1125.0,
+    "qty": 5,
+    "total_length_mm": 5625.0,
+    "weight_kg": 2.22
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-09(B)",
+    "mark": "O",
+    "dia_mm": 20.0,
+    "shape": "26",
+    "dims_mm": {
+     "A": 1145.0,
+     "B": 290.0,
+     "C": 4650.0
+    },
+    "dims_raw": {
+     "A": "1145 mm",
+     "B": "290 mm",
+     "C": "4650 mm"
+    },
+    "bar_length_mm": 6100.0,
+    "qty": 1,
+    "total_length_mm": 6100.0,
+    "weight_kg": 15.06
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-09(C)",
+    "mark": "Q4",
+    "dia_mm": 16.0,
+    "shape": "Rebar Shape 31",
+    "dims_mm": {
+     "A": 930.0,
+     "B": 520.0,
+     "C": 2510.0,
+     "D": 275.0,
+     "E": 1605.0
+    },
+    "dims_raw": {
+     "A": "930 mm",
+     "B": "520 mm",
+     "C": "2510 mm",
+     "D": "275 mm",
+     "E": "1605 mm"
+    },
+    "bar_length_mm": 5850.0,
+    "qty": 2,
+    "total_length_mm": 11700.0,
+    "weight_kg": 18.49
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-09(C)",
+    "mark": "Q3",
+    "dia_mm": 16.0,
+    "shape": "Rebar Shape 31",
+    "dims_mm": {
+     "A": 930.0,
+     "B": 500.0,
+     "C": 2550.0,
+     "D": 255.0,
+     "E": 1605.0
+    },
+    "dims_raw": {
+     "A": "930 mm",
+     "B": "500 mm",
+     "C": "2550 mm",
+     "D": "255 mm",
+     "E": "1605 mm"
+    },
+    "bar_length_mm": 5850.0,
+    "qty": 1,
+    "total_length_mm": 5850.0,
+    "weight_kg": 9.25
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-09(C)",
+    "mark": "Q2",
+    "dia_mm": 16.0,
+    "shape": "Rebar Shape 31",
+    "dims_mm": {
+     "A": 930.0,
+     "B": 495.0,
+     "C": 2560.0,
+     "D": 250.0,
+     "E": 1605.0
+    },
+    "dims_raw": {
+     "A": "930 mm",
+     "B": "495 mm",
+     "C": "2560 mm",
+     "D": "250 mm",
+     "E": "1605 mm"
+    },
+    "bar_length_mm": 5850.0,
+    "qty": 1,
+    "total_length_mm": 5850.0,
+    "weight_kg": 9.25
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-09(C)",
+    "mark": "Q1",
+    "dia_mm": 16.0,
+    "shape": "Rebar Shape 31",
+    "dims_mm": {
+     "A": 905.0,
+     "B": 460.0,
+     "C": 2675.0,
+     "D": 195.0,
+     "E": 1600.0
+    },
+    "dims_raw": {
+     "A": "905 mm",
+     "B": "460 mm",
+     "C": "2675 mm",
+     "D": "195 mm",
+     "E": "1600 mm"
+    },
+    "bar_length_mm": 5850.0,
+    "qty": 1,
+    "total_length_mm": 5850.0,
+    "weight_kg": 9.25
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-09(C)",
+    "mark": "Q",
+    "dia_mm": 16.0,
+    "shape": "Rebar Shape 31",
+    "dims_mm": {
+     "A": 930.0,
+     "B": 435.0,
+     "C": 2675.0,
+     "D": 195.0,
+     "E": 1605.0
+    },
+    "dims_raw": {
+     "A": "930 mm",
+     "B": "435 mm",
+     "C": "2675 mm",
+     "D": "195 mm",
+     "E": "1605 mm"
+    },
+    "bar_length_mm": 5850.0,
+    "qty": 1,
+    "total_length_mm": 5850.0,
+    "weight_kg": 9.25
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-09(C)",
+    "mark": "P",
+    "dia_mm": 10.0,
+    "shape": "Rebar Shape 9",
+    "dims_mm": {
+     "A": 740.0,
+     "B": 315.0,
+     "C": 200.0,
+     "D": 335.0,
+     "E": 745.0
+    },
+    "dims_raw": {
+     "A": "740 mm",
+     "B": "315 mm",
+     "C": "200 mm",
+     "D": "335 mm",
+     "E": "745 mm"
+    },
+    "bar_length_mm": 2250.0,
+    "qty": 7,
+    "total_length_mm": 15750.0,
+    "weight_kg": 9.72
+   }
+  ],
+  "summary": {
+   "by_diameter": {
+    "25": {
+     "length_mm": 5150.0,
+     "weight_kg": 19.87
+    },
+    "20": {
+     "length_mm": 17600.0,
+     "weight_kg": 43.46
+    },
+    "16": {
+     "length_mm": 73600.0,
+     "weight_kg": 116.31
+    },
+    "12": {
+     "length_mm": 17100.0,
+     "weight_kg": 15.2
+    },
+    "10": {
+     "length_mm": 15750.0,
+     "weight_kg": 9.72
+    },
+    "8": {
+     "length_mm": 314700.0,
+     "weight_kg": 124.33
+    }
+   },
+   "total": {
+    "length_mm": 443900.0,
+    "weight_kg": 328.9
+   }
+  },
+  "issues": []
+ },
+ "PW-GF-11": {
+  "source": "PW-GF-11_S.dxf",
+  "bars": [
+   {
+    "schedule": "Rebar schedule for PW-GF-11(A)",
+    "mark": "N",
+    "dia_mm": 25.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 235.0,
+     "C": 1330.0,
+     "D": 1100.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "235 mm",
+     "C": "1330 mm",
+     "D": "1100 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 2575.0,
+    "qty": 2,
+    "total_length_mm": 5150.0,
+    "weight_kg": 19.87
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-11(A)",
+    "mark": "M1",
+    "dia_mm": 20.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 235.0,
+     "C": 1330.0,
+     "D": 800.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "235 mm",
+     "C": "1330 mm",
+     "D": "800 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 2275.0,
+    "qty": 2,
+    "total_length_mm": 4550.0,
+    "weight_kg": 11.24
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-11(A)",
+    "mark": "M",
+    "dia_mm": 20.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 445.0,
+     "C": 620.0,
+     "D": 445.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "445 mm",
+     "C": "620 mm",
+     "D": "445 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 1425.0,
+    "qty": 2,
+    "total_length_mm": 2850.0,
+    "weight_kg": 7.04
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-11(A)",
+    "mark": "L",
+    "dia_mm": 20.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 1670.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "1670 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 1675.0,
+    "qty": 3,
+    "total_length_mm": 5025.0,
+    "weight_kg": 12.41
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-11(A)",
+    "mark": "K",
+    "dia_mm": 16.0,
+    "shape": "M_17A",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 1275.0,
+     "C": 800.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "1275 mm",
+     "C": "800 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 2050.0,
+    "qty": 4,
+    "total_length_mm": 8200.0,
+    "weight_kg": 12.96
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-11(A)",
+    "mark": "J2",
+    "dia_mm": 16.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 800.0,
+     "C": 2070.0,
+     "D": 800.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "800 mm",
+     "C": "2070 mm",
+     "D": "800 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 3600.0,
+    "qty": 4,
+    "total_length_mm": 14400.0,
+    "weight_kg": 22.76
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-11(A)",
+    "mark": "J1",
+    "dia_mm": 16.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 800.0,
+     "C": 310.0,
+     "D": 800.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "800 mm",
+     "C": "310 mm",
+     "D": "800 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 1850.0,
+    "qty": 2,
+    "total_length_mm": 3700.0,
+    "weight_kg": 5.85
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-11(A)",
+    "mark": "J",
+    "dia_mm": 16.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 800.0,
+     "C": 200.0,
+     "D": 800.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "800 mm",
+     "C": "200 mm",
+     "D": "800 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 1750.0,
+    "qty": 3,
+    "total_length_mm": 5250.0,
+    "weight_kg": 8.3
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-11(A)",
+    "mark": "I1",
+    "dia_mm": 16.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 8995.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "8995 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 9000.0,
+    "qty": 4,
+    "total_length_mm": 36000.0,
+    "weight_kg": 56.89
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-11(A)",
+    "mark": "I",
+    "dia_mm": 16.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 2365.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "2365 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 2375.0,
+    "qty": 6,
+    "total_length_mm": 14250.0,
+    "weight_kg": 22.52
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-11(A)",
+    "mark": "H",
+    "dia_mm": 12.0,
+    "shape": "M_T1",
+    "dims_mm": {
+     "A": 105.0,
+     "B": 250.0,
+     "C": 250.0,
+     "D": 250.0,
+     "E": 250.0,
+     "G": 105.0
+    },
+    "dims_raw": {
+     "A": "105 mm",
+     "B": "250 mm",
+     "C": "250 mm",
+     "D": "250 mm",
+     "E": "250 mm",
+     "G": "105 mm"
+    },
+    "bar_length_mm": 1150.0,
+    "qty": 11,
+    "total_length_mm": 12650.0,
+    "weight_kg": 11.25
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-11(A)",
+    "mark": "G",
+    "dia_mm": 12.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 2205.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "2205 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 2225.0,
+    "qty": 4,
+    "total_length_mm": 8900.0,
+    "weight_kg": 7.91
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-11(A)",
+    "mark": "F1",
+    "dia_mm": 10.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 9035.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "9035 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 9050.0,
+    "qty": 23,
+    "total_length_mm": 208150.0,
+    "weight_kg": 128.5
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-11(A)",
+    "mark": "F",
+    "dia_mm": 10.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 8995.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "8995 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 9000.0,
+    "qty": 23,
+    "total_length_mm": 207000.0,
+    "weight_kg": 127.79
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-11(A)",
+    "mark": "E",
+    "dia_mm": 8.0,
+    "shape": "M_T10",
+    "dims_mm": {
+     "A": 70.0,
+     "B": 220.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 70.0
+    },
+    "dims_raw": {
+     "A": "70 mm",
+     "B": "220 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "70 mm"
+    },
+    "bar_length_mm": 375.0,
+    "qty": 24,
+    "total_length_mm": 9000.0,
+    "weight_kg": 3.56
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-11(A)",
+    "mark": "D",
+    "dia_mm": 8.0,
+    "shape": "M_T1",
+    "dims_mm": {
+     "A": 70.0,
+     "B": 330.0,
+     "C": 220.0,
+     "D": 330.0,
+     "E": 220.0,
+     "G": 70.0
+    },
+    "dims_raw": {
+     "A": "70 mm",
+     "B": "330 mm",
+     "C": "220 mm",
+     "D": "330 mm",
+     "E": "220 mm",
+     "G": "70 mm"
+    },
+    "bar_length_mm": 1200.0,
+    "qty": 24,
+    "total_length_mm": 28800.0,
+    "weight_kg": 11.38
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-11(A)",
+    "mark": "C",
+    "dia_mm": 8.0,
+    "shape": "M_17A",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 645.0,
+     "C": 580.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "645 mm",
+     "C": "580 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 1225.0,
+    "qty": 12,
+    "total_length_mm": 14700.0,
+    "weight_kg": 5.81
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-11(A)",
+    "mark": "B2",
+    "dia_mm": 8.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 400.0,
+     "C": 140.0,
+     "D": 400.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "400 mm",
+     "C": "140 mm",
+     "D": "400 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 900.0,
+    "qty": 104,
+    "total_length_mm": 93600.0,
+    "weight_kg": 36.98
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-11(A)",
+    "mark": "B1",
+    "dia_mm": 8.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 400.0,
+     "C": 120.0,
+     "D": 400.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "400 mm",
+     "C": "120 mm",
+     "D": "400 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 900.0,
+    "qty": 42,
+    "total_length_mm": 37800.0,
+    "weight_kg": 14.93
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-11(A)",
+    "mark": "B",
+    "dia_mm": 8.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 400.0,
+     "C": 90.0,
+     "D": 400.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "400 mm",
+     "C": "90 mm",
+     "D": "400 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 875.0,
+    "qty": 92,
+    "total_length_mm": 80500.0,
+    "weight_kg": 31.8
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-11(A)",
+    "mark": "A1",
+    "dia_mm": 8.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 2195.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "2195 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 2200.0,
+    "qty": 53,
+    "total_length_mm": 116600.0,
+    "weight_kg": 46.07
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-11(A)",
+    "mark": "A",
+    "dia_mm": 8.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 2155.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "2155 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 2175.0,
+    "qty": 53,
+    "total_length_mm": 115275.0,
+    "weight_kg": 45.54
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-11(B)",
+    "mark": "O",
+    "dia_mm": 20.0,
+    "shape": "26",
+    "dims_mm": {
+     "A": 1145.0,
+     "B": 335.0,
+     "C": 8255.0
+    },
+    "dims_raw": {
+     "A": "1145 mm",
+     "B": "335 mm",
+     "C": "8255 mm"
+    },
+    "bar_length_mm": 9750.0,
+    "qty": 2,
+    "total_length_mm": 19500.0,
+    "weight_kg": 48.15
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-11(C)",
+    "mark": "P",
+    "dia_mm": 10.0,
+    "shape": "Rebar Shape 9",
+    "dims_mm": {
+     "A": 695.0,
+     "B": 315.0,
+     "C": 200.0,
+     "D": 335.0,
+     "E": 700.0
+    },
+    "dims_raw": {
+     "A": "695 mm",
+     "B": "315 mm",
+     "C": "200 mm",
+     "D": "335 mm",
+     "E": "700 mm"
+    },
+    "bar_length_mm": 2175.0,
+    "qty": 12,
+    "total_length_mm": 26100.0,
+    "weight_kg": 16.11
+   }
+  ],
+  "summary": {
+   "by_diameter": {
+    "25": {
+     "length_mm": 5150.0,
+     "weight_kg": 19.87
+    },
+    "20": {
+     "length_mm": 31925.0,
+     "weight_kg": 78.83
+    },
+    "16": {
+     "length_mm": 81800.0,
+     "weight_kg": 129.27
+    },
+    "12": {
+     "length_mm": 21550.0,
+     "weight_kg": 19.16
+    },
+    "10": {
+     "length_mm": 441250.0,
+     "weight_kg": 272.39
+    },
+    "8": {
+     "length_mm": 496275.0,
+     "weight_kg": 196.07
+    }
+   },
+   "total": {
+    "length_mm": 1077950.0,
+    "weight_kg": 715.6
+   }
+  },
+  "issues": []
+ },
+ "PW-GF-18": {
+  "source": "PW-GF-18_S.dxf",
+  "bars": [
+   {
+    "schedule": "Rebar schedule for PW-GF-18(A)",
+    "mark": "I1",
+    "dia_mm": 20.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 2015.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "2015 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 2025.0,
+    "qty": 1,
+    "total_length_mm": 2025.0,
+    "weight_kg": 5.0
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-18(A)",
+    "mark": "I",
+    "dia_mm": 20.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 2020.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "2020 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 2025.0,
+    "qty": 1,
+    "total_length_mm": 2025.0,
+    "weight_kg": 5.0
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-18(A)",
+    "mark": "H3",
+    "dia_mm": 16.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 800.0,
+     "C": 1370.0,
+     "D": 800.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "800 mm",
+     "C": "1370 mm",
+     "D": "800 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 2900.0,
+    "qty": 2,
+    "total_length_mm": 5800.0,
+    "weight_kg": 9.17
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-18(A)",
+    "mark": "H2",
+    "dia_mm": 16.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 800.0,
+     "C": 1080.0,
+     "D": 800.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "800 mm",
+     "C": "1080 mm",
+     "D": "800 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 2625.0,
+    "qty": 2,
+    "total_length_mm": 5250.0,
+    "weight_kg": 8.3
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-18(A)",
+    "mark": "H1",
+    "dia_mm": 16.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 800.0,
+     "C": 310.0,
+     "D": 800.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "800 mm",
+     "C": "310 mm",
+     "D": "800 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 1850.0,
+    "qty": 2,
+    "total_length_mm": 3700.0,
+    "weight_kg": 5.85
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-18(A)",
+    "mark": "H",
+    "dia_mm": 16.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 800.0,
+     "C": 200.0,
+     "D": 800.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "800 mm",
+     "C": "200 mm",
+     "D": "800 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 1750.0,
+    "qty": 3,
+    "total_length_mm": 5250.0,
+    "weight_kg": 8.3
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-18(A)",
+    "mark": "G",
+    "dia_mm": 16.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 4995.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "4995 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 5000.0,
+    "qty": 2,
+    "total_length_mm": 10000.0,
+    "weight_kg": 15.8
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-18(A)",
+    "mark": "F1",
+    "dia_mm": 12.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 1120.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "1120 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 1125.0,
+    "qty": 3,
+    "total_length_mm": 3375.0,
+    "weight_kg": 3.0
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-18(A)",
+    "mark": "F",
+    "dia_mm": 12.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 1100.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "1100 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 1125.0,
+    "qty": 1,
+    "total_length_mm": 1125.0,
+    "weight_kg": 1.0
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-18(A)",
+    "mark": "E",
+    "dia_mm": 8.0,
+    "shape": "M_T10",
+    "dims_mm": {
+     "A": 70.0,
+     "B": 220.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 70.0
+    },
+    "dims_raw": {
+     "A": "70 mm",
+     "B": "220 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "70 mm"
+    },
+    "bar_length_mm": 375.0,
+    "qty": 37,
+    "total_length_mm": 13875.0,
+    "weight_kg": 5.48
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-18(A)",
+    "mark": "D",
+    "dia_mm": 8.0,
+    "shape": "M_T1",
+    "dims_mm": {
+     "A": 70.0,
+     "B": 330.0,
+     "C": 220.0,
+     "D": 330.0,
+     "E": 220.0,
+     "G": 70.0
+    },
+    "dims_raw": {
+     "A": "70 mm",
+     "B": "330 mm",
+     "C": "220 mm",
+     "D": "330 mm",
+     "E": "220 mm",
+     "G": "70 mm"
+    },
+    "bar_length_mm": 1200.0,
+    "qty": 37,
+    "total_length_mm": 44400.0,
+    "weight_kg": 17.54
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-18(A)",
+    "mark": "C",
+    "dia_mm": 8.0,
+    "shape": "M_17A",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 375.0,
+     "C": 580.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "375 mm",
+     "C": "580 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 950.0,
+    "qty": 6,
+    "total_length_mm": 5700.0,
+    "weight_kg": 2.25
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-18(A)",
+    "mark": "B2",
+    "dia_mm": 8.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 400.0,
+     "C": 140.0,
+     "D": 400.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "400 mm",
+     "C": "140 mm",
+     "D": "400 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 900.0,
+    "qty": 30,
+    "total_length_mm": 27000.0,
+    "weight_kg": 10.67
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-18(A)",
+    "mark": "B1",
+    "dia_mm": 8.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 400.0,
+     "C": 120.0,
+     "D": 400.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "400 mm",
+     "C": "120 mm",
+     "D": "400 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 900.0,
+    "qty": 14,
+    "total_length_mm": 12600.0,
+    "weight_kg": 4.98
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-18(A)",
+    "mark": "B",
+    "dia_mm": 8.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 400.0,
+     "C": 90.0,
+     "D": 400.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "400 mm",
+     "C": "90 mm",
+     "D": "400 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 875.0,
+    "qty": 49,
+    "total_length_mm": 42875.0,
+    "weight_kg": 16.94
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-18(A)",
+    "mark": "A4",
+    "dia_mm": 8.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 5035.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "5035 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 5050.0,
+    "qty": 7,
+    "total_length_mm": 35350.0,
+    "weight_kg": 13.97
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-18(A)",
+    "mark": "A3",
+    "dia_mm": 8.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 4995.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "4995 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 5000.0,
+    "qty": 9,
+    "total_length_mm": 45000.0,
+    "weight_kg": 17.78
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-18(A)",
+    "mark": "A2",
+    "dia_mm": 8.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 1440.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "1440 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 1450.0,
+    "qty": 30,
+    "total_length_mm": 43500.0,
+    "weight_kg": 17.19
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-18(A)",
+    "mark": "A1",
+    "dia_mm": 8.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 1330.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "1330 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 1350.0,
+    "qty": 26,
+    "total_length_mm": 35100.0,
+    "weight_kg": 13.87
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-18(A)",
+    "mark": "A",
+    "dia_mm": 8.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 1100.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "1100 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 1100.0,
+    "qty": 5,
+    "total_length_mm": 5500.0,
+    "weight_kg": 2.17
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-18(B)",
+    "mark": "K5",
+    "dia_mm": 16.0,
+    "shape": "Rebar Shape 31",
+    "dims_mm": {
+     "A": 890.0,
+     "B": 475.0,
+     "C": 2675.0,
+     "D": 195.0,
+     "E": 1750.0
+    },
+    "dims_raw": {
+     "A": "890 mm",
+     "B": "475 mm",
+     "C": "2675 mm",
+     "D": "195 mm",
+     "E": "1750 mm"
+    },
+    "bar_length_mm": 6000.0,
+    "qty": 1,
+    "total_length_mm": 6000.0,
+    "weight_kg": 9.48
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-18(B)",
+    "mark": "K4",
+    "dia_mm": 16.0,
+    "shape": "Rebar Shape 31",
+    "dims_mm": {
+     "A": 930.0,
+     "B": 435.0,
+     "C": 2675.0,
+     "D": 195.0,
+     "E": 1755.0
+    },
+    "dims_raw": {
+     "A": "930 mm",
+     "B": "435 mm",
+     "C": "2675 mm",
+     "D": "195 mm",
+     "E": "1755 mm"
+    },
+    "bar_length_mm": 6000.0,
+    "qty": 1,
+    "total_length_mm": 6000.0,
+    "weight_kg": 9.48
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-18(B)",
+    "mark": "K3",
+    "dia_mm": 16.0,
+    "shape": "Rebar Shape 31",
+    "dims_mm": {
+     "A": 930.0,
+     "B": 495.0,
+     "C": 2560.0,
+     "D": 250.0,
+     "E": 1755.0
+    },
+    "dims_raw": {
+     "A": "930 mm",
+     "B": "495 mm",
+     "C": "2560 mm",
+     "D": "250 mm",
+     "E": "1755 mm"
+    },
+    "bar_length_mm": 6000.0,
+    "qty": 1,
+    "total_length_mm": 6000.0,
+    "weight_kg": 9.48
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-18(B)",
+    "mark": "K2",
+    "dia_mm": 16.0,
+    "shape": "Rebar Shape 31",
+    "dims_mm": {
+     "A": 930.0,
+     "B": 500.0,
+     "C": 2550.0,
+     "D": 255.0,
+     "E": 1755.0
+    },
+    "dims_raw": {
+     "A": "930 mm",
+     "B": "500 mm",
+     "C": "2550 mm",
+     "D": "255 mm",
+     "E": "1755 mm"
+    },
+    "bar_length_mm": 6000.0,
+    "qty": 1,
+    "total_length_mm": 6000.0,
+    "weight_kg": 9.48
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-18(B)",
+    "mark": "K1",
+    "dia_mm": 16.0,
+    "shape": "Rebar Shape 31",
+    "dims_mm": {
+     "A": 930.0,
+     "B": 520.0,
+     "C": 2515.0,
+     "D": 275.0,
+     "E": 1755.0
+    },
+    "dims_raw": {
+     "A": "930 mm",
+     "B": "520 mm",
+     "C": "2515 mm",
+     "D": "275 mm",
+     "E": "1755 mm"
+    },
+    "bar_length_mm": 6000.0,
+    "qty": 1,
+    "total_length_mm": 6000.0,
+    "weight_kg": 9.48
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-18(B)",
+    "mark": "K",
+    "dia_mm": 16.0,
+    "shape": "Rebar Shape 31",
+    "dims_mm": {
+     "A": 930.0,
+     "B": 520.0,
+     "C": 2510.0,
+     "D": 275.0,
+     "E": 1755.0
+    },
+    "dims_raw": {
+     "A": "930 mm",
+     "B": "520 mm",
+     "C": "2510 mm",
+     "D": "275 mm",
+     "E": "1755 mm"
+    },
+    "bar_length_mm": 6000.0,
+    "qty": 1,
+    "total_length_mm": 6000.0,
+    "weight_kg": 9.48
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-18(B)",
+    "mark": "J",
+    "dia_mm": 10.0,
+    "shape": "Rebar Shape 9",
+    "dims_mm": {
+     "A": 740.0,
+     "B": 315.0,
+     "C": 200.0,
+     "D": 335.0,
+     "E": 745.0
+    },
+    "dims_raw": {
+     "A": "740 mm",
+     "B": "315 mm",
+     "C": "200 mm",
+     "D": "335 mm",
+     "E": "745 mm"
+    },
+    "bar_length_mm": 2250.0,
+    "qty": 7,
+    "total_length_mm": 15750.0,
+    "weight_kg": 9.72
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-18(C)",
+    "mark": "L",
+    "dia_mm": 20.0,
+    "shape": "26",
+    "dims_mm": {
+     "A": 1145.0,
+     "B": 290.0,
+     "C": 4650.0
+    },
+    "dims_raw": {
+     "A": "1145 mm",
+     "B": "290 mm",
+     "C": "4650 mm"
+    },
+    "bar_length_mm": 6100.0,
+    "qty": 1,
+    "total_length_mm": 6100.0,
+    "weight_kg": 15.06
+   }
+  ],
+  "summary": {
+   "by_diameter": {
+    "20": {
+     "length_mm": 10150.0,
+     "weight_kg": 25.06
+    },
+    "16": {
+     "length_mm": 66000.0,
+     "weight_kg": 104.3
+    },
+    "12": {
+     "length_mm": 4500.0,
+     "weight_kg": 4.0
+    },
+    "10": {
+     "length_mm": 15750.0,
+     "weight_kg": 9.72
+    },
+    "8": {
+     "length_mm": 310900.0,
+     "weight_kg": 122.83
+    }
+   },
+   "total": {
+    "length_mm": 407300.0,
+    "weight_kg": 265.92
+   }
+  },
+  "issues": []
+ },
+ "PW-GF-25": {
+  "source": "PW-GF-25_S.dxf",
+  "bars": [
+   {
+    "schedule": "Rebar schedule for PW-GF-25(A)",
+    "mark": "I",
+    "dia_mm": 20.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 2020.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "2020 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 2025.0,
+    "qty": 1,
+    "total_length_mm": 2025.0,
+    "weight_kg": 5.0
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-25(A)",
+    "mark": "H3",
+    "dia_mm": 16.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 800.0,
+     "C": 1370.0,
+     "D": 800.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "800 mm",
+     "C": "1370 mm",
+     "D": "800 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 2900.0,
+    "qty": 2,
+    "total_length_mm": 5800.0,
+    "weight_kg": 9.17
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-25(A)",
+    "mark": "H2",
+    "dia_mm": 16.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 800.0,
+     "C": 1080.0,
+     "D": 800.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "800 mm",
+     "C": "1080 mm",
+     "D": "800 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 2625.0,
+    "qty": 2,
+    "total_length_mm": 5250.0,
+    "weight_kg": 8.3
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-25(A)",
+    "mark": "H1",
+    "dia_mm": 16.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 800.0,
+     "C": 310.0,
+     "D": 800.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "800 mm",
+     "C": "310 mm",
+     "D": "800 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 1850.0,
+    "qty": 2,
+    "total_length_mm": 3700.0,
+    "weight_kg": 5.85
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-25(A)",
+    "mark": "H",
+    "dia_mm": 16.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 800.0,
+     "C": 200.0,
+     "D": 800.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "800 mm",
+     "C": "200 mm",
+     "D": "800 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 1750.0,
+    "qty": 3,
+    "total_length_mm": 5250.0,
+    "weight_kg": 8.3
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-25(A)",
+    "mark": "G",
+    "dia_mm": 16.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 4995.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "4995 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 5000.0,
+    "qty": 2,
+    "total_length_mm": 10000.0,
+    "weight_kg": 15.8
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-25(A)",
+    "mark": "F",
+    "dia_mm": 10.0,
+    "shape": "M_17A",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 285.0,
+     "C": 775.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "285 mm",
+     "C": "775 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 1050.0,
+    "qty": 2,
+    "total_length_mm": 2100.0,
+    "weight_kg": 1.3
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-25(A)",
+    "mark": "E",
+    "dia_mm": 8.0,
+    "shape": "M_T10",
+    "dims_mm": {
+     "A": 70.0,
+     "B": 220.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 70.0
+    },
+    "dims_raw": {
+     "A": "70 mm",
+     "B": "220 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "70 mm"
+    },
+    "bar_length_mm": 375.0,
+    "qty": 37,
+    "total_length_mm": 13875.0,
+    "weight_kg": 5.48
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-25(A)",
+    "mark": "D",
+    "dia_mm": 8.0,
+    "shape": "M_T1",
+    "dims_mm": {
+     "A": 70.0,
+     "B": 330.0,
+     "C": 220.0,
+     "D": 330.0,
+     "E": 220.0,
+     "G": 70.0
+    },
+    "dims_raw": {
+     "A": "70 mm",
+     "B": "330 mm",
+     "C": "220 mm",
+     "D": "330 mm",
+     "E": "220 mm",
+     "G": "70 mm"
+    },
+    "bar_length_mm": 1200.0,
+    "qty": 37,
+    "total_length_mm": 44400.0,
+    "weight_kg": 17.54
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-25(A)",
+    "mark": "C",
+    "dia_mm": 8.0,
+    "shape": "M_17A",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 580.0,
+     "C": 400.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "580 mm",
+     "C": "400 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 975.0,
+    "qty": 7,
+    "total_length_mm": 6825.0,
+    "weight_kg": 2.7
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-25(A)",
+    "mark": "B2",
+    "dia_mm": 8.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 440.0,
+     "C": 90.0,
+     "D": 440.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "440 mm",
+     "C": "90 mm",
+     "D": "440 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 950.0,
+    "qty": 26,
+    "total_length_mm": 24700.0,
+    "weight_kg": 9.76
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-25(A)",
+    "mark": "B1",
+    "dia_mm": 8.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 400.0,
+     "C": 140.0,
+     "D": 400.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "400 mm",
+     "C": "140 mm",
+     "D": "400 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 900.0,
+    "qty": 29,
+    "total_length_mm": 26100.0,
+    "weight_kg": 10.31
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-25(A)",
+    "mark": "B",
+    "dia_mm": 8.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 400.0,
+     "C": 120.0,
+     "D": 400.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "400 mm",
+     "C": "120 mm",
+     "D": "400 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 900.0,
+    "qty": 14,
+    "total_length_mm": 12600.0,
+    "weight_kg": 4.98
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-25(A)",
+    "mark": "A4",
+    "dia_mm": 8.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 5035.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "5035 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 5050.0,
+    "qty": 7,
+    "total_length_mm": 35350.0,
+    "weight_kg": 13.97
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-25(A)",
+    "mark": "A3",
+    "dia_mm": 8.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 4995.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "4995 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 5000.0,
+    "qty": 9,
+    "total_length_mm": 45000.0,
+    "weight_kg": 17.78
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-25(A)",
+    "mark": "A2",
+    "dia_mm": 8.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 1440.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "1440 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 1450.0,
+    "qty": 30,
+    "total_length_mm": 43500.0,
+    "weight_kg": 17.19
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-25(A)",
+    "mark": "A1",
+    "dia_mm": 8.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 1400.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "1400 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 1400.0,
+    "qty": 26,
+    "total_length_mm": 36400.0,
+    "weight_kg": 14.38
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-25(A)",
+    "mark": "A",
+    "dia_mm": 8.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "A": 0.0,
+     "B": 1100.0,
+     "C": 0.0,
+     "D": 0.0,
+     "E": 0.0,
+     "G": 0.0
+    },
+    "dims_raw": {
+     "A": "0 mm",
+     "B": "1100 mm",
+     "C": "0 mm",
+     "D": "0 mm",
+     "E": "0 mm",
+     "G": "0 mm"
+    },
+    "bar_length_mm": 1100.0,
+    "qty": 5,
+    "total_length_mm": 5500.0,
+    "weight_kg": 2.17
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-25(B)",
+    "mark": "J5",
+    "dia_mm": 16.0,
+    "shape": "Rebar Shape 31",
+    "dims_mm": {
+     "A": 890.0,
+     "B": 475.0,
+     "C": 2675.0,
+     "D": 195.0,
+     "E": 745.0
+    },
+    "dims_raw": {
+     "A": "890 mm",
+     "B": "475 mm",
+     "C": "2675 mm",
+     "D": "195 mm",
+     "E": "745 mm"
+    },
+    "bar_length_mm": 5000.0,
+    "qty": 1,
+    "total_length_mm": 5000.0,
+    "weight_kg": 7.9
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-25(B)",
+    "mark": "J4",
+    "dia_mm": 16.0,
+    "shape": "Rebar Shape 31",
+    "dims_mm": {
+     "A": 930.0,
+     "B": 435.0,
+     "C": 2675.0,
+     "D": 195.0,
+     "E": 745.0
+    },
+    "dims_raw": {
+     "A": "930 mm",
+     "B": "435 mm",
+     "C": "2675 mm",
+     "D": "195 mm",
+     "E": "745 mm"
+    },
+    "bar_length_mm": 5000.0,
+    "qty": 1,
+    "total_length_mm": 5000.0,
+    "weight_kg": 7.9
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-25(B)",
+    "mark": "J3",
+    "dia_mm": 16.0,
+    "shape": "Rebar Shape 31",
+    "dims_mm": {
+     "A": 930.0,
+     "B": 495.0,
+     "C": 2560.0,
+     "D": 250.0,
+     "E": 745.0
+    },
+    "dims_raw": {
+     "A": "930 mm",
+     "B": "495 mm",
+     "C": "2560 mm",
+     "D": "250 mm",
+     "E": "745 mm"
+    },
+    "bar_length_mm": 5000.0,
+    "qty": 1,
+    "total_length_mm": 5000.0,
+    "weight_kg": 7.9
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-25(B)",
+    "mark": "J2",
+    "dia_mm": 16.0,
+    "shape": "Rebar Shape 31",
+    "dims_mm": {
+     "A": 930.0,
+     "B": 500.0,
+     "C": 2550.0,
+     "D": 255.0,
+     "E": 745.0
+    },
+    "dims_raw": {
+     "A": "930 mm",
+     "B": "500 mm",
+     "C": "2550 mm",
+     "D": "255 mm",
+     "E": "745 mm"
+    },
+    "bar_length_mm": 5000.0,
+    "qty": 1,
+    "total_length_mm": 5000.0,
+    "weight_kg": 7.9
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-25(B)",
+    "mark": "J1",
+    "dia_mm": 16.0,
+    "shape": "Rebar Shape 31",
+    "dims_mm": {
+     "A": 930.0,
+     "B": 520.0,
+     "C": 2515.0,
+     "D": 275.0,
+     "E": 745.0
+    },
+    "dims_raw": {
+     "A": "930 mm",
+     "B": "520 mm",
+     "C": "2515 mm",
+     "D": "275 mm",
+     "E": "745 mm"
+    },
+    "bar_length_mm": 5000.0,
+    "qty": 1,
+    "total_length_mm": 5000.0,
+    "weight_kg": 7.9
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-25(B)",
+    "mark": "J",
+    "dia_mm": 16.0,
+    "shape": "Rebar Shape 31",
+    "dims_mm": {
+     "A": 930.0,
+     "B": 520.0,
+     "C": 2510.0,
+     "D": 275.0,
+     "E": 745.0
+    },
+    "dims_raw": {
+     "A": "930 mm",
+     "B": "520 mm",
+     "C": "2510 mm",
+     "D": "275 mm",
+     "E": "745 mm"
+    },
+    "bar_length_mm": 5000.0,
+    "qty": 1,
+    "total_length_mm": 5000.0,
+    "weight_kg": 7.9
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-25(C)",
+    "mark": "K",
+    "dia_mm": 20.0,
+    "shape": "26",
+    "dims_mm": {
+     "A": 1145.0,
+     "B": 290.0,
+     "C": 4650.0
+    },
+    "dims_raw": {
+     "A": "1145 mm",
+     "B": "290 mm",
+     "C": "4650 mm"
+    },
+    "bar_length_mm": 6100.0,
+    "qty": 2,
+    "total_length_mm": 12200.0,
+    "weight_kg": 30.13
+   }
+  ],
+  "summary": {
+   "by_diameter": {
+    "20": {
+     "length_mm": 14225.0,
+     "weight_kg": 35.13
+    },
+    "16": {
+     "length_mm": 60000.0,
+     "weight_kg": 94.82
+    },
+    "10": {
+     "length_mm": 2100.0,
+     "weight_kg": 1.3
+    },
+    "8": {
+     "length_mm": 294250.0,
+     "weight_kg": 116.25
+    }
+   },
+   "total": {
+    "length_mm": 370575.0,
+    "weight_kg": 247.5
+   }
+  },
+  "issues": []
+ },
+ "PW-GF-26": {
+  "source": "PW-GF-26_S.dxf",
+  "bars": [
+   {
+    "schedule": "Rebar schedule for PW-GF-26(A)",
+    "mark": "F",
+    "dia_mm": 20.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "B": 2020.0,
+     "C": 0.0,
+     "D": 0.0
+    },
+    "dims_raw": {
+     "B": "2020 mm",
+     "C": "0 mm",
+     "D": "0 mm"
+    },
+    "bar_length_mm": 2025.0,
+    "qty": 2,
+    "total_length_mm": 4050.0,
+    "weight_kg": 10.0
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-26(A)",
+    "mark": "E",
+    "dia_mm": 16.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "B": 800.0,
+     "C": 1550.0,
+     "D": 800.0
+    },
+    "dims_raw": {
+     "B": "800 mm",
+     "C": "1550 mm",
+     "D": "800 mm"
+    },
+    "bar_length_mm": 3075.0,
+    "qty": 4,
+    "total_length_mm": 12300.0,
+    "weight_kg": 19.44
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-26(A)",
+    "mark": "D",
+    "dia_mm": 16.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "B": 4995.0,
+     "C": 0.0,
+     "D": 0.0
+    },
+    "dims_raw": {
+     "B": "4995 mm",
+     "C": "0 mm",
+     "D": "0 mm"
+    },
+    "bar_length_mm": 5000.0,
+    "qty": 4,
+    "total_length_mm": 20000.0,
+    "weight_kg": 31.61
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-26(A)",
+    "mark": "C1",
+    "dia_mm": 8.0,
+    "shape": "M_17A",
+    "dims_mm": {
+     "B": 365.0,
+     "C": 580.0,
+     "D": 0.0
+    },
+    "dims_raw": {
+     "B": "365 mm",
+     "C": "580 mm",
+     "D": "0 mm"
+    },
+    "bar_length_mm": 950.0,
+    "qty": 2,
+    "total_length_mm": 1900.0,
+    "weight_kg": 0.75
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-26(A)",
+    "mark": "C",
+    "dia_mm": 8.0,
+    "shape": "M_17A",
+    "dims_mm": {
+     "B": 580.0,
+     "C": 300.0,
+     "D": 0.0
+    },
+    "dims_raw": {
+     "B": "580 mm",
+     "C": "300 mm",
+     "D": "0 mm"
+    },
+    "bar_length_mm": 875.0,
+    "qty": 9,
+    "total_length_mm": 7875.0,
+    "weight_kg": 3.11
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-26(A)",
+    "mark": "B2",
+    "dia_mm": 8.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "B": 440.0,
+     "C": 90.0,
+     "D": 440.0
+    },
+    "dims_raw": {
+     "B": "440 mm",
+     "C": "90 mm",
+     "D": "440 mm"
+    },
+    "bar_length_mm": 950.0,
+    "qty": 52,
+    "total_length_mm": 49400.0,
+    "weight_kg": 19.52
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-26(A)",
+    "mark": "B1",
+    "dia_mm": 8.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "B": 400.0,
+     "C": 140.0,
+     "D": 400.0
+    },
+    "dims_raw": {
+     "B": "400 mm",
+     "C": "140 mm",
+     "D": "400 mm"
+    },
+    "bar_length_mm": 900.0,
+    "qty": 59,
+    "total_length_mm": 53100.0,
+    "weight_kg": 20.98
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-26(A)",
+    "mark": "B",
+    "dia_mm": 8.0,
+    "shape": "M_17",
+    "dims_mm": {
+     "B": 400.0,
+     "C": 120.0,
+     "D": 400.0
+    },
+    "dims_raw": {
+     "B": "400 mm",
+     "C": "120 mm",
+     "D": "400 mm"
+    },
+    "bar_length_mm": 900.0,
+    "qty": 18,
+    "total_length_mm": 16200.0,
+    "weight_kg": 6.4
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-26(A)",
+    "mark": "A3",
+    "dia_mm": 8.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "B": 5035.0,
+     "C": 0.0,
+     "D": 0.0
+    },
+    "dims_raw": {
+     "B": "5035 mm",
+     "C": "0 mm",
+     "D": "0 mm"
+    },
+    "bar_length_mm": 5050.0,
+    "qty": 9,
+    "total_length_mm": 45450.0,
+    "weight_kg": 17.96
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-26(A)",
+    "mark": "A2",
+    "dia_mm": 8.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "B": 4995.0,
+     "C": 0.0,
+     "D": 0.0
+    },
+    "dims_raw": {
+     "B": "4995 mm",
+     "C": "0 mm",
+     "D": "0 mm"
+    },
+    "bar_length_mm": 5000.0,
+    "qty": 10,
+    "total_length_mm": 50000.0,
+    "weight_kg": 19.75
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-26(A)",
+    "mark": "A1",
+    "dia_mm": 8.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "B": 1650.0,
+     "C": 0.0,
+     "D": 0.0
+    },
+    "dims_raw": {
+     "B": "1650 mm",
+     "C": "0 mm",
+     "D": "0 mm"
+    },
+    "bar_length_mm": 1650.0,
+    "qty": 30,
+    "total_length_mm": 49500.0,
+    "weight_kg": 19.56
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-26(A)",
+    "mark": "A",
+    "dia_mm": 8.0,
+    "shape": "M_00",
+    "dims_mm": {
+     "B": 1570.0,
+     "C": 0.0,
+     "D": 0.0
+    },
+    "dims_raw": {
+     "B": "1570 mm",
+     "C": "0 mm",
+     "D": "0 mm"
+    },
+    "bar_length_mm": 1575.0,
+    "qty": 30,
+    "total_length_mm": 47250.0,
+    "weight_kg": 18.67
+   },
+   {
+    "schedule": "Rebar schedule for PW-GF-26(B)",
+    "mark": "G",
+    "dia_mm": 20.0,
+    "shape": "26",
+    "dims_mm": {
+     "A": 1145.0,
+     "B": 290.0,
+     "C": 4650.0
+    },
+    "dims_raw": {
+     "A": "1145 mm",
+     "B": "290 mm",
+     "C": "4650 mm"
+    },
+    "bar_length_mm": 6100.0,
+    "qty": 2,
+    "total_length_mm": 12200.0,
+    "weight_kg": 30.13
+   }
+  ],
+  "summary": {
+   "by_diameter": {
+    "20": {
+     "length_mm": 16250.0,
+     "weight_kg": 40.13
+    },
+    "16": {
+     "length_mm": 32300.0,
+     "weight_kg": 51.05
+    },
+    "8": {
+     "length_mm": 320675.0,
+     "weight_kg": 126.69
+    }
+   },
+   "total": {
+    "length_mm": 369225.0,
+    "weight_kg": 217.87
+   }
+  },
+  "issues": []
+ },
+ "PW-GF-27": {
+  "source": "PW-GF-27_S.dxf",
+  "bars": [],
+  "summary": null,
+  "issues": []
+ }
+}

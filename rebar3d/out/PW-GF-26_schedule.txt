@@ -1,0 +1,5 @@
+  bar reconstructed   official      gap      %
+T8          140.36k    126.69k  +13.67k   111%
+T16          50.05k     51.05k   -1.00k    98%
+T20          39.82k     40.13k   -0.31k    99%
+TOTAL       230.23k    217.87k  +12.36k   106%

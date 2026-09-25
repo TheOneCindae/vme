@@ -1,0 +1,102 @@
+<title>VME Precast — Rebar Model vs Drawing</title>
+<style>
+:root{
+  --bg:#0f1216; --panel:#171b21; --stage:#0d1015; --ink:#e7ecf2; --muted:#93a0b0;
+  --line:#262d36; --accent:#5fa8ff; --ok:#4bbf7a; --warn:#e0b341; --bad:#ff6b7f;
+  --drawn:#39d0ff;
+  --d8:#5fa8ff; --d10:#4bbf7a; --d12:#ff6b7f; --d16:#b18cf0; --d20:#ffa040;
+  --d25:#c08a6a; --d32:#aab;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font:13px/1.5 ui-sans-serif,-apple-system,"Segoe UI",Roboto,sans-serif}
+header{padding:12px 18px 10px;border-bottom:1px solid var(--line);
+  display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}
+h1{margin:0;font-size:16px;letter-spacing:-.01em}
+.sub{color:var(--muted);font-size:12px}
+.wrap{display:grid;grid-template-columns:260px minmax(0,1fr) 330px;
+  height:calc(100vh - 46px)}
+@media(max-width:1100px){.wrap{grid-template-columns:1fr;height:auto}}
+.col{overflow-y:auto;background:var(--panel);padding:14px}
+.col.left{border-right:1px solid var(--line)}
+.col.right{border-left:1px solid var(--line)}
+#stage{position:relative;background:var(--stage);min-height:520px}
+canvas{display:block;width:100%;height:100%;cursor:crosshair}
+.hud{position:absolute;left:12px;top:12px;font:11px ui-monospace,Menlo,monospace;
+  color:var(--muted);background:#0d1015cc;padding:7px 9px;border:1px solid var(--line);
+  border-radius:8px;pointer-events:none;white-space:pre}
+.ctl{position:absolute;right:12px;top:12px;display:flex;gap:6px;flex-wrap:wrap;
+  justify-content:flex-end;max-width:70%}
+#measure{position:absolute;left:12px;bottom:12px;font:12px ui-monospace,Menlo,monospace;
+  color:var(--drawn);background:#0d1015cc;padding:7px 9px;border:1px solid var(--line);
+  border-radius:8px;max-width:70%}
+button,select{font:inherit;font-size:12px;color:var(--ink);background:var(--panel);
+  border:1px solid var(--line);border-radius:7px;padding:5px 9px;cursor:pointer}
+button:hover{border-color:var(--accent)}
+button[aria-pressed="true"]{border-color:var(--accent);color:var(--accent)}
+h2{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);
+  margin:18px 0 7px;font-weight:600}
+h2:first-child{margin-top:0}
+.kpis{display:grid;grid-template-columns:1fr 1fr;gap:7px}
+.kpi{border:1px solid var(--line);border-radius:9px;padding:8px 10px}
+.kpi b{display:block;font-size:16px;font-variant-numeric:tabular-nums}
+.kpi span{color:var(--muted);font-size:11px}
+table{width:100%;border-collapse:collapse;font-size:12px;font-variant-numeric:tabular-nums}
+th{text-align:left;color:var(--muted);font-weight:600;border-bottom:1px solid var(--line);padding:4px}
+td{padding:3px 4px;border-bottom:1px solid var(--line)}
+tbody tr{cursor:pointer}
+tbody tr:hover{background:#5fa8ff17}
+tbody tr[aria-selected="true"]{background:#5fa8ff2b}
+label.chk{display:flex;align-items:center;gap:7px;padding:2px 0;cursor:pointer;font-size:12px}
+label.chk span.n{margin-left:auto;color:var(--muted);font-size:11px}
+.sw{display:inline-block;width:9px;height:9px;border-radius:2px;flex:0 0 auto}
+.note{font-size:11px;color:var(--muted);border-left:2px solid var(--line);
+  padding-left:9px;margin:8px 0}
+.scroll{max-height:38vh;overflow-y:auto}
+.rowbtns{display:flex;gap:6px;margin:6px 0}
+.rowbtns button{flex:1;padding:3px}
+</style>
+<header>
+  <h1>VME Precast — Rebar Model vs Drawing</h1>
+  <div class="sub">3D model in diameter colours; the geometry actually drawn on the
+    (R) sheet can be overlaid in <b style="color:var(--drawn)">cyan</b>.
+    Click one bar then another to measure between them.</div>
+</header>
+<div class="wrap">
+  <div class="col left">
+    <h2>Element</h2>
+    <select id="panel" style="width:100%"></select>
+    <h2>Diameters</h2>
+    <div id="dias"></div>
+    <h2>Marks</h2>
+    <div class="rowbtns"><button id="mall">All</button><button id="mnone">None</button></div>
+    <div class="scroll" id="marks"></div>
+  </div>
+  <div id="stage">
+    <canvas id="gl"></canvas>
+    <div class="hud" id="hud"></div>
+    <div class="ctl">
+      <button id="bfit">Fit</button>
+      <button id="bspin" aria-pressed="false">Spin</button>
+      <button id="bbox" aria-pressed="true">Outline</button>
+      <button id="bdrawn" aria-pressed="false">Drawing overlay</button>
+      <button id="bclear">Clear measure</button>
+    </div>
+    <div id="measure"></div>
+  </div>
+  <div class="col right">
+    <h2>Accuracy vs the drawing</h2>
+    <div class="kpis" id="acc"></div>
+    <div class="note" id="accnote"></div>
+    <h2>This element</h2>
+    <div class="kpis" id="kpis"></div>
+    <h2>Bar bending schedule</h2>
+    <div class="scroll"><table id="tbl">
+      <thead><tr><th>Mark</th><th>Dia</th><th>Shape</th><th>Len</th><th>No.</th><th>kg</th></tr></thead>
+      <tbody></tbody></table></div>
+    <div class="note">Overlay geometry is the bar centreline recovered from the
+      (R) drawing itself (paired outline edges on layer S-RBAR), placed at the
+      plane of the view it was drawn in — so cyan is what the drawing says and
+      colour is what the model claims.</div>
+  </div>
+</div>

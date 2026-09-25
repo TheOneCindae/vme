@@ -1,0 +1,76 @@
+{
+  "element": "SS-GF-01",
+  "panel": "SS-GF-01",
+  "sheet": "SS-GF-01_M",
+  "sheets_considered": [
+    "SS-GF-01_R",
+    "SS-GF-01_M"
+  ],
+  "envelope": {
+    "width_mm": 5508.1,
+    "height_mm": 2214.4,
+    "thickness_mm": 375.0,
+    "n_elevation": 2,
+    "n_plan_cut": 3,
+    "n_end_cut": 0
+  },
+  "anchors": [
+    {
+      "type_key": "RR-SA-2_5-150",
+      "family": "RR-SA",
+      "capacity_t": 2.5,
+      "embed_length_mm": 150,
+      "source_block": "RR spread anchor face based - RR-SA-2_5-150-V15-3D Ortho",
+      "n_view_duplicates": 1,
+      "pt": [
+        4860.1,
+        187.5,
+        828.0
+      ],
+      "depth_source": "assumed_mid_thickness"
+    },
+    {
+      "type_key": "RR-SA-2_5-150",
+      "family": "RR-SA",
+      "capacity_t": 2.5,
+      "embed_length_mm": 150,
+      "source_block": "RR spread anchor face based - RR-SA-2_5-150-614724-3D Ortho",
+      "n_view_duplicates": 1,
+      "pt": [
+        3561.4,
+        187.5,
+        1160.0
+      ],
+      "depth_source": "assumed_mid_thickness"
+    },
+    {
+      "type_key": "RR-SA-2_5-150",
+      "family": "RR-SA",
+      "capacity_t": 2.5,
+      "embed_length_mm": 150,
+      "source_block": "RR spread anchor face based - RR-SA-2_5-150-614724-3D Ortho",
+      "n_view_duplicates": 1,
+      "pt": [
+        2604.4,
+        187.5,
+        1404.9
+      ],
+      "depth_source": "assumed_mid_thickness"
+    },
+    {
+      "type_key": "RR-SA-2_5-150",
+      "family": "RR-SA",
+      "capacity_t": 2.5,
+      "embed_length_mm": 150,
+      "source_block": "RR spread anchor face based - RR-SA-2_5-150-614724-3D Ortho",
+      "n_view_duplicates": 1,
+      "pt": [
+        1305.7,
+        187.5,
+        1737.3
+      ],
+      "depth_source": "assumed_mid_thickness"
+    }
+  ],
+  "insert_schedule": []
+}

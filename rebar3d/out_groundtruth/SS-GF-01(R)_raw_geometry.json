@@ -1,0 +1,8068 @@
+{
+  "stem": "SS-GF-01(R)",
+  "dxf_source": "/tmp/dxfcache/SS-GF-01(R).dxf",
+  "candidates": [
+    {
+      "diameter_raw": 20.0,
+      "diameter_snapped": 20,
+      "length_mm": 1990.0,
+      "start_point": {
+        "x": 65853.04258564081,
+        "y": 25080.39394706392
+      },
+      "end_point": {
+        "x": 65853.04258564081,
+        "y": 27070.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 20.0,
+      "diameter_snapped": 20,
+      "length_mm": 1990.0,
+      "start_point": {
+        "x": 65913.04258564083,
+        "y": 25080.39394706392
+      },
+      "end_point": {
+        "x": 65913.04258564083,
+        "y": 27070.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 19.699,
+      "diameter_snapped": 20,
+      "length_mm": 1990.0,
+      "start_point": {
+        "x": 63297.89231726722,
+        "y": 25080.39394706393
+      },
+      "end_point": {
+        "x": 63297.89231726722,
+        "y": 27070.39394708469
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 19.702,
+      "diameter_snapped": 20,
+      "length_mm": 1990.0,
+      "start_point": {
+        "x": 68277.89382928557,
+        "y": 25080.39394706393
+      },
+      "end_point": {
+        "x": 68277.89382928557,
+        "y": 27070.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 13.782,
+      "diameter_snapped": 12,
+      "length_mm": 1990.0,
+      "start_point": {
+        "x": 68336.1514046078,
+        "y": 25080.39394706393
+      },
+      "end_point": {
+        "x": 68336.1514046078,
+        "y": 27070.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 12.0,
+      "diameter_snapped": 12,
+      "length_mm": 1990.0,
+      "start_point": {
+        "x": 65856.4475604651,
+        "y": 25080.3939470847
+      },
+      "end_point": {
+        "x": 65856.4475604651,
+        "y": 27070.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 12.0,
+      "diameter_snapped": 12,
+      "length_mm": 1990.0,
+      "start_point": {
+        "x": 65910.29414246489,
+        "y": 25080.3939470847
+      },
+      "end_point": {
+        "x": 65910.29414246489,
+        "y": 27070.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 12.597,
+      "diameter_snapped": 12,
+      "length_mm": 1990.0,
+      "start_point": {
+        "x": 63229.6729325917,
+        "y": 25080.393947084714
+      },
+      "end_point": {
+        "x": 63229.6729325917,
+        "y": 27070.393947084685
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1934.0,
+      "start_point": {
+        "x": 65417.588040222974,
+        "y": 25108.393947084685
+      },
+      "end_point": {
+        "x": 65417.588040222974,
+        "y": 27042.393947063807
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1934.0,
+      "start_point": {
+        "x": 65565.76985839964,
+        "y": 25108.393947084685
+      },
+      "end_point": {
+        "x": 65565.76985839965,
+        "y": 27042.393947063807
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1934.0,
+      "start_point": {
+        "x": 65713.9516765763,
+        "y": 25108.393947084685
+      },
+      "end_point": {
+        "x": 65713.95167657631,
+        "y": 27042.393947063807
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1934.0,
+      "start_point": {
+        "x": 66010.31531292961,
+        "y": 25108.393947084685
+      },
+      "end_point": {
+        "x": 66010.31531292963,
+        "y": 27042.393947063807
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1934.0,
+      "start_point": {
+        "x": 66158.49713110627,
+        "y": 25108.393947084685
+      },
+      "end_point": {
+        "x": 66158.49713110628,
+        "y": 27042.393947063807
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1934.0,
+      "start_point": {
+        "x": 66306.67894928293,
+        "y": 25108.393947084685
+      },
+      "end_point": {
+        "x": 66306.67894928294,
+        "y": 27042.393947063807
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1934.0,
+      "start_point": {
+        "x": 67640.31531287286,
+        "y": 25108.393947084674
+      },
+      "end_point": {
+        "x": 67640.31531287287,
+        "y": 27042.393947063796
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1934.0,
+      "start_point": {
+        "x": 67788.49713104952,
+        "y": 25108.393947084674
+      },
+      "end_point": {
+        "x": 67788.49713104953,
+        "y": 27042.393947063796
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.073,
+      "diameter_snapped": 8,
+      "length_mm": 1934.0,
+      "start_point": {
+        "x": 63935.80622209004,
+        "y": 25108.393947084696
+      },
+      "end_point": {
+        "x": 63935.80622209004,
+        "y": 27042.393947063814
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1934.0,
+      "start_point": {
+        "x": 64083.951676633034,
+        "y": 25108.393947084696
+      },
+      "end_point": {
+        "x": 64083.951676633034,
+        "y": 27042.393947063814
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1934.0,
+      "start_point": {
+        "x": 64232.13349480971,
+        "y": 25108.393947084696
+      },
+      "end_point": {
+        "x": 64232.13349480971,
+        "y": 27042.393947063814
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1934.0,
+      "start_point": {
+        "x": 64528.49713116302,
+        "y": 25108.393947084696
+      },
+      "end_point": {
+        "x": 64528.49713116302,
+        "y": 27042.393947063814
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1934.0,
+      "start_point": {
+        "x": 64676.67894933968,
+        "y": 25108.393947084696
+      },
+      "end_point": {
+        "x": 64676.67894933968,
+        "y": 27042.393947063814
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1934.0,
+      "start_point": {
+        "x": 64824.86076751634,
+        "y": 25108.393947084696
+      },
+      "end_point": {
+        "x": 64824.86076751634,
+        "y": 27042.393947063814
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1934.0,
+      "start_point": {
+        "x": 64973.04258569299,
+        "y": 25108.393947084696
+      },
+      "end_point": {
+        "x": 64973.04258569299,
+        "y": 27042.393947063814
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1934.0,
+      "start_point": {
+        "x": 65121.224403869666,
+        "y": 25108.393947084696
+      },
+      "end_point": {
+        "x": 65121.224403869666,
+        "y": 27042.393947063807
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1934.0,
+      "start_point": {
+        "x": 65269.40622204632,
+        "y": 25108.393947084696
+      },
+      "end_point": {
+        "x": 65269.40622204632,
+        "y": 27042.393947063807
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1934.0,
+      "start_point": {
+        "x": 66454.86076745958,
+        "y": 25108.393947084685
+      },
+      "end_point": {
+        "x": 66454.8607674596,
+        "y": 27042.393947063796
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1934.0,
+      "start_point": {
+        "x": 66603.04258563626,
+        "y": 25108.393947084685
+      },
+      "end_point": {
+        "x": 66603.04258563627,
+        "y": 27042.393947063796
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1934.0,
+      "start_point": {
+        "x": 66751.22440381291,
+        "y": 25108.393947084685
+      },
+      "end_point": {
+        "x": 66751.22440381293,
+        "y": 27042.393947063796
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1934.0,
+      "start_point": {
+        "x": 66899.40622198957,
+        "y": 25108.393947084685
+      },
+      "end_point": {
+        "x": 66899.40622198959,
+        "y": 27042.393947063796
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1934.0,
+      "start_point": {
+        "x": 67047.58804016623,
+        "y": 25108.393947084685
+      },
+      "end_point": {
+        "x": 67047.58804016624,
+        "y": 27042.393947063796
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1934.0,
+      "start_point": {
+        "x": 67195.76985834289,
+        "y": 25108.393947084685
+      },
+      "end_point": {
+        "x": 67195.7698583429,
+        "y": 27042.393947063796
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1934.0,
+      "start_point": {
+        "x": 67492.1334946962,
+        "y": 25108.393947084685
+      },
+      "end_point": {
+        "x": 67492.13349469622,
+        "y": 27042.393947063796
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1934.0,
+      "start_point": {
+        "x": 68084.86076740285,
+        "y": 25108.393947084674
+      },
+      "end_point": {
+        "x": 68084.86076740286,
+        "y": 27042.393947063785
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1934.0,
+      "start_point": {
+        "x": 68233.0425855795,
+        "y": 25108.393947084674
+      },
+      "end_point": {
+        "x": 68233.04258557952,
+        "y": 27042.393947063785
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1934.0,
+      "start_point": {
+        "x": 63343.04258574975,
+        "y": 25108.393947084707
+      },
+      "end_point": {
+        "x": 63343.04258574975,
+        "y": 27042.393947063814
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1934.0,
+      "start_point": {
+        "x": 63491.224403926404,
+        "y": 25108.393947084707
+      },
+      "end_point": {
+        "x": 63491.224403926404,
+        "y": 27042.393947063814
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1934.0,
+      "start_point": {
+        "x": 63787.58804027973,
+        "y": 25108.393947084707
+      },
+      "end_point": {
+        "x": 63787.58804027973,
+        "y": 27042.393947063814
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 18.252,
+      "diameter_snapped": 20,
+      "length_mm": 1797.18,
+      "start_point": {
+        "x": 68332.16836399154,
+        "y": 25176.802128765
+      },
+      "end_point": {
+        "x": 68332.16836399154,
+        "y": 26973.98576538361
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1796.31,
+      "start_point": {
+        "x": 63639.40622210306,
+        "y": 25177.237519208476
+      },
+      "end_point": {
+        "x": 63639.40622210306,
+        "y": 26973.550374940045
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1796.31,
+      "start_point": {
+        "x": 67936.67894922619,
+        "y": 25177.237519208476
+      },
+      "end_point": {
+        "x": 67936.6789492262,
+        "y": 26973.550374940045
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1380.1,
+      "start_point": {
+        "x": 64380.31531298636,
+        "y": 25108.393947084696
+      },
+      "end_point": {
+        "x": 64380.31531298636,
+        "y": 26488.489925869766
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1311.25,
+      "start_point": {
+        "x": 67343.95167651954,
+        "y": 25662.29796827877
+      },
+      "end_point": {
+        "x": 67343.95167651954,
+        "y": 26973.55037494006
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 969.51,
+      "start_point": {
+        "x": 65883.0425856408,
+        "y": 25105.916578457574
+      },
+      "end_point": {
+        "x": 65883.0425856408,
+        "y": 26075.424268624123
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 556.38,
+      "start_point": {
+        "x": 65883.0425856408,
+        "y": 26488.489925869784
+      },
+      "end_point": {
+        "x": 65883.0425856408,
+        "y": 27044.871315691023
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 556.38,
+      "start_point": {
+        "x": 67268.04258564125,
+        "y": 26488.48992586977
+      },
+      "end_point": {
+        "x": 67268.04258564125,
+        "y": 27044.87131569106
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 556.38,
+      "start_point": {
+        "x": 67033.0425856371,
+        "y": 25105.9165784575
+      },
+      "end_point": {
+        "x": 67033.0425856371,
+        "y": 25662.29796827877
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 16.405,
+      "diameter_snapped": 16,
+      "length_mm": 556.38,
+      "start_point": {
+        "x": 67343.24493630024,
+        "y": 25105.9165784575
+      },
+      "end_point": {
+        "x": 67343.24493630024,
+        "y": 25662.29796827877
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 556.38,
+      "start_point": {
+        "x": 67843.04258564123,
+        "y": 25105.9165784575
+      },
+      "end_point": {
+        "x": 67843.04258564123,
+        "y": 25662.29796827877
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 556.38,
+      "start_point": {
+        "x": 68153.04258564077,
+        "y": 25105.9165784575
+      },
+      "end_point": {
+        "x": 68153.04258564077,
+        "y": 25662.29796827877
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 556.38,
+      "start_point": {
+        "x": 68153.04258564077,
+        "y": 26488.48992586977
+      },
+      "end_point": {
+        "x": 68153.04258564077,
+        "y": 27044.87131569101
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 556.38,
+      "start_point": {
+        "x": 64733.042585641124,
+        "y": 26488.48992586977
+      },
+      "end_point": {
+        "x": 64733.042585641124,
+        "y": 27044.87131569102
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 556.38,
+      "start_point": {
+        "x": 64948.04258564106,
+        "y": 25105.91657845752
+      },
+      "end_point": {
+        "x": 64948.04258564106,
+        "y": 25662.29796827877
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 556.38,
+      "start_point": {
+        "x": 65448.04258564105,
+        "y": 25105.91657845752
+      },
+      "end_point": {
+        "x": 65448.04258564105,
+        "y": 25662.29796827877
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 556.38,
+      "start_point": {
+        "x": 66268.04258564125,
+        "y": 26488.48992586977
+      },
+      "end_point": {
+        "x": 66268.04258564125,
+        "y": 27044.87131569102
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 556.38,
+      "start_point": {
+        "x": 63513.04258570883,
+        "y": 25105.91657845753
+      },
+      "end_point": {
+        "x": 63513.04258570883,
+        "y": 25662.29796827877
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 556.38,
+      "start_point": {
+        "x": 63513.04258570883,
+        "y": 26488.48992586978
+      },
+      "end_point": {
+        "x": 63513.04258570883,
+        "y": 27044.87131569102
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 556.38,
+      "start_point": {
+        "x": 63873.04258570883,
+        "y": 26488.48992586978
+      },
+      "end_point": {
+        "x": 63873.04258570883,
+        "y": 27044.87131569102
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 556.38,
+      "start_point": {
+        "x": 64373.04258564113,
+        "y": 26488.48992586978
+      },
+      "end_point": {
+        "x": 64373.04258564113,
+        "y": 27044.87131569102
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 556.38,
+      "start_point": {
+        "x": 67768.04258564125,
+        "y": 26488.48992586977
+      },
+      "end_point": {
+        "x": 67768.04258564125,
+        "y": 27044.87131569101
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 556.38,
+      "start_point": {
+        "x": 64448.04258564109,
+        "y": 25105.91657845754
+      },
+      "end_point": {
+        "x": 64448.04258564109,
+        "y": 25662.29796827877
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 7.798,
+      "diameter_snapped": 8,
+      "length_mm": 475.52,
+      "start_point": {
+        "x": 67347.54846228875,
+        "y": 24630.39394706387
+      },
+      "end_point": {
+        "x": 67347.54846228875,
+        "y": 25105.9165784575
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 7.798,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 67347.54846228875,
+        "y": 26985.25181146095
+      },
+      "end_point": {
+        "x": 67347.54846228875,
+        "y": 27520.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.13,
+      "diameter_snapped": 8,
+      "length_mm": 450.0,
+      "start_point": {
+        "x": 68325.19521266504,
+        "y": 24630.39394706387
+      },
+      "end_point": {
+        "x": 68325.19521266504,
+        "y": 25080.39394706393
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.13,
+      "diameter_snapped": 8,
+      "length_mm": 450.0,
+      "start_point": {
+        "x": 68325.19521266504,
+        "y": 27070.39394708468
+      },
+      "end_point": {
+        "x": 68325.19521266504,
+        "y": 27520.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 63242.23126850009,
+        "y": 24630.39394706387
+      },
+      "end_point": {
+        "x": 63242.23126850009,
+        "y": 25165.5360826876
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 63242.23126850009,
+        "y": 26985.25181146095
+      },
+      "end_point": {
+        "x": 63242.23126850009,
+        "y": 27520.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 63437.72738131524,
+        "y": 24630.39394706387
+      },
+      "end_point": {
+        "x": 63437.72738131524,
+        "y": 25165.5360826876
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 63437.72738131524,
+        "y": 26985.25181146095
+      },
+      "end_point": {
+        "x": 63437.72738131524,
+        "y": 27520.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 63633.22349413039,
+        "y": 24630.39394706387
+      },
+      "end_point": {
+        "x": 63633.22349413039,
+        "y": 25165.5360826876
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 63633.22349413039,
+        "y": 26985.25181146095
+      },
+      "end_point": {
+        "x": 63633.22349413039,
+        "y": 27520.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 63828.71960694555,
+        "y": 24630.39394706387
+      },
+      "end_point": {
+        "x": 63828.71960694555,
+        "y": 25165.5360826876
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 63828.71960694555,
+        "y": 26985.25181146095
+      },
+      "end_point": {
+        "x": 63828.71960694555,
+        "y": 27520.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 64024.21571976069,
+        "y": 24630.39394706387
+      },
+      "end_point": {
+        "x": 64024.21571976069,
+        "y": 25165.5360826876
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 64024.21571976069,
+        "y": 26985.25181146095
+      },
+      "end_point": {
+        "x": 64024.21571976069,
+        "y": 27520.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 64219.71183257584,
+        "y": 24630.39394706387
+      },
+      "end_point": {
+        "x": 64219.71183257584,
+        "y": 25165.5360826876
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 64219.71183257584,
+        "y": 26985.25181146095
+      },
+      "end_point": {
+        "x": 64219.71183257584,
+        "y": 27520.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 64415.20794539099,
+        "y": 24630.39394706387
+      },
+      "end_point": {
+        "x": 64415.20794539099,
+        "y": 25165.5360826876
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 64415.20794539099,
+        "y": 26985.25181146095
+      },
+      "end_point": {
+        "x": 64415.20794539099,
+        "y": 27520.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 64610.70405820615,
+        "y": 24630.39394706387
+      },
+      "end_point": {
+        "x": 64610.70405820615,
+        "y": 25165.5360826876
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 64610.70405820615,
+        "y": 26985.25181146095
+      },
+      "end_point": {
+        "x": 64610.70405820615,
+        "y": 27520.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 64806.2001710213,
+        "y": 24630.39394706387
+      },
+      "end_point": {
+        "x": 64806.2001710213,
+        "y": 25165.5360826876
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 64806.2001710213,
+        "y": 26985.25181146095
+      },
+      "end_point": {
+        "x": 64806.2001710213,
+        "y": 27520.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 65001.69628383644,
+        "y": 24630.39394706387
+      },
+      "end_point": {
+        "x": 65001.69628383644,
+        "y": 25165.5360826876
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 65001.69628383644,
+        "y": 26985.25181146095
+      },
+      "end_point": {
+        "x": 65001.69628383644,
+        "y": 27520.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 65197.1923966516,
+        "y": 24630.39394706387
+      },
+      "end_point": {
+        "x": 65197.1923966516,
+        "y": 25165.5360826876
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 65197.1923966516,
+        "y": 26985.25181146095
+      },
+      "end_point": {
+        "x": 65197.1923966516,
+        "y": 27520.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 65392.68850946674,
+        "y": 24630.39394706387
+      },
+      "end_point": {
+        "x": 65392.68850946674,
+        "y": 25165.5360826876
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 65392.68850946674,
+        "y": 26985.25181146095
+      },
+      "end_point": {
+        "x": 65392.68850946674,
+        "y": 27520.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 65588.1846222819,
+        "y": 24630.39394706387
+      },
+      "end_point": {
+        "x": 65588.1846222819,
+        "y": 25165.5360826876
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 65588.1846222819,
+        "y": 26985.25181146095
+      },
+      "end_point": {
+        "x": 65588.1846222819,
+        "y": 27520.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 65783.68073509705,
+        "y": 24630.39394706387
+      },
+      "end_point": {
+        "x": 65783.68073509705,
+        "y": 25165.5360826876
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 65783.68073509705,
+        "y": 26985.25181146095
+      },
+      "end_point": {
+        "x": 65783.68073509705,
+        "y": 27520.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 65979.1768479122,
+        "y": 24630.39394706387
+      },
+      "end_point": {
+        "x": 65979.1768479122,
+        "y": 25165.5360826876
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 65979.1768479122,
+        "y": 26985.25181146095
+      },
+      "end_point": {
+        "x": 65979.1768479122,
+        "y": 27520.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 66174.67296072734,
+        "y": 24630.39394706387
+      },
+      "end_point": {
+        "x": 66174.67296072734,
+        "y": 25165.5360826876
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 66174.67296072734,
+        "y": 26985.25181146095
+      },
+      "end_point": {
+        "x": 66174.67296072734,
+        "y": 27520.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 66370.16907354249,
+        "y": 24630.39394706387
+      },
+      "end_point": {
+        "x": 66370.16907354249,
+        "y": 25165.5360826876
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 66370.16907354249,
+        "y": 26985.25181146095
+      },
+      "end_point": {
+        "x": 66370.16907354249,
+        "y": 27520.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 66565.66518635766,
+        "y": 24630.39394706387
+      },
+      "end_point": {
+        "x": 66565.66518635766,
+        "y": 25165.5360826876
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 66565.66518635766,
+        "y": 26985.25181146095
+      },
+      "end_point": {
+        "x": 66565.66518635766,
+        "y": 27520.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 66761.16129917279,
+        "y": 24630.39394706387
+      },
+      "end_point": {
+        "x": 66761.16129917279,
+        "y": 25165.5360826876
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 66761.16129917279,
+        "y": 26985.25181146095
+      },
+      "end_point": {
+        "x": 66761.16129917279,
+        "y": 27520.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 66956.65741198795,
+        "y": 24630.39394706387
+      },
+      "end_point": {
+        "x": 66956.65741198795,
+        "y": 25165.5360826876
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 66956.65741198795,
+        "y": 26985.25181146095
+      },
+      "end_point": {
+        "x": 66956.65741198795,
+        "y": 27520.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 67152.1535248031,
+        "y": 24630.39394706387
+      },
+      "end_point": {
+        "x": 67152.1535248031,
+        "y": 25165.5360826876
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 67152.1535248031,
+        "y": 26985.25181146095
+      },
+      "end_point": {
+        "x": 67152.1535248031,
+        "y": 27520.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 67543.1457504334,
+        "y": 24630.39394706387
+      },
+      "end_point": {
+        "x": 67543.1457504334,
+        "y": 25165.5360826876
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 67543.1457504334,
+        "y": 26985.25181146095
+      },
+      "end_point": {
+        "x": 67543.1457504334,
+        "y": 27520.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 67738.64186324854,
+        "y": 24630.39394706387
+      },
+      "end_point": {
+        "x": 67738.64186324854,
+        "y": 25165.5360826876
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 67738.64186324854,
+        "y": 26985.25181146095
+      },
+      "end_point": {
+        "x": 67738.64186324854,
+        "y": 27520.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 67934.1379760637,
+        "y": 24630.39394706387
+      },
+      "end_point": {
+        "x": 67934.1379760637,
+        "y": 25165.5360826876
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 67934.1379760637,
+        "y": 26985.25181146095
+      },
+      "end_point": {
+        "x": 67934.1379760637,
+        "y": 27520.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 68129.63408887884,
+        "y": 24630.39394706387
+      },
+      "end_point": {
+        "x": 68129.63408887884,
+        "y": 25165.5360826876
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 68129.63408887884,
+        "y": 26985.25181146095
+      },
+      "end_point": {
+        "x": 68129.63408887884,
+        "y": 27520.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 482.37,
+      "start_point": {
+        "x": 66768.04258564125,
+        "y": 26488.48992586977
+      },
+      "end_point": {
+        "x": 66768.04258564125,
+        "y": 26970.86017390772
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 20.164,
+      "diameter_snapped": 20,
+      "length_mm": 91.0,
+      "start_point": {
+        "x": 68331.21217204879,
+        "y": 25080.3939470847
+      },
+      "end_point": {
+        "x": 68331.21217204879,
+        "y": 25171.39394706387
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 20.164,
+      "diameter_snapped": 20,
+      "length_mm": 85.14,
+      "start_point": {
+        "x": 68331.21217204879,
+        "y": 26985.25181146095
+      },
+      "end_point": {
+        "x": 68331.21217204879,
+        "y": 27070.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 12.0,
+      "diameter_snapped": 12,
+      "length_mm": 5098.0,
+      "start_point": {
+        "x": 63249.04258574959,
+        "y": 27052.393947064622
+      },
+      "end_point": {
+        "x": 68347.04258557937,
+        "y": 27052.393947064647
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 12.0,
+      "diameter_snapped": 12,
+      "length_mm": 5098.0,
+      "start_point": {
+        "x": 63249.04258574961,
+        "y": 26995.896544782136
+      },
+      "end_point": {
+        "x": 68347.04258557939,
+        "y": 26995.896544782157
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 12.0,
+      "diameter_snapped": 12,
+      "length_mm": 5098.0,
+      "start_point": {
+        "x": 63249.04258574963,
+        "y": 25152.393947064542
+      },
+      "end_point": {
+        "x": 68347.04258557942,
+        "y": 25152.39394706456
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 12.0,
+      "diameter_snapped": 12,
+      "length_mm": 5098.0,
+      "start_point": {
+        "x": 63249.042585749616,
+        "y": 25095.896544782147
+      },
+      "end_point": {
+        "x": 68347.0425855794,
+        "y": 25095.89654478217
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 10.0,
+      "diameter_snapped": 10,
+      "length_mm": 5080.0,
+      "start_point": {
+        "x": 63243.042585749725,
+        "y": 26959.393947084696
+      },
+      "end_point": {
+        "x": 68323.04258557949,
+        "y": 26959.393947084696
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 10.0,
+      "diameter_snapped": 10,
+      "length_mm": 5080.0,
+      "start_point": {
+        "x": 63243.04258574974,
+        "y": 26834.39394708468
+      },
+      "end_point": {
+        "x": 68323.0425855795,
+        "y": 26834.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 10.0,
+      "diameter_snapped": 10,
+      "length_mm": 5080.0,
+      "start_point": {
+        "x": 63243.04258574974,
+        "y": 26709.393947084685
+      },
+      "end_point": {
+        "x": 68323.0425855795,
+        "y": 26709.393947084685
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 10.0,
+      "diameter_snapped": 10,
+      "length_mm": 5080.0,
+      "start_point": {
+        "x": 63243.04258574974,
+        "y": 26584.39394708469
+      },
+      "end_point": {
+        "x": 68323.0425855795,
+        "y": 26584.39394708469
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 10.0,
+      "diameter_snapped": 10,
+      "length_mm": 5080.0,
+      "start_point": {
+        "x": 63243.04258574974,
+        "y": 26459.39394708469
+      },
+      "end_point": {
+        "x": 68323.0425855795,
+        "y": 26459.39394708469
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 10.0,
+      "diameter_snapped": 10,
+      "length_mm": 5080.0,
+      "start_point": {
+        "x": 63243.04258574974,
+        "y": 26334.39394708469
+      },
+      "end_point": {
+        "x": 68323.0425855795,
+        "y": 26334.39394708469
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 10.0,
+      "diameter_snapped": 10,
+      "length_mm": 5080.0,
+      "start_point": {
+        "x": 63243.04258574974,
+        "y": 26209.39394708469
+      },
+      "end_point": {
+        "x": 68323.0425855795,
+        "y": 26209.39394708469
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 10.0,
+      "diameter_snapped": 10,
+      "length_mm": 5080.0,
+      "start_point": {
+        "x": 63243.04258574974,
+        "y": 26084.393947084696
+      },
+      "end_point": {
+        "x": 68323.0425855795,
+        "y": 26084.393947084696
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 10.0,
+      "diameter_snapped": 10,
+      "length_mm": 5080.0,
+      "start_point": {
+        "x": 63243.04258574974,
+        "y": 25959.3939470847
+      },
+      "end_point": {
+        "x": 68323.0425855795,
+        "y": 25959.3939470847
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 10.0,
+      "diameter_snapped": 10,
+      "length_mm": 5080.0,
+      "start_point": {
+        "x": 63243.04258574974,
+        "y": 25834.3939470847
+      },
+      "end_point": {
+        "x": 68323.0425855795,
+        "y": 25834.3939470847
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 10.0,
+      "diameter_snapped": 10,
+      "length_mm": 5080.0,
+      "start_point": {
+        "x": 63243.04258574974,
+        "y": 25709.3939470847
+      },
+      "end_point": {
+        "x": 68323.0425855795,
+        "y": 25709.3939470847
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 10.0,
+      "diameter_snapped": 10,
+      "length_mm": 5080.0,
+      "start_point": {
+        "x": 63243.04258574974,
+        "y": 25459.393947084707
+      },
+      "end_point": {
+        "x": 68323.0425855795,
+        "y": 25459.393947084707
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 10.0,
+      "diameter_snapped": 10,
+      "length_mm": 5080.0,
+      "start_point": {
+        "x": 63243.04258574974,
+        "y": 25334.393947084707
+      },
+      "end_point": {
+        "x": 68323.0425855795,
+        "y": 25334.393947084707
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 9.962,
+      "diameter_snapped": 10,
+      "length_mm": 4940.65,
+      "start_point": {
+        "x": 63317.08077183763,
+        "y": 25584.393947084704
+      },
+      "end_point": {
+        "x": 68257.72218548846,
+        "y": 25584.393947084704
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 10.0,
+      "diameter_snapped": 10,
+      "length_mm": 2512.51,
+      "start_point": {
+        "x": 63318.04258570941,
+        "y": 25209.39394708472
+      },
+      "end_point": {
+        "x": 65830.5537329291,
+        "y": 25209.393947084725
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 10.0,
+      "diameter_snapped": 10,
+      "length_mm": 2390.0,
+      "start_point": {
+        "x": 65933.04258564078,
+        "y": 25209.393947084725
+      },
+      "end_point": {
+        "x": 68323.04258557949,
+        "y": 25209.39394708473
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 20.0,
+      "diameter_snapped": 20,
+      "length_mm": 5075.15,
+      "start_point": {
+        "x": 63246.05777761956,
+        "y": 27052.39394706382
+      },
+      "end_point": {
+        "x": 68321.20978272962,
+        "y": 27052.39394706382
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 20.0,
+      "diameter_snapped": 20,
+      "length_mm": 5075.15,
+      "start_point": {
+        "x": 63246.05777761956,
+        "y": 26995.89654478215
+      },
+      "end_point": {
+        "x": 68321.20978272962,
+        "y": 26995.89654478215
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 20.0,
+      "diameter_snapped": 20,
+      "length_mm": 5075.15,
+      "start_point": {
+        "x": 63246.05777761956,
+        "y": 25098.393947084704
+      },
+      "end_point": {
+        "x": 68321.20978272962,
+        "y": 25098.393947084704
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 479.59,
+      "start_point": {
+        "x": 68323.04258557933,
+        "y": 25200.393947084933
+      },
+      "end_point": {
+        "x": 68802.63692693459,
+        "y": 25200.393947084936
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 479.59,
+      "start_point": {
+        "x": 68323.0425855795,
+        "y": 26950.393947084667
+      },
+      "end_point": {
+        "x": 68802.63692693424,
+        "y": 26950.393947084667
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 68267.49479131031,
+        "y": 26367.06061375135
+      },
+      "end_point": {
+        "x": 68802.6369269346,
+        "y": 26367.060613751353
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 68267.49479131038,
+        "y": 26561.505058195795
+      },
+      "end_point": {
+        "x": 68802.63692693449,
+        "y": 26561.5050581958
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 68267.4947913105,
+        "y": 26755.949502639996
+      },
+      "end_point": {
+        "x": 68802.63692693424,
+        "y": 26755.949502639996
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.133,
+      "diameter_snapped": 8,
+      "length_mm": 91.14,
+      "start_point": {
+        "x": 63217.04258574973,
+        "y": 26172.460613751315
+      },
+      "end_point": {
+        "x": 63308.18472133313,
+        "y": 26172.460613751315
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.133,
+      "diameter_snapped": 8,
+      "length_mm": 92.63,
+      "start_point": {
+        "x": 65830.55373292911,
+        "y": 26172.460613751315
+      },
+      "end_point": {
+        "x": 65923.18472126454,
+        "y": 26172.460613751315
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 7.689,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 68267.4947913105,
+        "y": 26172.460613751315
+      },
+      "end_point": {
+        "x": 68802.63692693424,
+        "y": 26172.460613751315
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.133,
+      "diameter_snapped": 8,
+      "length_mm": 91.14,
+      "start_point": {
+        "x": 63217.04258574973,
+        "y": 25978.327280418034
+      },
+      "end_point": {
+        "x": 63308.18472133313,
+        "y": 25978.327280418034
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.133,
+      "diameter_snapped": 8,
+      "length_mm": 92.63,
+      "start_point": {
+        "x": 65830.55373292911,
+        "y": 25978.327280418034
+      },
+      "end_point": {
+        "x": 65923.18472126454,
+        "y": 25978.327280418034
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 7.689,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 68267.49479131051,
+        "y": 25978.327280418034
+      },
+      "end_point": {
+        "x": 68802.63692693424,
+        "y": 25978.327280418034
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 68267.49479131051,
+        "y": 25783.72728041804
+      },
+      "end_point": {
+        "x": 68802.63692693424,
+        "y": 25783.72728041804
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 68267.49479131051,
+        "y": 25589.28283597336
+      },
+      "end_point": {
+        "x": 68802.63692693424,
+        "y": 25589.28283597336
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 68267.49479131051,
+        "y": 25394.838391528916
+      },
+      "end_point": {
+        "x": 68802.63692693424,
+        "y": 25394.838391528916
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 14.0,
+      "diameter_snapped": 12,
+      "length_mm": 98.49,
+      "start_point": {
+        "x": 65830.55373292911,
+        "y": 25207.393947084707
+      },
+      "end_point": {
+        "x": 65929.04258564081,
+        "y": 25207.393947084707
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 91.14,
+      "start_point": {
+        "x": 63217.04258574973,
+        "y": 26946.393947084685
+      },
+      "end_point": {
+        "x": 63308.18472133313,
+        "y": 26946.393947084685
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 92.63,
+      "start_point": {
+        "x": 65830.55373292911,
+        "y": 26946.393947084685
+      },
+      "end_point": {
+        "x": 65923.18472126454,
+        "y": 26946.393947084685
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 91.14,
+      "start_point": {
+        "x": 63217.04258574973,
+        "y": 26752.83839152913
+      },
+      "end_point": {
+        "x": 63308.18472133313,
+        "y": 26752.83839152913
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 92.63,
+      "start_point": {
+        "x": 65830.55373292911,
+        "y": 26752.83839152913
+      },
+      "end_point": {
+        "x": 65923.18472126454,
+        "y": 26752.83839152913
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 91.14,
+      "start_point": {
+        "x": 63217.04258574973,
+        "y": 26559.28283597358
+      },
+      "end_point": {
+        "x": 63308.18472133313,
+        "y": 26559.28283597358
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 92.63,
+      "start_point": {
+        "x": 65830.55373292911,
+        "y": 26559.28283597358
+      },
+      "end_point": {
+        "x": 65923.18472126454,
+        "y": 26559.28283597358
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 91.14,
+      "start_point": {
+        "x": 63217.04258574973,
+        "y": 26365.72728041802
+      },
+      "end_point": {
+        "x": 63308.18472133313,
+        "y": 26365.72728041802
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 92.63,
+      "start_point": {
+        "x": 65830.55373292911,
+        "y": 26365.72728041802
+      },
+      "end_point": {
+        "x": 65923.18472126454,
+        "y": 26365.72728041802
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 91.14,
+      "start_point": {
+        "x": 63217.04258574973,
+        "y": 25785.06061375137
+      },
+      "end_point": {
+        "x": 63308.18472133313,
+        "y": 25785.06061375137
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 92.63,
+      "start_point": {
+        "x": 65830.55373292911,
+        "y": 25785.06061375137
+      },
+      "end_point": {
+        "x": 65923.18472126454,
+        "y": 25785.06061375137
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 91.14,
+      "start_point": {
+        "x": 63217.04258574973,
+        "y": 25397.94950264027
+      },
+      "end_point": {
+        "x": 63308.18472133313,
+        "y": 25397.94950264027
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 92.63,
+      "start_point": {
+        "x": 65830.55373292911,
+        "y": 25397.94950264027
+      },
+      "end_point": {
+        "x": 65923.18472126454,
+        "y": 25397.94950264027
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 91.14,
+      "start_point": {
+        "x": 63217.04258574973,
+        "y": 25591.505058195813
+      },
+      "end_point": {
+        "x": 63308.18472133313,
+        "y": 25591.505058195813
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 91.14,
+      "start_point": {
+        "x": 63217.04258574973,
+        "y": 25204.393947084707
+      },
+      "end_point": {
+        "x": 63308.18472133313,
+        "y": 25204.393947084707
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 29.0,
+      "diameter_snapped": null,
+      "length_mm": 59.57,
+      "start_point": {
+        "x": 68261.63692693424,
+        "y": 25181.893947074044
+      },
+      "end_point": {
+        "x": 68321.20978272962,
+        "y": 25181.893947074044
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 20.0,
+      "diameter_snapped": 20,
+      "length_mm": 187.5,
+      "start_point": {
+        "x": 66561.66518635766,
+        "y": 27052.393947063563
+      },
+      "end_point": {
+        "x": 66374.16907354249,
+        "y": 27052.393947063574
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 0
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 850.73,
+      "start_point": {
+        "x": 85281.52524804286,
+        "y": 3165.7500000013024
+      },
+      "end_point": {
+        "x": 84760.52524804286,
+        "y": 2858.7500000013997
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 1
+    },
+    {
+      "diameter_raw": 20.0,
+      "diameter_snapped": 20,
+      "length_mm": 79.0,
+      "start_point": {
+        "x": 84823.52524804286,
+        "y": 2895.8360570062064
+      },
+      "end_point": {
+        "x": 84744.52524804286,
+        "y": 2895.8360570062073
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 1
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 1216.21,
+      "start_point": {
+        "x": 84811.52524804289,
+        "y": 2939.750000001394
+      },
+      "end_point": {
+        "x": 84811.52524804289,
+        "y": 4155.961104327638
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 1
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 1142.73,
+      "start_point": {
+        "x": 82901.5252480429,
+        "y": 2899.750000001397
+      },
+      "end_point": {
+        "x": 82861.5252480382,
+        "y": 4019.7500000014
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 1
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 1080.0,
+      "start_point": {
+        "x": 83836.5555695823,
+        "y": 2939.750000001397
+      },
+      "end_point": {
+        "x": 83836.5555695823,
+        "y": 4019.750000001396
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 1
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 1142.73,
+      "start_point": {
+        "x": 84376.55556958228,
+        "y": 2899.750000001389
+      },
+      "end_point": {
+        "x": 84336.55556958227,
+        "y": 4019.750000001398
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 1
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 1080.0,
+      "start_point": {
+        "x": 84591.55556958228,
+        "y": 2939.750000001399
+      },
+      "end_point": {
+        "x": 84591.55556958228,
+        "y": 4019.750000001398
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 1
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 1100.26,
+      "start_point": {
+        "x": 83341.58146413704,
+        "y": 2920.338355344012
+      },
+      "end_point": {
+        "x": 83336.55556958227,
+        "y": 4019.750000001395
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 1
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 1142.73,
+      "start_point": {
+        "x": 83121.5555695823,
+        "y": 2899.750000001394
+      },
+      "end_point": {
+        "x": 83081.5555695823,
+        "y": 4019.750000001394
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 1
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 403.93,
+      "start_point": {
+        "x": 84726.22931066343,
+        "y": 2860.6238442606477
+      },
+      "end_point": {
+        "x": 84827.52524804286,
+        "y": 3169.750000001398
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 1
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 322.37,
+      "start_point": {
+        "x": 82865.52524804289,
+        "y": 2858.750000001408
+      },
+      "end_point": {
+        "x": 82845.52524803422,
+        "y": 3169.750000001394
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 1
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 287.16,
+      "start_point": {
+        "x": 83159.08080359845,
+        "y": 2872.689760315517
+      },
+      "end_point": {
+        "x": 83159.08080359845,
+        "y": 3159.85408098708
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 1
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 287.16,
+      "start_point": {
+        "x": 83352.636359154,
+        "y": 2872.689760315517
+      },
+      "end_point": {
+        "x": 83352.636359154,
+        "y": 3159.85408098708
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 1
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 287.16,
+      "start_point": {
+        "x": 83933.30302582066,
+        "y": 2872.689760315517
+      },
+      "end_point": {
+        "x": 83933.30302582066,
+        "y": 3159.85408098708
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 1
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 287.16,
+      "start_point": {
+        "x": 84513.96969248731,
+        "y": 2872.689760315517
+      },
+      "end_point": {
+        "x": 84513.96969248731,
+        "y": 3159.85408098708
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 1
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 287.16,
+      "start_point": {
+        "x": 82965.52524804289,
+        "y": 2872.689760315517
+      },
+      "end_point": {
+        "x": 82965.52524804289,
+        "y": 3159.854080987079
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 1
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 287.16,
+      "start_point": {
+        "x": 83546.19191470955,
+        "y": 2872.689760315517
+      },
+      "end_point": {
+        "x": 83546.19191470955,
+        "y": 3159.854080987079
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 1
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 287.16,
+      "start_point": {
+        "x": 83739.74747026511,
+        "y": 2872.689760315517
+      },
+      "end_point": {
+        "x": 83739.74747026511,
+        "y": 3159.854080987079
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 1
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 287.16,
+      "start_point": {
+        "x": 84126.8585813762,
+        "y": 2872.689760315517
+      },
+      "end_point": {
+        "x": 84126.8585813762,
+        "y": 3159.854080987079
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 1
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 287.16,
+      "start_point": {
+        "x": 84320.41413693177,
+        "y": 2872.689760315517
+      },
+      "end_point": {
+        "x": 84320.41413693177,
+        "y": 3159.854080987079
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 1
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 287.16,
+      "start_point": {
+        "x": 84707.52524804286,
+        "y": 2872.689760315517
+      },
+      "end_point": {
+        "x": 84707.52524804286,
+        "y": 3159.854080987079
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 1
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 280.42,
+      "start_point": {
+        "x": 82912.52524802205,
+        "y": 2858.750000001399
+      },
+      "end_point": {
+        "x": 82932.52524802205,
+        "y": 3127.808874504442
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 1
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 203.14,
+      "start_point": {
+        "x": 84747.7896798078,
+        "y": 2915.001983447922
+      },
+      "end_point": {
+        "x": 84771.9914748659,
+        "y": 3108.342647681405
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 1
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 203.14,
+      "start_point": {
+        "x": 82925.26081625713,
+        "y": 2915.001983447922
+      },
+      "end_point": {
+        "x": 82901.059021199,
+        "y": 3108.342647681396
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 1
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1753.14,
+      "start_point": {
+        "x": 82960.22931064264,
+        "y": 2866.8761557421335
+      },
+      "end_point": {
+        "x": 84712.82118542228,
+        "y": 2866.876155742151
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 1
+    },
+    {
+      "diameter_raw": 11.763,
+      "diameter_snapped": 12,
+      "length_mm": 1703.92,
+      "start_point": {
+        "x": 82984.72491356003,
+        "y": 3153.2827765737443
+      },
+      "end_point": {
+        "x": 84688.32558252577,
+        "y": 3153.282776573766
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 1
+    },
+    {
+      "diameter_raw": 12.0,
+      "diameter_snapped": 12,
+      "length_mm": 1627.49,
+      "start_point": {
+        "x": 83022.77962222262,
+        "y": 2896.138179588551
+      },
+      "end_point": {
+        "x": 84650.27087384243,
+        "y": 2896.138179588551
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 1
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 658.95,
+      "start_point": {
+        "x": 82391.52524802207,
+        "y": 3165.7500000014106
+      },
+      "end_point": {
+        "x": 82862.32066656016,
+        "y": 3067.2611472873396
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 1
+    },
+    {
+      "diameter_raw": 12.0,
+      "diameter_snapped": 12,
+      "length_mm": 482.37,
+      "start_point": {
+        "x": 82941.059021199,
+        "y": 2913.7500000013943
+      },
+      "end_point": {
+        "x": 83423.42926923696,
+        "y": 2913.7500000013943
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 1
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 469.83,
+      "start_point": {
+        "x": 84249.62122682796,
+        "y": 2911.7500000013943
+      },
+      "end_point": {
+        "x": 84719.4480599095,
+        "y": 2911.7500000013943
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 1
+    },
+    {
+      "diameter_raw": 23.0,
+      "diameter_snapped": null,
+      "length_mm": 101.8,
+      "start_point": {
+        "x": 84517.96969248731,
+        "y": 2896.250000001398
+      },
+      "end_point": {
+        "x": 84619.76900490791,
+        "y": 2896.250000001398
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 1
+    },
+    {
+      "diameter_raw": 12.0,
+      "diameter_snapped": 12,
+      "length_mm": 72.63,
+      "start_point": {
+        "x": 82849.52524804289,
+        "y": 3138.7500000013997
+      },
+      "end_point": {
+        "x": 82922.15266502002,
+        "y": 3138.7500000013997
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 1
+    },
+    {
+      "diameter_raw": 12.0,
+      "diameter_snapped": 12,
+      "length_mm": 72.63,
+      "start_point": {
+        "x": 84750.8978310449,
+        "y": 3138.7500000013997
+      },
+      "end_point": {
+        "x": 84823.52524804286,
+        "y": 3138.7500000013997
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 1
+    },
+    {
+      "diameter_raw": 12.0,
+      "diameter_snapped": 12,
+      "length_mm": 72.24,
+      "start_point": {
+        "x": 84747.90563488487,
+        "y": 2875.138179588551
+      },
+      "end_point": {
+        "x": 84820.14486120087,
+        "y": 2875.138179588551
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 1
+    },
+    {
+      "diameter_raw": 16.698,
+      "diameter_snapped": 16,
+      "length_mm": 72.24,
+      "start_point": {
+        "x": 82852.9056348849,
+        "y": 2877.4871182973875
+      },
+      "end_point": {
+        "x": 82925.14486118006,
+        "y": 2877.4871182973875
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 1
+    },
+    {
+      "diameter_raw": 26.388,
+      "diameter_snapped": 25,
+      "length_mm": 63.0,
+      "start_point": {
+        "x": 82865.52524802204,
+        "y": 2867.9440897951017
+      },
+      "end_point": {
+        "x": 82928.52524802204,
+        "y": 2867.944089795102
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 1
+    },
+    {
+      "diameter_raw": 10.931,
+      "diameter_snapped": 10,
+      "length_mm": 62.5,
+      "start_point": {
+        "x": 82854.02784574038,
+        "y": 3155.045304494214
+      },
+      "end_point": {
+        "x": 82916.52524802281,
+        "y": 3155.045304494214
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 1
+    },
+    {
+      "diameter_raw": 10.931,
+      "diameter_snapped": 10,
+      "length_mm": 62.5,
+      "start_point": {
+        "x": 84754.02784574035,
+        "y": 3155.045304494214
+      },
+      "end_point": {
+        "x": 84816.52524802278,
+        "y": 3155.045304494214
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 1
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 89.63,
+      "start_point": {
+        "x": 84810.72982950704,
+        "y": 3067.26114728993
+      },
+      "end_point": {
+        "x": 84747.35367516754,
+        "y": 3130.6373016294237
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 1
+    },
+    {
+      "diameter_raw": 20.0,
+      "diameter_snapped": 20,
+      "length_mm": 72.82,
+      "start_point": {
+        "x": 84663.5628468345,
+        "y": 2882.5618587682948
+      },
+      "end_point": {
+        "x": 84735.1170663418,
+        "y": 2895.836057006239
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 1
+    },
+    {
+      "diameter_raw": 20.0,
+      "diameter_snapped": 20,
+      "length_mm": 72.82,
+      "start_point": {
+        "x": 83009.48764922874,
+        "y": 2882.5618587735535
+      },
+      "end_point": {
+        "x": 82937.93342972317,
+        "y": 2895.8360570062305
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 1
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 8.73,
+      "start_point": {
+        "x": 82938.36882016668,
+        "y": 2858.750000001391
+      },
+      "end_point": {
+        "x": 82946.8211854015,
+        "y": 2860.6238442606605
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 1
+    },
+    {
+      "diameter_raw": 12.0,
+      "diameter_snapped": 12,
+      "length_mm": 7.8,
+      "start_point": {
+        "x": 84728.55318474256,
+        "y": 2876.605403016195
+      },
+      "end_point": {
+        "x": 84736.1955920399,
+        "y": 2875.182210110549
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 1
+    },
+    {
+      "diameter_raw": 12.0,
+      "diameter_snapped": 12,
+      "length_mm": 7.8,
+      "start_point": {
+        "x": 82936.85490401971,
+        "y": 2875.182210109115
+      },
+      "end_point": {
+        "x": 82944.49731134324,
+        "y": 2876.6054030161818
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 1
+    },
+    {
+      "diameter_raw": 12.0,
+      "diameter_snapped": 12,
+      "length_mm": 7.8,
+      "start_point": {
+        "x": 84728.55318474254,
+        "y": 3140.217223429041
+      },
+      "end_point": {
+        "x": 84736.1955920399,
+        "y": 3138.7940305233906
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 1
+    },
+    {
+      "diameter_raw": 12.0,
+      "diameter_snapped": 12,
+      "length_mm": 7.8,
+      "start_point": {
+        "x": 82936.85490401971,
+        "y": 3138.794030521965
+      },
+      "end_point": {
+        "x": 82944.49731134325,
+        "y": 3140.2172234290347
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 1
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 31.37,
+      "start_point": {
+        "x": 82865.52524802205,
+        "y": 3165.7500000014056
+      },
+      "end_point": {
+        "x": 82845.52524802205,
+        "y": 3145.750000001402
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 1
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 21.27,
+      "start_point": {
+        "x": 84806.00261664919,
+        "y": 3185.5877411712236
+      },
+      "end_point": {
+        "x": 84811.52524804288,
+        "y": 3205.8685462337457
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 1
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 20.78,
+      "start_point": {
+        "x": 84777.27002502418,
+        "y": 3136.7365017012635
+      },
+      "end_point": {
+        "x": 84771.99147486592,
+        "y": 3116.8764684463563
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 1
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 21.27,
+      "start_point": {
+        "x": 82861.52524802207,
+        "y": 3205.8685462336966
+      },
+      "end_point": {
+        "x": 82867.04787941575,
+        "y": 3185.587741171183
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 1
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 20.78,
+      "start_point": {
+        "x": 82901.05902119899,
+        "y": 3116.8764684463545
+      },
+      "end_point": {
+        "x": 82895.78047104075,
+        "y": 3136.7365017012567
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 1
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 524.68,
+      "start_point": {
+        "x": 74174.46466989911,
+        "y": 3072.261147289697
+      },
+      "end_point": {
+        "x": 74172.66925136336,
+        "y": 2858.750000001393
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 2
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 226.32,
+      "start_point": {
+        "x": 71559.46466996773,
+        "y": 3117.2611472896897
+      },
+      "end_point": {
+        "x": 71532.66925147227,
+        "y": 3195.7500000013983
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 2
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 78.79,
+      "start_point": {
+        "x": 74153.84082423995,
+        "y": 3108.2058441227637
+      },
+      "end_point": {
+        "x": 74209.55655299123,
+        "y": 3163.921572874053
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 2
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 75.04,
+      "start_point": {
+        "x": 71541.49767859821,
+        "y": 3155.8626984180446
+      },
+      "end_point": {
+        "x": 71594.55655306095,
+        "y": 3208.921572880776
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 2
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 89.63,
+      "start_point": {
+        "x": 76647.4681741207,
+        "y": 3067.2611472893623
+      },
+      "end_point": {
+        "x": 76584.0920197819,
+        "y": 3130.6373016281505
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 2
+    },
+    {
+      "diameter_raw": 10.0,
+      "diameter_snapped": 10,
+      "length_mm": 5778.41,
+      "start_point": {
+        "x": 71533.66925147227,
+        "y": 3219.750000001399
+      },
+      "end_point": {
+        "x": 76663.66925130202,
+        "y": 3169.750000001397
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 2
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 1120.0,
+      "start_point": {
+        "x": 74198.66925136335,
+        "y": 2899.750000001397
+      },
+      "end_point": {
+        "x": 74198.66925136335,
+        "y": 4019.750000001396
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 2
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 299.06,
+      "start_point": {
+        "x": 71629.66925143194,
+        "y": 2878.750000001399
+      },
+      "end_point": {
+        "x": 71629.66925143194,
+        "y": 3177.808874504441
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 2
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 850.73,
+      "start_point": {
+        "x": 76597.26359265677,
+        "y": 2858.7500000013897
+      },
+      "end_point": {
+        "x": 77118.26359265677,
+        "y": 3165.750000001398
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 2
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 254.06,
+      "start_point": {
+        "x": 74244.66925136335,
+        "y": 2878.750000001399
+      },
+      "end_point": {
+        "x": 74244.66925136335,
+        "y": 3132.808874504441
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 2
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 31.37,
+      "start_point": {
+        "x": 71532.66925147228,
+        "y": 2878.750000001398
+      },
+      "end_point": {
+        "x": 71552.66925147228,
+        "y": 2858.750000001393
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 2
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 31.37,
+      "start_point": {
+        "x": 76644.26359265677,
+        "y": 2858.750000001391
+      },
+      "end_point": {
+        "x": 76664.26359265677,
+        "y": 2878.7500000014
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 2
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 850.73,
+      "start_point": {
+        "x": 81373.41714908098,
+        "y": 3165.7500000013065
+      },
+      "end_point": {
+        "x": 80852.41714908098,
+        "y": 2858.7500000013997
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 3
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 912.6,
+      "start_point": {
+        "x": 80863.88337590406,
+        "y": 3116.8764684463545
+      },
+      "end_point": {
+        "x": 80903.41714908101,
+        "y": 4019.7500000014
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 3
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 912.6,
+      "start_point": {
+        "x": 78992.95092223711,
+        "y": 3116.8764684463545
+      },
+      "end_point": {
+        "x": 78953.41714906011,
+        "y": 4019.750000001401
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 3
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 403.93,
+      "start_point": {
+        "x": 80818.12121170155,
+        "y": 2860.6238442606477
+      },
+      "end_point": {
+        "x": 80919.41714908098,
+        "y": 3169.750000001398
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 3
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 322.37,
+      "start_point": {
+        "x": 78957.41714908101,
+        "y": 2858.750000001408
+      },
+      "end_point": {
+        "x": 78937.41714907059,
+        "y": 3169.750000001394
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 3
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 280.42,
+      "start_point": {
+        "x": 79004.41714906017,
+        "y": 2858.750000001399
+      },
+      "end_point": {
+        "x": 79024.41714906017,
+        "y": 3127.808874504442
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 3
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 203.14,
+      "start_point": {
+        "x": 80839.68158084592,
+        "y": 2915.001983447927
+      },
+      "end_point": {
+        "x": 80863.88337590403,
+        "y": 3108.3426476814
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 3
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 203.14,
+      "start_point": {
+        "x": 79017.15271729525,
+        "y": 2915.001983447921
+      },
+      "end_point": {
+        "x": 78992.95092223713,
+        "y": 3108.342647681395
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 3
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1753.14,
+      "start_point": {
+        "x": 79052.12121168076,
+        "y": 2866.8761557421335
+      },
+      "end_point": {
+        "x": 80804.7130864604,
+        "y": 2866.876155742151
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 3
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 658.95,
+      "start_point": {
+        "x": 78483.41714906019,
+        "y": 3165.7500000014106
+      },
+      "end_point": {
+        "x": 78954.21256759818,
+        "y": 3067.2611472874414
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 3
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 488.1,
+      "start_point": {
+        "x": 79027.23804926731,
+        "y": 2912.1600633705875
+      },
+      "end_point": {
+        "x": 79515.32117027509,
+        "y": 2911.7500000013943
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 3
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 488.1,
+      "start_point": {
+        "x": 80341.51312786608,
+        "y": 2911.7500000013943
+      },
+      "end_point": {
+        "x": 80829.59624887386,
+        "y": 2912.1600633705893
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 3
+    },
+    {
+      "diameter_raw": 10.392,
+      "diameter_snapped": 10,
+      "length_mm": 62.5,
+      "start_point": {
+        "x": 78945.9197467785,
+        "y": 3154.7760758024265
+      },
+      "end_point": {
+        "x": 79008.41714906094,
+        "y": 3154.7760758024265
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 3
+    },
+    {
+      "diameter_raw": 10.392,
+      "diameter_snapped": 10,
+      "length_mm": 62.5,
+      "start_point": {
+        "x": 80845.91974677847,
+        "y": 3154.7760758024265
+      },
+      "end_point": {
+        "x": 80908.41714906092,
+        "y": 3154.7760758024265
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 3
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 89.63,
+      "start_point": {
+        "x": 80902.6217305449,
+        "y": 3067.2611472893477
+      },
+      "end_point": {
+        "x": 80839.24557620614,
+        "y": 3130.637301628107
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 3
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 8.73,
+      "start_point": {
+        "x": 79030.2607212048,
+        "y": 2858.750000001391
+      },
+      "end_point": {
+        "x": 79038.71308643962,
+        "y": 2860.6238442606605
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 3
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 31.37,
+      "start_point": {
+        "x": 78957.41714906017,
+        "y": 3165.7500000014056
+      },
+      "end_point": {
+        "x": 78937.41714906017,
+        "y": 3145.750000001402
+      },
+      "layer": "S-RBAR",
+      "source_pass": "clustered",
+      "cluster_index": 3
+    },
+    {
+      "diameter_raw": 20.0,
+      "diameter_snapped": 20,
+      "length_mm": 1990.0,
+      "start_point": {
+        "x": 65853.04258564081,
+        "y": 25080.39394706392
+      },
+      "end_point": {
+        "x": 65853.04258564081,
+        "y": 27070.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 20.0,
+      "diameter_snapped": 20,
+      "length_mm": 1990.0,
+      "start_point": {
+        "x": 65913.04258564083,
+        "y": 25080.39394706392
+      },
+      "end_point": {
+        "x": 65913.04258564083,
+        "y": 27070.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 19.699,
+      "diameter_snapped": 20,
+      "length_mm": 1990.0,
+      "start_point": {
+        "x": 63297.89231726722,
+        "y": 25080.39394706393
+      },
+      "end_point": {
+        "x": 63297.89231726722,
+        "y": 27070.39394708469
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 19.702,
+      "diameter_snapped": 20,
+      "length_mm": 1990.0,
+      "start_point": {
+        "x": 68277.89382928557,
+        "y": 25080.39394706393
+      },
+      "end_point": {
+        "x": 68277.89382928557,
+        "y": 27070.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 13.782,
+      "diameter_snapped": 12,
+      "length_mm": 1990.0,
+      "start_point": {
+        "x": 68336.1514046078,
+        "y": 25080.39394706393
+      },
+      "end_point": {
+        "x": 68336.1514046078,
+        "y": 27070.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 12.0,
+      "diameter_snapped": 12,
+      "length_mm": 1990.0,
+      "start_point": {
+        "x": 65856.4475604651,
+        "y": 25080.3939470847
+      },
+      "end_point": {
+        "x": 65856.4475604651,
+        "y": 27070.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 12.0,
+      "diameter_snapped": 12,
+      "length_mm": 1990.0,
+      "start_point": {
+        "x": 65910.29414246489,
+        "y": 25080.3939470847
+      },
+      "end_point": {
+        "x": 65910.29414246489,
+        "y": 27070.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 12.597,
+      "diameter_snapped": 12,
+      "length_mm": 1990.0,
+      "start_point": {
+        "x": 63229.6729325917,
+        "y": 25080.393947084714
+      },
+      "end_point": {
+        "x": 63229.6729325917,
+        "y": 27070.393947084685
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1934.0,
+      "start_point": {
+        "x": 65417.588040222974,
+        "y": 25108.393947084685
+      },
+      "end_point": {
+        "x": 65417.588040222974,
+        "y": 27042.393947063807
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1934.0,
+      "start_point": {
+        "x": 65565.76985839964,
+        "y": 25108.393947084685
+      },
+      "end_point": {
+        "x": 65565.76985839965,
+        "y": 27042.393947063807
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1934.0,
+      "start_point": {
+        "x": 65713.9516765763,
+        "y": 25108.393947084685
+      },
+      "end_point": {
+        "x": 65713.95167657631,
+        "y": 27042.393947063807
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1934.0,
+      "start_point": {
+        "x": 66010.31531292961,
+        "y": 25108.393947084685
+      },
+      "end_point": {
+        "x": 66010.31531292963,
+        "y": 27042.393947063807
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1934.0,
+      "start_point": {
+        "x": 66158.49713110627,
+        "y": 25108.393947084685
+      },
+      "end_point": {
+        "x": 66158.49713110628,
+        "y": 27042.393947063807
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1934.0,
+      "start_point": {
+        "x": 66306.67894928293,
+        "y": 25108.393947084685
+      },
+      "end_point": {
+        "x": 66306.67894928294,
+        "y": 27042.393947063807
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1934.0,
+      "start_point": {
+        "x": 67640.31531287286,
+        "y": 25108.393947084674
+      },
+      "end_point": {
+        "x": 67640.31531287287,
+        "y": 27042.393947063796
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1934.0,
+      "start_point": {
+        "x": 67788.49713104952,
+        "y": 25108.393947084674
+      },
+      "end_point": {
+        "x": 67788.49713104953,
+        "y": 27042.393947063796
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.073,
+      "diameter_snapped": 8,
+      "length_mm": 1934.0,
+      "start_point": {
+        "x": 63935.80622209004,
+        "y": 25108.393947084696
+      },
+      "end_point": {
+        "x": 63935.80622209004,
+        "y": 27042.393947063814
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1934.0,
+      "start_point": {
+        "x": 64083.951676633034,
+        "y": 25108.393947084696
+      },
+      "end_point": {
+        "x": 64083.951676633034,
+        "y": 27042.393947063814
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1934.0,
+      "start_point": {
+        "x": 64232.13349480971,
+        "y": 25108.393947084696
+      },
+      "end_point": {
+        "x": 64232.13349480971,
+        "y": 27042.393947063814
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1934.0,
+      "start_point": {
+        "x": 64528.49713116302,
+        "y": 25108.393947084696
+      },
+      "end_point": {
+        "x": 64528.49713116302,
+        "y": 27042.393947063814
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1934.0,
+      "start_point": {
+        "x": 64676.67894933968,
+        "y": 25108.393947084696
+      },
+      "end_point": {
+        "x": 64676.67894933968,
+        "y": 27042.393947063814
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1934.0,
+      "start_point": {
+        "x": 64824.86076751634,
+        "y": 25108.393947084696
+      },
+      "end_point": {
+        "x": 64824.86076751634,
+        "y": 27042.393947063814
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1934.0,
+      "start_point": {
+        "x": 64973.04258569299,
+        "y": 25108.393947084696
+      },
+      "end_point": {
+        "x": 64973.04258569299,
+        "y": 27042.393947063814
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1934.0,
+      "start_point": {
+        "x": 65121.224403869666,
+        "y": 25108.393947084696
+      },
+      "end_point": {
+        "x": 65121.224403869666,
+        "y": 27042.393947063807
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1934.0,
+      "start_point": {
+        "x": 65269.40622204632,
+        "y": 25108.393947084696
+      },
+      "end_point": {
+        "x": 65269.40622204632,
+        "y": 27042.393947063807
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1934.0,
+      "start_point": {
+        "x": 66454.86076745958,
+        "y": 25108.393947084685
+      },
+      "end_point": {
+        "x": 66454.8607674596,
+        "y": 27042.393947063796
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1934.0,
+      "start_point": {
+        "x": 66603.04258563626,
+        "y": 25108.393947084685
+      },
+      "end_point": {
+        "x": 66603.04258563627,
+        "y": 27042.393947063796
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1934.0,
+      "start_point": {
+        "x": 66751.22440381291,
+        "y": 25108.393947084685
+      },
+      "end_point": {
+        "x": 66751.22440381293,
+        "y": 27042.393947063796
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1934.0,
+      "start_point": {
+        "x": 66899.40622198957,
+        "y": 25108.393947084685
+      },
+      "end_point": {
+        "x": 66899.40622198959,
+        "y": 27042.393947063796
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1934.0,
+      "start_point": {
+        "x": 67047.58804016623,
+        "y": 25108.393947084685
+      },
+      "end_point": {
+        "x": 67047.58804016624,
+        "y": 27042.393947063796
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1934.0,
+      "start_point": {
+        "x": 67195.76985834289,
+        "y": 25108.393947084685
+      },
+      "end_point": {
+        "x": 67195.7698583429,
+        "y": 27042.393947063796
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1934.0,
+      "start_point": {
+        "x": 67492.1334946962,
+        "y": 25108.393947084685
+      },
+      "end_point": {
+        "x": 67492.13349469622,
+        "y": 27042.393947063796
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1934.0,
+      "start_point": {
+        "x": 68084.86076740285,
+        "y": 25108.393947084674
+      },
+      "end_point": {
+        "x": 68084.86076740286,
+        "y": 27042.393947063785
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1934.0,
+      "start_point": {
+        "x": 68233.0425855795,
+        "y": 25108.393947084674
+      },
+      "end_point": {
+        "x": 68233.04258557952,
+        "y": 27042.393947063785
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1934.0,
+      "start_point": {
+        "x": 63343.04258574975,
+        "y": 25108.393947084707
+      },
+      "end_point": {
+        "x": 63343.04258574975,
+        "y": 27042.393947063814
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1934.0,
+      "start_point": {
+        "x": 63491.224403926404,
+        "y": 25108.393947084707
+      },
+      "end_point": {
+        "x": 63491.224403926404,
+        "y": 27042.393947063814
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1934.0,
+      "start_point": {
+        "x": 63787.58804027973,
+        "y": 25108.393947084707
+      },
+      "end_point": {
+        "x": 63787.58804027973,
+        "y": 27042.393947063814
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 18.252,
+      "diameter_snapped": 20,
+      "length_mm": 1797.18,
+      "start_point": {
+        "x": 68332.16836399154,
+        "y": 25176.802128765
+      },
+      "end_point": {
+        "x": 68332.16836399154,
+        "y": 26973.98576538361
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1796.31,
+      "start_point": {
+        "x": 63639.40622210306,
+        "y": 25177.237519208476
+      },
+      "end_point": {
+        "x": 63639.40622210306,
+        "y": 26973.550374940045
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1796.31,
+      "start_point": {
+        "x": 67936.67894922619,
+        "y": 25177.237519208476
+      },
+      "end_point": {
+        "x": 67936.6789492262,
+        "y": 26973.550374940045
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1380.1,
+      "start_point": {
+        "x": 64380.31531298636,
+        "y": 25108.393947084696
+      },
+      "end_point": {
+        "x": 64380.31531298636,
+        "y": 26488.489925869766
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1311.25,
+      "start_point": {
+        "x": 67343.95167651954,
+        "y": 25662.29796827877
+      },
+      "end_point": {
+        "x": 67343.95167651954,
+        "y": 26973.55037494006
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 1216.21,
+      "start_point": {
+        "x": 84811.52524804289,
+        "y": 2939.750000001394
+      },
+      "end_point": {
+        "x": 84811.52524804289,
+        "y": 4155.961104327638
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 1120.0,
+      "start_point": {
+        "x": 74198.66925136335,
+        "y": 2899.750000001397
+      },
+      "end_point": {
+        "x": 74198.66925136335,
+        "y": 4019.750000001396
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 1142.73,
+      "start_point": {
+        "x": 82901.5252480429,
+        "y": 2899.750000001397
+      },
+      "end_point": {
+        "x": 82861.5252480382,
+        "y": 4019.7500000014
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 1080.0,
+      "start_point": {
+        "x": 83836.5555695823,
+        "y": 2939.750000001397
+      },
+      "end_point": {
+        "x": 83836.5555695823,
+        "y": 4019.750000001396
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 1142.73,
+      "start_point": {
+        "x": 84376.55556958228,
+        "y": 2899.750000001389
+      },
+      "end_point": {
+        "x": 84336.55556958227,
+        "y": 4019.750000001398
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 1080.0,
+      "start_point": {
+        "x": 84591.55556958228,
+        "y": 2939.750000001399
+      },
+      "end_point": {
+        "x": 84591.55556958228,
+        "y": 4019.750000001398
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 1100.26,
+      "start_point": {
+        "x": 83341.58146413704,
+        "y": 2920.338355344012
+      },
+      "end_point": {
+        "x": 83336.55556958227,
+        "y": 4019.750000001395
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 1142.73,
+      "start_point": {
+        "x": 83121.5555695823,
+        "y": 2899.750000001394
+      },
+      "end_point": {
+        "x": 83081.5555695823,
+        "y": 4019.750000001394
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 969.51,
+      "start_point": {
+        "x": 65883.0425856408,
+        "y": 25105.916578457574
+      },
+      "end_point": {
+        "x": 65883.0425856408,
+        "y": 26075.424268624123
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 556.38,
+      "start_point": {
+        "x": 65883.0425856408,
+        "y": 26488.489925869784
+      },
+      "end_point": {
+        "x": 65883.0425856408,
+        "y": 27044.871315691023
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 912.6,
+      "start_point": {
+        "x": 80863.88337590406,
+        "y": 3116.8764684463545
+      },
+      "end_point": {
+        "x": 80903.41714908101,
+        "y": 4019.7500000014
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 912.6,
+      "start_point": {
+        "x": 78992.95092223711,
+        "y": 3116.8764684463545
+      },
+      "end_point": {
+        "x": 78953.41714906011,
+        "y": 4019.750000001401
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 556.38,
+      "start_point": {
+        "x": 67268.04258564125,
+        "y": 26488.48992586977
+      },
+      "end_point": {
+        "x": 67268.04258564125,
+        "y": 27044.87131569106
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 556.38,
+      "start_point": {
+        "x": 67033.0425856371,
+        "y": 25105.9165784575
+      },
+      "end_point": {
+        "x": 67033.0425856371,
+        "y": 25662.29796827877
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 16.405,
+      "diameter_snapped": 16,
+      "length_mm": 556.38,
+      "start_point": {
+        "x": 67343.24493630024,
+        "y": 25105.9165784575
+      },
+      "end_point": {
+        "x": 67343.24493630024,
+        "y": 25662.29796827877
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 556.38,
+      "start_point": {
+        "x": 67843.04258564123,
+        "y": 25105.9165784575
+      },
+      "end_point": {
+        "x": 67843.04258564123,
+        "y": 25662.29796827877
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 556.38,
+      "start_point": {
+        "x": 68153.04258564077,
+        "y": 25105.9165784575
+      },
+      "end_point": {
+        "x": 68153.04258564077,
+        "y": 25662.29796827877
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 556.38,
+      "start_point": {
+        "x": 68153.04258564077,
+        "y": 26488.48992586977
+      },
+      "end_point": {
+        "x": 68153.04258564077,
+        "y": 27044.87131569101
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 556.38,
+      "start_point": {
+        "x": 64733.042585641124,
+        "y": 26488.48992586977
+      },
+      "end_point": {
+        "x": 64733.042585641124,
+        "y": 27044.87131569102
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 556.38,
+      "start_point": {
+        "x": 64948.04258564106,
+        "y": 25105.91657845752
+      },
+      "end_point": {
+        "x": 64948.04258564106,
+        "y": 25662.29796827877
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 556.38,
+      "start_point": {
+        "x": 65448.04258564105,
+        "y": 25105.91657845752
+      },
+      "end_point": {
+        "x": 65448.04258564105,
+        "y": 25662.29796827877
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 556.38,
+      "start_point": {
+        "x": 66268.04258564125,
+        "y": 26488.48992586977
+      },
+      "end_point": {
+        "x": 66268.04258564125,
+        "y": 27044.87131569102
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 556.38,
+      "start_point": {
+        "x": 63513.04258570883,
+        "y": 25105.91657845753
+      },
+      "end_point": {
+        "x": 63513.04258570883,
+        "y": 25662.29796827877
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 556.38,
+      "start_point": {
+        "x": 63513.04258570883,
+        "y": 26488.48992586978
+      },
+      "end_point": {
+        "x": 63513.04258570883,
+        "y": 27044.87131569102
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 556.38,
+      "start_point": {
+        "x": 63873.04258570883,
+        "y": 26488.48992586978
+      },
+      "end_point": {
+        "x": 63873.04258570883,
+        "y": 27044.87131569102
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 556.38,
+      "start_point": {
+        "x": 64373.04258564113,
+        "y": 26488.48992586978
+      },
+      "end_point": {
+        "x": 64373.04258564113,
+        "y": 27044.87131569102
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 556.38,
+      "start_point": {
+        "x": 67768.04258564125,
+        "y": 26488.48992586977
+      },
+      "end_point": {
+        "x": 67768.04258564125,
+        "y": 27044.87131569101
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 556.38,
+      "start_point": {
+        "x": 64448.04258564109,
+        "y": 25105.91657845754
+      },
+      "end_point": {
+        "x": 64448.04258564109,
+        "y": 25662.29796827877
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 7.798,
+      "diameter_snapped": 8,
+      "length_mm": 475.52,
+      "start_point": {
+        "x": 67347.54846228875,
+        "y": 24630.39394706387
+      },
+      "end_point": {
+        "x": 67347.54846228875,
+        "y": 25105.9165784575
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 7.798,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 67347.54846228875,
+        "y": 26985.25181146095
+      },
+      "end_point": {
+        "x": 67347.54846228875,
+        "y": 27520.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.13,
+      "diameter_snapped": 8,
+      "length_mm": 450.0,
+      "start_point": {
+        "x": 68325.19521266504,
+        "y": 24630.39394706387
+      },
+      "end_point": {
+        "x": 68325.19521266504,
+        "y": 25080.39394706393
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.13,
+      "diameter_snapped": 8,
+      "length_mm": 450.0,
+      "start_point": {
+        "x": 68325.19521266504,
+        "y": 27070.39394708468
+      },
+      "end_point": {
+        "x": 68325.19521266504,
+        "y": 27520.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 63242.23126850009,
+        "y": 24630.39394706387
+      },
+      "end_point": {
+        "x": 63242.23126850009,
+        "y": 25165.5360826876
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 63242.23126850009,
+        "y": 26985.25181146095
+      },
+      "end_point": {
+        "x": 63242.23126850009,
+        "y": 27520.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 63437.72738131524,
+        "y": 24630.39394706387
+      },
+      "end_point": {
+        "x": 63437.72738131524,
+        "y": 25165.5360826876
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 63437.72738131524,
+        "y": 26985.25181146095
+      },
+      "end_point": {
+        "x": 63437.72738131524,
+        "y": 27520.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 63633.22349413039,
+        "y": 24630.39394706387
+      },
+      "end_point": {
+        "x": 63633.22349413039,
+        "y": 25165.5360826876
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 63633.22349413039,
+        "y": 26985.25181146095
+      },
+      "end_point": {
+        "x": 63633.22349413039,
+        "y": 27520.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 63828.71960694555,
+        "y": 24630.39394706387
+      },
+      "end_point": {
+        "x": 63828.71960694555,
+        "y": 25165.5360826876
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 63828.71960694555,
+        "y": 26985.25181146095
+      },
+      "end_point": {
+        "x": 63828.71960694555,
+        "y": 27520.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 64024.21571976069,
+        "y": 24630.39394706387
+      },
+      "end_point": {
+        "x": 64024.21571976069,
+        "y": 25165.5360826876
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 64024.21571976069,
+        "y": 26985.25181146095
+      },
+      "end_point": {
+        "x": 64024.21571976069,
+        "y": 27520.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 64219.71183257584,
+        "y": 24630.39394706387
+      },
+      "end_point": {
+        "x": 64219.71183257584,
+        "y": 25165.5360826876
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 64219.71183257584,
+        "y": 26985.25181146095
+      },
+      "end_point": {
+        "x": 64219.71183257584,
+        "y": 27520.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 64415.20794539099,
+        "y": 24630.39394706387
+      },
+      "end_point": {
+        "x": 64415.20794539099,
+        "y": 25165.5360826876
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 64415.20794539099,
+        "y": 26985.25181146095
+      },
+      "end_point": {
+        "x": 64415.20794539099,
+        "y": 27520.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 64610.70405820615,
+        "y": 24630.39394706387
+      },
+      "end_point": {
+        "x": 64610.70405820615,
+        "y": 25165.5360826876
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 64610.70405820615,
+        "y": 26985.25181146095
+      },
+      "end_point": {
+        "x": 64610.70405820615,
+        "y": 27520.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 64806.2001710213,
+        "y": 24630.39394706387
+      },
+      "end_point": {
+        "x": 64806.2001710213,
+        "y": 25165.5360826876
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 64806.2001710213,
+        "y": 26985.25181146095
+      },
+      "end_point": {
+        "x": 64806.2001710213,
+        "y": 27520.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 65001.69628383644,
+        "y": 24630.39394706387
+      },
+      "end_point": {
+        "x": 65001.69628383644,
+        "y": 25165.5360826876
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 65001.69628383644,
+        "y": 26985.25181146095
+      },
+      "end_point": {
+        "x": 65001.69628383644,
+        "y": 27520.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 65197.1923966516,
+        "y": 24630.39394706387
+      },
+      "end_point": {
+        "x": 65197.1923966516,
+        "y": 25165.5360826876
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 65197.1923966516,
+        "y": 26985.25181146095
+      },
+      "end_point": {
+        "x": 65197.1923966516,
+        "y": 27520.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 65392.68850946674,
+        "y": 24630.39394706387
+      },
+      "end_point": {
+        "x": 65392.68850946674,
+        "y": 25165.5360826876
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 65392.68850946674,
+        "y": 26985.25181146095
+      },
+      "end_point": {
+        "x": 65392.68850946674,
+        "y": 27520.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 65588.1846222819,
+        "y": 24630.39394706387
+      },
+      "end_point": {
+        "x": 65588.1846222819,
+        "y": 25165.5360826876
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 65588.1846222819,
+        "y": 26985.25181146095
+      },
+      "end_point": {
+        "x": 65588.1846222819,
+        "y": 27520.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 65783.68073509705,
+        "y": 24630.39394706387
+      },
+      "end_point": {
+        "x": 65783.68073509705,
+        "y": 25165.5360826876
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 65783.68073509705,
+        "y": 26985.25181146095
+      },
+      "end_point": {
+        "x": 65783.68073509705,
+        "y": 27520.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 65979.1768479122,
+        "y": 24630.39394706387
+      },
+      "end_point": {
+        "x": 65979.1768479122,
+        "y": 25165.5360826876
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 65979.1768479122,
+        "y": 26985.25181146095
+      },
+      "end_point": {
+        "x": 65979.1768479122,
+        "y": 27520.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 66174.67296072734,
+        "y": 24630.39394706387
+      },
+      "end_point": {
+        "x": 66174.67296072734,
+        "y": 25165.5360826876
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 66174.67296072734,
+        "y": 26985.25181146095
+      },
+      "end_point": {
+        "x": 66174.67296072734,
+        "y": 27520.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 66370.16907354249,
+        "y": 24630.39394706387
+      },
+      "end_point": {
+        "x": 66370.16907354249,
+        "y": 25165.5360826876
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 66370.16907354249,
+        "y": 26985.25181146095
+      },
+      "end_point": {
+        "x": 66370.16907354249,
+        "y": 27520.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 66565.66518635766,
+        "y": 24630.39394706387
+      },
+      "end_point": {
+        "x": 66565.66518635766,
+        "y": 25165.5360826876
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 66565.66518635766,
+        "y": 26985.25181146095
+      },
+      "end_point": {
+        "x": 66565.66518635766,
+        "y": 27520.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 66761.16129917279,
+        "y": 24630.39394706387
+      },
+      "end_point": {
+        "x": 66761.16129917279,
+        "y": 25165.5360826876
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 66761.16129917279,
+        "y": 26985.25181146095
+      },
+      "end_point": {
+        "x": 66761.16129917279,
+        "y": 27520.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 66956.65741198795,
+        "y": 24630.39394706387
+      },
+      "end_point": {
+        "x": 66956.65741198795,
+        "y": 25165.5360826876
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 66956.65741198795,
+        "y": 26985.25181146095
+      },
+      "end_point": {
+        "x": 66956.65741198795,
+        "y": 27520.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 67152.1535248031,
+        "y": 24630.39394706387
+      },
+      "end_point": {
+        "x": 67152.1535248031,
+        "y": 25165.5360826876
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 67152.1535248031,
+        "y": 26985.25181146095
+      },
+      "end_point": {
+        "x": 67152.1535248031,
+        "y": 27520.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 67543.1457504334,
+        "y": 24630.39394706387
+      },
+      "end_point": {
+        "x": 67543.1457504334,
+        "y": 25165.5360826876
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 67543.1457504334,
+        "y": 26985.25181146095
+      },
+      "end_point": {
+        "x": 67543.1457504334,
+        "y": 27520.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 67738.64186324854,
+        "y": 24630.39394706387
+      },
+      "end_point": {
+        "x": 67738.64186324854,
+        "y": 25165.5360826876
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 67738.64186324854,
+        "y": 26985.25181146095
+      },
+      "end_point": {
+        "x": 67738.64186324854,
+        "y": 27520.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 67934.1379760637,
+        "y": 24630.39394706387
+      },
+      "end_point": {
+        "x": 67934.1379760637,
+        "y": 25165.5360826876
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 67934.1379760637,
+        "y": 26985.25181146095
+      },
+      "end_point": {
+        "x": 67934.1379760637,
+        "y": 27520.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 68129.63408887884,
+        "y": 24630.39394706387
+      },
+      "end_point": {
+        "x": 68129.63408887884,
+        "y": 25165.5360826876
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 68129.63408887884,
+        "y": 26985.25181146095
+      },
+      "end_point": {
+        "x": 68129.63408887884,
+        "y": 27520.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 482.37,
+      "start_point": {
+        "x": 66768.04258564125,
+        "y": 26488.48992586977
+      },
+      "end_point": {
+        "x": 66768.04258564125,
+        "y": 26970.86017390772
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 10.0,
+      "diameter_snapped": 10,
+      "length_mm": 5778.41,
+      "start_point": {
+        "x": 76663.66925130202,
+        "y": 3169.750000001397
+      },
+      "end_point": {
+        "x": 71533.66925147227,
+        "y": 3219.750000001399
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 299.06,
+      "start_point": {
+        "x": 71629.66925143194,
+        "y": 2878.750000001399
+      },
+      "end_point": {
+        "x": 71629.66925143194,
+        "y": 3177.808874504441
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 403.93,
+      "start_point": {
+        "x": 80818.12121170155,
+        "y": 2860.6238442606477
+      },
+      "end_point": {
+        "x": 80919.41714908098,
+        "y": 3169.750000001398
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 403.93,
+      "start_point": {
+        "x": 84726.22931066343,
+        "y": 2860.6238442606477
+      },
+      "end_point": {
+        "x": 84827.52524804286,
+        "y": 3169.750000001398
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 322.37,
+      "start_point": {
+        "x": 78957.41714908101,
+        "y": 2858.750000001408
+      },
+      "end_point": {
+        "x": 78937.41714907059,
+        "y": 3169.750000001394
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 322.37,
+      "start_point": {
+        "x": 82865.52524804289,
+        "y": 2858.750000001408
+      },
+      "end_point": {
+        "x": 82845.52524803422,
+        "y": 3169.750000001394
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 287.16,
+      "start_point": {
+        "x": 83159.08080359845,
+        "y": 2872.689760315517
+      },
+      "end_point": {
+        "x": 83159.08080359845,
+        "y": 3159.85408098708
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 287.16,
+      "start_point": {
+        "x": 83352.636359154,
+        "y": 2872.689760315517
+      },
+      "end_point": {
+        "x": 83352.636359154,
+        "y": 3159.85408098708
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 287.16,
+      "start_point": {
+        "x": 83933.30302582066,
+        "y": 2872.689760315517
+      },
+      "end_point": {
+        "x": 83933.30302582066,
+        "y": 3159.85408098708
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 287.16,
+      "start_point": {
+        "x": 84513.96969248731,
+        "y": 2872.689760315517
+      },
+      "end_point": {
+        "x": 84513.96969248731,
+        "y": 3159.85408098708
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 287.16,
+      "start_point": {
+        "x": 82965.52524804289,
+        "y": 2872.689760315517
+      },
+      "end_point": {
+        "x": 82965.52524804289,
+        "y": 3159.854080987079
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 287.16,
+      "start_point": {
+        "x": 83546.19191470955,
+        "y": 2872.689760315517
+      },
+      "end_point": {
+        "x": 83546.19191470955,
+        "y": 3159.854080987079
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 287.16,
+      "start_point": {
+        "x": 83739.74747026511,
+        "y": 2872.689760315517
+      },
+      "end_point": {
+        "x": 83739.74747026511,
+        "y": 3159.854080987079
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 287.16,
+      "start_point": {
+        "x": 84126.8585813762,
+        "y": 2872.689760315517
+      },
+      "end_point": {
+        "x": 84126.8585813762,
+        "y": 3159.854080987079
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 287.16,
+      "start_point": {
+        "x": 84320.41413693177,
+        "y": 2872.689760315517
+      },
+      "end_point": {
+        "x": 84320.41413693177,
+        "y": 3159.854080987079
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 287.16,
+      "start_point": {
+        "x": 84707.52524804286,
+        "y": 2872.689760315517
+      },
+      "end_point": {
+        "x": 84707.52524804286,
+        "y": 3159.854080987079
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 524.68,
+      "start_point": {
+        "x": 74172.66925136336,
+        "y": 2858.750000001393
+      },
+      "end_point": {
+        "x": 74174.46466989911,
+        "y": 3072.261147289697
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 850.73,
+      "start_point": {
+        "x": 76597.26359265677,
+        "y": 2858.7500000013897
+      },
+      "end_point": {
+        "x": 77118.26359265677,
+        "y": 3165.7500000013606
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 850.73,
+      "start_point": {
+        "x": 80852.41714908098,
+        "y": 2858.7500000013997
+      },
+      "end_point": {
+        "x": 81373.41714908098,
+        "y": 3165.750000001337
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 850.73,
+      "start_point": {
+        "x": 84760.52524804286,
+        "y": 2858.7500000013997
+      },
+      "end_point": {
+        "x": 85281.52524804286,
+        "y": 3165.750000001316
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 254.06,
+      "start_point": {
+        "x": 74244.66925136335,
+        "y": 2878.750000001399
+      },
+      "end_point": {
+        "x": 74244.66925136335,
+        "y": 3132.808874504441
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 280.42,
+      "start_point": {
+        "x": 79004.41714906017,
+        "y": 2858.750000001399
+      },
+      "end_point": {
+        "x": 79024.41714906017,
+        "y": 3127.808874504442
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 280.42,
+      "start_point": {
+        "x": 82912.52524802205,
+        "y": 2858.750000001399
+      },
+      "end_point": {
+        "x": 82932.52524802205,
+        "y": 3127.808874504442
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 203.14,
+      "start_point": {
+        "x": 84747.7896798078,
+        "y": 2915.001983447922
+      },
+      "end_point": {
+        "x": 84771.9914748659,
+        "y": 3108.342647681405
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 203.14,
+      "start_point": {
+        "x": 80839.68158084592,
+        "y": 2915.001983447927
+      },
+      "end_point": {
+        "x": 80863.88337590403,
+        "y": 3108.3426476814
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 203.14,
+      "start_point": {
+        "x": 82925.26081625713,
+        "y": 2915.001983447922
+      },
+      "end_point": {
+        "x": 82901.059021199,
+        "y": 3108.342647681396
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 203.14,
+      "start_point": {
+        "x": 79017.15271729525,
+        "y": 2915.001983447921
+      },
+      "end_point": {
+        "x": 78992.95092223713,
+        "y": 3108.342647681395
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 20.164,
+      "diameter_snapped": 20,
+      "length_mm": 91.0,
+      "start_point": {
+        "x": 68331.21217204879,
+        "y": 25080.3939470847
+      },
+      "end_point": {
+        "x": 68331.21217204879,
+        "y": 25171.39394706387
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 20.164,
+      "diameter_snapped": 20,
+      "length_mm": 85.14,
+      "start_point": {
+        "x": 68331.21217204879,
+        "y": 26985.25181146095
+      },
+      "end_point": {
+        "x": 68331.21217204879,
+        "y": 27070.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 12.0,
+      "diameter_snapped": 12,
+      "length_mm": 5098.0,
+      "start_point": {
+        "x": 63249.04258574959,
+        "y": 27052.393947064622
+      },
+      "end_point": {
+        "x": 68347.04258557937,
+        "y": 27052.393947064647
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 12.0,
+      "diameter_snapped": 12,
+      "length_mm": 5098.0,
+      "start_point": {
+        "x": 63249.04258574961,
+        "y": 26995.896544782136
+      },
+      "end_point": {
+        "x": 68347.04258557939,
+        "y": 26995.896544782157
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 12.0,
+      "diameter_snapped": 12,
+      "length_mm": 5098.0,
+      "start_point": {
+        "x": 63249.04258574963,
+        "y": 25152.393947064542
+      },
+      "end_point": {
+        "x": 68347.04258557942,
+        "y": 25152.39394706456
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 12.0,
+      "diameter_snapped": 12,
+      "length_mm": 5098.0,
+      "start_point": {
+        "x": 63249.042585749616,
+        "y": 25095.896544782147
+      },
+      "end_point": {
+        "x": 68347.0425855794,
+        "y": 25095.89654478217
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 10.0,
+      "diameter_snapped": 10,
+      "length_mm": 5080.0,
+      "start_point": {
+        "x": 63243.042585749725,
+        "y": 26959.393947084696
+      },
+      "end_point": {
+        "x": 68323.04258557949,
+        "y": 26959.393947084696
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 10.0,
+      "diameter_snapped": 10,
+      "length_mm": 5080.0,
+      "start_point": {
+        "x": 63243.04258574974,
+        "y": 26834.39394708468
+      },
+      "end_point": {
+        "x": 68323.0425855795,
+        "y": 26834.39394708468
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 10.0,
+      "diameter_snapped": 10,
+      "length_mm": 5080.0,
+      "start_point": {
+        "x": 63243.04258574974,
+        "y": 26709.393947084685
+      },
+      "end_point": {
+        "x": 68323.0425855795,
+        "y": 26709.393947084685
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 10.0,
+      "diameter_snapped": 10,
+      "length_mm": 5080.0,
+      "start_point": {
+        "x": 63243.04258574974,
+        "y": 26584.39394708469
+      },
+      "end_point": {
+        "x": 68323.0425855795,
+        "y": 26584.39394708469
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 10.0,
+      "diameter_snapped": 10,
+      "length_mm": 5080.0,
+      "start_point": {
+        "x": 63243.04258574974,
+        "y": 26459.39394708469
+      },
+      "end_point": {
+        "x": 68323.0425855795,
+        "y": 26459.39394708469
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 10.0,
+      "diameter_snapped": 10,
+      "length_mm": 5080.0,
+      "start_point": {
+        "x": 63243.04258574974,
+        "y": 26334.39394708469
+      },
+      "end_point": {
+        "x": 68323.0425855795,
+        "y": 26334.39394708469
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 10.0,
+      "diameter_snapped": 10,
+      "length_mm": 5080.0,
+      "start_point": {
+        "x": 63243.04258574974,
+        "y": 26209.39394708469
+      },
+      "end_point": {
+        "x": 68323.0425855795,
+        "y": 26209.39394708469
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 10.0,
+      "diameter_snapped": 10,
+      "length_mm": 5080.0,
+      "start_point": {
+        "x": 63243.04258574974,
+        "y": 26084.393947084696
+      },
+      "end_point": {
+        "x": 68323.0425855795,
+        "y": 26084.393947084696
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 10.0,
+      "diameter_snapped": 10,
+      "length_mm": 5080.0,
+      "start_point": {
+        "x": 63243.04258574974,
+        "y": 25959.3939470847
+      },
+      "end_point": {
+        "x": 68323.0425855795,
+        "y": 25959.3939470847
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 10.0,
+      "diameter_snapped": 10,
+      "length_mm": 5080.0,
+      "start_point": {
+        "x": 63243.04258574974,
+        "y": 25834.3939470847
+      },
+      "end_point": {
+        "x": 68323.0425855795,
+        "y": 25834.3939470847
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 10.0,
+      "diameter_snapped": 10,
+      "length_mm": 5080.0,
+      "start_point": {
+        "x": 63243.04258574974,
+        "y": 25709.3939470847
+      },
+      "end_point": {
+        "x": 68323.0425855795,
+        "y": 25709.3939470847
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 10.0,
+      "diameter_snapped": 10,
+      "length_mm": 5080.0,
+      "start_point": {
+        "x": 63243.04258574974,
+        "y": 25459.393947084707
+      },
+      "end_point": {
+        "x": 68323.0425855795,
+        "y": 25459.393947084707
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 10.0,
+      "diameter_snapped": 10,
+      "length_mm": 5080.0,
+      "start_point": {
+        "x": 63243.04258574974,
+        "y": 25334.393947084707
+      },
+      "end_point": {
+        "x": 68323.0425855795,
+        "y": 25334.393947084707
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 9.962,
+      "diameter_snapped": 10,
+      "length_mm": 4940.65,
+      "start_point": {
+        "x": 63317.08077183763,
+        "y": 25584.393947084704
+      },
+      "end_point": {
+        "x": 68257.72218548846,
+        "y": 25584.393947084704
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 10.0,
+      "diameter_snapped": 10,
+      "length_mm": 2512.51,
+      "start_point": {
+        "x": 63318.04258570941,
+        "y": 25209.39394708472
+      },
+      "end_point": {
+        "x": 65830.5537329291,
+        "y": 25209.393947084725
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 10.0,
+      "diameter_snapped": 10,
+      "length_mm": 2390.0,
+      "start_point": {
+        "x": 65933.04258564078,
+        "y": 25209.393947084725
+      },
+      "end_point": {
+        "x": 68323.04258557949,
+        "y": 25209.39394708473
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1753.14,
+      "start_point": {
+        "x": 79052.12121168076,
+        "y": 2866.8761557421335
+      },
+      "end_point": {
+        "x": 80804.7130864604,
+        "y": 2866.876155742151
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 1753.14,
+      "start_point": {
+        "x": 82960.22931064264,
+        "y": 2866.8761557421335
+      },
+      "end_point": {
+        "x": 84712.82118542228,
+        "y": 2866.876155742151
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 11.638,
+      "diameter_snapped": 12,
+      "length_mm": 1703.93,
+      "start_point": {
+        "x": 82984.72491356003,
+        "y": 3153.2827765737443
+      },
+      "end_point": {
+        "x": 84688.32558252577,
+        "y": 3153.282776573766
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 12.0,
+      "diameter_snapped": 12,
+      "length_mm": 1627.49,
+      "start_point": {
+        "x": 83022.77962222262,
+        "y": 2896.138179588551
+      },
+      "end_point": {
+        "x": 84650.27087384243,
+        "y": 2896.138179588551
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 20.0,
+      "diameter_snapped": 20,
+      "length_mm": 5075.15,
+      "start_point": {
+        "x": 63246.05777761956,
+        "y": 27052.39394706382
+      },
+      "end_point": {
+        "x": 68321.20978272962,
+        "y": 27052.39394706382
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 20.0,
+      "diameter_snapped": 20,
+      "length_mm": 5075.15,
+      "start_point": {
+        "x": 63246.05777761956,
+        "y": 26995.89654478215
+      },
+      "end_point": {
+        "x": 68321.20978272962,
+        "y": 26995.89654478215
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 20.0,
+      "diameter_snapped": 20,
+      "length_mm": 5075.15,
+      "start_point": {
+        "x": 63246.05777761956,
+        "y": 25098.393947084704
+      },
+      "end_point": {
+        "x": 68321.20978272962,
+        "y": 25098.393947084704
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 479.59,
+      "start_point": {
+        "x": 68323.04258557933,
+        "y": 25200.393947084933
+      },
+      "end_point": {
+        "x": 68802.63692693459,
+        "y": 25200.393947084936
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 479.59,
+      "start_point": {
+        "x": 68323.0425855795,
+        "y": 26950.393947084667
+      },
+      "end_point": {
+        "x": 68802.63692693424,
+        "y": 26950.393947084667
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 68267.49479131031,
+        "y": 26367.06061375135
+      },
+      "end_point": {
+        "x": 68802.6369269346,
+        "y": 26367.060613751353
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 68267.49479131038,
+        "y": 26561.505058195795
+      },
+      "end_point": {
+        "x": 68802.63692693449,
+        "y": 26561.5050581958
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 68267.4947913105,
+        "y": 26755.949502639996
+      },
+      "end_point": {
+        "x": 68802.63692693424,
+        "y": 26755.949502639996
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.133,
+      "diameter_snapped": 8,
+      "length_mm": 91.14,
+      "start_point": {
+        "x": 63217.04258574973,
+        "y": 26172.460613751315
+      },
+      "end_point": {
+        "x": 63308.18472133313,
+        "y": 26172.460613751315
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.133,
+      "diameter_snapped": 8,
+      "length_mm": 92.63,
+      "start_point": {
+        "x": 65830.55373292911,
+        "y": 26172.460613751315
+      },
+      "end_point": {
+        "x": 65923.18472126454,
+        "y": 26172.460613751315
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 7.689,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 68267.4947913105,
+        "y": 26172.460613751315
+      },
+      "end_point": {
+        "x": 68802.63692693424,
+        "y": 26172.460613751315
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.133,
+      "diameter_snapped": 8,
+      "length_mm": 91.14,
+      "start_point": {
+        "x": 63217.04258574973,
+        "y": 25978.327280418034
+      },
+      "end_point": {
+        "x": 63308.18472133313,
+        "y": 25978.327280418034
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.133,
+      "diameter_snapped": 8,
+      "length_mm": 92.63,
+      "start_point": {
+        "x": 65830.55373292911,
+        "y": 25978.327280418034
+      },
+      "end_point": {
+        "x": 65923.18472126454,
+        "y": 25978.327280418034
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 7.689,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 68267.49479131051,
+        "y": 25978.327280418034
+      },
+      "end_point": {
+        "x": 68802.63692693424,
+        "y": 25978.327280418034
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 68267.49479131051,
+        "y": 25783.72728041804
+      },
+      "end_point": {
+        "x": 68802.63692693424,
+        "y": 25783.72728041804
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 68267.49479131051,
+        "y": 25589.28283597336
+      },
+      "end_point": {
+        "x": 68802.63692693424,
+        "y": 25589.28283597336
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 535.14,
+      "start_point": {
+        "x": 68267.49479131051,
+        "y": 25394.838391528916
+      },
+      "end_point": {
+        "x": 68802.63692693424,
+        "y": 25394.838391528916
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 658.95,
+      "start_point": {
+        "x": 78483.41714906019,
+        "y": 3165.750000001415
+      },
+      "end_point": {
+        "x": 78954.21256759818,
+        "y": 3067.2611472874414
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 658.95,
+      "start_point": {
+        "x": 82391.52524802207,
+        "y": 3165.750000001422
+      },
+      "end_point": {
+        "x": 82862.32066656016,
+        "y": 3067.2611472873396
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 12.0,
+      "diameter_snapped": 12,
+      "length_mm": 482.37,
+      "start_point": {
+        "x": 82941.059021199,
+        "y": 2913.7500000013943
+      },
+      "end_point": {
+        "x": 83423.42926923696,
+        "y": 2913.7500000013943
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 488.1,
+      "start_point": {
+        "x": 79027.23804926731,
+        "y": 2912.1600633705875
+      },
+      "end_point": {
+        "x": 79515.32117027509,
+        "y": 2911.7500000013943
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 488.1,
+      "start_point": {
+        "x": 80341.51312786608,
+        "y": 2911.7500000013943
+      },
+      "end_point": {
+        "x": 80829.59624887386,
+        "y": 2912.1600633705893
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 469.83,
+      "start_point": {
+        "x": 84249.62122682796,
+        "y": 2911.7500000013943
+      },
+      "end_point": {
+        "x": 84719.4480599095,
+        "y": 2911.7500000013943
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 23.0,
+      "diameter_snapped": null,
+      "length_mm": 101.8,
+      "start_point": {
+        "x": 84517.96969248731,
+        "y": 2896.250000001398
+      },
+      "end_point": {
+        "x": 84619.76900490791,
+        "y": 2896.250000001398
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 14.0,
+      "diameter_snapped": 12,
+      "length_mm": 98.49,
+      "start_point": {
+        "x": 65830.55373292911,
+        "y": 25207.393947084707
+      },
+      "end_point": {
+        "x": 65929.04258564081,
+        "y": 25207.393947084707
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 91.14,
+      "start_point": {
+        "x": 63217.04258574973,
+        "y": 26946.393947084685
+      },
+      "end_point": {
+        "x": 63308.18472133313,
+        "y": 26946.393947084685
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 92.63,
+      "start_point": {
+        "x": 65830.55373292911,
+        "y": 26946.393947084685
+      },
+      "end_point": {
+        "x": 65923.18472126454,
+        "y": 26946.393947084685
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 91.14,
+      "start_point": {
+        "x": 63217.04258574973,
+        "y": 26752.83839152913
+      },
+      "end_point": {
+        "x": 63308.18472133313,
+        "y": 26752.83839152913
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 92.63,
+      "start_point": {
+        "x": 65830.55373292911,
+        "y": 26752.83839152913
+      },
+      "end_point": {
+        "x": 65923.18472126454,
+        "y": 26752.83839152913
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 91.14,
+      "start_point": {
+        "x": 63217.04258574973,
+        "y": 26559.28283597358
+      },
+      "end_point": {
+        "x": 63308.18472133313,
+        "y": 26559.28283597358
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 92.63,
+      "start_point": {
+        "x": 65830.55373292911,
+        "y": 26559.28283597358
+      },
+      "end_point": {
+        "x": 65923.18472126454,
+        "y": 26559.28283597358
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 91.14,
+      "start_point": {
+        "x": 63217.04258574973,
+        "y": 26365.72728041802
+      },
+      "end_point": {
+        "x": 63308.18472133313,
+        "y": 26365.72728041802
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 92.63,
+      "start_point": {
+        "x": 65830.55373292911,
+        "y": 26365.72728041802
+      },
+      "end_point": {
+        "x": 65923.18472126454,
+        "y": 26365.72728041802
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 91.14,
+      "start_point": {
+        "x": 63217.04258574973,
+        "y": 25785.06061375137
+      },
+      "end_point": {
+        "x": 63308.18472133313,
+        "y": 25785.06061375137
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 92.63,
+      "start_point": {
+        "x": 65830.55373292911,
+        "y": 25785.06061375137
+      },
+      "end_point": {
+        "x": 65923.18472126454,
+        "y": 25785.06061375137
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 91.14,
+      "start_point": {
+        "x": 63217.04258574973,
+        "y": 25397.94950264027
+      },
+      "end_point": {
+        "x": 63308.18472133313,
+        "y": 25397.94950264027
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 92.63,
+      "start_point": {
+        "x": 65830.55373292911,
+        "y": 25397.94950264027
+      },
+      "end_point": {
+        "x": 65923.18472126454,
+        "y": 25397.94950264027
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 91.14,
+      "start_point": {
+        "x": 63217.04258574973,
+        "y": 25591.505058195813
+      },
+      "end_point": {
+        "x": 63308.18472133313,
+        "y": 25591.505058195813
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 91.14,
+      "start_point": {
+        "x": 63217.04258574973,
+        "y": 25204.393947084707
+      },
+      "end_point": {
+        "x": 63308.18472133313,
+        "y": 25204.393947084707
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 12.0,
+      "diameter_snapped": 12,
+      "length_mm": 72.63,
+      "start_point": {
+        "x": 82849.52524804289,
+        "y": 3138.7500000013997
+      },
+      "end_point": {
+        "x": 82922.15266502002,
+        "y": 3138.7500000013997
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 12.0,
+      "diameter_snapped": 12,
+      "length_mm": 72.63,
+      "start_point": {
+        "x": 84750.8978310449,
+        "y": 3138.7500000013997
+      },
+      "end_point": {
+        "x": 84823.52524804286,
+        "y": 3138.7500000013997
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 12.0,
+      "diameter_snapped": 12,
+      "length_mm": 72.24,
+      "start_point": {
+        "x": 84747.90563488487,
+        "y": 2875.138179588551
+      },
+      "end_point": {
+        "x": 84820.14486120087,
+        "y": 2875.138179588551
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 16.698,
+      "diameter_snapped": 16,
+      "length_mm": 72.24,
+      "start_point": {
+        "x": 82852.9056348849,
+        "y": 2877.4871182973875
+      },
+      "end_point": {
+        "x": 82925.14486118006,
+        "y": 2877.4871182973875
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 26.388,
+      "diameter_snapped": 25,
+      "length_mm": 63.0,
+      "start_point": {
+        "x": 82865.52524802205,
+        "y": 2867.944089795069
+      },
+      "end_point": {
+        "x": 82928.52524802205,
+        "y": 2867.944089795069
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 10.804,
+      "diameter_snapped": 10,
+      "length_mm": 62.5,
+      "start_point": {
+        "x": 78945.9197467785,
+        "y": 3154.981956566735
+      },
+      "end_point": {
+        "x": 79008.41714906094,
+        "y": 3154.981956566735
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 10.804,
+      "diameter_snapped": 10,
+      "length_mm": 62.5,
+      "start_point": {
+        "x": 80845.91974677847,
+        "y": 3154.981956566735
+      },
+      "end_point": {
+        "x": 80908.41714906092,
+        "y": 3154.981956566735
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 10.804,
+      "diameter_snapped": 10,
+      "length_mm": 62.5,
+      "start_point": {
+        "x": 82854.02784574038,
+        "y": 3154.981956566735
+      },
+      "end_point": {
+        "x": 82916.52524802281,
+        "y": 3154.981956566735
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 10.804,
+      "diameter_snapped": 10,
+      "length_mm": 62.5,
+      "start_point": {
+        "x": 84754.02784574035,
+        "y": 3154.981956566735
+      },
+      "end_point": {
+        "x": 84816.52524802278,
+        "y": 3154.981956566735
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 29.0,
+      "diameter_snapped": null,
+      "length_mm": 59.57,
+      "start_point": {
+        "x": 68261.63692693424,
+        "y": 25181.893947074044
+      },
+      "end_point": {
+        "x": 68321.20978272962,
+        "y": 25181.893947074044
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 226.32,
+      "start_point": {
+        "x": 71532.66925147227,
+        "y": 3195.7500000013983
+      },
+      "end_point": {
+        "x": 71559.46466996773,
+        "y": 3117.2611472896897
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 20.0,
+      "diameter_snapped": 20,
+      "length_mm": 187.5,
+      "start_point": {
+        "x": 66561.66518635766,
+        "y": 27052.393947063563
+      },
+      "end_point": {
+        "x": 66374.16907354249,
+        "y": 27052.393947063574
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 20.0,
+      "diameter_snapped": 20,
+      "length_mm": 79.0,
+      "start_point": {
+        "x": 84823.52524804286,
+        "y": 2895.8360570062064
+      },
+      "end_point": {
+        "x": 84744.52524804286,
+        "y": 2895.8360570062073
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 78.79,
+      "start_point": {
+        "x": 74153.84082423995,
+        "y": 3108.2058441227637
+      },
+      "end_point": {
+        "x": 74209.55655299123,
+        "y": 3163.921572874053
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 75.04,
+      "start_point": {
+        "x": 71541.49767859821,
+        "y": 3155.8626984180446
+      },
+      "end_point": {
+        "x": 71594.55655306095,
+        "y": 3208.921572880776
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 89.63,
+      "start_point": {
+        "x": 84810.72982950704,
+        "y": 3067.26114728993
+      },
+      "end_point": {
+        "x": 84747.35367516754,
+        "y": 3130.6373016294237
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 89.63,
+      "start_point": {
+        "x": 76647.4681741207,
+        "y": 3067.2611472893623
+      },
+      "end_point": {
+        "x": 76584.0920197819,
+        "y": 3130.6373016281505
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 89.63,
+      "start_point": {
+        "x": 80902.6217305449,
+        "y": 3067.2611472893477
+      },
+      "end_point": {
+        "x": 80839.24557620614,
+        "y": 3130.637301628107
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 20.0,
+      "diameter_snapped": 20,
+      "length_mm": 72.82,
+      "start_point": {
+        "x": 84663.5628468345,
+        "y": 2882.5618587682948
+      },
+      "end_point": {
+        "x": 84735.1170663418,
+        "y": 2895.836057006239
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 20.0,
+      "diameter_snapped": 20,
+      "length_mm": 72.82,
+      "start_point": {
+        "x": 83009.48764922874,
+        "y": 2882.5618587735535
+      },
+      "end_point": {
+        "x": 82937.93342972317,
+        "y": 2895.8360570062305
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 31.37,
+      "start_point": {
+        "x": 71532.66925147228,
+        "y": 2878.750000001398
+      },
+      "end_point": {
+        "x": 71552.66925147228,
+        "y": 2858.750000001393
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 31.37,
+      "start_point": {
+        "x": 76644.26359265677,
+        "y": 2858.750000001391
+      },
+      "end_point": {
+        "x": 76664.26359265677,
+        "y": 2878.7500000014
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 8.73,
+      "start_point": {
+        "x": 79030.2607212048,
+        "y": 2858.750000001391
+      },
+      "end_point": {
+        "x": 79038.71308643962,
+        "y": 2860.6238442606605
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 31.37,
+      "start_point": {
+        "x": 78957.41714906017,
+        "y": 3165.7500000014056
+      },
+      "end_point": {
+        "x": 78937.41714906017,
+        "y": 3145.750000001402
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 8.73,
+      "start_point": {
+        "x": 82938.36882016668,
+        "y": 2858.750000001391
+      },
+      "end_point": {
+        "x": 82946.8211854015,
+        "y": 2860.6238442606605
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 12.0,
+      "diameter_snapped": 12,
+      "length_mm": 7.8,
+      "start_point": {
+        "x": 84728.55318474256,
+        "y": 2876.605403016195
+      },
+      "end_point": {
+        "x": 84736.1955920399,
+        "y": 2875.182210110549
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 12.0,
+      "diameter_snapped": 12,
+      "length_mm": 7.8,
+      "start_point": {
+        "x": 82936.85490401971,
+        "y": 2875.182210109115
+      },
+      "end_point": {
+        "x": 82944.49731134324,
+        "y": 2876.6054030161818
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 12.0,
+      "diameter_snapped": 12,
+      "length_mm": 7.8,
+      "start_point": {
+        "x": 84728.55318474254,
+        "y": 3140.217223429041
+      },
+      "end_point": {
+        "x": 84736.1955920399,
+        "y": 3138.7940305233906
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 12.0,
+      "diameter_snapped": 12,
+      "length_mm": 7.8,
+      "start_point": {
+        "x": 82936.85490401971,
+        "y": 3138.794030521965
+      },
+      "end_point": {
+        "x": 82944.49731134325,
+        "y": 3140.2172234290347
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 8.0,
+      "diameter_snapped": 8,
+      "length_mm": 31.37,
+      "start_point": {
+        "x": 82865.52524802205,
+        "y": 3165.7500000014056
+      },
+      "end_point": {
+        "x": 82845.52524802205,
+        "y": 3145.750000001402
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 21.27,
+      "start_point": {
+        "x": 84806.00261664919,
+        "y": 3185.5877411712236
+      },
+      "end_point": {
+        "x": 84811.52524804288,
+        "y": 3205.8685462337457
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 20.78,
+      "start_point": {
+        "x": 84777.27002502418,
+        "y": 3136.7365017012635
+      },
+      "end_point": {
+        "x": 84771.99147486592,
+        "y": 3116.8764684463563
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 21.27,
+      "start_point": {
+        "x": 82861.52524802207,
+        "y": 3205.8685462336966
+      },
+      "end_point": {
+        "x": 82867.04787941575,
+        "y": 3185.587741171183
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    },
+    {
+      "diameter_raw": 16.0,
+      "diameter_snapped": 16,
+      "length_mm": 20.78,
+      "start_point": {
+        "x": 82901.05902119899,
+        "y": 3116.8764684463545
+      },
+      "end_point": {
+        "x": 82895.78047104075,
+        "y": 3136.7365017012567
+      },
+      "layer": "S-RBAR",
+      "source_pass": "unclustered",
+      "cluster_index": null
+    }
+  ],
+  "summary_by_diameter": {
+    "20": {
+      "clustered_count": 14,
+      "unclustered_count": 14
+    },
+    "12": {
+      "clustered_count": 19,
+      "unclustered_count": 19
+    },
+    "8": {
+      "clustered_count": 153,
+      "unclustered_count": 153
+    },
+    "16": {
+      "clustered_count": 41,
+      "unclustered_count": 41
+    },
+    "10": {
+      "clustered_count": 21,
+      "unclustered_count": 21
+    },
+    "unsnapped": {
+      "clustered_count": 2,
+      "unclustered_count": 2
+    },
+    "25": {
+      "clustered_count": 1,
+      "unclustered_count": 1
+    }
+  }
+}

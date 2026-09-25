@@ -1,0 +1,64 @@
+Cast-in lifting anchor extraction report
+============================================================
+Elements processed : 38
+Total anchors found: 483
+
+By type:
+  LIFT-12_9                        27
+  RR-SA-0_7-110                    16
+  RR-SA-10_0-300                    4
+  RR-SA-1_4-160                    87
+  RR-SA-2_5-150                    90
+  RR-SA-2_5-200                    95
+  RR-SA-2_5-250                    46
+  RR-SA-3_0-200                    52
+  RR-SA-4_0-180                    32
+  RR-SA-4_0-240                     4
+  RR-SA-4_0-320                    12
+  RR-SA-5_0-240                     2
+  RR-SA-7_5-260                    16
+
+By element:
+  PC-GF-01                            n=  3 sheet=PC-GF-01_M       status=ok  ** MISMATCH geometry=3 schedule=4 **
+  PW-01-PW-01                         n=  6 sheet=PW-01-PW-01_R    status=ok
+  PW-GF-01                            n= 14 sheet=PW-GF-01_M1      status=ok
+  PW-GF-02                            n=  5 sheet=PW-GF-02_M1      status=ok
+  PW-GF-03                            n= 14 sheet=PW-GF-03_M1      status=ok
+  PW-GF-04                            n= 14 sheet=PW-GF-04_M1      status=ok
+  PW-GF-05                            n= 20 sheet=PW-GF-05_M1      status=ok
+  PW-GF-06                            n= 13 sheet=PW-GF-06_M1      status=ok  (R-sheet cross-check found 11, differs)
+  PW-GF-07                            n= 14 sheet=PW-GF-07_M1      status=ok
+  PW-GF-08 [2155x5095x400]            n= 14 sheet=PW-GF-08_M1      status=ok
+  PW-GF-08 [2155x5095x200]            n= 13 sheet=PW-GF-08_M2      status=ok
+  PW-GF-09 [4000x2930x160]            n=  6 sheet=PW-GF-09_M1      status=ok
+  PW-GF-09 [1500x5095x200]            n= 16 sheet=PW-GF-09_R1      status=ok
+  PW-GF-09 [1500x5055x400]            n= 15 sheet=PW-GF-09_M3      status=ok
+  PW-GF-10                            n= 14 sheet=PW-GF-10_M1      status=ok
+  PW-GF-11                            n= 14 sheet=PW-GF-11_M2      status=ok
+  PW-GF-12                            n= 14 sheet=PW-GF-12_M1      status=ok
+  PW-GF-13                            n= 14 sheet=PW-GF-13_M1      status=ok
+  PW-GF-14                            n= 14 sheet=PW-GF-14_M1      status=ok
+  PW-GF-15                            n= 14 sheet=PW-GF-15_M1      status=ok
+  PW-GF-16                            n= 14 sheet=PW-GF-16_M1      status=ok
+  PW-GF-17                            n= 14 sheet=PW-GF-17_M1      status=ok
+  PW-GF-18                            n= 17 sheet=PW-GF-18_M1      status=ok
+  PW-GF-19                            n= 14 sheet=PW-GF-19_M1      status=ok
+  PW-GF-20                            n= 14 sheet=PW-GF-20_M1      status=ok
+  PW-GF-21                            n= 14 sheet=PW-GF-21_M1      status=ok
+  PW-GF-22                            n= 14 sheet=PW-GF-22_M1      status=ok
+  PW-GF-23                            n= 14 sheet=PW-GF-23_M1      status=ok
+  PW-GF-24                            n= 17 sheet=PW-GF-24_M1      status=ok
+  PW-GF-25                            n= 17 sheet=PW-GF-25_M1      status=ok
+  PW-GF-26                            n= 14 sheet=PW-GF-26_M1      status=ok
+  PW-GF-27                            n= 11 sheet=PW-GF-27_M2      status=ok  (R-sheet cross-check found 15, differs)
+  PW-GF-28                            n= 14 sheet=PW-GF-28_M1      status=ok
+  PW-GF-29                            n=  6 sheet=PW-GF-29_M1      status=ok
+  PW-GF-30                            n= 14 sheet=PW-GF-30_M1      status=ok
+  PW-GF-31                            n= 14 sheet=PW-GF-31_M1      status=ok
+  PW-GF-45                            n=  6 sheet=PW-GF-45_R       status=ok
+  SS-GF-01                            n=  4 sheet=SS-GF-01_M       status=ok  (R-sheet cross-check found 7, differs)
+
+Elements with a schedule/geometry count mismatch: 1
+  PC-GF-01: geometry=3 vs schedule=4
+
+Elements where a schedule exists but zero anchors were located in geometry: 0

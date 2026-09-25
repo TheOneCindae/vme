@@ -3,7 +3,7 @@
 
 Usage:
     python3 viewer.py                 serve existing out/viewer.html
-    python3 viewer.py --rebuild      re-run the pipeline on ../DRAWINGS first
+    python3 viewer.py --rebuild      re-run the pipeline on ../rebar_data/drawings first
     python3 viewer.py --port 9000    pick a port (default: first free from 8742)
 
 Opens the browser automatically. Ctrl-C to stop.
@@ -20,7 +20,7 @@ from pathlib import Path
 
 HERE = Path(__file__).parent
 OUT = HERE / "out"
-DRAWINGS = HERE.parent / "DRAWINGS"
+DRAWINGS = HERE.parent / "rebar_data" / "drawings"
 
 
 def rebuild() -> None:

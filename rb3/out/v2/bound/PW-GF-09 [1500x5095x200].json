@@ -1,0 +1,621 @@
+{
+ "element": "PW-GF-09 [1500x5095x200]",
+ "summary": {
+  "element": "PW-GF-09 [1500x5095x200]",
+  "source": "lift",
+  "sheets": [
+   "PW-GF-09_R1"
+  ],
+  "marks": 7,
+  "qty_scheduled": 13,
+  "qty_located": 13,
+  "length_mm_scheduled": 33725.0,
+  "length_mm_located": 33725.0,
+  "located_frac_by_length": 1.0,
+  "arrays_total": 310,
+  "arrays_bound": 9,
+  "drawn_bars_unbound": 301,
+  "over_bound_marks": [],
+  "evidence": {
+   "section": 4,
+   "array_signature": 6,
+   "leader": 1,
+   "array_note": 2
+  }
+ },
+ "bars": [
+  {
+   "id": "Rebar schedule for PW-GF-09(A):F1:0",
+   "pts": [
+    [
+     36.0,
+     139.99999999990905,
+     4658.669168369969
+    ],
+    [
+     1161.0,
+     139.99999999990905,
+     4658.669168369969
+    ]
+   ],
+   "dia": 12,
+   "sheet": "PW-GF-09_R1",
+   "view": "end_cut",
+   "array": null,
+   "evidence": "section",
+   "mark": "F1",
+   "schedule": "Rebar schedule for PW-GF-09(A)",
+   "cut_length_mm": 1125.0,
+   "weight_kg": 1.0
+  },
+  {
+   "id": "Rebar schedule for PW-GF-09(A):F1:1",
+   "pts": [
+    [
+     36.0,
+     -150.60792688158108,
+     4658.669168369969
+    ],
+    [
+     1161.0,
+     -150.60792688158108,
+     4658.669168369969
+    ]
+   ],
+   "dia": 12,
+   "sheet": "PW-GF-09_R1",
+   "view": "end_cut",
+   "array": null,
+   "evidence": "section",
+   "mark": "F1",
+   "schedule": "Rebar schedule for PW-GF-09(A)",
+   "cut_length_mm": 1125.0,
+   "weight_kg": 1.0
+  },
+  {
+   "id": "Rebar schedule for PW-GF-09(A):F1:2",
+   "pts": [
+    [
+     36.0,
+     -150.60792688158108,
+     4502.074438793028
+    ],
+    [
+     1161.0,
+     -150.60792688158108,
+     4502.074438793028
+    ]
+   ],
+   "dia": 12,
+   "sheet": "PW-GF-09_R1",
+   "view": "end_cut",
+   "array": null,
+   "evidence": "section",
+   "mark": "F1",
+   "schedule": "Rebar schedule for PW-GF-09(A)",
+   "cut_length_mm": 1125.0,
+   "weight_kg": 1.0
+  },
+  {
+   "id": "Rebar schedule for PW-GF-09(A):F:0",
+   "pts": [
+    [
+     36.0,
+     121.71579202235807,
+     4463.801836029009
+    ],
+    [
+     1111.0,
+     121.71579202235807,
+     4463.801836029009
+    ]
+   ],
+   "dia": 12,
+   "sheet": "PW-GF-09_R1",
+   "view": "end_cut",
+   "array": null,
+   "evidence": "section",
+   "mark": "F",
+   "schedule": "Rebar schedule for PW-GF-09(A)",
+   "cut_length_mm": 1075.0,
+   "weight_kg": 0.96
+  },
+  {
+   "id": "Rebar schedule for PW-GF-09(A):A:0",
+   "pts": [
+    [
+     290.1,
+     34.0,
+     2291.4
+    ],
+    [
+     1415.1,
+     34.0,
+     2291.4
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PW-GF-09_R1",
+   "view": "elevation",
+   "array": "PW-GF-09_R1:elevation:13",
+   "evidence": "array_signature",
+   "length_corrected": true,
+   "mark": "A",
+   "schedule": "Rebar schedule for PW-GF-09(A)",
+   "cut_length_mm": 1125.0,
+   "weight_kg": 0.444
+  },
+  {
+   "id": "Rebar schedule for PW-GF-09(A):A:1",
+   "pts": [
+    [
+     281.8,
+     34.0,
+     3159.6
+    ],
+    [
+     1406.8,
+     34.0,
+     3159.6
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PW-GF-09_R1",
+   "view": "elevation",
+   "array": "PW-GF-09_R1:elevation:18",
+   "evidence": "array_signature",
+   "length_corrected": true,
+   "mark": "A",
+   "schedule": "Rebar schedule for PW-GF-09(A)",
+   "cut_length_mm": 1125.0,
+   "weight_kg": 0.444
+  },
+  {
+   "id": "Rebar schedule for PW-GF-09(A):A:2",
+   "pts": [
+    [
+     280.5,
+     34.0,
+     4375.1
+    ],
+    [
+     1405.5,
+     34.0,
+     4375.1
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PW-GF-09_R1",
+   "view": "elevation",
+   "array": "PW-GF-09_R1:elevation:25",
+   "evidence": "array_signature",
+   "length_corrected": true,
+   "mark": "A",
+   "schedule": "Rebar schedule for PW-GF-09(A)",
+   "cut_length_mm": 1125.0,
+   "weight_kg": 0.444
+  },
+  {
+   "id": "Rebar schedule for PW-GF-09(A):A:3",
+   "pts": [
+    [
+     278.4,
+     34.0,
+     2986.0
+    ],
+    [
+     1403.5,
+     34.0,
+     2986.0
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PW-GF-09_R1",
+   "view": "elevation",
+   "array": "PW-GF-09_R1:elevation:17",
+   "evidence": "array_signature",
+   "length_corrected": true,
+   "mark": "A",
+   "schedule": "Rebar schedule for PW-GF-09(A)",
+   "cut_length_mm": 1125.0,
+   "weight_kg": 0.444
+  },
+  {
+   "id": "Rebar schedule for PW-GF-09(A):A:4",
+   "pts": [
+    [
+     278.4,
+     34.0,
+     3333.2
+    ],
+    [
+     1403.5,
+     34.0,
+     3333.2
+    ]
+   ],
+   "dia": 8,
+   "sheet": "PW-GF-09_R1",
+   "view": "elevation",
+   "array": "PW-GF-09_R1:elevation:19",
+   "evidence": "array_signature",
+   "length_corrected": true,
+   "mark": "A",
+   "schedule": "Rebar schedule for PW-GF-09(A)",
+   "cut_length_mm": 1125.0,
+   "weight_kg": 0.444
+  },
+  {
+   "id": "Rebar schedule for PW-GF-09(B):O:0",
+   "pts": [
+    [
+     1350.0,
+     100.0,
+     4988.6
+    ],
+    [
+     1350.0,
+     100.0,
+     6115.0
+    ]
+   ],
+   "dia": 20,
+   "sheet": "PW-GF-09_R1",
+   "view": "elevation",
+   "array": "PW-GF-09_R1:elevation:92",
+   "evidence": "leader",
+   "mark": "O",
+   "schedule": "Rebar schedule for PW-GF-09(B)",
+   "cut_length_mm": 6100.0,
+   "weight_kg": 15.06
+  },
+  {
+   "id": "Rebar schedule for PW-GF-09(C):Q3:0",
+   "pts": [
+    [
+     90.0,
+     136.0,
+     4273.6
+    ],
+    [
+     90.0,
+     136.0,
+     5875.0
+    ]
+   ],
+   "dia": 16,
+   "sheet": "PW-GF-09_R1",
+   "view": "elevation",
+   "array": "PW-GF-09_R1:elevation:85",
+   "evidence": "array_note",
+   "mark": "Q3",
+   "schedule": "Rebar schedule for PW-GF-09(C)",
+   "cut_length_mm": 5850.0,
+   "weight_kg": 9.25
+  },
+  {
+   "id": "Rebar schedule for PW-GF-09(C):Q2:0",
+   "pts": [
+    [
+     210.0,
+     136.0,
+     4273.6
+    ],
+    [
+     210.0,
+     136.0,
+     5875.0
+    ]
+   ],
+   "dia": 16,
+   "sheet": "PW-GF-09_R1",
+   "view": "elevation",
+   "array": "PW-GF-09_R1:elevation:86",
+   "evidence": "array_note",
+   "mark": "Q2",
+   "schedule": "Rebar schedule for PW-GF-09(C)",
+   "cut_length_mm": 5850.0,
+   "weight_kg": 9.25
+  },
+  {
+   "id": "Rebar schedule for PW-GF-09(C):Q:0",
+   "pts": [
+    [
+     115.2,
+     136.0,
+     40.0
+    ],
+    [
+     115.2,
+     136.0,
+     967.0
+    ],
+    [
+     115.1,
+     136.0,
+     973.5
+    ],
+    [
+     60.6,
+     136.0,
+     1462.3
+    ],
+    [
+     60.2,
+     136.0,
+     1468.8
+    ],
+    [
+     60.2,
+     136.0,
+     2160.0
+    ]
+   ],
+   "dia": 16,
+   "sheet": "PW-GF-09_R1",
+   "view": "elevation",
+   "array": "PW-GF-09_R1:elevation:96",
+   "evidence": "array_signature",
+   "mark": "Q",
+   "schedule": "Rebar schedule for PW-GF-09(C)",
+   "cut_length_mm": 5850.0,
+   "weight_kg": 9.25
+  }
+ ],
+ "reconciliation": [
+  {
+   "mark": "F1",
+   "schedule": "Rebar schedule for PW-GF-09(A)",
+   "dia_mm": 12.0,
+   "shape": "M_00",
+   "cut_length_mm": 1125.0,
+   "qty": 3,
+   "located": 3,
+   "unlocated": 0,
+   "over_bound": false,
+   "located_over_by": 0,
+   "evidence": {
+    "section": 3
+   },
+   "arrays": [],
+   "length_mm_scheduled": 3375.0,
+   "length_mm_located": 3375.0
+  },
+  {
+   "mark": "F",
+   "schedule": "Rebar schedule for PW-GF-09(A)",
+   "dia_mm": 12.0,
+   "shape": "M_00",
+   "cut_length_mm": 1075.0,
+   "qty": 1,
+   "located": 1,
+   "unlocated": 0,
+   "over_bound": false,
+   "located_over_by": 0,
+   "evidence": {
+    "section": 1
+   },
+   "arrays": [],
+   "length_mm_scheduled": 1075.0,
+   "length_mm_located": 1075.0
+  },
+  {
+   "mark": "A",
+   "schedule": "Rebar schedule for PW-GF-09(A)",
+   "dia_mm": 8.0,
+   "shape": "M_00",
+   "cut_length_mm": 1125.0,
+   "qty": 5,
+   "located": 5,
+   "unlocated": 0,
+   "over_bound": false,
+   "located_over_by": 0,
+   "evidence": {
+    "array_signature": 5
+   },
+   "arrays": [
+    {
+     "id": "PW-GF-09_R1:elevation:13",
+     "n": 1,
+     "taken": 1,
+     "len": 1154.8,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PW-GF-09_R1",
+     "view": "elevation",
+     "score": 14.6,
+     "evidence": [],
+     "surplus": 0
+    },
+    {
+     "id": "PW-GF-09_R1:elevation:18",
+     "n": 1,
+     "taken": 1,
+     "len": 1171.4,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PW-GF-09_R1",
+     "view": "elevation",
+     "score": 16.1,
+     "evidence": [],
+     "surplus": 0
+    },
+    {
+     "id": "PW-GF-09_R1:elevation:25",
+     "n": 1,
+     "taken": 1,
+     "len": 1174.0,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PW-GF-09_R1",
+     "view": "elevation",
+     "score": 16.4,
+     "evidence": [],
+     "surplus": 0
+    },
+    {
+     "id": "PW-GF-09_R1:elevation:17",
+     "n": 1,
+     "taken": 1,
+     "len": 1178.1,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PW-GF-09_R1",
+     "view": "elevation",
+     "score": 16.7,
+     "evidence": [],
+     "surplus": 0
+    },
+    {
+     "id": "PW-GF-09_R1:elevation:19",
+     "n": 1,
+     "taken": 1,
+     "len": 1178.1,
+     "pitch": null,
+     "axis": "h",
+     "sheet": "PW-GF-09_R1",
+     "view": "elevation",
+     "score": 16.7,
+     "evidence": [],
+     "surplus": 0
+    }
+   ],
+   "length_mm_scheduled": 5625.0,
+   "length_mm_located": 5625.0
+  },
+  {
+   "mark": "O",
+   "schedule": "Rebar schedule for PW-GF-09(B)",
+   "dia_mm": 20.0,
+   "shape": "26",
+   "cut_length_mm": 6100.0,
+   "qty": 1,
+   "located": 1,
+   "unlocated": 0,
+   "over_bound": false,
+   "located_over_by": 0,
+   "evidence": {
+    "leader": 1
+   },
+   "arrays": [
+    {
+     "id": "PW-GF-09_R1:elevation:92",
+     "n": 1,
+     "taken": 1,
+     "len": 1126.4,
+     "pitch": null,
+     "axis": "v",
+     "sheet": "PW-GF-09_R1",
+     "view": "elevation",
+     "score": -999996.2,
+     "evidence": [
+      "leader"
+     ],
+     "surplus": 0
+    }
+   ],
+   "length_mm_scheduled": 6100.0,
+   "length_mm_located": 6100.0
+  },
+  {
+   "mark": "Q3",
+   "schedule": "Rebar schedule for PW-GF-09(C)",
+   "dia_mm": 16.0,
+   "shape": "Rebar Shape 31",
+   "cut_length_mm": 5850.0,
+   "qty": 1,
+   "located": 1,
+   "unlocated": 0,
+   "over_bound": false,
+   "located_over_by": 0,
+   "evidence": {
+    "array_note": 1
+   },
+   "arrays": [
+    {
+     "id": "PW-GF-09_R1:elevation:85",
+     "n": 1,
+     "taken": 1,
+     "len": 1601.4,
+     "pitch": null,
+     "axis": "v",
+     "sheet": "PW-GF-09_R1",
+     "view": "elevation",
+     "score": 15.2,
+     "evidence": [
+      "shared_array_split"
+     ],
+     "surplus": 0
+    }
+   ],
+   "length_mm_scheduled": 5850.0,
+   "length_mm_located": 5850.0
+  },
+  {
+   "mark": "Q2",
+   "schedule": "Rebar schedule for PW-GF-09(C)",
+   "dia_mm": 16.0,
+   "shape": "Rebar Shape 31",
+   "cut_length_mm": 5850.0,
+   "qty": 1,
+   "located": 1,
+   "unlocated": 0,
+   "over_bound": false,
+   "located_over_by": 0,
+   "evidence": {
+    "array_note": 1
+   },
+   "arrays": [
+    {
+     "id": "PW-GF-09_R1:elevation:86",
+     "n": 1,
+     "taken": 1,
+     "len": 1601.4,
+     "pitch": null,
+     "axis": "v",
+     "sheet": "PW-GF-09_R1",
+     "view": "elevation",
+     "score": 15.2,
+     "evidence": [
+      "shared_array_split"
+     ],
+     "surplus": 0
+    }
+   ],
+   "length_mm_scheduled": 5850.0,
+   "length_mm_located": 5850.0
+  },
+  {
+   "mark": "Q",
+   "schedule": "Rebar schedule for PW-GF-09(C)",
+   "dia_mm": 16.0,
+   "shape": "Rebar Shape 31",
+   "cut_length_mm": 5850.0,
+   "qty": 1,
+   "located": 1,
+   "unlocated": 0,
+   "over_bound": false,
+   "located_over_by": 0,
+   "evidence": {
+    "array_signature": 1
+   },
+   "arrays": [
+    {
+     "id": "PW-GF-09_R1:elevation:96",
+     "n": 1,
+     "taken": 1,
+     "len": 927.0,
+     "pitch": null,
+     "axis": "v",
+     "sheet": "PW-GF-09_R1",
+     "view": "elevation",
+     "score": 20.3,
+     "evidence": [],
+     "surplus": 0
+    }
+   ],
+   "length_mm_scheduled": 5850.0,
+   "length_mm_located": 5850.0
+  }
+ ]
+}

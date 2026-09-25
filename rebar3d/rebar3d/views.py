@@ -6,7 +6,7 @@ from dataclasses import dataclass, field
 from .loader import Ent
 
 # Layers that carry real geometry (not annotation) — used to seed clustering.
-GEOM_LAYERS = ("S-RBAR", "A-WALL", "S-BEAM", "S-SLAB", "A-FLOR", "A-DETL")
+GEOM_LAYERS = ("S-RBAR", "A-WALL", "S-BEAM", "S-SLAB", "A-FLOR", "A-DETL", "A-GENM", "S-COLS")
 
 
 class _UF:
@@ -54,7 +54,13 @@ def cluster_views(ents: list[Ent], margin: float = 120.0, cell: float = 250.0) -
     Each entity's bbox is inflated by `margin`; entities whose inflated boxes
     share a grid cell are merged. Views come back sorted by rebar count desc.
     """
-    geo = [e for e in ents if e.layer.startswith(GEOM_LAYERS)]
+    # `layer.startswith` is a prefix match, so an annotation/identifier
+    # layer like "S-RBAR-IDEN" (bar-mark text callouts, e.g. "6 -T12")
+    # also matches "S-RBAR" — excluding TEXT/MTEXT explicitly keeps those
+    # labels out of the geometry clustering (where their zero-size bbox,
+    # often hundreds of mm from the real bar lines, orphaned them into
+    # their own singleton view) so they attach as annotation instead.
+    geo = [e for e in ents if e.layer.startswith(GEOM_LAYERS) and e.kind not in ("TEXT", "MTEXT")]
     uf = _UF(len(geo))
     grid: dict[tuple[int, int], int] = {}
     for i, e in enumerate(geo):
@@ -77,15 +83,58 @@ def cluster_views(ents: list[Ent], margin: float = 120.0, cell: float = 250.0) -
 
     views = sorted(groups.values(), key=lambda v: v.count("S-RBAR"), reverse=True)
 
-    # attach annotation entities (text etc.) to the view whose bbox contains them
+    # attach annotation entities (text etc.) to the view whose bbox contains
+    # them. Bar-mark callouts ("6 -T12") commonly sit a few hundred mm from
+    # the geometry they label (leader gap, or drawn above the hatch) — wider
+    # than the tight margin used to separate views from each other, so use
+    # a more generous one here.
+    text_margin = 1000.0
     boxes = [v.bbox for v in views]
     for e in ents:
-        if e.layer.startswith(GEOM_LAYERS):
+        if e.layer.startswith(GEOM_LAYERS) and e.kind not in ("TEXT", "MTEXT"):
             continue
         bx0, by0, bx1, by1 = e.bbox
         cx, cy = (bx0 + bx1) / 2, (by0 + by1) / 2
+        m = text_margin if e.kind in ("TEXT", "MTEXT") else margin
         for v, (x0, y0, x1, y1) in zip(views, boxes):
-            if x0 - margin <= cx <= x1 + margin and y0 - margin <= cy <= y1 + margin:
+            if x0 - m <= cx <= x1 + m and y0 - m <= cy <= y1 + m:
                 v.ents.append(e)
                 break
     return views
+
+
+def elevation_candidates(views: list[View], min_ratio: float = 0.3,
+                         min_dim: float = 300.0) -> list[View]:
+    """Views that look like a full member elevation in their own right, not a
+    section/detail cut of another one.
+
+    A sheet occasionally carries more than one distinct member (e.g. two
+    different precast column marks side by side) — each with its own dense
+    double-line rebar and its own outline layer, at a scale comparable to
+    the sheet's largest view. `views[0]` alone would only reconstruct one
+    of them and silently drop the other's bars entirely.
+
+    Rebar density alone (`min_ratio` of the largest view's count) isn't
+    enough to tell a sibling member from a section/edge-band cut of the
+    *same* member — a section can carry plenty of double-line mesh too.
+    What a section can't have is plausible member proportions: it's drawn
+    collapsed to wall-thickness scale (~150-250mm) along its cut axis,
+    while a real member's own cross-section runs `min_dim` or wider in
+    *both* directions.
+    """
+    from .extract import wall_outline
+
+    if not views:
+        return []
+    floor = min_ratio * views[0].count("S-RBAR")
+    out = []
+    for v in views:
+        if v.count("S-RBAR") < floor:
+            continue
+        if not (v.count("A-WALL") > 0 or v.count("S-COLS") > 0 or v.count("A-FLOR") > 0):
+            continue
+        bbox, _ = wall_outline(v.ents)
+        if min(bbox[2] - bbox[0], bbox[3] - bbox[1]) < min_dim:
+            continue
+        out.append(v)
+    return out

@@ -1,0 +1,4559 @@
+[
+ {
+  "panel": "PW-GF-01",
+  "mark": "I",
+  "dia_mm": 20,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 1700.0,
+  "qty": 3,
+  "located": 3,
+  "weight_kg": 12.59,
+  "evidence": {
+   "leader": 1,
+   "section": 2
+  }
+ },
+ {
+  "panel": "PW-GF-01",
+  "mark": "H",
+  "dia_mm": 16,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 2675.0,
+  "qty": 4,
+  "located": 4,
+  "weight_kg": 16.91,
+  "evidence": {
+   "leader": 2,
+   "array_signature": 2
+  }
+ },
+ {
+  "panel": "PW-GF-01",
+  "mark": "G",
+  "dia_mm": 16,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 9000.0,
+  "qty": 4,
+  "located": 4,
+  "weight_kg": 56.89,
+  "evidence": {
+   "array_signature": 1,
+   "section": 3
+  }
+ },
+ {
+  "panel": "PW-GF-01",
+  "mark": "F",
+  "dia_mm": 12,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 1300.0,
+  "qty": 27,
+  "located": 27,
+  "weight_kg": 31.2,
+  "evidence": {
+   "array_signature": 19,
+   "section": 8
+  }
+ },
+ {
+  "panel": "PW-GF-01",
+  "mark": "E1",
+  "dia_mm": 12,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 9050.0,
+  "qty": 14,
+  "located": 14,
+  "weight_kg": 112.63,
+  "evidence": {
+   "array_signature": 7,
+   "pitch_extended": 7
+  }
+ },
+ {
+  "panel": "PW-GF-01",
+  "mark": "E",
+  "dia_mm": 12,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 9000.0,
+  "qty": 15,
+  "located": 15,
+  "weight_kg": 120.01,
+  "evidence": {
+   "array_note": 15
+  }
+ },
+ {
+  "panel": "PW-GF-01",
+  "mark": "D",
+  "dia_mm": 10,
+  "shape": "M_T1",
+  "family": "link_tie",
+  "cut_length_mm": 1425.0,
+  "qty": 3,
+  "located": 3,
+  "weight_kg": 2.64,
+  "evidence": {
+   "array_signature": 3
+  }
+ },
+ {
+  "panel": "PW-GF-01",
+  "mark": "C",
+  "dia_mm": 8,
+  "shape": "M_17A",
+  "family": "u_bar",
+  "cut_length_mm": 875.0,
+  "qty": 7,
+  "located": 7,
+  "weight_kg": 2.42,
+  "evidence": {
+   "array_note": 4,
+   "array_signature": 3
+  }
+ },
+ {
+  "panel": "PW-GF-01",
+  "mark": "B1",
+  "dia_mm": 8,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 950.0,
+  "qty": 92,
+  "located": 92,
+  "weight_kg": 34.53,
+  "evidence": {
+   "array_signature": 5,
+   "array_note": 86,
+   "section": 1
+  }
+ },
+ {
+  "panel": "PW-GF-01",
+  "mark": "B",
+  "dia_mm": 8,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 900.0,
+  "qty": 122,
+  "located": 122,
+  "weight_kg": 43.38,
+  "evidence": {
+   "array_signature": 107,
+   "array_note": 5,
+   "pitch_extended": 2,
+   "section": 8
+  }
+ },
+ {
+  "panel": "PW-GF-01",
+  "mark": "A1",
+  "dia_mm": 8,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 1250.0,
+  "qty": 61,
+  "located": 61,
+  "weight_kg": 30.13,
+  "evidence": {
+   "array_note": 45,
+   "array_signature": 1,
+   "note_pitch_extended": 15
+  }
+ },
+ {
+  "panel": "PW-GF-01",
+  "mark": "A",
+  "dia_mm": 8,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 1175.0,
+  "qty": 62,
+  "located": 62,
+  "weight_kg": 28.78,
+  "evidence": {
+   "array_note": 61,
+   "pitch_extended": 1
+  }
+ },
+ {
+  "panel": "PW-GF-01",
+  "mark": "K",
+  "dia_mm": 20,
+  "shape": "Rebar Shape 9",
+  "family": "bent_other",
+  "cut_length_mm": 2450.0,
+  "qty": 3,
+  "located": 3,
+  "weight_kg": 18.15,
+  "evidence": {
+   "array_signature": 3
+  }
+ },
+ {
+  "panel": "PW-GF-01",
+  "mark": "J",
+  "dia_mm": 20,
+  "shape": "Rebar Shape 8",
+  "family": "bent_other",
+  "cut_length_mm": 1575.0,
+  "qty": 2,
+  "located": 2,
+  "weight_kg": 7.78,
+  "evidence": {
+   "array_note": 1,
+   "array_signature": 1
+  }
+ },
+ {
+  "panel": "PW-GF-01",
+  "mark": "L",
+  "dia_mm": 20,
+  "shape": "26",
+  "family": "bent_other",
+  "cut_length_mm": 9750.0,
+  "qty": 2,
+  "located": 2,
+  "weight_kg": 48.15,
+  "evidence": {
+   "leader": 1,
+   "array_signature": 1
+  }
+ },
+ {
+  "panel": "PW-GF-02",
+  "mark": "F",
+  "dia_mm": 16,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 2100.0,
+  "qty": 4,
+  "located": 4,
+  "weight_kg": 13.27,
+  "evidence": {
+   "array_signature": 4
+  }
+ },
+ {
+  "panel": "PW-GF-02",
+  "mark": "E",
+  "dia_mm": 16,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 8800.0,
+  "qty": 4,
+  "located": 0,
+  "weight_kg": 55.63,
+  "evidence": {}
+ },
+ {
+  "panel": "PW-GF-02",
+  "mark": "D",
+  "dia_mm": 12,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 1300.0,
+  "qty": 14,
+  "located": 14,
+  "weight_kg": 16.18,
+  "evidence": {
+   "array_signature": 1,
+   "section": 13
+  }
+ },
+ {
+  "panel": "PW-GF-02",
+  "mark": "C2",
+  "dia_mm": 12,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 8800.0,
+  "qty": 16,
+  "located": 0,
+  "weight_kg": 125.16,
+  "evidence": {}
+ },
+ {
+  "panel": "PW-GF-02",
+  "mark": "C1",
+  "dia_mm": 12,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 600.0,
+  "qty": 2,
+  "located": 2,
+  "weight_kg": 1.07,
+  "evidence": {
+   "section": 2
+  }
+ },
+ {
+  "panel": "PW-GF-02",
+  "mark": "C",
+  "dia_mm": 12,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 425.0,
+  "qty": 2,
+  "located": 2,
+  "weight_kg": 0.76,
+  "evidence": {
+   "section": 2
+  }
+ },
+ {
+  "panel": "PW-GF-02",
+  "mark": "B1",
+  "dia_mm": 8,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 950.0,
+  "qty": 45,
+  "located": 45,
+  "weight_kg": 16.89,
+  "evidence": {
+   "array_signature": 42,
+   "array_note": 3
+  }
+ },
+ {
+  "panel": "PW-GF-02",
+  "mark": "B",
+  "dia_mm": 8,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 900.0,
+  "qty": 118,
+  "located": 118,
+  "weight_kg": 41.96,
+  "evidence": {
+   "section": 118
+  }
+ },
+ {
+  "panel": "PW-GF-02",
+  "mark": "A1",
+  "dia_mm": 8,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 625.0,
+  "qty": 60,
+  "located": 60,
+  "weight_kg": 14.82,
+  "evidence": {
+   "array_note": 4,
+   "array_signature": 27,
+   "pitch_extended": 17,
+   "section": 12
+  }
+ },
+ {
+  "panel": "PW-GF-02",
+  "mark": "A",
+  "dia_mm": 8,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 600.0,
+  "qty": 60,
+  "located": 60,
+  "weight_kg": 14.22,
+  "evidence": {
+   "section": 60
+  }
+ },
+ {
+  "panel": "PW-GF-02",
+  "mark": "H",
+  "dia_mm": 10,
+  "shape": "Rebar Shape 9",
+  "family": "bent_other",
+  "cut_length_mm": 1850.0,
+  "qty": 3,
+  "located": 3,
+  "weight_kg": 3.43,
+  "evidence": {
+   "array_signature": 3
+  }
+ },
+ {
+  "panel": "PW-GF-02",
+  "mark": "G",
+  "dia_mm": 8,
+  "shape": "Rebar Shape 9",
+  "family": "bent_other",
+  "cut_length_mm": 1100.0,
+  "qty": 45,
+  "located": 45,
+  "weight_kg": 19.56,
+  "evidence": {
+   "array_signature": 38,
+   "array_note": 2,
+   "pitch_extended": 3,
+   "section": 2
+  }
+ },
+ {
+  "panel": "PW-GF-02",
+  "mark": "I1",
+  "dia_mm": 20,
+  "shape": "26",
+  "family": "bent_other",
+  "cut_length_mm": 9800.0,
+  "qty": 1,
+  "located": 1,
+  "weight_kg": 24.2,
+  "evidence": {
+   "array_signature": 1
+  }
+ },
+ {
+  "panel": "PW-GF-02",
+  "mark": "I",
+  "dia_mm": 20,
+  "shape": "26",
+  "family": "bent_other",
+  "cut_length_mm": 9000.0,
+  "qty": 1,
+  "located": 0,
+  "weight_kg": 22.22,
+  "evidence": {}
+ },
+ {
+  "panel": "PW-GF-05",
+  "mark": "J1",
+  "dia_mm": 25,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 3200.0,
+  "qty": 1,
+  "located": 1,
+  "weight_kg": 12.35,
+  "evidence": {
+   "array_signature": 1
+  }
+ },
+ {
+  "panel": "PW-GF-05",
+  "mark": "J",
+  "dia_mm": 25,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 1850.0,
+  "qty": 3,
+  "located": 3,
+  "weight_kg": 21.41,
+  "evidence": {
+   "array_signature": 1,
+   "section": 2
+  }
+ },
+ {
+  "panel": "PW-GF-05",
+  "mark": "I1",
+  "dia_mm": 20,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 2700.0,
+  "qty": 1,
+  "located": 1,
+  "weight_kg": 6.67,
+  "evidence": {
+   "leader": 1
+  }
+ },
+ {
+  "panel": "PW-GF-05",
+  "mark": "I",
+  "dia_mm": 20,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 2025.0,
+  "qty": 1,
+  "located": 1,
+  "weight_kg": 5.0,
+  "evidence": {
+   "array_signature": 1
+  }
+ },
+ {
+  "panel": "PW-GF-05",
+  "mark": "H4",
+  "dia_mm": 16,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 2925.0,
+  "qty": 2,
+  "located": 2,
+  "weight_kg": 9.25,
+  "evidence": {
+   "array_note": 2
+  }
+ },
+ {
+  "panel": "PW-GF-05",
+  "mark": "H3",
+  "dia_mm": 16,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 2125.0,
+  "qty": 2,
+  "located": 2,
+  "weight_kg": 6.72,
+  "evidence": {
+   "array_note": 2
+  }
+ },
+ {
+  "panel": "PW-GF-05",
+  "mark": "H2",
+  "dia_mm": 16,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 1950.0,
+  "qty": 2,
+  "located": 2,
+  "weight_kg": 6.16,
+  "evidence": {
+   "leader": 1,
+   "array_note": 1
+  }
+ },
+ {
+  "panel": "PW-GF-05",
+  "mark": "H1",
+  "dia_mm": 16,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 1850.0,
+  "qty": 5,
+  "located": 5,
+  "weight_kg": 14.62,
+  "evidence": {
+   "leader": 1,
+   "array_signature": 4
+  }
+ },
+ {
+  "panel": "PW-GF-05",
+  "mark": "H",
+  "dia_mm": 16,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 1750.0,
+  "qty": 3,
+  "located": 3,
+  "weight_kg": 8.3,
+  "evidence": {
+   "array_note": 3
+  }
+ },
+ {
+  "panel": "PW-GF-05",
+  "mark": "G",
+  "dia_mm": 10,
+  "shape": "M_17A",
+  "family": "u_bar",
+  "cut_length_mm": 1050.0,
+  "qty": 2,
+  "located": 2,
+  "weight_kg": 1.3,
+  "evidence": {
+   "array_signature": 2
+  }
+ },
+ {
+  "panel": "PW-GF-05",
+  "mark": "F2",
+  "dia_mm": 10,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 5050.0,
+  "qty": 6,
+  "located": 6,
+  "weight_kg": 18.7,
+  "evidence": {
+   "array_note": 1,
+   "section": 5
+  }
+ },
+ {
+  "panel": "PW-GF-05",
+  "mark": "F1",
+  "dia_mm": 10,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 5000.0,
+  "qty": 10,
+  "located": 10,
+  "weight_kg": 30.87,
+  "evidence": {
+   "array_note": 4,
+   "pitch_extended": 6
+  }
+ },
+ {
+  "panel": "PW-GF-05",
+  "mark": "F",
+  "dia_mm": 10,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 4375.0,
+  "qty": 10,
+  "located": 10,
+  "weight_kg": 27.01,
+  "evidence": {
+   "array_signature": 5,
+   "pitch_extended": 5
+  }
+ },
+ {
+  "panel": "PW-GF-05",
+  "mark": "E1",
+  "dia_mm": 8,
+  "shape": "M_T10",
+  "family": "link_tie",
+  "cut_length_mm": 575.0,
+  "qty": 33,
+  "located": 33,
+  "weight_kg": 7.5,
+  "evidence": {
+   "array_note": 14,
+   "pitch_extended": 3,
+   "section": 16
+  }
+ },
+ {
+  "panel": "PW-GF-05",
+  "mark": "E",
+  "dia_mm": 8,
+  "shape": "M_T10",
+  "family": "link_tie",
+  "cut_length_mm": 375.0,
+  "qty": 38,
+  "located": 38,
+  "weight_kg": 5.63,
+  "evidence": {
+   "array_note": 36,
+   "array_signature": 2
+  }
+ },
+ {
+  "panel": "PW-GF-05",
+  "mark": "D2",
+  "dia_mm": 8,
+  "shape": "M_T1",
+  "family": "link_tie",
+  "cut_length_mm": 1600.0,
+  "qty": 33,
+  "located": 33,
+  "weight_kg": 20.86,
+  "evidence": {
+   "array_note": 2,
+   "pitch_extended": 22,
+   "section": 9
+  }
+ },
+ {
+  "panel": "PW-GF-05",
+  "mark": "D1",
+  "dia_mm": 8,
+  "shape": "M_T1",
+  "family": "link_tie",
+  "cut_length_mm": 1200.0,
+  "qty": 38,
+  "located": 38,
+  "weight_kg": 18.02,
+  "evidence": {
+   "array_note": 32,
+   "pitch_extended": 6
+  }
+ },
+ {
+  "panel": "PW-GF-05",
+  "mark": "D",
+  "dia_mm": 8,
+  "shape": "M_T1",
+  "family": "link_tie",
+  "cut_length_mm": 1175.0,
+  "qty": 33,
+  "located": 33,
+  "weight_kg": 15.32,
+  "evidence": {
+   "array_note": 30,
+   "array_signature": 3
+  }
+ },
+ {
+  "panel": "PW-GF-05",
+  "mark": "C",
+  "dia_mm": 8,
+  "shape": "M_17A",
+  "family": "u_bar",
+  "cut_length_mm": 850.0,
+  "qty": 4,
+  "located": 4,
+  "weight_kg": 1.34,
+  "evidence": {
+   "array_signature": 4
+  }
+ },
+ {
+  "panel": "PW-GF-05",
+  "mark": "B1",
+  "dia_mm": 8,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 900.0,
+  "qty": 12,
+  "located": 12,
+  "weight_kg": 4.27,
+  "evidence": {
+   "array_note": 2,
+   "array_signature": 8,
+   "pitch_extended": 2
+  }
+ },
+ {
+  "panel": "PW-GF-05",
+  "mark": "B",
+  "dia_mm": 8,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 875.0,
+  "qty": 23,
+  "located": 23,
+  "weight_kg": 7.95,
+  "evidence": {
+   "array_signature": 6,
+   "pitch_extended": 10,
+   "section": 7
+  }
+ },
+ {
+  "panel": "PW-GF-05",
+  "mark": "A3",
+  "dia_mm": 8,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 1425.0,
+  "qty": 30,
+  "located": 30,
+  "weight_kg": 16.89,
+  "evidence": {
+   "array_signature": 14,
+   "pitch_extended": 16
+  }
+ },
+ {
+  "panel": "PW-GF-05",
+  "mark": "A2",
+  "dia_mm": 8,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 1375.0,
+  "qty": 30,
+  "located": 30,
+  "weight_kg": 16.3,
+  "evidence": {
+   "array_note": 30
+  }
+ },
+ {
+  "panel": "PW-GF-05",
+  "mark": "A1",
+  "dia_mm": 8,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 1100.0,
+  "qty": 5,
+  "located": 5,
+  "weight_kg": 2.17,
+  "evidence": {
+   "section": 5
+  }
+ },
+ {
+  "panel": "PW-GF-05",
+  "mark": "A",
+  "dia_mm": 8,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 600.0,
+  "qty": 5,
+  "located": 5,
+  "weight_kg": 1.19,
+  "evidence": {
+   "section": 5
+  }
+ },
+ {
+  "panel": "PW-GF-05",
+  "mark": "K4",
+  "dia_mm": 16,
+  "shape": "Rebar Shape 30",
+  "family": "bent_other",
+  "cut_length_mm": 5000.0,
+  "qty": 4,
+  "located": 4,
+  "weight_kg": 31.61,
+  "evidence": {
+   "array_signature": 4
+  }
+ },
+ {
+  "panel": "PW-GF-05",
+  "mark": "K3",
+  "dia_mm": 16,
+  "shape": "Rebar Shape 30",
+  "family": "bent_other",
+  "cut_length_mm": 5000.0,
+  "qty": 2,
+  "located": 2,
+  "weight_kg": 15.8,
+  "evidence": {
+   "array_note": 2
+  }
+ },
+ {
+  "panel": "PW-GF-05",
+  "mark": "K2",
+  "dia_mm": 16,
+  "shape": "Rebar Shape 30",
+  "family": "bent_other",
+  "cut_length_mm": 5000.0,
+  "qty": 2,
+  "located": 2,
+  "weight_kg": 15.8,
+  "evidence": {
+   "array_note": 2
+  }
+ },
+ {
+  "panel": "PW-GF-05",
+  "mark": "K1",
+  "dia_mm": 16,
+  "shape": "Rebar Shape 30",
+  "family": "bent_other",
+  "cut_length_mm": 5000.0,
+  "qty": 1,
+  "located": 1,
+  "weight_kg": 7.9,
+  "evidence": {
+   "leader": 1
+  }
+ },
+ {
+  "panel": "PW-GF-05",
+  "mark": "K",
+  "dia_mm": 16,
+  "shape": "Rebar Shape 30",
+  "family": "bent_other",
+  "cut_length_mm": 5000.0,
+  "qty": 1,
+  "located": 1,
+  "weight_kg": 7.9,
+  "evidence": {
+   "array_note": 1
+  }
+ },
+ {
+  "panel": "PW-GF-05",
+  "mark": "L4",
+  "dia_mm": 16,
+  "shape": "26",
+  "family": "bent_other",
+  "cut_length_mm": 4375.0,
+  "qty": 2,
+  "located": 2,
+  "weight_kg": 13.83,
+  "evidence": {
+   "array_signature": 2
+  }
+ },
+ {
+  "panel": "PW-GF-05",
+  "mark": "L3",
+  "dia_mm": 16,
+  "shape": "26",
+  "family": "bent_other",
+  "cut_length_mm": 4375.0,
+  "qty": 1,
+  "located": 1,
+  "weight_kg": 6.91,
+  "evidence": {
+   "array_note": 1
+  }
+ },
+ {
+  "panel": "PW-GF-05",
+  "mark": "L2",
+  "dia_mm": 16,
+  "shape": "26",
+  "family": "bent_other",
+  "cut_length_mm": 4375.0,
+  "qty": 1,
+  "located": 1,
+  "weight_kg": 6.91,
+  "evidence": {
+   "array_note": 1
+  }
+ },
+ {
+  "panel": "PW-GF-05",
+  "mark": "L1",
+  "dia_mm": 16,
+  "shape": "26",
+  "family": "bent_other",
+  "cut_length_mm": 4350.0,
+  "qty": 1,
+  "located": 1,
+  "weight_kg": 6.87,
+  "evidence": {
+   "array_note": 1
+  }
+ },
+ {
+  "panel": "PW-GF-05",
+  "mark": "L",
+  "dia_mm": 16,
+  "shape": "26",
+  "family": "bent_other",
+  "cut_length_mm": 4275.0,
+  "qty": 1,
+  "located": 1,
+  "weight_kg": 6.76,
+  "evidence": {
+   "array_note": 1
+  }
+ },
+ {
+  "panel": "PW-GF-06",
+  "mark": "K",
+  "dia_mm": 25,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 1850.0,
+  "qty": 4,
+  "located": 4,
+  "weight_kg": 28.55,
+  "evidence": {
+   "leader": 2,
+   "array_signature": 2
+  }
+ },
+ {
+  "panel": "PW-GF-06",
+  "mark": "J",
+  "dia_mm": 20,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 1425.0,
+  "qty": 1,
+  "located": 1,
+  "weight_kg": 3.52,
+  "evidence": {
+   "section": 1
+  }
+ },
+ {
+  "panel": "PW-GF-06",
+  "mark": "I2",
+  "dia_mm": 16,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 2300.0,
+  "qty": 4,
+  "located": 4,
+  "weight_kg": 14.54,
+  "evidence": {
+   "array_signature": 4
+  }
+ },
+ {
+  "panel": "PW-GF-06",
+  "mark": "I1",
+  "dia_mm": 16,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 1850.0,
+  "qty": 2,
+  "located": 2,
+  "weight_kg": 5.85,
+  "evidence": {
+   "leader": 1,
+   "array_note": 1
+  }
+ },
+ {
+  "panel": "PW-GF-06",
+  "mark": "I",
+  "dia_mm": 16,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 1750.0,
+  "qty": 3,
+  "located": 3,
+  "weight_kg": 8.3,
+  "evidence": {
+   "leader": 1,
+   "array_note": 2
+  }
+ },
+ {
+  "panel": "PW-GF-06",
+  "mark": "H",
+  "dia_mm": 16,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 5000.0,
+  "qty": 4,
+  "located": 4,
+  "weight_kg": 31.61,
+  "evidence": {
+   "array_signature": 4
+  }
+ },
+ {
+  "panel": "PW-GF-06",
+  "mark": "G",
+  "dia_mm": 12,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 825.0,
+  "qty": 2,
+  "located": 2,
+  "weight_kg": 1.47,
+  "evidence": {
+   "array_signature": 2
+  }
+ },
+ {
+  "panel": "PW-GF-06",
+  "mark": "F",
+  "dia_mm": 10,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 1125.0,
+  "qty": 2,
+  "located": 2,
+  "weight_kg": 1.39,
+  "evidence": {
+   "section": 2
+  }
+ },
+ {
+  "panel": "PW-GF-06",
+  "mark": "E",
+  "dia_mm": 8,
+  "shape": "M_T10",
+  "family": "link_tie",
+  "cut_length_mm": 375.0,
+  "qty": 38,
+  "located": 38,
+  "weight_kg": 5.63,
+  "evidence": {
+   "array_signature": 24,
+   "array_note": 14
+  }
+ },
+ {
+  "panel": "PW-GF-06",
+  "mark": "D",
+  "dia_mm": 8,
+  "shape": "M_T1",
+  "family": "link_tie",
+  "cut_length_mm": 1200.0,
+  "qty": 38,
+  "located": 38,
+  "weight_kg": 18.02,
+  "evidence": {
+   "array_note": 38
+  }
+ },
+ {
+  "panel": "PW-GF-06",
+  "mark": "C",
+  "dia_mm": 8,
+  "shape": "M_17A",
+  "family": "u_bar",
+  "cut_length_mm": 1075.0,
+  "qty": 5,
+  "located": 5,
+  "weight_kg": 2.12,
+  "evidence": {
+   "array_signature": 5
+  }
+ },
+ {
+  "panel": "PW-GF-06",
+  "mark": "B2",
+  "dia_mm": 8,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 950.0,
+  "qty": 25,
+  "located": 25,
+  "weight_kg": 9.38,
+  "evidence": {
+   "array_note": 25
+  }
+ },
+ {
+  "panel": "PW-GF-06",
+  "mark": "B1",
+  "dia_mm": 8,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 900.0,
+  "qty": 68,
+  "located": 68,
+  "weight_kg": 24.18,
+  "evidence": {
+   "section": 68
+  }
+ },
+ {
+  "panel": "PW-GF-06",
+  "mark": "B",
+  "dia_mm": 8,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 900.0,
+  "qty": 16,
+  "located": 16,
+  "weight_kg": 5.69,
+  "evidence": {
+   "array_note": 10,
+   "pitch_extended": 2,
+   "section": 4
+  }
+ },
+ {
+  "panel": "PW-GF-06",
+  "mark": "A6",
+  "dia_mm": 8,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 5050.0,
+  "qty": 8,
+  "located": 8,
+  "weight_kg": 15.96,
+  "evidence": {
+   "array_signature": 2,
+   "note_pitch_extended": 6
+  }
+ },
+ {
+  "panel": "PW-GF-06",
+  "mark": "A5",
+  "dia_mm": 8,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 5000.0,
+  "qty": 9,
+  "located": 9,
+  "weight_kg": 17.78,
+  "evidence": {
+   "array_note": 9
+  }
+ },
+ {
+  "panel": "PW-GF-06",
+  "mark": "A4",
+  "dia_mm": 8,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 4375.0,
+  "qty": 8,
+  "located": 8,
+  "weight_kg": 13.83,
+  "evidence": {
+   "array_signature": 7,
+   "pitch_extended": 1
+  }
+ },
+ {
+  "panel": "PW-GF-06",
+  "mark": "A3",
+  "dia_mm": 8,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 1125.0,
+  "qty": 31,
+  "located": 31,
+  "weight_kg": 13.78,
+  "evidence": {
+   "array_signature": 31
+  }
+ },
+ {
+  "panel": "PW-GF-06",
+  "mark": "A2",
+  "dia_mm": 8,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 1075.0,
+  "qty": 31,
+  "located": 31,
+  "weight_kg": 13.17,
+  "evidence": {
+   "array_note": 31
+  }
+ },
+ {
+  "panel": "PW-GF-06",
+  "mark": "A1",
+  "dia_mm": 8,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 800.0,
+  "qty": 5,
+  "located": 5,
+  "weight_kg": 1.58,
+  "evidence": {
+   "array_note": 5
+  }
+ },
+ {
+  "panel": "PW-GF-06",
+  "mark": "A",
+  "dia_mm": 8,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 775.0,
+  "qty": 5,
+  "located": 5,
+  "weight_kg": 1.53,
+  "evidence": {
+   "array_note": 5
+  }
+ },
+ {
+  "panel": "PW-GF-06",
+  "mark": "L",
+  "dia_mm": 10,
+  "shape": "Rebar Shape 9",
+  "family": "bent_other",
+  "cut_length_mm": 1825.0,
+  "qty": 5,
+  "located": 5,
+  "weight_kg": 5.63,
+  "evidence": {
+   "array_signature": 5
+  }
+ },
+ {
+  "panel": "PW-GF-06",
+  "mark": "N1",
+  "dia_mm": 20,
+  "shape": "26",
+  "family": "bent_other",
+  "cut_length_mm": 6075.0,
+  "qty": 1,
+  "located": 1,
+  "weight_kg": 15.0,
+  "evidence": {
+   "section": 1
+  }
+ },
+ {
+  "panel": "PW-GF-06",
+  "mark": "N",
+  "dia_mm": 20,
+  "shape": "26",
+  "family": "bent_other",
+  "cut_length_mm": 6050.0,
+  "qty": 1,
+  "located": 1,
+  "weight_kg": 14.94,
+  "evidence": {
+   "leader": 1
+  }
+ },
+ {
+  "panel": "PW-GF-06",
+  "mark": "M3",
+  "dia_mm": 16,
+  "shape": "26",
+  "family": "bent_other",
+  "cut_length_mm": 4375.0,
+  "qty": 1,
+  "located": 1,
+  "weight_kg": 6.91,
+  "evidence": {
+   "array_note": 1
+  }
+ },
+ {
+  "panel": "PW-GF-06",
+  "mark": "M2",
+  "dia_mm": 16,
+  "shape": "26",
+  "family": "bent_other",
+  "cut_length_mm": 4375.0,
+  "qty": 1,
+  "located": 1,
+  "weight_kg": 6.91,
+  "evidence": {
+   "array_note": 1
+  }
+ },
+ {
+  "panel": "PW-GF-06",
+  "mark": "M1",
+  "dia_mm": 16,
+  "shape": "26",
+  "family": "bent_other",
+  "cut_length_mm": 4375.0,
+  "qty": 2,
+  "located": 2,
+  "weight_kg": 13.83,
+  "evidence": {
+   "leader": 1,
+   "array_note": 1
+  }
+ },
+ {
+  "panel": "PW-GF-06",
+  "mark": "M",
+  "dia_mm": 16,
+  "shape": "26",
+  "family": "bent_other",
+  "cut_length_mm": 4375.0,
+  "qty": 2,
+  "located": 2,
+  "weight_kg": 13.83,
+  "evidence": {
+   "array_signature": 2
+  }
+ },
+ {
+  "panel": "PW-GF-07",
+  "mark": "G",
+  "dia_mm": 20,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 2025.0,
+  "qty": 3,
+  "located": 3,
+  "weight_kg": 15.0,
+  "evidence": {
+   "leader": 1,
+   "section": 2
+  }
+ },
+ {
+  "panel": "PW-GF-07",
+  "mark": "F1",
+  "dia_mm": 16,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 3575.0,
+  "qty": 2,
+  "located": 2,
+  "weight_kg": 11.3,
+  "evidence": {
+   "array_note": 1,
+   "array_signature": 1
+  }
+ },
+ {
+  "panel": "PW-GF-07",
+  "mark": "F",
+  "dia_mm": 16,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 3525.0,
+  "qty": 2,
+  "located": 2,
+  "weight_kg": 11.14,
+  "evidence": {
+   "array_note": 2
+  }
+ },
+ {
+  "panel": "PW-GF-07",
+  "mark": "E",
+  "dia_mm": 16,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 5000.0,
+  "qty": 4,
+  "located": 4,
+  "weight_kg": 31.61,
+  "evidence": {
+   "array_signature": 2,
+   "section": 2
+  }
+ },
+ {
+  "panel": "PW-GF-07",
+  "mark": "D1",
+  "dia_mm": 12,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 1975.0,
+  "qty": 2,
+  "located": 2,
+  "weight_kg": 3.51,
+  "evidence": {
+   "array_note": 2
+  }
+ },
+ {
+  "panel": "PW-GF-07",
+  "mark": "D",
+  "dia_mm": 12,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 1875.0,
+  "qty": 3,
+  "located": 3,
+  "weight_kg": 5.0,
+  "evidence": {
+   "array_note": 1,
+   "section": 2
+  }
+ },
+ {
+  "panel": "PW-GF-07",
+  "mark": "C",
+  "dia_mm": 8,
+  "shape": "M_17A",
+  "family": "u_bar",
+  "cut_length_mm": 1225.0,
+  "qty": 10,
+  "located": 10,
+  "weight_kg": 4.84,
+  "evidence": {
+   "array_signature": 4,
+   "pitch_extended": 6
+  }
+ },
+ {
+  "panel": "PW-GF-07",
+  "mark": "B2",
+  "dia_mm": 8,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 900.0,
+  "qty": 59,
+  "located": 59,
+  "weight_kg": 20.98,
+  "evidence": {
+   "array_signature": 25,
+   "section": 34
+  }
+ },
+ {
+  "panel": "PW-GF-07",
+  "mark": "B1",
+  "dia_mm": 8,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 900.0,
+  "qty": 22,
+  "located": 22,
+  "weight_kg": 7.82,
+  "evidence": {
+   "array_note": 22
+  }
+ },
+ {
+  "panel": "PW-GF-07",
+  "mark": "B",
+  "dia_mm": 8,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 875.0,
+  "qty": 26,
+  "located": 26,
+  "weight_kg": 8.99,
+  "evidence": {
+   "array_note": 26
+  }
+ },
+ {
+  "panel": "PW-GF-07",
+  "mark": "A3",
+  "dia_mm": 8,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 5050.0,
+  "qty": 11,
+  "located": 11,
+  "weight_kg": 21.95,
+  "evidence": {
+   "array_signature": 4,
+   "pitch_extended": 6,
+   "note_pitch_extended": 1
+  }
+ },
+ {
+  "panel": "PW-GF-07",
+  "mark": "A2",
+  "dia_mm": 8,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 5000.0,
+  "qty": 12,
+  "located": 12,
+  "weight_kg": 23.71,
+  "evidence": {
+   "array_note": 12
+  }
+ },
+ {
+  "panel": "PW-GF-07",
+  "mark": "A1",
+  "dia_mm": 8,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 2100.0,
+  "qty": 30,
+  "located": 30,
+  "weight_kg": 24.89,
+  "evidence": {
+   "array_signature": 26,
+   "pitch_extended": 4
+  }
+ },
+ {
+  "panel": "PW-GF-07",
+  "mark": "A",
+  "dia_mm": 8,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 2075.0,
+  "qty": 30,
+  "located": 30,
+  "weight_kg": 24.59,
+  "evidence": {
+   "array_note": 30
+  }
+ },
+ {
+  "panel": "PW-GF-07",
+  "mark": "I",
+  "dia_mm": 10,
+  "shape": "Rebar Shape 9",
+  "family": "bent_other",
+  "cut_length_mm": 2250.0,
+  "qty": 10,
+  "located": 10,
+  "weight_kg": 13.89,
+  "evidence": {
+   "array_signature": 6,
+   "pitch_extended": 4
+  }
+ },
+ {
+  "panel": "PW-GF-07",
+  "mark": "H",
+  "dia_mm": 8,
+  "shape": "Rebar Shape 9",
+  "family": "bent_other",
+  "cut_length_mm": 1175.0,
+  "qty": 26,
+  "located": 26,
+  "weight_kg": 12.07,
+  "evidence": {
+   "array_note": 26
+  }
+ },
+ {
+  "panel": "PW-GF-07",
+  "mark": "J",
+  "dia_mm": 20,
+  "shape": "26",
+  "family": "bent_other",
+  "cut_length_mm": 6100.0,
+  "qty": 2,
+  "located": 2,
+  "weight_kg": 30.13,
+  "evidence": {
+   "leader": 1,
+   "array_signature": 1
+  }
+ },
+ {
+  "panel": "PW-GF-08",
+  "mark": "M",
+  "dia_mm": 25,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 2600.0,
+  "qty": 2,
+  "located": 2,
+  "weight_kg": 20.06,
+  "evidence": {
+   "leader": 1,
+   "array_signature": 1
+  }
+ },
+ {
+  "panel": "PW-GF-08",
+  "mark": "L1",
+  "dia_mm": 20,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 2275.0,
+  "qty": 2,
+  "located": 2,
+  "weight_kg": 11.24,
+  "evidence": {
+   "leader": 1,
+   "section": 1
+  }
+ },
+ {
+  "panel": "PW-GF-08",
+  "mark": "L",
+  "dia_mm": 20,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 1425.0,
+  "qty": 2,
+  "located": 2,
+  "weight_kg": 7.04,
+  "evidence": {
+   "section": 2
+  }
+ },
+ {
+  "panel": "PW-GF-08",
+  "mark": "K",
+  "dia_mm": 20,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 2025.0,
+  "qty": 3,
+  "located": 3,
+  "weight_kg": 15.0,
+  "evidence": {
+   "leader": 1,
+   "section": 2
+  }
+ },
+ {
+  "panel": "PW-GF-08",
+  "mark": "J",
+  "dia_mm": 16,
+  "shape": "M_17A",
+  "family": "u_bar",
+  "cut_length_mm": 2050.0,
+  "qty": 4,
+  "located": 4,
+  "weight_kg": 12.96,
+  "evidence": {
+   "array_signature": 1,
+   "section": 3
+  }
+ },
+ {
+  "panel": "PW-GF-08",
+  "mark": "I2",
+  "dia_mm": 16,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 3525.0,
+  "qty": 4,
+  "located": 4,
+  "weight_kg": 22.28,
+  "evidence": {
+   "leader": 2,
+   "pitch_extended": 2
+  }
+ },
+ {
+  "panel": "PW-GF-08",
+  "mark": "I1",
+  "dia_mm": 16,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 1850.0,
+  "qty": 2,
+  "located": 2,
+  "weight_kg": 5.85,
+  "evidence": {
+   "array_note": 1,
+   "leader": 1
+  }
+ },
+ {
+  "panel": "PW-GF-08",
+  "mark": "I",
+  "dia_mm": 16,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 1750.0,
+  "qty": 3,
+  "located": 3,
+  "weight_kg": 8.3,
+  "evidence": {
+   "leader": 1,
+   "array_signature": 1,
+   "section": 1
+  }
+ },
+ {
+  "panel": "PW-GF-08",
+  "mark": "H1",
+  "dia_mm": 16,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 5000.0,
+  "qty": 4,
+  "located": 4,
+  "weight_kg": 31.61,
+  "evidence": {
+   "section": 4
+  }
+ },
+ {
+  "panel": "PW-GF-08",
+  "mark": "H",
+  "dia_mm": 16,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 2375.0,
+  "qty": 6,
+  "located": 6,
+  "weight_kg": 22.52,
+  "evidence": {
+   "section": 6
+  }
+ },
+ {
+  "panel": "PW-GF-08",
+  "mark": "G",
+  "dia_mm": 12,
+  "shape": "M_T1",
+  "family": "link_tie",
+  "cut_length_mm": 1150.0,
+  "qty": 11,
+  "located": 11,
+  "weight_kg": 11.25,
+  "evidence": {
+   "leader": 11
+  }
+ },
+ {
+  "panel": "PW-GF-08",
+  "mark": "F1",
+  "dia_mm": 12,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 2100.0,
+  "qty": 3,
+  "located": 3,
+  "weight_kg": 5.6,
+  "evidence": {
+   "section": 3
+  }
+ },
+ {
+  "panel": "PW-GF-08",
+  "mark": "F",
+  "dia_mm": 12,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 1975.0,
+  "qty": 1,
+  "located": 1,
+  "weight_kg": 1.76,
+  "evidence": {
+   "array_note": 1
+  }
+ },
+ {
+  "panel": "PW-GF-08",
+  "mark": "E",
+  "dia_mm": 8,
+  "shape": "M_T10",
+  "family": "link_tie",
+  "cut_length_mm": 375.0,
+  "qty": 24,
+  "located": 24,
+  "weight_kg": 3.56,
+  "evidence": {
+   "array_signature": 6,
+   "array_note": 1,
+   "pitch_extended": 17
+  }
+ },
+ {
+  "panel": "PW-GF-08",
+  "mark": "D",
+  "dia_mm": 8,
+  "shape": "M_T1",
+  "family": "link_tie",
+  "cut_length_mm": 1200.0,
+  "qty": 24,
+  "located": 0,
+  "weight_kg": 11.38,
+  "evidence": {}
+ },
+ {
+  "panel": "PW-GF-08",
+  "mark": "C",
+  "dia_mm": 8,
+  "shape": "M_17A",
+  "family": "u_bar",
+  "cut_length_mm": 1225.0,
+  "qty": 11,
+  "located": 11,
+  "weight_kg": 5.32,
+  "evidence": {
+   "leader": 10,
+   "array_signature": 1
+  }
+ },
+ {
+  "panel": "PW-GF-08",
+  "mark": "B2",
+  "dia_mm": 8,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 900.0,
+  "qty": 59,
+  "located": 49,
+  "weight_kg": 20.98,
+  "evidence": {
+   "array_note": 1,
+   "section": 48
+  }
+ },
+ {
+  "panel": "PW-GF-08",
+  "mark": "B1",
+  "dia_mm": 8,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 900.0,
+  "qty": 22,
+  "located": 20,
+  "weight_kg": 7.82,
+  "evidence": {
+   "leader": 16,
+   "array_signature": 2,
+   "pitch_extended": 2
+  }
+ },
+ {
+  "panel": "PW-GF-08",
+  "mark": "B",
+  "dia_mm": 8,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 875.0,
+  "qty": 52,
+  "located": 30,
+  "weight_kg": 17.98,
+  "evidence": {
+   "section": 30
+  }
+ },
+ {
+  "panel": "PW-GF-08",
+  "mark": "A3",
+  "dia_mm": 8,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 5050.0,
+  "qty": 11,
+  "located": 11,
+  "weight_kg": 21.95,
+  "evidence": {
+   "section": 11
+  }
+ },
+ {
+  "panel": "PW-GF-08",
+  "mark": "A2",
+  "dia_mm": 8,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 5000.0,
+  "qty": 12,
+  "located": 12,
+  "weight_kg": 23.71,
+  "evidence": {
+   "leader": 2,
+   "pitch_extended": 10
+  }
+ },
+ {
+  "panel": "PW-GF-08",
+  "mark": "A1",
+  "dia_mm": 8,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 2100.0,
+  "qty": 30,
+  "located": 30,
+  "weight_kg": 24.89,
+  "evidence": {
+   "section": 30
+  }
+ },
+ {
+  "panel": "PW-GF-08",
+  "mark": "A",
+  "dia_mm": 8,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 2025.0,
+  "qty": 30,
+  "located": 30,
+  "weight_kg": 24.0,
+  "evidence": {
+   "section": 30
+  }
+ },
+ {
+  "panel": "PW-GF-08",
+  "mark": "N1",
+  "dia_mm": 20,
+  "shape": "26",
+  "family": "bent_other",
+  "cut_length_mm": 6100.0,
+  "qty": 1,
+  "located": 1,
+  "weight_kg": 15.06,
+  "evidence": {
+   "section": 1
+  }
+ },
+ {
+  "panel": "PW-GF-08",
+  "mark": "N",
+  "dia_mm": 20,
+  "shape": "26",
+  "family": "bent_other",
+  "cut_length_mm": 6100.0,
+  "qty": 1,
+  "located": 1,
+  "weight_kg": 15.06,
+  "evidence": {
+   "array_signature": 1
+  }
+ },
+ {
+  "panel": "PW-GF-08",
+  "mark": "O",
+  "dia_mm": 10,
+  "shape": "Rebar Shape 9",
+  "family": "bent_other",
+  "cut_length_mm": 2250.0,
+  "qty": 11,
+  "located": 11,
+  "weight_kg": 15.28,
+  "evidence": {
+   "array_signature": 11
+  }
+ },
+ {
+  "panel": "PW-GF-09",
+  "mark": "N",
+  "dia_mm": 25,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 2575.0,
+  "qty": 2,
+  "located": 2,
+  "weight_kg": 19.87,
+  "evidence": {
+   "leader": 2
+  }
+ },
+ {
+  "panel": "PW-GF-09",
+  "mark": "M1",
+  "dia_mm": 20,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 2275.0,
+  "qty": 2,
+  "located": 2,
+  "weight_kg": 11.24,
+  "evidence": {
+   "array_signature": 1,
+   "section": 1
+  }
+ },
+ {
+  "panel": "PW-GF-09",
+  "mark": "M",
+  "dia_mm": 20,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 1450.0,
+  "qty": 2,
+  "located": 2,
+  "weight_kg": 7.16,
+  "evidence": {
+   "leader": 2
+  }
+ },
+ {
+  "panel": "PW-GF-09",
+  "mark": "L",
+  "dia_mm": 20,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 2025.0,
+  "qty": 2,
+  "located": 2,
+  "weight_kg": 10.0,
+  "evidence": {
+   "section": 2
+  }
+ },
+ {
+  "panel": "PW-GF-09",
+  "mark": "K",
+  "dia_mm": 16,
+  "shape": "M_17A",
+  "family": "u_bar",
+  "cut_length_mm": 2050.0,
+  "qty": 4,
+  "located": 4,
+  "weight_kg": 12.96,
+  "evidence": {
+   "leader": 1,
+   "array_signature": 1,
+   "pitch_extended": 2
+  }
+ },
+ {
+  "panel": "PW-GF-09",
+  "mark": "J3",
+  "dia_mm": 16,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 2900.0,
+  "qty": 2,
+  "located": 2,
+  "weight_kg": 9.17,
+  "evidence": {
+   "section": 2
+  }
+ },
+ {
+  "panel": "PW-GF-09",
+  "mark": "J2",
+  "dia_mm": 16,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 2625.0,
+  "qty": 2,
+  "located": 2,
+  "weight_kg": 8.3,
+  "evidence": {
+   "array_signature": 2
+  }
+ },
+ {
+  "panel": "PW-GF-09",
+  "mark": "J1",
+  "dia_mm": 16,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 1850.0,
+  "qty": 2,
+  "located": 2,
+  "weight_kg": 5.85,
+  "evidence": {
+   "leader": 2
+  }
+ },
+ {
+  "panel": "PW-GF-09",
+  "mark": "J",
+  "dia_mm": 16,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 1850.0,
+  "qty": 3,
+  "located": 3,
+  "weight_kg": 8.77,
+  "evidence": {
+   "leader": 3
+  }
+ },
+ {
+  "panel": "PW-GF-09",
+  "mark": "I",
+  "dia_mm": 16,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 5000.0,
+  "qty": 2,
+  "located": 2,
+  "weight_kg": 15.8,
+  "evidence": {
+   "section": 2
+  }
+ },
+ {
+  "panel": "PW-GF-09",
+  "mark": "H",
+  "dia_mm": 12,
+  "shape": "M_T1",
+  "family": "link_tie",
+  "cut_length_mm": 1150.0,
+  "qty": 11,
+  "located": 11,
+  "weight_kg": 11.25,
+  "evidence": {
+   "leader": 11
+  }
+ },
+ {
+  "panel": "PW-GF-09",
+  "mark": "F1",
+  "dia_mm": 12,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 1125.0,
+  "qty": 3,
+  "located": 3,
+  "weight_kg": 3.0,
+  "evidence": {
+   "section": 3
+  }
+ },
+ {
+  "panel": "PW-GF-09",
+  "mark": "F",
+  "dia_mm": 12,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 1075.0,
+  "qty": 1,
+  "located": 1,
+  "weight_kg": 0.96,
+  "evidence": {
+   "section": 1
+  }
+ },
+ {
+  "panel": "PW-GF-09",
+  "mark": "E",
+  "dia_mm": 8,
+  "shape": "M_T10",
+  "family": "link_tie",
+  "cut_length_mm": 375.0,
+  "qty": 37,
+  "located": 37,
+  "weight_kg": 5.48,
+  "evidence": {
+   "leader": 1,
+   "array_note": 23,
+   "pitch_extended": 13
+  }
+ },
+ {
+  "panel": "PW-GF-09",
+  "mark": "D",
+  "dia_mm": 8,
+  "shape": "M_T1",
+  "family": "link_tie",
+  "cut_length_mm": 1200.0,
+  "qty": 37,
+  "located": 37,
+  "weight_kg": 17.54,
+  "evidence": {
+   "array_signature": 32,
+   "array_note": 3,
+   "pitch_extended": 2
+  }
+ },
+ {
+  "panel": "PW-GF-09",
+  "mark": "C",
+  "dia_mm": 8,
+  "shape": "M_17A",
+  "family": "u_bar",
+  "cut_length_mm": 950.0,
+  "qty": 6,
+  "located": 6,
+  "weight_kg": 2.25,
+  "evidence": {
+   "leader": 5,
+   "pitch_extended": 1
+  }
+ },
+ {
+  "panel": "PW-GF-09",
+  "mark": "B2",
+  "dia_mm": 8,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 950.0,
+  "qty": 49,
+  "located": 49,
+  "weight_kg": 18.39,
+  "evidence": {
+   "array_signature": 3,
+   "pitch_extended": 28,
+   "section": 18
+  }
+ },
+ {
+  "panel": "PW-GF-09",
+  "mark": "B1",
+  "dia_mm": 8,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 900.0,
+  "qty": 30,
+  "located": 30,
+  "weight_kg": 10.67,
+  "evidence": {
+   "array_note": 2,
+   "array_signature": 3,
+   "pitch_extended": 25
+  }
+ },
+ {
+  "panel": "PW-GF-09",
+  "mark": "B",
+  "dia_mm": 8,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 900.0,
+  "qty": 14,
+  "located": 14,
+  "weight_kg": 4.98,
+  "evidence": {
+   "leader": 8,
+   "array_note": 2,
+   "array_signature": 4
+  }
+ },
+ {
+  "panel": "PW-GF-09",
+  "mark": "A4",
+  "dia_mm": 8,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 5050.0,
+  "qty": 7,
+  "located": 7,
+  "weight_kg": 13.97,
+  "evidence": {
+   "section": 7
+  }
+ },
+ {
+  "panel": "PW-GF-09",
+  "mark": "A3",
+  "dia_mm": 8,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 5000.0,
+  "qty": 9,
+  "located": 9,
+  "weight_kg": 17.78,
+  "evidence": {
+   "array_note": 1,
+   "note_pitch_extended": 8
+  }
+ },
+ {
+  "panel": "PW-GF-09",
+  "mark": "A2",
+  "dia_mm": 8,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 1450.0,
+  "qty": 30,
+  "located": 30,
+  "weight_kg": 17.19,
+  "evidence": {
+   "leader": 1,
+   "note_pitch_extended": 29
+  }
+ },
+ {
+  "panel": "PW-GF-09",
+  "mark": "A1",
+  "dia_mm": 8,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 1350.0,
+  "qty": 26,
+  "located": 26,
+  "weight_kg": 13.87,
+  "evidence": {
+   "array_note": 1,
+   "note_pitch_extended": 25
+  }
+ },
+ {
+  "panel": "PW-GF-09",
+  "mark": "A",
+  "dia_mm": 8,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 1125.0,
+  "qty": 5,
+  "located": 5,
+  "weight_kg": 2.22,
+  "evidence": {
+   "array_signature": 5
+  }
+ },
+ {
+  "panel": "PW-GF-09",
+  "mark": "O",
+  "dia_mm": 20,
+  "shape": "26",
+  "family": "bent_other",
+  "cut_length_mm": 6100.0,
+  "qty": 1,
+  "located": 1,
+  "weight_kg": 15.06,
+  "evidence": {
+   "leader": 1
+  }
+ },
+ {
+  "panel": "PW-GF-09",
+  "mark": "Q4",
+  "dia_mm": 16,
+  "shape": "Rebar Shape 31",
+  "family": "bent_other",
+  "cut_length_mm": 5850.0,
+  "qty": 2,
+  "located": 2,
+  "weight_kg": 18.49,
+  "evidence": {
+   "leader": 2
+  }
+ },
+ {
+  "panel": "PW-GF-09",
+  "mark": "Q3",
+  "dia_mm": 16,
+  "shape": "Rebar Shape 31",
+  "family": "bent_other",
+  "cut_length_mm": 5850.0,
+  "qty": 1,
+  "located": 1,
+  "weight_kg": 9.25,
+  "evidence": {
+   "array_note": 1
+  }
+ },
+ {
+  "panel": "PW-GF-09",
+  "mark": "Q2",
+  "dia_mm": 16,
+  "shape": "Rebar Shape 31",
+  "family": "bent_other",
+  "cut_length_mm": 5850.0,
+  "qty": 1,
+  "located": 1,
+  "weight_kg": 9.25,
+  "evidence": {
+   "array_note": 1
+  }
+ },
+ {
+  "panel": "PW-GF-09",
+  "mark": "Q1",
+  "dia_mm": 16,
+  "shape": "Rebar Shape 31",
+  "family": "bent_other",
+  "cut_length_mm": 5850.0,
+  "qty": 1,
+  "located": 1,
+  "weight_kg": 9.25,
+  "evidence": {
+   "leader": 1
+  }
+ },
+ {
+  "panel": "PW-GF-09",
+  "mark": "Q",
+  "dia_mm": 16,
+  "shape": "Rebar Shape 31",
+  "family": "bent_other",
+  "cut_length_mm": 5850.0,
+  "qty": 1,
+  "located": 1,
+  "weight_kg": 9.25,
+  "evidence": {
+   "array_signature": 1
+  }
+ },
+ {
+  "panel": "PW-GF-09",
+  "mark": "P",
+  "dia_mm": 10,
+  "shape": "Rebar Shape 9",
+  "family": "bent_other",
+  "cut_length_mm": 2250.0,
+  "qty": 7,
+  "located": 7,
+  "weight_kg": 9.72,
+  "evidence": {
+   "leader": 5,
+   "array_signature": 2
+  }
+ },
+ {
+  "panel": "PW-GF-11",
+  "mark": "N",
+  "dia_mm": 25,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 2575.0,
+  "qty": 2,
+  "located": 2,
+  "weight_kg": 19.87,
+  "evidence": {
+   "array_signature": 2
+  }
+ },
+ {
+  "panel": "PW-GF-11",
+  "mark": "M1",
+  "dia_mm": 20,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 2275.0,
+  "qty": 2,
+  "located": 2,
+  "weight_kg": 11.24,
+  "evidence": {
+   "array_signature": 2
+  }
+ },
+ {
+  "panel": "PW-GF-11",
+  "mark": "M",
+  "dia_mm": 20,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 1425.0,
+  "qty": 2,
+  "located": 1,
+  "weight_kg": 7.04,
+  "evidence": {
+   "array_signature": 1
+  }
+ },
+ {
+  "panel": "PW-GF-11",
+  "mark": "L",
+  "dia_mm": 20,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 1675.0,
+  "qty": 3,
+  "located": 1,
+  "weight_kg": 12.41,
+  "evidence": {
+   "array_signature": 1
+  }
+ },
+ {
+  "panel": "PW-GF-11",
+  "mark": "K",
+  "dia_mm": 16,
+  "shape": "M_17A",
+  "family": "u_bar",
+  "cut_length_mm": 2050.0,
+  "qty": 4,
+  "located": 4,
+  "weight_kg": 12.96,
+  "evidence": {
+   "array_note": 3,
+   "pitch_extended": 1
+  }
+ },
+ {
+  "panel": "PW-GF-11",
+  "mark": "J2",
+  "dia_mm": 16,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 3600.0,
+  "qty": 4,
+  "located": 2,
+  "weight_kg": 22.76,
+  "evidence": {
+   "leader": 1,
+   "array_signature": 1
+  }
+ },
+ {
+  "panel": "PW-GF-11",
+  "mark": "J1",
+  "dia_mm": 16,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 1850.0,
+  "qty": 2,
+  "located": 2,
+  "weight_kg": 5.85,
+  "evidence": {
+   "array_note": 2
+  }
+ },
+ {
+  "panel": "PW-GF-11",
+  "mark": "J",
+  "dia_mm": 16,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 1750.0,
+  "qty": 3,
+  "located": 3,
+  "weight_kg": 8.3,
+  "evidence": {
+   "array_note": 3
+  }
+ },
+ {
+  "panel": "PW-GF-11",
+  "mark": "I1",
+  "dia_mm": 16,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 9000.0,
+  "qty": 4,
+  "located": 4,
+  "weight_kg": 56.89,
+  "evidence": {
+   "leader": 1,
+   "section": 3
+  }
+ },
+ {
+  "panel": "PW-GF-11",
+  "mark": "I",
+  "dia_mm": 16,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 2375.0,
+  "qty": 6,
+  "located": 6,
+  "weight_kg": 22.52,
+  "evidence": {
+   "array_signature": 1,
+   "section": 5
+  }
+ },
+ {
+  "panel": "PW-GF-11",
+  "mark": "H",
+  "dia_mm": 12,
+  "shape": "M_T1",
+  "family": "link_tie",
+  "cut_length_mm": 1150.0,
+  "qty": 11,
+  "located": 11,
+  "weight_kg": 11.25,
+  "evidence": {
+   "array_signature": 1,
+   "note_pitch_extended": 10
+  }
+ },
+ {
+  "panel": "PW-GF-11",
+  "mark": "G",
+  "dia_mm": 12,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 2225.0,
+  "qty": 4,
+  "located": 4,
+  "weight_kg": 7.91,
+  "evidence": {
+   "array_signature": 3,
+   "pitch_extended": 1
+  }
+ },
+ {
+  "panel": "PW-GF-11",
+  "mark": "F1",
+  "dia_mm": 10,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 9050.0,
+  "qty": 23,
+  "located": 23,
+  "weight_kg": 128.5,
+  "evidence": {
+   "array_signature": 3,
+   "note_pitch_extended": 20
+  }
+ },
+ {
+  "panel": "PW-GF-11",
+  "mark": "F",
+  "dia_mm": 10,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 9000.0,
+  "qty": 23,
+  "located": 23,
+  "weight_kg": 127.79,
+  "evidence": {
+   "array_note": 23
+  }
+ },
+ {
+  "panel": "PW-GF-11",
+  "mark": "E",
+  "dia_mm": 8,
+  "shape": "M_T10",
+  "family": "link_tie",
+  "cut_length_mm": 375.0,
+  "qty": 24,
+  "located": 24,
+  "weight_kg": 3.56,
+  "evidence": {
+   "array_signature": 7,
+   "array_note": 17
+  }
+ },
+ {
+  "panel": "PW-GF-11",
+  "mark": "D",
+  "dia_mm": 8,
+  "shape": "M_T1",
+  "family": "link_tie",
+  "cut_length_mm": 1200.0,
+  "qty": 24,
+  "located": 24,
+  "weight_kg": 11.38,
+  "evidence": {
+   "array_note": 1,
+   "array_signature": 23
+  }
+ },
+ {
+  "panel": "PW-GF-11",
+  "mark": "C",
+  "dia_mm": 8,
+  "shape": "M_17A",
+  "family": "u_bar",
+  "cut_length_mm": 1225.0,
+  "qty": 12,
+  "located": 12,
+  "weight_kg": 5.81,
+  "evidence": {
+   "array_note": 2,
+   "array_signature": 2,
+   "note_pitch_extended": 8
+  }
+ },
+ {
+  "panel": "PW-GF-11",
+  "mark": "B2",
+  "dia_mm": 8,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 900.0,
+  "qty": 104,
+  "located": 104,
+  "weight_kg": 36.98,
+  "evidence": {
+   "array_signature": 48,
+   "pitch_extended": 6,
+   "section": 50
+  }
+ },
+ {
+  "panel": "PW-GF-11",
+  "mark": "B1",
+  "dia_mm": 8,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 900.0,
+  "qty": 42,
+  "located": 42,
+  "weight_kg": 14.93,
+  "evidence": {
+   "array_note": 42
+  }
+ },
+ {
+  "panel": "PW-GF-11",
+  "mark": "B",
+  "dia_mm": 8,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 875.0,
+  "qty": 92,
+  "located": 92,
+  "weight_kg": 31.8,
+  "evidence": {
+   "array_note": 92
+  }
+ },
+ {
+  "panel": "PW-GF-11",
+  "mark": "A1",
+  "dia_mm": 8,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 2200.0,
+  "qty": 53,
+  "located": 53,
+  "weight_kg": 46.07,
+  "evidence": {
+   "array_note": 5,
+   "array_signature": 24,
+   "pitch_extended": 24
+  }
+ },
+ {
+  "panel": "PW-GF-11",
+  "mark": "A",
+  "dia_mm": 8,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 2175.0,
+  "qty": 53,
+  "located": 53,
+  "weight_kg": 45.54,
+  "evidence": {
+   "array_note": 53
+  }
+ },
+ {
+  "panel": "PW-GF-11",
+  "mark": "O",
+  "dia_mm": 20,
+  "shape": "26",
+  "family": "bent_other",
+  "cut_length_mm": 9750.0,
+  "qty": 2,
+  "located": 2,
+  "weight_kg": 48.15,
+  "evidence": {
+   "leader": 1,
+   "array_signature": 1
+  }
+ },
+ {
+  "panel": "PW-GF-11",
+  "mark": "P",
+  "dia_mm": 10,
+  "shape": "Rebar Shape 9",
+  "family": "bent_other",
+  "cut_length_mm": 2175.0,
+  "qty": 12,
+  "located": 12,
+  "weight_kg": 16.11,
+  "evidence": {
+   "array_signature": 12
+  }
+ },
+ {
+  "panel": "PW-GF-18",
+  "mark": "I1",
+  "dia_mm": 20,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 2025.0,
+  "qty": 1,
+  "located": 1,
+  "weight_kg": 5.0,
+  "evidence": {
+   "leader": 1
+  }
+ },
+ {
+  "panel": "PW-GF-18",
+  "mark": "I",
+  "dia_mm": 20,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 2025.0,
+  "qty": 1,
+  "located": 1,
+  "weight_kg": 5.0,
+  "evidence": {
+   "section": 1
+  }
+ },
+ {
+  "panel": "PW-GF-18",
+  "mark": "H3",
+  "dia_mm": 16,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 2900.0,
+  "qty": 2,
+  "located": 2,
+  "weight_kg": 9.17,
+  "evidence": {
+   "array_note": 1,
+   "array_signature": 1
+  }
+ },
+ {
+  "panel": "PW-GF-18",
+  "mark": "H2",
+  "dia_mm": 16,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 2625.0,
+  "qty": 2,
+  "located": 2,
+  "weight_kg": 8.3,
+  "evidence": {
+   "array_note": 2
+  }
+ },
+ {
+  "panel": "PW-GF-18",
+  "mark": "H1",
+  "dia_mm": 16,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 1850.0,
+  "qty": 2,
+  "located": 2,
+  "weight_kg": 5.85,
+  "evidence": {
+   "leader": 1,
+   "array_note": 1
+  }
+ },
+ {
+  "panel": "PW-GF-18",
+  "mark": "H",
+  "dia_mm": 16,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 1750.0,
+  "qty": 3,
+  "located": 3,
+  "weight_kg": 8.3,
+  "evidence": {
+   "leader": 1,
+   "array_note": 2
+  }
+ },
+ {
+  "panel": "PW-GF-18",
+  "mark": "G",
+  "dia_mm": 16,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 5000.0,
+  "qty": 2,
+  "located": 2,
+  "weight_kg": 15.8,
+  "evidence": {
+   "array_signature": 2
+  }
+ },
+ {
+  "panel": "PW-GF-18",
+  "mark": "F1",
+  "dia_mm": 12,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 1125.0,
+  "qty": 3,
+  "located": 3,
+  "weight_kg": 3.0,
+  "evidence": {
+   "array_signature": 2,
+   "pitch_extended": 1
+  }
+ },
+ {
+  "panel": "PW-GF-18",
+  "mark": "F",
+  "dia_mm": 12,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 1125.0,
+  "qty": 1,
+  "located": 1,
+  "weight_kg": 1.0,
+  "evidence": {
+   "array_note": 1
+  }
+ },
+ {
+  "panel": "PW-GF-18",
+  "mark": "E",
+  "dia_mm": 8,
+  "shape": "M_T10",
+  "family": "link_tie",
+  "cut_length_mm": 375.0,
+  "qty": 37,
+  "located": 37,
+  "weight_kg": 5.48,
+  "evidence": {
+   "array_note": 37
+  }
+ },
+ {
+  "panel": "PW-GF-18",
+  "mark": "D",
+  "dia_mm": 8,
+  "shape": "M_T1",
+  "family": "link_tie",
+  "cut_length_mm": 1200.0,
+  "qty": 37,
+  "located": 37,
+  "weight_kg": 17.54,
+  "evidence": {
+   "array_note": 3,
+   "array_signature": 25,
+   "section": 9
+  }
+ },
+ {
+  "panel": "PW-GF-18",
+  "mark": "C",
+  "dia_mm": 8,
+  "shape": "M_17A",
+  "family": "u_bar",
+  "cut_length_mm": 950.0,
+  "qty": 6,
+  "located": 6,
+  "weight_kg": 2.25,
+  "evidence": {
+   "array_note": 6
+  }
+ },
+ {
+  "panel": "PW-GF-18",
+  "mark": "B2",
+  "dia_mm": 8,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 900.0,
+  "qty": 30,
+  "located": 30,
+  "weight_kg": 10.67,
+  "evidence": {
+   "array_note": 18,
+   "array_signature": 4,
+   "pitch_extended": 8
+  }
+ },
+ {
+  "panel": "PW-GF-18",
+  "mark": "B1",
+  "dia_mm": 8,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 900.0,
+  "qty": 14,
+  "located": 14,
+  "weight_kg": 4.98,
+  "evidence": {
+   "array_note": 14
+  }
+ },
+ {
+  "panel": "PW-GF-18",
+  "mark": "B",
+  "dia_mm": 8,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 875.0,
+  "qty": 49,
+  "located": 49,
+  "weight_kg": 16.94,
+  "evidence": {
+   "array_signature": 8,
+   "pitch_extended": 9,
+   "section": 32
+  }
+ },
+ {
+  "panel": "PW-GF-18",
+  "mark": "A4",
+  "dia_mm": 8,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 5050.0,
+  "qty": 7,
+  "located": 7,
+  "weight_kg": 13.97,
+  "evidence": {
+   "array_signature": 2,
+   "pitch_extended": 5
+  }
+ },
+ {
+  "panel": "PW-GF-18",
+  "mark": "A3",
+  "dia_mm": 8,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 5000.0,
+  "qty": 9,
+  "located": 9,
+  "weight_kg": 17.78,
+  "evidence": {
+   "array_note": 9
+  }
+ },
+ {
+  "panel": "PW-GF-18",
+  "mark": "A2",
+  "dia_mm": 8,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 1450.0,
+  "qty": 30,
+  "located": 30,
+  "weight_kg": 17.19,
+  "evidence": {
+   "array_note": 2,
+   "array_signature": 14,
+   "pitch_extended": 9,
+   "note_pitch_extended": 5
+  }
+ },
+ {
+  "panel": "PW-GF-18",
+  "mark": "A1",
+  "dia_mm": 8,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 1350.0,
+  "qty": 26,
+  "located": 26,
+  "weight_kg": 13.87,
+  "evidence": {
+   "array_signature": 1,
+   "array_note": 25
+  }
+ },
+ {
+  "panel": "PW-GF-18",
+  "mark": "A",
+  "dia_mm": 8,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 1100.0,
+  "qty": 5,
+  "located": 5,
+  "weight_kg": 2.17,
+  "evidence": {
+   "array_note": 3,
+   "array_signature": 2
+  }
+ },
+ {
+  "panel": "PW-GF-18",
+  "mark": "K5",
+  "dia_mm": 16,
+  "shape": "Rebar Shape 31",
+  "family": "bent_other",
+  "cut_length_mm": 6000.0,
+  "qty": 1,
+  "located": 1,
+  "weight_kg": 9.48,
+  "evidence": {
+   "array_note": 1
+  }
+ },
+ {
+  "panel": "PW-GF-18",
+  "mark": "K4",
+  "dia_mm": 16,
+  "shape": "Rebar Shape 31",
+  "family": "bent_other",
+  "cut_length_mm": 6000.0,
+  "qty": 1,
+  "located": 1,
+  "weight_kg": 9.48,
+  "evidence": {
+   "leader": 1
+  }
+ },
+ {
+  "panel": "PW-GF-18",
+  "mark": "K3",
+  "dia_mm": 16,
+  "shape": "Rebar Shape 31",
+  "family": "bent_other",
+  "cut_length_mm": 6000.0,
+  "qty": 1,
+  "located": 1,
+  "weight_kg": 9.48,
+  "evidence": {
+   "array_note": 1
+  }
+ },
+ {
+  "panel": "PW-GF-18",
+  "mark": "K2",
+  "dia_mm": 16,
+  "shape": "Rebar Shape 31",
+  "family": "bent_other",
+  "cut_length_mm": 6000.0,
+  "qty": 1,
+  "located": 1,
+  "weight_kg": 9.48,
+  "evidence": {
+   "array_note": 1
+  }
+ },
+ {
+  "panel": "PW-GF-18",
+  "mark": "K1",
+  "dia_mm": 16,
+  "shape": "Rebar Shape 31",
+  "family": "bent_other",
+  "cut_length_mm": 6000.0,
+  "qty": 1,
+  "located": 1,
+  "weight_kg": 9.48,
+  "evidence": {
+   "leader": 1
+  }
+ },
+ {
+  "panel": "PW-GF-18",
+  "mark": "K",
+  "dia_mm": 16,
+  "shape": "Rebar Shape 31",
+  "family": "bent_other",
+  "cut_length_mm": 6000.0,
+  "qty": 1,
+  "located": 1,
+  "weight_kg": 9.48,
+  "evidence": {
+   "array_signature": 1
+  }
+ },
+ {
+  "panel": "PW-GF-18",
+  "mark": "J",
+  "dia_mm": 10,
+  "shape": "Rebar Shape 9",
+  "family": "bent_other",
+  "cut_length_mm": 2250.0,
+  "qty": 7,
+  "located": 7,
+  "weight_kg": 9.72,
+  "evidence": {
+   "array_signature": 6,
+   "pitch_extended": 1
+  }
+ },
+ {
+  "panel": "PW-GF-18",
+  "mark": "L",
+  "dia_mm": 20,
+  "shape": "26",
+  "family": "bent_other",
+  "cut_length_mm": 6100.0,
+  "qty": 1,
+  "located": 1,
+  "weight_kg": 15.06,
+  "evidence": {
+   "array_signature": 1
+  }
+ },
+ {
+  "panel": "PW-GF-25",
+  "mark": "I",
+  "dia_mm": 20,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 2025.0,
+  "qty": 1,
+  "located": 1,
+  "weight_kg": 5.0,
+  "evidence": {
+   "array_signature": 1
+  }
+ },
+ {
+  "panel": "PW-GF-25",
+  "mark": "H3",
+  "dia_mm": 16,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 2900.0,
+  "qty": 2,
+  "located": 2,
+  "weight_kg": 9.17,
+  "evidence": {
+   "array_note": 2
+  }
+ },
+ {
+  "panel": "PW-GF-25",
+  "mark": "H2",
+  "dia_mm": 16,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 2625.0,
+  "qty": 2,
+  "located": 2,
+  "weight_kg": 8.3,
+  "evidence": {
+   "array_signature": 2
+  }
+ },
+ {
+  "panel": "PW-GF-25",
+  "mark": "H1",
+  "dia_mm": 16,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 1850.0,
+  "qty": 2,
+  "located": 2,
+  "weight_kg": 5.85,
+  "evidence": {
+   "leader": 1,
+   "array_note": 1
+  }
+ },
+ {
+  "panel": "PW-GF-25",
+  "mark": "H",
+  "dia_mm": 16,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 1750.0,
+  "qty": 3,
+  "located": 3,
+  "weight_kg": 8.3,
+  "evidence": {
+   "leader": 1,
+   "array_signature": 2
+  }
+ },
+ {
+  "panel": "PW-GF-25",
+  "mark": "G",
+  "dia_mm": 16,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 5000.0,
+  "qty": 2,
+  "located": 2,
+  "weight_kg": 15.8,
+  "evidence": {
+   "array_signature": 2
+  }
+ },
+ {
+  "panel": "PW-GF-25",
+  "mark": "F",
+  "dia_mm": 10,
+  "shape": "M_17A",
+  "family": "u_bar",
+  "cut_length_mm": 1050.0,
+  "qty": 2,
+  "located": 2,
+  "weight_kg": 1.3,
+  "evidence": {
+   "array_signature": 2
+  }
+ },
+ {
+  "panel": "PW-GF-25",
+  "mark": "E",
+  "dia_mm": 8,
+  "shape": "M_T10",
+  "family": "link_tie",
+  "cut_length_mm": 375.0,
+  "qty": 37,
+  "located": 37,
+  "weight_kg": 5.48,
+  "evidence": {
+   "array_note": 37
+  }
+ },
+ {
+  "panel": "PW-GF-25",
+  "mark": "D",
+  "dia_mm": 8,
+  "shape": "M_T1",
+  "family": "link_tie",
+  "cut_length_mm": 1200.0,
+  "qty": 37,
+  "located": 37,
+  "weight_kg": 17.54,
+  "evidence": {
+   "array_signature": 37
+  }
+ },
+ {
+  "panel": "PW-GF-25",
+  "mark": "C",
+  "dia_mm": 8,
+  "shape": "M_17A",
+  "family": "u_bar",
+  "cut_length_mm": 975.0,
+  "qty": 7,
+  "located": 7,
+  "weight_kg": 2.7,
+  "evidence": {
+   "array_note": 7
+  }
+ },
+ {
+  "panel": "PW-GF-25",
+  "mark": "B2",
+  "dia_mm": 8,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 950.0,
+  "qty": 26,
+  "located": 26,
+  "weight_kg": 9.76,
+  "evidence": {
+   "array_note": 24,
+   "array_signature": 1,
+   "pitch_extended": 1
+  }
+ },
+ {
+  "panel": "PW-GF-25",
+  "mark": "B1",
+  "dia_mm": 8,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 900.0,
+  "qty": 29,
+  "located": 29,
+  "weight_kg": 10.31,
+  "evidence": {
+   "array_note": 1,
+   "array_signature": 2,
+   "pitch_extended": 24,
+   "note_pitch_extended": 2
+  }
+ },
+ {
+  "panel": "PW-GF-25",
+  "mark": "B",
+  "dia_mm": 8,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 900.0,
+  "qty": 14,
+  "located": 14,
+  "weight_kg": 4.98,
+  "evidence": {
+   "array_note": 14
+  }
+ },
+ {
+  "panel": "PW-GF-25",
+  "mark": "A4",
+  "dia_mm": 8,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 5050.0,
+  "qty": 7,
+  "located": 7,
+  "weight_kg": 13.97,
+  "evidence": {
+   "array_signature": 7
+  }
+ },
+ {
+  "panel": "PW-GF-25",
+  "mark": "A3",
+  "dia_mm": 8,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 5000.0,
+  "qty": 9,
+  "located": 9,
+  "weight_kg": 17.78,
+  "evidence": {
+   "array_note": 9
+  }
+ },
+ {
+  "panel": "PW-GF-25",
+  "mark": "A2",
+  "dia_mm": 8,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 1450.0,
+  "qty": 30,
+  "located": 30,
+  "weight_kg": 17.19,
+  "evidence": {
+   "array_note": 2,
+   "array_signature": 25,
+   "pitch_extended": 1,
+   "note_pitch_extended": 2
+  }
+ },
+ {
+  "panel": "PW-GF-25",
+  "mark": "A1",
+  "dia_mm": 8,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 1400.0,
+  "qty": 26,
+  "located": 26,
+  "weight_kg": 14.38,
+  "evidence": {
+   "array_note": 26
+  }
+ },
+ {
+  "panel": "PW-GF-25",
+  "mark": "A",
+  "dia_mm": 8,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 1100.0,
+  "qty": 5,
+  "located": 5,
+  "weight_kg": 2.17,
+  "evidence": {
+   "array_note": 5
+  }
+ },
+ {
+  "panel": "PW-GF-25",
+  "mark": "J5",
+  "dia_mm": 16,
+  "shape": "Rebar Shape 31",
+  "family": "bent_other",
+  "cut_length_mm": 5000.0,
+  "qty": 1,
+  "located": 1,
+  "weight_kg": 7.9,
+  "evidence": {
+   "array_note": 1
+  }
+ },
+ {
+  "panel": "PW-GF-25",
+  "mark": "J4",
+  "dia_mm": 16,
+  "shape": "Rebar Shape 31",
+  "family": "bent_other",
+  "cut_length_mm": 5000.0,
+  "qty": 1,
+  "located": 1,
+  "weight_kg": 7.9,
+  "evidence": {
+   "array_note": 1
+  }
+ },
+ {
+  "panel": "PW-GF-25",
+  "mark": "J3",
+  "dia_mm": 16,
+  "shape": "Rebar Shape 31",
+  "family": "bent_other",
+  "cut_length_mm": 5000.0,
+  "qty": 1,
+  "located": 1,
+  "weight_kg": 7.9,
+  "evidence": {
+   "leader": 1
+  }
+ },
+ {
+  "panel": "PW-GF-25",
+  "mark": "J2",
+  "dia_mm": 16,
+  "shape": "Rebar Shape 31",
+  "family": "bent_other",
+  "cut_length_mm": 5000.0,
+  "qty": 1,
+  "located": 1,
+  "weight_kg": 7.9,
+  "evidence": {
+   "leader": 1
+  }
+ },
+ {
+  "panel": "PW-GF-25",
+  "mark": "J1",
+  "dia_mm": 16,
+  "shape": "Rebar Shape 31",
+  "family": "bent_other",
+  "cut_length_mm": 5000.0,
+  "qty": 1,
+  "located": 1,
+  "weight_kg": 7.9,
+  "evidence": {
+   "array_note": 1
+  }
+ },
+ {
+  "panel": "PW-GF-25",
+  "mark": "J",
+  "dia_mm": 16,
+  "shape": "Rebar Shape 31",
+  "family": "bent_other",
+  "cut_length_mm": 5000.0,
+  "qty": 1,
+  "located": 1,
+  "weight_kg": 7.9,
+  "evidence": {
+   "array_signature": 1
+  }
+ },
+ {
+  "panel": "PW-GF-25",
+  "mark": "K",
+  "dia_mm": 20,
+  "shape": "26",
+  "family": "bent_other",
+  "cut_length_mm": 6100.0,
+  "qty": 2,
+  "located": 2,
+  "weight_kg": 30.13,
+  "evidence": {
+   "array_signature": 2
+  }
+ },
+ {
+  "panel": "PW-GF-26",
+  "mark": "F",
+  "dia_mm": 20,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 2025.0,
+  "qty": 2,
+  "located": 2,
+  "weight_kg": 10.0,
+  "evidence": {
+   "leader": 1,
+   "array_signature": 1
+  }
+ },
+ {
+  "panel": "PW-GF-26",
+  "mark": "E",
+  "dia_mm": 16,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 3075.0,
+  "qty": 4,
+  "located": 4,
+  "weight_kg": 19.44,
+  "evidence": {
+   "leader": 1,
+   "array_signature": 3
+  }
+ },
+ {
+  "panel": "PW-GF-26",
+  "mark": "D",
+  "dia_mm": 16,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 5000.0,
+  "qty": 4,
+  "located": 4,
+  "weight_kg": 31.61,
+  "evidence": {
+   "leader": 1,
+   "array_signature": 3
+  }
+ },
+ {
+  "panel": "PW-GF-26",
+  "mark": "C1",
+  "dia_mm": 8,
+  "shape": "M_17A",
+  "family": "u_bar",
+  "cut_length_mm": 950.0,
+  "qty": 2,
+  "located": 2,
+  "weight_kg": 0.75,
+  "evidence": {
+   "array_note": 2
+  }
+ },
+ {
+  "panel": "PW-GF-26",
+  "mark": "C",
+  "dia_mm": 8,
+  "shape": "M_17A",
+  "family": "u_bar",
+  "cut_length_mm": 875.0,
+  "qty": 9,
+  "located": 9,
+  "weight_kg": 3.11,
+  "evidence": {
+   "array_signature": 2,
+   "pitch_extended": 7
+  }
+ },
+ {
+  "panel": "PW-GF-26",
+  "mark": "B2",
+  "dia_mm": 8,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 950.0,
+  "qty": 52,
+  "located": 52,
+  "weight_kg": 19.52,
+  "evidence": {
+   "array_note": 44,
+   "array_signature": 5,
+   "pitch_extended": 3
+  }
+ },
+ {
+  "panel": "PW-GF-26",
+  "mark": "B1",
+  "dia_mm": 8,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 900.0,
+  "qty": 59,
+  "located": 59,
+  "weight_kg": 20.98,
+  "evidence": {
+   "array_note": 51,
+   "array_signature": 1,
+   "pitch_extended": 7
+  }
+ },
+ {
+  "panel": "PW-GF-26",
+  "mark": "B",
+  "dia_mm": 8,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 900.0,
+  "qty": 18,
+  "located": 18,
+  "weight_kg": 6.4,
+  "evidence": {
+   "array_note": 18
+  }
+ },
+ {
+  "panel": "PW-GF-26",
+  "mark": "A3",
+  "dia_mm": 8,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 5050.0,
+  "qty": 9,
+  "located": 9,
+  "weight_kg": 17.96,
+  "evidence": {
+   "leader": 1,
+   "array_signature": 7,
+   "pitch_extended": 1
+  }
+ },
+ {
+  "panel": "PW-GF-26",
+  "mark": "A2",
+  "dia_mm": 8,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 5000.0,
+  "qty": 10,
+  "located": 10,
+  "weight_kg": 19.75,
+  "evidence": {
+   "leader": 1,
+   "array_note": 9
+  }
+ },
+ {
+  "panel": "PW-GF-26",
+  "mark": "A1",
+  "dia_mm": 8,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 1650.0,
+  "qty": 30,
+  "located": 30,
+  "weight_kg": 19.56,
+  "evidence": {
+   "array_note": 30
+  }
+ },
+ {
+  "panel": "PW-GF-26",
+  "mark": "A",
+  "dia_mm": 8,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 1575.0,
+  "qty": 30,
+  "located": 30,
+  "weight_kg": 18.67,
+  "evidence": {
+   "leader": 1,
+   "array_signature": 26,
+   "pitch_extended": 3
+  }
+ },
+ {
+  "panel": "PW-GF-26",
+  "mark": "G",
+  "dia_mm": 20,
+  "shape": "26",
+  "family": "bent_other",
+  "cut_length_mm": 6100.0,
+  "qty": 2,
+  "located": 2,
+  "weight_kg": 30.13,
+  "evidence": {
+   "leader": 1,
+   "array_signature": 1
+  }
+ },
+ {
+  "panel": "PW-GF-27",
+  "mark": "H",
+  "dia_mm": 20,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 2700.0,
+  "qty": 1,
+  "located": 1,
+  "weight_kg": 6.67,
+  "evidence": {
+   "array_signature": 1
+  }
+ },
+ {
+  "panel": "PW-GF-27",
+  "mark": "G2",
+  "dia_mm": 16,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 2625.0,
+  "qty": 2,
+  "located": 2,
+  "weight_kg": 8.3,
+  "evidence": {
+   "array_signature": 2,
+   "leader": 2
+  }
+ },
+ {
+  "panel": "PW-GF-27",
+  "mark": "G2",
+  "dia_mm": 16,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 2475.0,
+  "qty": 2,
+  "located": 2,
+  "weight_kg": 7.82,
+  "evidence": {
+   "array_signature": 2,
+   "leader": 2
+  }
+ },
+ {
+  "panel": "PW-GF-27",
+  "mark": "G1",
+  "dia_mm": 16,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 1950.0,
+  "qty": 2,
+  "located": 2,
+  "weight_kg": 6.16,
+  "evidence": {
+   "array_note": 2
+  }
+ },
+ {
+  "panel": "PW-GF-27",
+  "mark": "G",
+  "dia_mm": 16,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 1850.0,
+  "qty": 3,
+  "located": 3,
+  "weight_kg": 8.77,
+  "evidence": {
+   "array_signature": 3
+  }
+ },
+ {
+  "panel": "PW-GF-27",
+  "mark": "F",
+  "dia_mm": 16,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 4750.0,
+  "qty": 2,
+  "located": 2,
+  "weight_kg": 15.01,
+  "evidence": {
+   "leader": 1,
+   "array_signature": 1
+  }
+ },
+ {
+  "panel": "PW-GF-27",
+  "mark": "E",
+  "dia_mm": 10,
+  "shape": "M_17A",
+  "family": "u_bar",
+  "cut_length_mm": 1050.0,
+  "qty": 2,
+  "located": 2,
+  "weight_kg": 1.3,
+  "evidence": {
+   "array_signature": 2
+  }
+ },
+ {
+  "panel": "PW-GF-27",
+  "mark": "D",
+  "dia_mm": 8,
+  "shape": "M_T10",
+  "family": "link_tie",
+  "cut_length_mm": 575.0,
+  "qty": 33,
+  "located": 33,
+  "weight_kg": 7.5,
+  "evidence": {
+   "array_note": 33
+  }
+ },
+ {
+  "panel": "PW-GF-27",
+  "mark": "C2",
+  "dia_mm": 8,
+  "shape": "M_T1",
+  "family": "link_tie",
+  "cut_length_mm": 1575.0,
+  "qty": 33,
+  "located": 33,
+  "weight_kg": 20.53,
+  "evidence": {
+   "array_note": 12,
+   "pitch_extended": 1,
+   "section": 20
+  }
+ },
+ {
+  "panel": "PW-GF-27",
+  "mark": "C1",
+  "dia_mm": 8,
+  "shape": "M_T1",
+  "family": "link_tie",
+  "cut_length_mm": 1125.0,
+  "qty": 9,
+  "located": 9,
+  "weight_kg": 4.0,
+  "evidence": {
+   "array_note": 2,
+   "array_signature": 7
+  }
+ },
+ {
+  "panel": "PW-GF-27",
+  "mark": "C",
+  "dia_mm": 8,
+  "shape": "M_T1",
+  "family": "link_tie",
+  "cut_length_mm": 1050.0,
+  "qty": 24,
+  "located": 24,
+  "weight_kg": 9.96,
+  "evidence": {
+   "array_note": 5,
+   "array_signature": 9,
+   "pitch_extended": 10
+  }
+ },
+ {
+  "panel": "PW-GF-27",
+  "mark": "B2",
+  "dia_mm": 8,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 950.0,
+  "qty": 48,
+  "located": 48,
+  "weight_kg": 18.02,
+  "evidence": {
+   "array_note": 23,
+   "array_signature": 16,
+   "section": 9
+  }
+ },
+ {
+  "panel": "PW-GF-27",
+  "mark": "B1",
+  "dia_mm": 8,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 900.0,
+  "qty": 30,
+  "located": 30,
+  "weight_kg": 10.67,
+  "evidence": {
+   "array_note": 30
+  }
+ },
+ {
+  "panel": "PW-GF-27",
+  "mark": "B",
+  "dia_mm": 8,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 900.0,
+  "qty": 12,
+  "located": 12,
+  "weight_kg": 4.27,
+  "evidence": {
+   "array_note": 12
+  }
+ },
+ {
+  "panel": "PW-GF-27",
+  "mark": "A6",
+  "dia_mm": 8,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 4900.0,
+  "qty": 7,
+  "located": 7,
+  "weight_kg": 13.55,
+  "evidence": {
+   "leader": 1,
+   "array_signature": 6
+  }
+ },
+ {
+  "panel": "PW-GF-27",
+  "mark": "A5",
+  "dia_mm": 8,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 4750.0,
+  "qty": 7,
+  "located": 7,
+  "weight_kg": 13.14,
+  "evidence": {
+   "leader": 1,
+   "array_note": 6
+  }
+ },
+ {
+  "panel": "PW-GF-27",
+  "mark": "A4",
+  "dia_mm": 8,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 1450.0,
+  "qty": 26,
+  "located": 26,
+  "weight_kg": 14.89,
+  "evidence": {
+   "leader": 1,
+   "array_signature": 5,
+   "pitch_extended": 11,
+   "note_pitch_extended": 9
+  }
+ },
+ {
+  "panel": "PW-GF-27",
+  "mark": "A3",
+  "dia_mm": 8,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 1350.0,
+  "qty": 26,
+  "located": 26,
+  "weight_kg": 13.87,
+  "evidence": {
+   "leader": 1,
+   "array_signature": 23,
+   "array_note": 2
+  }
+ },
+ {
+  "panel": "PW-GF-27",
+  "mark": "A2",
+  "dia_mm": 8,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 1125.0,
+  "qty": 6,
+  "located": 6,
+  "weight_kg": 2.67,
+  "evidence": {
+   "leader": 1,
+   "note_pitch_extended": 5
+  }
+ },
+ {
+  "panel": "PW-GF-27",
+  "mark": "A1",
+  "dia_mm": 8,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 1075.0,
+  "qty": 3,
+  "located": 3,
+  "weight_kg": 1.27,
+  "evidence": {
+   "array_note": 3
+  }
+ },
+ {
+  "panel": "PW-GF-27",
+  "mark": "A",
+  "dia_mm": 8,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 1050.0,
+  "qty": 4,
+  "located": 4,
+  "weight_kg": 1.66,
+  "evidence": {
+   "leader": 1,
+   "array_note": 3
+  }
+ },
+ {
+  "panel": "PW-GF-27",
+  "mark": "I",
+  "dia_mm": 16,
+  "shape": "Rebar Shape 30",
+  "family": "bent_other",
+  "cut_length_mm": 4850.0,
+  "qty": 1,
+  "located": 1,
+  "weight_kg": 7.66,
+  "evidence": {
+   "array_note": 1
+  }
+ },
+ {
+  "panel": "PW-GF-27",
+  "mark": "J4",
+  "dia_mm": 16,
+  "shape": "26",
+  "family": "bent_other",
+  "cut_length_mm": 4375.0,
+  "qty": 3,
+  "located": 3,
+  "weight_kg": 20.74,
+  "evidence": {
+   "array_note": 3
+  }
+ },
+ {
+  "panel": "PW-GF-27",
+  "mark": "J3",
+  "dia_mm": 16,
+  "shape": "26",
+  "family": "bent_other",
+  "cut_length_mm": 4375.0,
+  "qty": 1,
+  "located": 1,
+  "weight_kg": 6.91,
+  "evidence": {
+   "array_note": 1
+  }
+ },
+ {
+  "panel": "PW-GF-27",
+  "mark": "J2",
+  "dia_mm": 16,
+  "shape": "26",
+  "family": "bent_other",
+  "cut_length_mm": 4375.0,
+  "qty": 3,
+  "located": 3,
+  "weight_kg": 20.74,
+  "evidence": {
+   "array_signature": 3
+  }
+ },
+ {
+  "panel": "PW-GF-27",
+  "mark": "J1",
+  "dia_mm": 16,
+  "shape": "26",
+  "family": "bent_other",
+  "cut_length_mm": 4375.0,
+  "qty": 1,
+  "located": 1,
+  "weight_kg": 6.91,
+  "evidence": {
+   "array_note": 1
+  }
+ },
+ {
+  "panel": "PW-GF-27",
+  "mark": "J",
+  "dia_mm": 16,
+  "shape": "26",
+  "family": "bent_other",
+  "cut_length_mm": 4375.0,
+  "qty": 1,
+  "located": 1,
+  "weight_kg": 6.91,
+  "evidence": {
+   "array_note": 1
+  }
+ },
+ {
+  "panel": "PW-GF-30",
+  "mark": "H",
+  "dia_mm": 20,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 1675.0,
+  "qty": 2,
+  "located": 2,
+  "weight_kg": 8.27,
+  "evidence": {
+   "array_signature": 2
+  }
+ },
+ {
+  "panel": "PW-GF-30",
+  "mark": "G",
+  "dia_mm": 16,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 3150.0,
+  "qty": 4,
+  "located": 4,
+  "weight_kg": 19.91,
+  "evidence": {
+   "leader": 1,
+   "array_signature": 3
+  }
+ },
+ {
+  "panel": "PW-GF-30",
+  "mark": "F",
+  "dia_mm": 16,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 9050.0,
+  "qty": 4,
+  "located": 4,
+  "weight_kg": 57.21,
+  "evidence": {
+   "leader": 1,
+   "array_signature": 1,
+   "pitch_extended": 2
+  }
+ },
+ {
+  "panel": "PW-GF-30",
+  "mark": "E1",
+  "dia_mm": 12,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 1725.0,
+  "qty": 2,
+  "located": 2,
+  "weight_kg": 3.07,
+  "evidence": {
+   "array_note": 2
+  }
+ },
+ {
+  "panel": "PW-GF-30",
+  "mark": "E",
+  "dia_mm": 12,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 1650.0,
+  "qty": 2,
+  "located": 2,
+  "weight_kg": 2.93,
+  "evidence": {
+   "array_signature": 1,
+   "section": 1
+  }
+ },
+ {
+  "panel": "PW-GF-30",
+  "mark": "D1",
+  "dia_mm": 10,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 9050.0,
+  "qty": 17,
+  "located": 17,
+  "weight_kg": 94.98,
+  "evidence": {
+   "leader": 1,
+   "array_signature": 8,
+   "pitch_extended": 8
+  }
+ },
+ {
+  "panel": "PW-GF-30",
+  "mark": "D",
+  "dia_mm": 10,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 9000.0,
+  "qty": 19,
+  "located": 19,
+  "weight_kg": 105.56,
+  "evidence": {
+   "leader": 1,
+   "array_note": 18
+  }
+ },
+ {
+  "panel": "PW-GF-30",
+  "mark": "C",
+  "dia_mm": 8,
+  "shape": "M_17A",
+  "family": "u_bar",
+  "cut_length_mm": 1075.0,
+  "qty": 9,
+  "located": 9,
+  "weight_kg": 3.82,
+  "evidence": {
+   "array_signature": 4,
+   "array_note": 1,
+   "pitch_extended": 1,
+   "note_pitch_extended": 3
+  }
+ },
+ {
+  "panel": "PW-GF-30",
+  "mark": "B2",
+  "dia_mm": 8,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 950.0,
+  "qty": 92,
+  "located": 92,
+  "weight_kg": 34.53,
+  "evidence": {
+   "array_note": 77,
+   "array_signature": 1,
+   "pitch_extended": 2,
+   "section": 12
+  }
+ },
+ {
+  "panel": "PW-GF-30",
+  "mark": "B1",
+  "dia_mm": 8,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 900.0,
+  "qty": 104,
+  "located": 104,
+  "weight_kg": 36.98,
+  "evidence": {
+   "array_note": 28,
+   "array_signature": 74,
+   "pitch_extended": 2
+  }
+ },
+ {
+  "panel": "PW-GF-30",
+  "mark": "B",
+  "dia_mm": 8,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 900.0,
+  "qty": 34,
+  "located": 34,
+  "weight_kg": 12.09,
+  "evidence": {
+   "array_note": 34
+  }
+ },
+ {
+  "panel": "PW-GF-30",
+  "mark": "A1",
+  "dia_mm": 8,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 1725.0,
+  "qty": 53,
+  "located": 53,
+  "weight_kg": 36.12,
+  "evidence": {
+   "array_note": 4,
+   "array_signature": 44,
+   "pitch_extended": 5
+  }
+ },
+ {
+  "panel": "PW-GF-30",
+  "mark": "A",
+  "dia_mm": 8,
+  "shape": "M_00",
+  "family": "straight",
+  "cut_length_mm": 1650.0,
+  "qty": 53,
+  "located": 53,
+  "weight_kg": 34.55,
+  "evidence": {
+   "array_note": 53
+  }
+ },
+ {
+  "panel": "PW-GF-30",
+  "mark": "I",
+  "dia_mm": 10,
+  "shape": "Rebar Shape 9",
+  "family": "bent_other",
+  "cut_length_mm": 1675.0,
+  "qty": 10,
+  "located": 10,
+  "weight_kg": 10.34,
+  "evidence": {
+   "array_signature": 8,
+   "pitch_extended": 2
+  }
+ },
+ {
+  "panel": "PW-GF-30",
+  "mark": "J",
+  "dia_mm": 20,
+  "shape": "26",
+  "family": "bent_other",
+  "cut_length_mm": 9750.0,
+  "qty": 2,
+  "located": 2,
+  "weight_kg": 48.15,
+  "evidence": {
+   "leader": 1,
+   "array_signature": 1
+  }
+ },
+ {
+  "panel": "PC-GF-01",
+  "mark": "D1",
+  "dia_mm": 16,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 1950.0,
+  "qty": 2,
+  "located": 2,
+  "weight_kg": 6.16,
+  "evidence": {
+   "leader": 1,
+   "array_signature": 1
+  }
+ },
+ {
+  "panel": "PC-GF-01",
+  "mark": "D",
+  "dia_mm": 16,
+  "shape": "M_17",
+  "family": "u_bar",
+  "cut_length_mm": 1850.0,
+  "qty": 3,
+  "located": 3,
+  "weight_kg": 8.77,
+  "evidence": {
+   "leader": 1,
+   "array_signature": 2
+  }
+ },
+ {
+  "panel": "PC-GF-01",
+  "mark": "C1",
+  "dia_mm": 10,
+  "shape": "M_17A",
+  "family": "u_bar",
+  "cut_length_mm": 1750.0,
+  "qty": 1,
+  "located": 1,
+  "weight_kg": 1.08,
+  "evidence": {
+   "section": 1
+  }
+ },
+ {
+  "panel": "PC-GF-01",
+  "mark": "C",
+  "dia_mm": 10,
+  "shape": "M_17A",
+  "family": "u_bar",
+  "cut_length_mm": 1600.0,
+  "qty": 1,
+  "located": 1,
+  "weight_kg": 0.99,
+  "evidence": {
+   "leader": 1
+  }
+ },
+ {
+  "panel": "PC-GF-01",
+  "mark": "B1",
+  "dia_mm": 8,
+  "shape": "M_T10",
+  "family": "link_tie",
+  "cut_length_mm": 575.0,
+  "qty": 33,
+  "located": 33,
+  "weight_kg": 7.5,
+  "evidence": {
+   "array_note": 33
+  }
+ },
+ {
+  "panel": "PC-GF-01",
+  "mark": "B",
+  "dia_mm": 8,
+  "shape": "M_T10",
+  "family": "link_tie",
+  "cut_length_mm": 500.0,
+  "qty": 6,
+  "located": 6,
+  "weight_kg": 1.19,
+  "evidence": {
+   "array_note": 6
+  }
+ },
+ {
+  "panel": "PC-GF-01",
+  "mark": "A3",
+  "dia_mm": 8,
+  "shape": "M_T1",
+  "family": "link_tie",
+  "cut_length_mm": 1575.0,
+  "qty": 33,
+  "located": 18,
+  "weight_kg": 20.53,
+  "evidence": {
+   "array_note": 10,
+   "pitch_extended": 8
+  }
+ },
+ {
+  "panel": "PC-GF-01",
+  "mark": "A2",
+  "dia_mm": 8,
+  "shape": "M_T1",
+  "family": "link_tie",
+  "cut_length_mm": 1325.0,
+  "qty": 6,
+  "located": 6,
+  "weight_kg": 3.14,
+  "evidence": {
+   "array_signature": 6
+  }
+ },
+ {
+  "panel": "PC-GF-01",
+  "mark": "A1",
+  "dia_mm": 8,
+  "shape": "M_T1",
+  "family": "link_tie",
+  "cut_length_mm": 1125.0,
+  "qty": 33,
+  "located": 29,
+  "weight_kg": 14.67,
+  "evidence": {
+   "array_signature": 28,
+   "pitch_extended": 1
+  }
+ },
+ {
+  "panel": "PC-GF-01",
+  "mark": "A",
+  "dia_mm": 8,
+  "shape": "M_T1",
+  "family": "link_tie",
+  "cut_length_mm": 900.0,
+  "qty": 6,
+  "located": 6,
+  "weight_kg": 2.13,
+  "evidence": {
+   "array_signature": 6
+  }
+ },
+ {
+  "panel": "PC-GF-01",
+  "mark": "E3",
+  "dia_mm": 16,
+  "shape": "Rebar Shape 30",
+  "family": "bent_other",
+  "cut_length_mm": 5850.0,
+  "qty": 4,
+  "located": 4,
+  "weight_kg": 36.98,
+  "evidence": {
+   "leader": 1,
+   "array_signature": 3
+  }
+ },
+ {
+  "panel": "PC-GF-01",
+  "mark": "E2",
+  "dia_mm": 16,
+  "shape": "Rebar Shape 30",
+  "family": "bent_other",
+  "cut_length_mm": 5850.0,
+  "qty": 2,
+  "located": 2,
+  "weight_kg": 18.49,
+  "evidence": {
+   "array_note": 2
+  }
+ },
+ {
+  "panel": "PC-GF-01",
+  "mark": "E1",
+  "dia_mm": 16,
+  "shape": "Rebar Shape 30",
+  "family": "bent_other",
+  "cut_length_mm": 5850.0,
+  "qty": 2,
+  "located": 2,
+  "weight_kg": 18.49,
+  "evidence": {
+   "leader": 1,
+   "array_note": 1
+  }
+ },
+ {
+  "panel": "PC-GF-01",
+  "mark": "E",
+  "dia_mm": 16,
+  "shape": "Rebar Shape 30",
+  "family": "bent_other",
+  "cut_length_mm": 5850.0,
+  "qty": 2,
+  "located": 2,
+  "weight_kg": 18.49,
+  "evidence": {
+   "leader": 1,
+   "array_note": 1
+  }
+ }
+]

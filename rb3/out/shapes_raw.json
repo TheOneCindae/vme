@@ -1,0 +1,392 @@
+{
+ "M_00": {
+  "code": "M_00",
+  "width": 1.3,
+  "steps": [
+   {
+    "type": "leg",
+    "letter": "B",
+    "drawn": 45.521,
+    "dir": -0.0
+   }
+  ],
+  "n_legs": 1,
+  "dims_found": [
+   "B"
+  ],
+  "src": "PW-GF-01_S",
+  "want": [
+   "B"
+  ]
+ },
+ "M_17": {
+  "code": "M_17",
+  "width": 0.937,
+  "steps": [
+   {
+    "type": "leg",
+    "letter": "B",
+    "drawn": 9.905,
+    "dir": -90.0
+   },
+   {
+    "type": "bend",
+    "turn": 90.0,
+    "drawn_r": 1.845
+   },
+   {
+    "type": "leg",
+    "letter": null,
+    "drawn": 9.401,
+    "dir": -0.0
+   },
+   {
+    "type": "bend",
+    "turn": 90.0,
+    "drawn_r": 1.845
+   },
+   {
+    "type": "leg",
+    "letter": "D",
+    "drawn": 9.905,
+    "dir": 90.0
+   }
+  ],
+  "n_legs": 3,
+  "dims_found": [
+   "B",
+   "D"
+  ],
+  "src": "PW-GF-01_S",
+  "want": [
+   "B",
+   "C",
+   "D"
+  ]
+ },
+ "M_17A": {
+  "code": "M_17A",
+  "width": 1.0,
+  "steps": [
+   {
+    "type": "leg",
+    "letter": "C",
+    "drawn": 19.544,
+    "dir": 0.0
+   },
+   {
+    "type": "bend",
+    "turn": -90.0,
+    "drawn_r": 1.831
+   },
+   {
+    "type": "leg",
+    "letter": "B",
+    "drawn": 14.514,
+    "dir": -90.0
+   }
+  ],
+  "n_legs": 2,
+  "dims_found": [
+   "B",
+   "C"
+  ],
+  "src": "PW-GF-01_S",
+  "want": [
+   "B",
+   "C"
+  ]
+ },
+ "26": {
+  "code": "26",
+  "width": 1.0,
+  "steps": [
+   {
+    "type": "leg",
+    "letter": "A",
+    "drawn": 12.208,
+    "dir": 90.0
+   },
+   {
+    "type": "bend",
+    "turn": -17.5,
+    "drawn_r": 5.918
+   },
+   {
+    "type": "leg",
+    "letter": null,
+    "drawn": 3.425,
+    "dir": 72.5
+   },
+   {
+    "type": "bend",
+    "turn": 17.5,
+    "drawn_r": 7.251
+   },
+   {
+    "type": "leg",
+    "letter": "C",
+    "drawn": 19.788,
+    "dir": 90.0
+   }
+  ],
+  "n_legs": 3,
+  "dims_found": [
+   "A",
+   "C"
+  ],
+  "src": "PW-GF-01_S",
+  "want": [
+   "A",
+   "B",
+   "C"
+  ]
+ },
+ "Rebar Shape 9": {
+  "code": "Rebar Shape 9",
+  "width": 1.0,
+  "steps": [
+   {
+    "type": "leg",
+    "letter": null,
+    "drawn": 8.468,
+    "dir": 90.0
+   },
+   {
+    "type": "bend",
+    "turn": 90.0,
+    "drawn_r": 1.657
+   },
+   {
+    "type": "leg",
+    "letter": "A",
+    "drawn": 12.457,
+    "dir": 180.0
+   },
+   {
+    "type": "bend",
+    "turn": -90.0,
+    "drawn_r": 1.579
+   },
+   {
+    "type": "leg",
+    "letter": null,
+    "drawn": 6.964,
+    "dir": 90.0
+   },
+   {
+    "type": "bend",
+    "turn": -90.0,
+    "drawn_r": 1.52
+   },
+   {
+    "type": "leg",
+    "letter": "B",
+    "drawn": 15.537,
+    "dir": 0.0
+   }
+  ],
+  "n_legs": 4,
+  "dims_found": [
+   "A",
+   "B"
+  ],
+  "src": "PW-GF-01_S",
+  "want": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E"
+  ]
+ },
+ "M_T1": {
+  "code": "M_T1",
+  "width": 1.0,
+  "steps": [
+   {
+    "type": "leg",
+    "letter": "C",
+    "drawn": 13.653,
+    "dir": -0.0
+   }
+  ],
+  "n_legs": 1,
+  "dims_found": [
+   "C"
+  ],
+  "src": "PW-GF-01_S",
+  "want": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E",
+   "G"
+  ]
+ },
+ "Rebar Shape 8": {
+  "code": "Rebar Shape 8",
+  "width": 1.0,
+  "steps": [
+   {
+    "type": "leg",
+    "letter": "A",
+    "drawn": 10.09,
+    "dir": -90.0
+   },
+   {
+    "type": "bend",
+    "turn": 90.0,
+    "drawn_r": 1.579
+   },
+   {
+    "type": "leg",
+    "letter": null,
+    "drawn": 3.082,
+    "dir": 0.0
+   },
+   {
+    "type": "bend",
+    "turn": -90.0,
+    "drawn_r": 1.657
+   }
+  ],
+  "n_legs": 2,
+  "dims_found": [
+   "A"
+  ],
+  "src": "PW-GF-01_S",
+  "want": [
+   "A",
+   "B",
+   "C"
+  ]
+ },
+ "M_T10": {
+  "code": "M_T10",
+  "width": 0.996,
+  "steps": [
+   {
+    "type": "leg",
+    "letter": "A",
+    "drawn": 4.836,
+    "dir": 135.0
+   },
+   {
+    "type": "bend",
+    "turn": -135.0,
+    "drawn_r": 0.868
+   },
+   {
+    "type": "leg",
+    "letter": "B",
+    "drawn": 13.266,
+    "dir": 0.0
+   },
+   {
+    "type": "bend",
+    "turn": -135.0,
+    "drawn_r": 0.85
+   },
+   {
+    "type": "leg",
+    "letter": "G",
+    "drawn": 4.88,
+    "dir": -135.0
+   }
+  ],
+  "n_legs": 3,
+  "dims_found": [
+   "A",
+   "B",
+   "G"
+  ],
+  "src": "PW-GF-05_S",
+  "want": [
+   "A",
+   "B",
+   "G"
+  ]
+ },
+ "Rebar Shape 30": {
+  "code": "Rebar Shape 30",
+  "width": 1.0,
+  "steps": [
+   {
+    "type": "leg",
+    "letter": "C",
+    "drawn": 17.107,
+    "dir": -90.0
+   },
+   {
+    "type": "bend",
+    "turn": -17.5,
+    "drawn_r": 7.251
+   },
+   {
+    "type": "leg",
+    "letter": null,
+    "drawn": 3.425,
+    "dir": -107.5
+   },
+   {
+    "type": "bend",
+    "turn": 17.5,
+    "drawn_r": 5.918
+   }
+  ],
+  "n_legs": 2,
+  "dims_found": [
+   "C"
+  ],
+  "src": "PW-GF-05_S",
+  "want": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E"
+  ]
+ },
+ "Rebar Shape 31": {
+  "code": "Rebar Shape 31",
+  "width": 1.0,
+  "steps": [
+   {
+    "type": "leg",
+    "letter": "C",
+    "drawn": 17.107,
+    "dir": -90.0
+   },
+   {
+    "type": "bend",
+    "turn": -17.5,
+    "drawn_r": 7.251
+   },
+   {
+    "type": "leg",
+    "letter": null,
+    "drawn": 3.425,
+    "dir": -107.5
+   },
+   {
+    "type": "bend",
+    "turn": 17.5,
+    "drawn_r": 5.918
+   }
+  ],
+  "n_legs": 2,
+  "dims_found": [
+   "C"
+  ],
+  "src": "PW-GF-18_S",
+  "want": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E"
+  ]
+ }
+}

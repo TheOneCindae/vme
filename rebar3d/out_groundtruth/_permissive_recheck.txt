@@ -1,0 +1,115 @@
+PERMISSIVE_EVIDENCE (real reading gap -- reclassify from DEAD END):
+  PW-01-PW-01        D1     T8   need=14  len=3120    have=0   candidates=13
+  PW-GF-01           B      T8   need=122 len=900     have=0   candidates=2
+  PW-GF-01           B1     T8   need=92  len=950     have=0   candidates=2
+  PW-GF-02           A      T8   need=60  len=600     have=0   candidates=2
+  PW-GF-02           C1     T12  need=2   len=600     have=0   candidates=1
+  PW-GF-02           A1     T8   need=60  len=625     have=0   candidates=2
+  PW-GF-02           H      T10  need=3   len=1850    have=0   candidates=2
+  PW-GF-02           F      T16  need=4   len=2100    have=0   candidates=2
+  PW-GF-06           M2     T16  need=1   len=4375    have=0   candidates=1
+  PW-GF-06           M3     T16  need=1   len=4375    have=0   candidates=1
+  PW-GF-07           C      T8   need=10  len=1225    have=0   candidates=1
+  PW-GF-07           D1     T12  need=2   len=1975    have=0   candidates=16
+  PW-GF-07           I      T10  need=10  len=2250    have=0   candidates=1
+  PW-GF-07           F1     T16  need=2   len=3575    have=0   candidates=1
+  PW-GF-07           E      T16  need=4   len=5000    have=3   candidates=2
+  PW-GF-09           J      T16  need=3   len=1850    have=0   candidates=2
+  PW-GF-09           J1     T16  need=2   len=1850    have=0   candidates=2
+  PW-GF-09           J3     T16  need=2   len=2900    have=0   candidates=2
+  PW-GF-18           B      T8   need=49  len=875     have=14  candidates=1
+  PW-GF-18           B1     T8   need=14  len=900     have=0   candidates=2
+  PW-GF-18           B2     T8   need=30  len=900     have=0   candidates=2
+  PW-GF-18           K1     T16  need=1   len=6000    have=0   candidates=1
+  PW-GF-18           K2     T16  need=1   len=6000    have=0   candidates=1
+  PW-GF-18           K3     T16  need=1   len=6000    have=0   candidates=1
+  PW-GF-18           K4     T16  need=1   len=6000    have=0   candidates=1
+  PW-GF-18           K5     T16  need=1   len=6000    have=0   candidates=1
+  PW-GF-25           H3     T16  need=2   len=2900    have=0   candidates=1
+  PW-GF-25           J4     T16  need=1   len=5000    have=0   candidates=3
+  PW-GF-25           J5     T16  need=1   len=5000    have=0   candidates=3
+  PW-GF-26           G      T20  need=2   len=6100    have=0   candidates=1
+  PW-GF-05           L3     T16  need=1   len=4375    have=0   candidates=1
+  PW-GF-05           L4     T16  need=2   len=4375    have=0   candidates=1
+  PW-GF-08           B1     T8   need=22  len=900     have=1   candidates=1
+  PW-GF-08           B2     T8   need=59  len=900     have=0   candidates=1
+  PW-GF-08           O      T10  need=11  len=2250    have=0   candidates=2
+  PW-GF-08           L1     T20  need=2   len=2275    have=0   candidates=5
+  PW-GF-09-combo     C      T8   need=6   len=950     have=0   candidates=4
+  PW-GF-09-combo     K      T16  need=4   len=2050    have=0   candidates=2
+  PW-GF-09-combo     M1     T20  need=2   len=2275    have=0   candidates=1
+  PW-GF-09-combo     N      T25  need=2   len=2575    have=0   candidates=2
+  PW-GF-11           D      T8   need=24  len=1200    have=12  candidates=4
+  PW-GF-11           M1     T20  need=2   len=2275    have=0   candidates=26
+  PW-GF-11           N      T25  need=2   len=2575    have=0   candidates=2
+  PW-GF-27           C1     T8   need=9   len=1125    have=0   candidates=11
+  PW-GF-27           C2     T8   need=33  len=1575    have=0   candidates=1
+
+CONFIRMED_ABSENT (no evidence even under loose pairing -- true dead end):
+  PC-GF-01           A      T8   need=6   len=900     have=0  
+  PC-GF-01           C      T10  need=1   len=1600    have=0  
+  PW-01-PW-01        D3     T10  need=4   len=634     have=0  
+  PW-01-PW-01        A      T8   need=6   len=782     have=0  
+  PW-01-PW-01        F1     T10  need=2   len=1077    have=0  
+  PW-01-PW-01        F2     T10  need=1   len=1233    have=0  
+  PW-01-PW-01        F2     T10  need=1   len=1283    have=0  
+  PW-01-PW-01        F3     T10  need=6   len=1327    have=0  
+  PW-GF-01           D      T10  need=3   len=1425    have=0  
+  PW-GF-01           K      T20  need=3   len=2450    have=0  
+  PW-GF-01           H      T16  need=4   len=2675    have=0  
+  PW-GF-02           C      T12  need=2   len=425     have=0  
+  PW-GF-02           B      T8   need=118 len=900     have=33 
+  PW-GF-02           B1     T8   need=45  len=950     have=0  
+  PW-GF-02           D      T12  need=14  len=1300    have=0  
+  PW-GF-02           C2     T12  need=16  len=8800    have=0  
+  PW-GF-02           E      T16  need=4   len=8800    have=0  
+  PW-GF-02           I      T20  need=1   len=9000    have=0  
+  PW-GF-02           I1     T20  need=1   len=9800    have=0  
+  PW-GF-06           B2     T8   need=25  len=950     have=0  
+  PW-GF-06           L      T10  need=5   len=1825    have=0  
+  PW-GF-06           I1     T16  need=2   len=1850    have=0  
+  PW-GF-06           I2     T16  need=4   len=2300    have=0  
+  PW-GF-06           N1     T20  need=1   len=6075    have=0  
+  PW-GF-07           J      T20  need=2   len=6100    have=0  
+  PW-GF-07           J      T20  need=2   len=6100    have=0  
+  PW-GF-09           C      T8   need=6   len=950     have=0  
+  PW-GF-09           D      T8   need=37  len=1200    have=0  
+  PW-GF-09           A1     T8   need=26  len=1350    have=10 
+  PW-GF-09           M      T20  need=2   len=1450    have=0  
+  PW-GF-09           L      T20  need=2   len=2025    have=0  
+  PW-GF-09           K      T16  need=4   len=2050    have=0  
+  PW-GF-09           P      T10  need=7   len=2250    have=0  
+  PW-GF-09           M1     T20  need=2   len=2275    have=0  
+  PW-GF-09           N      T25  need=2   len=2575    have=0  
+  PW-GF-09           A3     T8   need=9   len=5000    have=0  
+  PW-GF-09           I      T16  need=2   len=5000    have=0  
+  PW-GF-09           A4     T8   need=7   len=5050    have=0  
+  PW-GF-09           Q      T16  need=1   len=5850    have=0  
+  PW-GF-09           Q1     T16  need=1   len=5850    have=0  
+  PW-GF-09           Q2     T16  need=1   len=5850    have=0  
+  PW-GF-09           Q3     T16  need=1   len=5850    have=0  
+  PW-GF-09           Q4     T16  need=2   len=5850    have=0  
+  PW-GF-09           O      T20  need=1   len=6100    have=0  
+  PW-GF-18           H3     T16  need=2   len=2900    have=0  
+  PW-GF-18           L      T20  need=1   len=6100    have=0  
+  PW-GF-25           B      T8   need=14  len=900     have=6  
+  PW-GF-25           B1     T8   need=29  len=900     have=0  
+  PW-GF-25           B2     T8   need=26  len=950     have=0  
+  PW-GF-25           H1     T16  need=2   len=1850    have=1  
+  PW-GF-25           K      T20  need=2   len=6100    have=1  
+  PW-GF-26           B1     T8   need=59  len=900     have=11 
+  PW-GF-26           B2     T8   need=52  len=950     have=3  
+  PW-GF-26           C1     T8   need=2   len=950     have=0  
+  PW-GF-26           E      T16  need=4   len=3075    have=0  
+  PW-GF-05           D2     T8   need=33  len=1600    have=0  
+  PW-GF-05           H3     T16  need=2   len=2125    have=0  
+  PW-GF-08           I2     T16  need=4   len=3525    have=0  
+  PW-GF-08           N      T20  need=1   len=6100    have=0  
+  PW-GF-08           N1     T20  need=1   len=6100    have=0  
+  PW-GF-09-combo     P      T10  need=7   len=2250    have=0  
+  PW-GF-11           J      T16  need=3   len=1750    have=0  
+  PW-GF-27           E      T10  need=2   len=1050    have=0  
+  PW-GF-27           G1     T16  need=2   len=1950    have=0  
+  PW-GF-27           G2     T16  need=2   len=2475    have=0  
+  PW-GF-27           G2     T16  need=2   len=2625    have=0  
+  PW-GF-30           G      T16  need=4   len=3150    have=0  

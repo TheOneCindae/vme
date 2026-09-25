@@ -1,0 +1,41 @@
+element         source     from                     bars    length mm  weight kg
+--------------------------------------------------------------------------------
+  PC-GF-01        marks      PC-GF-01_R                134       195725     158.61
+  PW-01-PW-01     marks      PW-01(S).pdf              183       262724     131.30
+  PW-GF-01        marks      PW-GF-01_S                421       735300     566.19
+  PW-GF-02        marks      PW-GF-02_S                375       500950     369.37
+  PW-GF-03        ref PW-GF-02  PW-GF-02_S                375       500950     369.37
+  PW-GF-04        ref PW-GF-02  PW-GF-02_S                375       500950     369.37
+  PW-GF-05        marks      PW-GF-05_S                348       541475     406.09
+  PW-GF-06        marks      PW-GF-06_S                322       459425     314.93
+  PW-GF-07        marks      PW-GF-07_S                254       463800     271.42
+  PW-GF-08        marks      PW-GF-08_S                335       551025     382.46
+  PW-GF-09        marks      PW-GF-09_S                302       443900     328.94
+  PW-GF-10        ref PW-GF-30  PW-GF-30_R2               407       820150     508.51
+  PW-GF-11        marks      PW-GF-11_S                511      1077950     715.62
+  PW-GF-12        ref PW-GF-30  PW-GF-30_R2               407       820150     508.51
+  PW-GF-13        ref PW-GF-11  PW-GF-11_S                511      1077950     715.62
+  PW-GF-14        ref PW-GF-30  PW-GF-30_R2               407       820150     508.51
+  PW-GF-15        ref PW-GF-30  PW-GF-30_R2               407       820150     508.51
+  PW-GF-16        ref PW-GF-30  PW-GF-30_R2               407       820150     508.51
+  PW-GF-17        ref PW-GF-30  PW-GF-30_R2               407       820150     508.51
+  PW-GF-18        marks      PW-GF-18_S                281       407300     265.92
+  PW-GF-19        ref PW-GF-07  PW-GF-07_S                254       463800     271.42
+  PW-GF-20        ref PW-GF-07  PW-GF-07_S                254       463800     271.42
+  PW-GF-21        ref PW-GF-07  PW-GF-07_S                254       463800     271.42
+  PW-GF-22        ref PW-GF-07  PW-GF-07_S                254       463800     271.42
+  PW-GF-23        ref PW-GF-26  PW-GF-26_S                231       369225     217.88
+  PW-GF-24        ref PW-GF-25  PW-GF-25_S                249       370575     247.51
+  PW-GF-25        marks      PW-GF-25_S                249       370575     247.51
+  PW-GF-26        marks      PW-GF-26_S                231       369225     217.88
+  PW-GF-27        marks      PW-GF-27_R2               292       422375     259.90
+  PW-GF-28        ref PW-GF-30  PW-GF-30_R2               407       820150     508.51
+  PW-GF-29        ref PW-GF-30  PW-GF-30_R2               407       820150     508.51
+  PW-GF-30        marks      PW-GF-30_R2               407       820150     508.51
+  PW-GF-31        ref PW-GF-30  PW-GF-30_R2               407       820150     508.51
+  PW-GF-45        summary    PW-GF-45_R                  -       292250     166.41
+  SS-GF-01        summary    SS-GF-01_R                  -       404300     320.97
+--------------------------------------------------------------------------------
+  35 elements                                        11065     20374649   13214.05
+
+  = 20374.6 m of bar, 13.214 tonnes of steel

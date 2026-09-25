@@ -1,0 +1,59 @@
+{
+  "stem": "PW-GF-27(R1)",
+  "sources": {
+    "R_own": [],
+    "S_dwg": {
+      "mtime_gap_days": 0.0,
+      "rows": [],
+      "path": "/Users/jonathan/elco/vme/DRAWINGS/PW-GF-27(S).dwg"
+    },
+    "pdf:PW-GF-27(R1).pdf": {
+      "mtime_gap_days": 0.0,
+      "rows": [],
+      "path": "/Users/jonathan/elco/vme/DRAWINGS/PW-GF-27(R1).pdf"
+    },
+    "pdf:PW-GF-27(M1).pdf": {
+      "mtime_gap_days": 0.0,
+      "rows": [],
+      "path": "/Users/jonathan/elco/vme/DRAWINGS/PW-GF-27(M1).pdf"
+    },
+    "pdf:PW-GF-27(M2).pdf": {
+      "mtime_gap_days": 0.0,
+      "rows": [],
+      "path": "/Users/jonathan/elco/vme/DRAWINGS/PW-GF-27(M2).pdf"
+    },
+    "pdf:PW-GF-27(R2).pdf": {
+      "mtime_gap_days": 0.0,
+      "rows": [
+        {
+          "mark": "I",
+          "diameter": 16,
+          "shape": "Rebar Shape 30",
+          "length_mm": 4850.0,
+          "qty": 1,
+          "weight_kg": 7.66,
+          "total_length_mm": 4850.0,
+          "segments": [
+            950.0,
+            625.0,
+            2550.0,
+            195.0,
+            510.0
+          ]
+        }
+      ],
+      "path": "/Users/jonathan/elco/vme/DRAWINGS/PW-GF-27(R2).pdf"
+    },
+    "pdf:PW-GF-27(S).pdf": {
+      "mtime_gap_days": 0.0,
+      "rows": [],
+      "path": "/Users/jonathan/elco/vme/DRAWINGS/PW-GF-27(S).pdf"
+    }
+  },
+  "cross_check": {
+    "I": {
+      "status": "SINGLE_SOURCE",
+      "detail": "only in pdf:PW-GF-27(R2).pdf: dia=16 shape=Rebar Shape 30 len=4850.0 qty=1"
+    }
+  }
+}

@@ -1,0 +1,8570 @@
+{
+ "model_source": "out/v2/bound/*.json",
+ "elements": [
+  {
+   "element": "PC-GF-01",
+   "sheet": "PC-GF-01_R",
+   "envelope": {
+    "width_mm": 500.0,
+    "height_mm": 4435.0,
+    "thickness_mm": 400.0
+   },
+   "n_model_bars": 115,
+   "views": [
+    {
+     "kind": "end_cut",
+     "title": "ELEVATION (REINF)",
+     "scale": 40.0,
+     "size_mm": [
+      400.0,
+      4435.0
+     ],
+     "counts": {
+      "drawn_runs": 140,
+      "model_runs": 18,
+      "drawn_sections": 2,
+      "model_sections": 88,
+      "model_coincident_collapsed": 9
+     },
+     "per_dia": {
+      "T8": {
+       "drawn_runs": 124,
+       "model_runs": 6,
+       "drawn_sections": 0,
+       "model_sections": 86,
+       "drawn_len_mm": 21453.5,
+       "model_len_mm": 3674.6
+      },
+      "T10": {
+       "drawn_runs": 1,
+       "model_runs": 0,
+       "drawn_sections": 2,
+       "model_sections": 1,
+       "drawn_len_mm": 830.6,
+       "model_len_mm": 0
+      },
+      "T16": {
+       "drawn_runs": 15,
+       "model_runs": 12,
+       "drawn_sections": 0,
+       "model_sections": 1,
+       "drawn_len_mm": 20540.6,
+       "model_len_mm": 24648.1
+      }
+     },
+     "scored": "sections only",
+     "spatial": {
+      "n_model_bars": 88,
+      "no_drawn_bar_of_that_dia": 87,
+      "median_mm": 0.0,
+      "p90_mm": 0.0,
+      "frac_within_25mm": 1.0
+     },
+     "density": {
+      "Y": {
+       "mismatch_pct": 98.86363636363636,
+       "drawn": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+       ],
+       "model": [
+        0.0,
+        8.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        79.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      "Z": {
+       "mismatch_pct": 96.25000000000001,
+       "drawn": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+       ],
+       "model": [
+        9.0,
+        12.0,
+        8.0,
+        8.0,
+        3.0,
+        2.0,
+        3.0,
+        2.0,
+        2.0,
+        2.0,
+        4.0,
+        3.0,
+        3.0,
+        2.0,
+        1.0,
+        3.0,
+        3.0,
+        0.0,
+        6.0,
+        4.0
+       ]
+      }
+     }
+    },
+    {
+     "kind": "elevation",
+     "title": "ELEVATION (REINF)",
+     "scale": 40.0,
+     "size_mm": [
+      500.0,
+      4435.0
+     ],
+     "counts": {
+      "drawn_runs": 144,
+      "model_runs": 105,
+      "drawn_sections": 2,
+      "model_sections": 0,
+      "model_coincident_collapsed": 10
+     },
+     "per_dia": {
+      "T8": {
+       "drawn_runs": 117,
+       "model_runs": 90,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 25717.4,
+       "model_len_mm": 22152.2
+      },
+      "T10": {
+       "drawn_runs": 1,
+       "model_runs": 2,
+       "drawn_sections": 2,
+       "model_sections": 0,
+       "drawn_len_mm": 291.1,
+       "model_len_mm": 2041.2
+      },
+      "T16": {
+       "drawn_runs": 26,
+       "model_runs": 13,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 27080.5,
+       "model_len_mm": 28301.2
+      }
+     },
+     "scored": "all bars",
+     "spatial": {
+      "n_model_bars": 105,
+      "no_drawn_bar_of_that_dia": 0,
+      "median_mm": 0.0,
+      "p90_mm": 16.3,
+      "frac_within_25mm": 0.933
+     },
+     "density": {
+      "X": {
+       "mismatch_pct": 9.773131706919251,
+       "drawn": [
+        0.0,
+        476.6,
+        3736.3,
+        3355.2,
+        2483.4,
+        2277.9,
+        1358.9,
+        8073.6,
+        1818.8,
+        3257.3,
+        1747.2,
+        1798.4,
+        8094.0,
+        1361.9,
+        2293.7,
+        2520.6,
+        3435.7,
+        4493.7,
+        507.8,
+        0.0
+       ],
+       "model": [
+        0.0,
+        397.8,
+        4026.5,
+        2766.1,
+        2022.6,
+        1188.3,
+        1207.4,
+        7906.7,
+        1631.1,
+        6952.9,
+        1601.1,
+        1631.1,
+        7971.2,
+        1191.5,
+        1891.3,
+        1831.1,
+        2664.9,
+        3092.3,
+        366.2,
+        50.2
+       ]
+      },
+      "Z": {
+       "mismatch_pct": 10.493088580589607,
+       "drawn": [
+        3174.4,
+        3535.7,
+        3653.0,
+        3629.1,
+        2178.2,
+        1884.9,
+        1839.7,
+        1824.3,
+        1882.8,
+        2314.9,
+        2471.6,
+        1882.8,
+        1882.8,
+        1902.8,
+        1470.8,
+        1882.8,
+        2133.6,
+        1944.4,
+        1873.1,
+        1507.2
+       ],
+       "model": [
+        4057.3,
+        4717.7,
+        3496.8,
+        3996.5,
+        3252.1,
+        1029.2,
+        1396.0,
+        1240.0,
+        1691.5,
+        1721.6,
+        2280.3,
+        2103.5,
+        2103.5,
+        1711.6,
+        1279.5,
+        2103.5,
+        2381.3,
+        1102.7,
+        1632.7,
+        1047.3
+       ]
+      }
+     }
+    }
+   ],
+   "primary": "elevation",
+   "summary": {
+    "view": "elevation",
+    "drawn_bars": 146,
+    "model_bars": 105,
+    "median_mm": 0.0,
+    "p90_mm": 16.3,
+    "frac_within_25mm": 0.933,
+    "density_mismatch_pct": 10.1
+   }
+  },
+  {
+   "element": "PW-GF-01",
+   "sheet": "PW-GF-01_R",
+   "envelope": {
+    "width_mm": 1310.0,
+    "height_mm": 9095.0,
+    "thickness_mm": 200.0,
+    "n_elevation": 1,
+    "n_plan_cut": 3,
+    "n_end_cut": 1
+   },
+   "n_model_bars": 421,
+   "views": [
+    {
+     "kind": "elevation",
+     "title": "ELEVATION (REINF)",
+     "scale": 50.0,
+     "size_mm": [
+      1310.0,
+      9095.0
+     ],
+     "counts": {
+      "drawn_runs": 432,
+      "model_runs": 419,
+      "drawn_sections": 7,
+      "model_sections": 0,
+      "model_coincident_collapsed": 2
+     },
+     "per_dia": {
+      "T8": {
+       "drawn_runs": 327,
+       "model_runs": 343,
+       "drawn_sections": 7,
+       "model_sections": 0,
+       "drawn_len_mm": 208900.6,
+       "model_len_mm": 337399.5
+      },
+      "T10": {
+       "drawn_runs": 4,
+       "model_runs": 3,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 1297.5,
+       "model_len_mm": 720.0
+      },
+      "T12": {
+       "drawn_runs": 74,
+       "model_runs": 56,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 248557.0,
+       "model_len_mm": 294249.2
+      },
+      "T16": {
+       "drawn_runs": 4,
+       "model_runs": 7,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 18240.5,
+       "model_len_mm": 42487.5
+      },
+      "T20": {
+       "drawn_runs": 16,
+       "model_runs": 10,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 11426.8,
+       "model_len_mm": 23925.6
+      },
+      "T25": {
+       "drawn_runs": 7,
+       "model_runs": 0,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 797.7,
+       "model_len_mm": 0
+      }
+     },
+     "scored": "all bars",
+     "spatial": {
+      "n_model_bars": 419,
+      "no_drawn_bar_of_that_dia": 0,
+      "median_mm": 0.0,
+      "p90_mm": 23.7,
+      "frac_within_25mm": 0.907
+     },
+     "density": {
+      "X": {
+       "mismatch_pct": 13.799469077929263,
+       "drawn": [
+        12478.3,
+        37078.3,
+        22876.9,
+        31880.7,
+        22500.4,
+        32633.4,
+        22243.9,
+        25398.6,
+        16828.8,
+        18863.1,
+        26620.2,
+        17524.1,
+        19015.2,
+        22704.4,
+        31956.4,
+        23190.3,
+        31101.4,
+        22763.0,
+        39172.1,
+        12397.3
+       ],
+       "model": [
+        37095.1,
+        68090.2,
+        41821.1,
+        64642.9,
+        35994.5,
+        48564.8,
+        34278.2,
+        33647.9,
+        11551.6,
+        14282.8,
+        9472.6,
+        11566.8,
+        49828.3,
+        30120.2,
+        42613.5,
+        31318.1,
+        32623.9,
+        31372.6,
+        49398.2,
+        20498.3
+       ]
+      },
+      "Z": {
+       "mismatch_pct": 7.349921229073384,
+       "drawn": [
+        23077.8,
+        23360.6,
+        24752.6,
+        25923.9,
+        24967.9,
+        25543.7,
+        25736.2,
+        24500.6,
+        26251.8,
+        25531.1,
+        24571.0,
+        25828.5,
+        22812.8,
+        22311.6,
+        21735.6,
+        22779.2,
+        23258.8,
+        25001.2,
+        25231.7,
+        22652.3
+       ],
+       "model": [
+        57217.2,
+        44974.6,
+        40968.0,
+        36352.3,
+        34235.0,
+        31139.6,
+        32570.2,
+        28932.0,
+        32468.4,
+        33252.5,
+        31814.0,
+        37720.1,
+        32023.7,
+        26538.6,
+        25002.1,
+        27368.9,
+        29922.6,
+        35291.2,
+        38237.5,
+        39423.4
+       ]
+      }
+     }
+    },
+    {
+     "kind": "end_cut",
+     "title": "SECTION (REINF)",
+     "scale": 50.0,
+     "size_mm": [
+      200.0,
+      9095.0
+     ],
+     "counts": {
+      "drawn_runs": 18,
+      "model_runs": 200,
+      "drawn_sections": 127,
+      "model_sections": 120,
+      "model_coincident_collapsed": 101
+     },
+     "per_dia": {
+      "T8": {
+       "drawn_runs": 1,
+       "model_runs": 168,
+       "drawn_sections": 123,
+       "model_sections": 116,
+       "drawn_len_mm": 280.4,
+       "model_len_mm": 20556.3
+      },
+      "T10": {
+       "drawn_runs": 5,
+       "model_runs": 0,
+       "drawn_sections": 0,
+       "model_sections": 3,
+       "drawn_len_mm": 1222.7,
+       "model_len_mm": 0
+      },
+      "T12": {
+       "drawn_runs": 6,
+       "model_runs": 17,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 19777.6,
+       "model_len_mm": 91677.8
+      },
+      "T16": {
+       "drawn_runs": 0,
+       "model_runs": 6,
+       "drawn_sections": 4,
+       "model_sections": 1,
+       "drawn_len_mm": 0,
+       "model_len_mm": 30830.2
+      },
+      "T20": {
+       "drawn_runs": 6,
+       "model_runs": 9,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 4090.4,
+       "model_len_mm": 20957.2
+      }
+     },
+     "scored": "sections only",
+     "spatial": {
+      "n_model_bars": 120,
+      "no_drawn_bar_of_that_dia": 3,
+      "median_mm": 0.0,
+      "p90_mm": 0.9,
+      "frac_within_25mm": 0.966
+     },
+     "density": {
+      "Y": {
+       "mismatch_pct": 5.347769028871391,
+       "drawn": [
+        0.0,
+        0.0,
+        0.0,
+        62.0,
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        0.0,
+        61.0,
+        0.0,
+        0.0,
+        0.0
+       ],
+       "model": [
+        0.0,
+        0.0,
+        0.0,
+        62.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        3.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        54.0,
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      "Z": {
+       "mismatch_pct": 8.215223097112863,
+       "drawn": [
+        8.0,
+        6.0,
+        6.0,
+        7.0,
+        6.0,
+        6.0,
+        7.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        7.0,
+        6.0,
+        6.0,
+        8.0
+       ],
+       "model": [
+        10.0,
+        8.0,
+        7.0,
+        8.0,
+        6.0,
+        5.0,
+        7.0,
+        4.0,
+        5.0,
+        5.0,
+        4.0,
+        6.0,
+        5.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        5.0,
+        5.0
+       ]
+      }
+     }
+    },
+    {
+     "kind": "plan_cut",
+     "title": "SECTION (REINF)",
+     "scale": 25.0,
+     "size_mm": [
+      1310.0,
+      200.0
+     ],
+     "counts": {
+      "drawn_runs": 20,
+      "model_runs": 71,
+      "drawn_sections": 37,
+      "model_sections": 38,
+      "model_coincident_collapsed": 312
+     },
+     "per_dia": {
+      "T8": {
+       "drawn_runs": 4,
+       "model_runs": 36,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 2142.0,
+       "model_len_mm": 33901.5
+      },
+      "T10": {
+       "drawn_runs": 0,
+       "model_runs": 1,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 0,
+       "model_len_mm": 240.0
+      },
+      "T12": {
+       "drawn_runs": 14,
+       "model_runs": 27,
+       "drawn_sections": 29,
+       "model_sections": 29,
+       "drawn_len_mm": 1624.0,
+       "model_len_mm": 3100.8
+      },
+      "T16": {
+       "drawn_runs": 2,
+       "model_runs": 4,
+       "drawn_sections": 6,
+       "model_sections": 3,
+       "drawn_len_mm": 1137.5,
+       "model_len_mm": 5415.1
+      },
+      "T20": {
+       "drawn_runs": 0,
+       "model_runs": 3,
+       "drawn_sections": 2,
+       "model_sections": 6,
+       "drawn_len_mm": 0,
+       "model_len_mm": 1573.0
+      }
+     },
+     "scored": "sections only",
+     "spatial": {
+      "n_model_bars": 38,
+      "no_drawn_bar_of_that_dia": 0,
+      "median_mm": 0.0,
+      "p90_mm": 54.9,
+      "frac_within_25mm": 0.763
+     },
+     "density": {
+      "X": {
+       "mismatch_pct": 22.972972972972972,
+       "drawn": [
+        1.0,
+        5.0,
+        1.0,
+        3.0,
+        1.0,
+        2.0,
+        1.0,
+        2.0,
+        1.0,
+        2.0,
+        1.0,
+        1.0,
+        2.0,
+        1.0,
+        2.0,
+        1.0,
+        3.0,
+        1.0,
+        5.0,
+        1.0
+       ],
+       "model": [
+        3.0,
+        4.0,
+        2.0,
+        4.0,
+        1.0,
+        2.0,
+        1.0,
+        2.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        5.0,
+        1.0,
+        3.0,
+        1.0,
+        2.0,
+        2.0,
+        3.0,
+        1.0
+       ]
+      },
+      "Y": {
+       "mismatch_pct": 28.947368421052634,
+       "drawn": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        16.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        17.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+       ],
+       "model": [
+        0.0,
+        0.0,
+        0.0,
+        7.0,
+        13.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        4.0,
+        2.0,
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        10.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+       ]
+      }
+     }
+    },
+    {
+     "kind": "plan_cut",
+     "title": "SECTION (REINF)",
+     "scale": 25.0,
+     "size_mm": [
+      1310.0,
+      200.0
+     ],
+     "counts": {
+      "drawn_runs": 14,
+      "model_runs": 71,
+      "drawn_sections": 43,
+      "model_sections": 38,
+      "model_coincident_collapsed": 312
+     },
+     "per_dia": {
+      "T8": {
+       "drawn_runs": 6,
+       "model_runs": 36,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 2562.0,
+       "model_len_mm": 33901.5
+      },
+      "T10": {
+       "drawn_runs": 5,
+       "model_runs": 1,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 894.0,
+       "model_len_mm": 240.0
+      },
+      "T12": {
+       "drawn_runs": 0,
+       "model_runs": 27,
+       "drawn_sections": 29,
+       "model_sections": 29,
+       "drawn_len_mm": 0,
+       "model_len_mm": 3100.8
+      },
+      "T16": {
+       "drawn_runs": 0,
+       "model_runs": 4,
+       "drawn_sections": 4,
+       "model_sections": 3,
+       "drawn_len_mm": 0,
+       "model_len_mm": 5415.1
+      },
+      "T20": {
+       "drawn_runs": 3,
+       "model_runs": 3,
+       "drawn_sections": 10,
+       "model_sections": 6,
+       "drawn_len_mm": 975.6,
+       "model_len_mm": 1573.0
+      }
+     },
+     "scored": "sections only",
+     "spatial": {
+      "n_model_bars": 38,
+      "no_drawn_bar_of_that_dia": 0,
+      "median_mm": 0.0,
+      "p90_mm": 47.2,
+      "frac_within_25mm": 0.763
+     },
+     "density": {
+      "X": {
+       "mismatch_pct": 29.008567931456547,
+       "drawn": [
+        1.0,
+        4.0,
+        2.0,
+        2.0,
+        1.0,
+        2.0,
+        1.0,
+        2.0,
+        3.0,
+        5.0,
+        2.0,
+        3.0,
+        2.0,
+        1.0,
+        2.0,
+        1.0,
+        2.0,
+        2.0,
+        4.0,
+        1.0
+       ],
+       "model": [
+        3.0,
+        4.0,
+        2.0,
+        4.0,
+        1.0,
+        2.0,
+        1.0,
+        2.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        5.0,
+        1.0,
+        3.0,
+        1.0,
+        2.0,
+        2.0,
+        3.0,
+        1.0
+       ]
+      },
+      "Y": {
+       "mismatch_pct": 34.595635430038506,
+       "drawn": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        16.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        3.0,
+        0.0,
+        3.0,
+        17.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+       ],
+       "model": [
+        0.0,
+        0.0,
+        0.0,
+        7.0,
+        13.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        4.0,
+        2.0,
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        10.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+       ]
+      }
+     }
+    },
+    {
+     "kind": "plan_cut",
+     "title": "SECTION (REINF)",
+     "scale": 25.0,
+     "size_mm": [
+      1310.0,
+      200.0
+     ],
+     "counts": {
+      "drawn_runs": 35,
+      "model_runs": 71,
+      "drawn_sections": 38,
+      "model_sections": 38,
+      "model_coincident_collapsed": 312
+     },
+     "per_dia": {
+      "T8": {
+       "drawn_runs": 14,
+       "model_runs": 36,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 5759.8,
+       "model_len_mm": 33901.5
+      },
+      "T10": {
+       "drawn_runs": 0,
+       "model_runs": 1,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 0,
+       "model_len_mm": 240.0
+      },
+      "T12": {
+       "drawn_runs": 13,
+       "model_runs": 27,
+       "drawn_sections": 29,
+       "model_sections": 29,
+       "drawn_len_mm": 1302.4,
+       "model_len_mm": 3100.8
+      },
+      "T16": {
+       "drawn_runs": 8,
+       "model_runs": 4,
+       "drawn_sections": 4,
+       "model_sections": 3,
+       "drawn_len_mm": 519.8,
+       "model_len_mm": 5415.1
+      },
+      "T20": {
+       "drawn_runs": 0,
+       "model_runs": 3,
+       "drawn_sections": 5,
+       "model_sections": 6,
+       "drawn_len_mm": 0,
+       "model_len_mm": 1573.0
+      }
+     },
+     "scored": "sections only",
+     "spatial": {
+      "n_model_bars": 38,
+      "no_drawn_bar_of_that_dia": 0,
+      "median_mm": 0.0,
+      "p90_mm": 40.8,
+      "frac_within_25mm": 0.789
+     },
+     "density": {
+      "X": {
+       "mismatch_pct": 18.421052631578945,
+       "drawn": [
+        1.0,
+        4.0,
+        2.0,
+        2.0,
+        1.0,
+        3.0,
+        1.0,
+        2.0,
+        1.0,
+        1.0,
+        3.0,
+        1.0,
+        2.0,
+        1.0,
+        3.0,
+        1.0,
+        2.0,
+        2.0,
+        4.0,
+        1.0
+       ],
+       "model": [
+        3.0,
+        4.0,
+        2.0,
+        4.0,
+        1.0,
+        2.0,
+        1.0,
+        2.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        5.0,
+        1.0,
+        3.0,
+        1.0,
+        2.0,
+        2.0,
+        3.0,
+        1.0
+       ]
+      },
+      "Y": {
+       "mismatch_pct": 39.473684210526315,
+       "drawn": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        16.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        5.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        17.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+       ],
+       "model": [
+        0.0,
+        0.0,
+        0.0,
+        7.0,
+        13.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        6.0,
+        0.0,
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        10.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+       ]
+      }
+     }
+    }
+   ],
+   "primary": "elevation",
+   "summary": {
+    "view": "elevation",
+    "drawn_bars": 439,
+    "model_bars": 419,
+    "median_mm": 0.0,
+    "p90_mm": 23.7,
+    "frac_within_25mm": 0.907,
+    "density_mismatch_pct": 10.6
+   }
+  },
+  {
+   "element": "PW-GF-02",
+   "sheet": "PW-GF-02_R",
+   "envelope": {
+    "width_mm": 3760.0,
+    "height_mm": 2930.0,
+    "thickness_mm": 160.0,
+    "n_elevation": 1,
+    "n_plan_cut": 3,
+    "n_end_cut": 3
+   },
+   "n_model_bars": 354,
+   "views": [
+    {
+     "kind": "elevation",
+     "title": "ELEVATION(REINF)",
+     "scale": 50.0,
+     "size_mm": [
+      3760.0,
+      2930.0
+     ],
+     "counts": {
+      "drawn_runs": 164,
+      "model_runs": 178,
+      "drawn_sections": 19,
+      "model_sections": 0,
+      "model_coincident_collapsed": 176
+     },
+     "per_dia": {
+      "T8": {
+       "drawn_runs": 96,
+       "model_runs": 158,
+       "drawn_sections": 19,
+       "model_sections": 0,
+       "drawn_len_mm": 92546.2,
+       "model_len_mm": 104669.7
+      },
+      "T10": {
+       "drawn_runs": 3,
+       "model_runs": 3,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 799.9,
+       "model_len_mm": 5475.2
+      },
+      "T12": {
+       "drawn_runs": 21,
+       "model_runs": 12,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 34240.3,
+       "model_len_mm": 12449.8
+      },
+      "T16": {
+       "drawn_runs": 39,
+       "model_runs": 4,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 32867.4,
+       "model_len_mm": 4682.0
+      },
+      "T20": {
+       "drawn_runs": 4,
+       "model_runs": 1,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 8792.0,
+       "model_len_mm": 5223.7
+      },
+      "T25": {
+       "drawn_runs": 1,
+       "model_runs": 0,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 110.0,
+       "model_len_mm": 0
+      }
+     },
+     "scored": "all bars",
+     "spatial": {
+      "n_model_bars": 178,
+      "no_drawn_bar_of_that_dia": 0,
+      "median_mm": 22.6,
+      "p90_mm": 540.5,
+      "frac_within_25mm": 0.511
+     },
+     "density": {
+      "X": {
+       "mismatch_pct": 18.15465407817737,
+       "drawn": [
+        12155.5,
+        8779.3,
+        9539.7,
+        9919.6,
+        8019.7,
+        8669.6,
+        10924.5,
+        9241.8,
+        9680.8,
+        14627.1,
+        8756.2,
+        5789.1,
+        3238.2,
+        4822.3,
+        3268.2,
+        5006.4,
+        5862.0,
+        9824.3,
+        9116.4,
+        12134.0
+       ],
+       "model": [
+        8020.6,
+        5597.3,
+        5649.1,
+        5499.6,
+        6110.1,
+        4107.3,
+        6250.9,
+        6112.5,
+        7419.3,
+        6919.5,
+        3786.5,
+        2560.5,
+        1792.3,
+        2560.5,
+        2777.3,
+        4958.6,
+        7626.3,
+        13139.1,
+        15619.0,
+        14741.2
+       ]
+      },
+      "Z": {
+       "mismatch_pct": 34.73126766677028,
+       "drawn": [
+        6964.0,
+        15493.4,
+        8352.8,
+        6348.1,
+        6682.9,
+        4400.3,
+        5632.5,
+        3562.6,
+        5297.7,
+        5510.3,
+        3560.5,
+        5726.2,
+        3896.6,
+        5836.7,
+        9744.2,
+        15094.9,
+        9035.2,
+        12501.6,
+        9902.4,
+        19887.2
+       ],
+       "model": [
+        17275.8,
+        23481.1,
+        24253.3,
+        9488.7,
+        5140.9,
+        2021.9,
+        1259.5,
+        1199.5,
+        1078.0,
+        979.5,
+        3070.6,
+        2159.6,
+        1258.3,
+        1184.4,
+        1325.2,
+        4599.3,
+        5939.9,
+        7210.0,
+        6832.5,
+        10291.0
+       ]
+      }
+     }
+    },
+    {
+     "kind": "end_cut",
+     "title": "SECTION(REINF)",
+     "scale": 50.0,
+     "size_mm": [
+      160.0,
+      2930.0
+     ],
+     "counts": {
+      "drawn_runs": 30,
+      "model_runs": 77,
+      "drawn_sections": 122,
+      "model_sections": 39,
+      "model_coincident_collapsed": 238
+     },
+     "per_dia": {
+      "T8": {
+       "drawn_runs": 20,
+       "model_runs": 64,
+       "drawn_sections": 94,
+       "model_sections": 38,
+       "drawn_len_mm": 1840.0,
+       "model_len_mm": 15202.6
+      },
+      "T10": {
+       "drawn_runs": 0,
+       "model_runs": 2,
+       "drawn_sections": 8,
+       "model_sections": 1,
+       "drawn_len_mm": 0,
+       "model_len_mm": 1014.2
+      },
+      "T12": {
+       "drawn_runs": 3,
+       "model_runs": 7,
+       "drawn_sections": 2,
+       "model_sections": 0,
+       "drawn_len_mm": 5858.7,
+       "model_len_mm": 5668.6
+      },
+      "T16": {
+       "drawn_runs": 7,
+       "model_runs": 3,
+       "drawn_sections": 14,
+       "model_sections": 0,
+       "drawn_len_mm": 3150.9,
+       "model_len_mm": 3299.8
+      },
+      "T20": {
+       "drawn_runs": 0,
+       "model_runs": 1,
+       "drawn_sections": 4,
+       "model_sections": 0,
+       "drawn_len_mm": 0,
+       "model_len_mm": 1580.0
+      }
+     },
+     "scored": "sections only",
+     "spatial": {
+      "n_model_bars": 39,
+      "no_drawn_bar_of_that_dia": 0,
+      "median_mm": 0.0,
+      "p90_mm": 0.0,
+      "frac_within_25mm": 0.974
+     },
+     "density": {
+      "Y": {
+       "mismatch_pct": 63.00966792770072,
+       "drawn": [
+        0.0,
+        0.0,
+        0.0,
+        8.0,
+        26.0,
+        3.0,
+        4.0,
+        0.0,
+        21.0,
+        0.0,
+        0.0,
+        21.0,
+        0.0,
+        4.0,
+        3.0,
+        26.0,
+        6.0,
+        0.0,
+        0.0,
+        0.0
+       ],
+       "model": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        19.0,
+        0.0,
+        0.0,
+        19.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      "Z": {
+       "mismatch_pct": 22.824716267339213,
+       "drawn": [
+        10.0,
+        10.0,
+        5.0,
+        4.0,
+        4.0,
+        8.0,
+        4.0,
+        4.0,
+        6.0,
+        4.0,
+        4.0,
+        6.0,
+        4.0,
+        6.0,
+        5.0,
+        10.0,
+        6.0,
+        6.0,
+        4.0,
+        12.0
+       ],
+       "model": [
+        2.0,
+        3.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        4.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        0.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        0.0
+       ]
+      }
+     }
+    },
+    {
+     "kind": "end_cut",
+     "title": "SECTION(REINF)",
+     "scale": 50.0,
+     "size_mm": [
+      160.0,
+      2930.0
+     ],
+     "counts": {
+      "drawn_runs": 8,
+      "model_runs": 77,
+      "drawn_sections": 32,
+      "model_sections": 39,
+      "model_coincident_collapsed": 238
+     },
+     "per_dia": {
+      "T8": {
+       "drawn_runs": 5,
+       "model_runs": 64,
+       "drawn_sections": 10,
+       "model_sections": 38,
+       "drawn_len_mm": 2112.0,
+       "model_len_mm": 15202.6
+      },
+      "T10": {
+       "drawn_runs": 0,
+       "model_runs": 2,
+       "drawn_sections": 8,
+       "model_sections": 1,
+       "drawn_len_mm": 0,
+       "model_len_mm": 1014.2
+      },
+      "T12": {
+       "drawn_runs": 2,
+       "model_runs": 7,
+       "drawn_sections": 2,
+       "model_sections": 0,
+       "drawn_len_mm": 412.0,
+       "model_len_mm": 5668.6
+      },
+      "T16": {
+       "drawn_runs": 1,
+       "model_runs": 3,
+       "drawn_sections": 8,
+       "model_sections": 0,
+       "drawn_len_mm": 370.0,
+       "model_len_mm": 3299.8
+      },
+      "T20": {
+       "drawn_runs": 0,
+       "model_runs": 1,
+       "drawn_sections": 4,
+       "model_sections": 0,
+       "drawn_len_mm": 0,
+       "model_len_mm": 1580.0
+      }
+     },
+     "scored": "sections only",
+     "spatial": {
+      "n_model_bars": 39,
+      "no_drawn_bar_of_that_dia": 0,
+      "median_mm": 384.5,
+      "p90_mm": 905.1,
+      "frac_within_25mm": 0.0
+     },
+     "density": {
+      "Y": {
+       "mismatch_pct": 97.43589743589745,
+       "drawn": [
+        0.0,
+        0.0,
+        0.0,
+        8.0,
+        5.0,
+        0.0,
+        4.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        4.0,
+        0.0,
+        5.0,
+        6.0,
+        0.0,
+        0.0,
+        0.0
+       ],
+       "model": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        19.0,
+        0.0,
+        0.0,
+        19.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      "Z": {
+       "mismatch_pct": 65.5448717948718,
+       "drawn": [
+        6.0,
+        6.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        6.0,
+        2.0,
+        2.0,
+        0.0,
+        8.0
+       ],
+       "model": [
+        2.0,
+        3.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        4.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        0.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        0.0
+       ]
+      }
+     }
+    },
+    {
+     "kind": "end_cut",
+     "title": "SECTION(REINF)",
+     "scale": 50.0,
+     "size_mm": [
+      160.0,
+      2930.0
+     ],
+     "counts": {
+      "drawn_runs": 8,
+      "model_runs": 77,
+      "drawn_sections": 49,
+      "model_sections": 39,
+      "model_coincident_collapsed": 238
+     },
+     "per_dia": {
+      "T8": {
+       "drawn_runs": 4,
+       "model_runs": 64,
+       "drawn_sections": 26,
+       "model_sections": 38,
+       "drawn_len_mm": 4010.0,
+       "model_len_mm": 15202.6
+      },
+      "T10": {
+       "drawn_runs": 0,
+       "model_runs": 2,
+       "drawn_sections": 10,
+       "model_sections": 1,
+       "drawn_len_mm": 0,
+       "model_len_mm": 1014.2
+      },
+      "T12": {
+       "drawn_runs": 2,
+       "model_runs": 7,
+       "drawn_sections": 1,
+       "model_sections": 0,
+       "drawn_len_mm": 412.0,
+       "model_len_mm": 5668.6
+      },
+      "T16": {
+       "drawn_runs": 2,
+       "model_runs": 3,
+       "drawn_sections": 8,
+       "model_sections": 0,
+       "drawn_len_mm": 940.0,
+       "model_len_mm": 3299.8
+      },
+      "T20": {
+       "drawn_runs": 0,
+       "model_runs": 1,
+       "drawn_sections": 4,
+       "model_sections": 0,
+       "drawn_len_mm": 0,
+       "model_len_mm": 1580.0
+      }
+     },
+     "scored": "sections only",
+     "spatial": {
+      "n_model_bars": 39,
+      "no_drawn_bar_of_that_dia": 0,
+      "median_mm": 59.6,
+      "p90_mm": 106.0,
+      "frac_within_25mm": 0.0
+     },
+     "density": {
+      "Y": {
+       "mismatch_pct": 97.43589743589743,
+       "drawn": [
+        0.0,
+        0.0,
+        0.0,
+        7.0,
+        13.0,
+        0.0,
+        5.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        5.0,
+        0.0,
+        13.0,
+        6.0,
+        0.0,
+        0.0,
+        0.0
+       ],
+       "model": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        19.0,
+        0.0,
+        0.0,
+        19.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      "Z": {
+       "mismatch_pct": 43.27577184720042,
+       "drawn": [
+        8.0,
+        6.0,
+        1.0,
+        2.0,
+        2.0,
+        0.0,
+        2.0,
+        0.0,
+        2.0,
+        2.0,
+        0.0,
+        2.0,
+        0.0,
+        2.0,
+        2.0,
+        6.0,
+        2.0,
+        2.0,
+        0.0,
+        8.0
+       ],
+       "model": [
+        2.0,
+        3.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        4.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        0.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        0.0
+       ]
+      }
+     }
+    },
+    {
+     "kind": "plan_cut",
+     "title": "SECTION(REINF)",
+     "scale": 50.0,
+     "size_mm": [
+      3760.0,
+      160.0
+     ],
+     "counts": {
+      "drawn_runs": 53,
+      "model_runs": 104,
+      "drawn_sections": 190,
+      "model_sections": 92,
+      "model_coincident_collapsed": 158
+     },
+     "per_dia": {
+      "T8": {
+       "drawn_runs": 42,
+       "model_runs": 85,
+       "drawn_sections": 156,
+       "model_sections": 85,
+       "drawn_len_mm": 7079.6,
+       "model_len_mm": 16493.8
+      },
+      "T10": {
+       "drawn_runs": 8,
+       "model_runs": 3,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 4957.6,
+       "model_len_mm": 4529.6
+      },
+      "T12": {
+       "drawn_runs": 0,
+       "model_runs": 14,
+       "drawn_sections": 20,
+       "model_sections": 4,
+       "drawn_len_mm": 0,
+       "model_len_mm": 1606.3
+      },
+      "T16": {
+       "drawn_runs": 2,
+       "model_runs": 1,
+       "drawn_sections": 14,
+       "model_sections": 3,
+       "drawn_len_mm": 660.1,
+       "model_len_mm": 544.0
+      },
+      "T20": {
+       "drawn_runs": 1,
+       "model_runs": 1,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 276.0,
+       "model_len_mm": 3680.0
+      }
+     },
+     "scored": "sections only",
+     "spatial": {
+      "n_model_bars": 92,
+      "no_drawn_bar_of_that_dia": 0,
+      "median_mm": 0.0,
+      "p90_mm": 221.6,
+      "frac_within_25mm": 0.641
+     },
+     "density": {
+      "X": {
+       "mismatch_pct": 14.771544245228457,
+       "drawn": [
+        14.0,
+        13.0,
+        12.0,
+        12.0,
+        12.0,
+        8.0,
+        16.0,
+        8.0,
+        12.0,
+        12.0,
+        9.0,
+        12.0,
+        4.0,
+        8.0,
+        4.0,
+        8.0,
+        12.0,
+        3.0,
+        5.0,
+        6.0
+       ],
+       "model": [
+        7.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        4.0,
+        6.0,
+        6.0,
+        7.0,
+        8.0,
+        3.0,
+        1.0,
+        1.0,
+        1.0,
+        3.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0
+       ]
+      },
+      "Y": {
+       "mismatch_pct": 33.72997711670481,
+       "drawn": [
+        0.0,
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        93.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        91.0,
+        0.0,
+        2.0,
+        0.0,
+        0.0,
+        0.0
+       ],
+       "model": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        17.0,
+        30.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        15.0,
+        0.0,
+        0.0,
+        0.0,
+        30.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+       ]
+      }
+     }
+    },
+    {
+     "kind": "plan_cut",
+     "title": "SECTION(REINF)",
+     "scale": 50.0,
+     "size_mm": [
+      3760.0,
+      160.0
+     ],
+     "counts": {
+      "drawn_runs": 16,
+      "model_runs": 104,
+      "drawn_sections": 46,
+      "model_sections": 92,
+      "model_coincident_collapsed": 158
+     },
+     "per_dia": {
+      "T8": {
+       "drawn_runs": 16,
+       "model_runs": 85,
+       "drawn_sections": 24,
+       "model_sections": 85,
+       "drawn_len_mm": 3905.5,
+       "model_len_mm": 16493.8
+      },
+      "T10": {
+       "drawn_runs": 0,
+       "model_runs": 3,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 0,
+       "model_len_mm": 4529.6
+      },
+      "T12": {
+       "drawn_runs": 0,
+       "model_runs": 14,
+       "drawn_sections": 20,
+       "model_sections": 4,
+       "drawn_len_mm": 0,
+       "model_len_mm": 1606.3
+      },
+      "T16": {
+       "drawn_runs": 0,
+       "model_runs": 1,
+       "drawn_sections": 2,
+       "model_sections": 3,
+       "drawn_len_mm": 0,
+       "model_len_mm": 544.0
+      },
+      "T20": {
+       "drawn_runs": 0,
+       "model_runs": 1,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 0,
+       "model_len_mm": 3680.0
+      }
+     },
+     "scored": "sections only",
+     "spatial": {
+      "n_model_bars": 92,
+      "no_drawn_bar_of_that_dia": 0,
+      "median_mm": 52.1,
+      "p90_mm": 1680.3,
+      "frac_within_25mm": 0.402
+     },
+     "density": {
+      "X": {
+       "mismatch_pct": 28.88198757763975,
+       "drawn": [
+        7.0,
+        2.0,
+        2.0,
+        4.0,
+        2.0,
+        2.0,
+        4.0,
+        2.0,
+        2.0,
+        6.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        3.0,
+        4.0,
+        5.0
+       ],
+       "model": [
+        7.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        4.0,
+        6.0,
+        6.0,
+        7.0,
+        8.0,
+        3.0,
+        1.0,
+        1.0,
+        1.0,
+        3.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0
+       ]
+      },
+      "Y": {
+       "mismatch_pct": 30.43478260869565,
+       "drawn": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        23.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        21.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+       ],
+       "model": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        17.0,
+        30.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        15.0,
+        0.0,
+        0.0,
+        0.0,
+        30.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+       ]
+      }
+     }
+    },
+    {
+     "kind": "plan_cut",
+     "title": "SECTION(REINF)",
+     "scale": 50.0,
+     "size_mm": [
+      3760.0,
+      160.0
+     ],
+     "counts": {
+      "drawn_runs": 43,
+      "model_runs": 104,
+      "drawn_sections": 187,
+      "model_sections": 92,
+      "model_coincident_collapsed": 158
+     },
+     "per_dia": {
+      "T8": {
+       "drawn_runs": 32,
+       "model_runs": 85,
+       "drawn_sections": 151,
+       "model_sections": 85,
+       "drawn_len_mm": 2633.3,
+       "model_len_mm": 16493.8
+      },
+      "T10": {
+       "drawn_runs": 3,
+       "model_runs": 3,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 476.8,
+       "model_len_mm": 4529.6
+      },
+      "T12": {
+       "drawn_runs": 1,
+       "model_runs": 14,
+       "drawn_sections": 20,
+       "model_sections": 4,
+       "drawn_len_mm": 602.7,
+       "model_len_mm": 1606.3
+      },
+      "T16": {
+       "drawn_runs": 5,
+       "model_runs": 1,
+       "drawn_sections": 12,
+       "model_sections": 3,
+       "drawn_len_mm": 1140.1,
+       "model_len_mm": 544.0
+      },
+      "T20": {
+       "drawn_runs": 1,
+       "model_runs": 1,
+       "drawn_sections": 4,
+       "model_sections": 0,
+       "drawn_len_mm": 427.0,
+       "model_len_mm": 3680.0
+      },
+      "T25": {
+       "drawn_runs": 1,
+       "model_runs": 0,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 430.7,
+       "model_len_mm": 0
+      }
+     },
+     "scored": "sections only",
+     "spatial": {
+      "n_model_bars": 92,
+      "no_drawn_bar_of_that_dia": 0,
+      "median_mm": 0.0,
+      "p90_mm": 45.4,
+      "frac_within_25mm": 0.804
+     },
+     "density": {
+      "X": {
+       "mismatch_pct": 14.920373743903156,
+       "drawn": [
+        14.0,
+        11.0,
+        12.0,
+        9.0,
+        11.0,
+        8.0,
+        13.0,
+        8.0,
+        11.0,
+        11.0,
+        10.0,
+        12.0,
+        5.0,
+        10.0,
+        5.0,
+        9.0,
+        10.0,
+        5.0,
+        5.0,
+        8.0
+       ],
+       "model": [
+        7.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        4.0,
+        6.0,
+        6.0,
+        7.0,
+        8.0,
+        3.0,
+        1.0,
+        1.0,
+        1.0,
+        3.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0
+       ]
+      },
+      "Y": {
+       "mismatch_pct": 18.739827946989067,
+       "drawn": [
+        0.0,
+        0.0,
+        0.0,
+        2.0,
+        1.0,
+        77.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        29.0,
+        0.0,
+        0.0,
+        0.0,
+        75.0,
+        1.0,
+        2.0,
+        0.0,
+        0.0,
+        0.0
+       ],
+       "model": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        17.0,
+        30.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        15.0,
+        0.0,
+        0.0,
+        0.0,
+        30.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+       ]
+      }
+     }
+    }
+   ],
+   "primary": "elevation",
+   "summary": {
+    "view": "elevation",
+    "drawn_bars": 183,
+    "model_bars": 178,
+    "median_mm": 22.6,
+    "p90_mm": 540.5,
+    "frac_within_25mm": 0.511,
+    "density_mismatch_pct": 26.4
+   }
+  },
+  {
+   "element": "PW-GF-05",
+   "sheet": "PW-GF-05_R1",
+   "envelope": {
+    "width_mm": 1475.0,
+    "height_mm": 5095.0,
+    "thickness_mm": 400.0,
+    "n_elevation": 1,
+    "n_plan_cut": 0,
+    "n_end_cut": 1
+   },
+   "n_model_bars": 348,
+   "views": [
+    {
+     "kind": "elevation",
+     "title": "ELEVATION (REINF)",
+     "scale": 50.0,
+     "size_mm": [
+      1475.0,
+      5095.0
+     ],
+     "counts": {
+      "drawn_runs": 304,
+      "model_runs": 336,
+      "drawn_sections": 6,
+      "model_sections": 0,
+      "model_coincident_collapsed": 12
+     },
+     "per_dia": {
+      "T8": {
+       "drawn_runs": 200,
+       "model_runs": 274,
+       "drawn_sections": 4,
+       "model_sections": 0,
+       "drawn_len_mm": 80028.6,
+       "model_len_mm": 195979.6
+      },
+      "T10": {
+       "drawn_runs": 33,
+       "model_runs": 28,
+       "drawn_sections": 2,
+       "model_sections": 0,
+       "drawn_len_mm": 68092.3,
+       "model_len_mm": 126149.8
+      },
+      "T16": {
+       "drawn_runs": 56,
+       "model_runs": 29,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 39322.3,
+       "model_len_mm": 70124.8
+      },
+      "T20": {
+       "drawn_runs": 2,
+       "model_runs": 2,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 4700.0,
+       "model_len_mm": 4720.0
+      },
+      "T25": {
+       "drawn_runs": 8,
+       "model_runs": 3,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 5901.8,
+       "model_len_mm": 6900.0
+      },
+      "T32": {
+       "drawn_runs": 5,
+       "model_runs": 0,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 729.3,
+       "model_len_mm": 0
+      }
+     },
+     "scored": "all bars",
+     "spatial": {
+      "n_model_bars": 336,
+      "no_drawn_bar_of_that_dia": 0,
+      "median_mm": 4.0,
+      "p90_mm": 52.0,
+      "frac_within_25mm": 0.741
+     },
+     "density": {
+      "X": {
+       "mismatch_pct": 15.698891535384632,
+       "drawn": [
+        6956.0,
+        14494.7,
+        14908.0,
+        12843.0,
+        7099.9,
+        3393.5,
+        13084.7,
+        8150.6,
+        3508.2,
+        8499.1,
+        10558.2,
+        8071.2,
+        8050.1,
+        3956.8,
+        14278.8,
+        15780.1,
+        7003.8,
+        18596.7,
+        12079.1,
+        7468.0
+       ],
+       "model": [
+        21976.5,
+        33680.7,
+        33462.0,
+        32969.0,
+        26712.0,
+        12310.2,
+        24067.3,
+        18370.6,
+        6451.1,
+        15749.5,
+        17655.0,
+        11365.6,
+        23432.0,
+        12592.3,
+        18604.0,
+        14826.4,
+        12431.7,
+        21518.1,
+        18431.2,
+        22424.0
+       ]
+      },
+      "Z": {
+       "mismatch_pct": 6.21032547498869,
+       "drawn": [
+        12321.8,
+        11947.1,
+        11540.3,
+        10872.1,
+        11393.0,
+        8338.6,
+        9856.0,
+        9961.1,
+        8870.9,
+        7646.3,
+        9974.0,
+        9526.7,
+        7909.8,
+        10066.4,
+        10759.7,
+        9588.2,
+        11484.9,
+        7548.0,
+        8578.7,
+        7286.7
+       ],
+       "model": [
+        21382.6,
+        25565.5,
+        30938.5,
+        21799.0,
+        17101.0,
+        15108.2,
+        19511.5,
+        17538.3,
+        17098.0,
+        14878.1,
+        17575.6,
+        21126.6,
+        13798.8,
+        23268.4,
+        24659.9,
+        18921.3,
+        26287.8,
+        20174.7,
+        16223.2,
+        16686.2
+       ]
+      }
+     }
+    }
+   ],
+   "primary": "elevation",
+   "summary": {
+    "view": "elevation",
+    "drawn_bars": 310,
+    "model_bars": 336,
+    "median_mm": 4.0,
+    "p90_mm": 52.0,
+    "frac_within_25mm": 0.741,
+    "density_mismatch_pct": 11.0
+   }
+  },
+  {
+   "element": "PW-GF-06",
+   "sheet": "PW-GF-06_R",
+   "envelope": {
+    "width_mm": 1180.0,
+    "height_mm": 5095.0,
+    "thickness_mm": 400.0,
+    "n_elevation": 1,
+    "n_plan_cut": 3,
+    "n_end_cut": 2
+   },
+   "n_model_bars": 322,
+   "views": [
+    {
+     "kind": "elevation",
+     "title": "ELEVATION (REINF)",
+     "scale": 40.0,
+     "size_mm": [
+      1180.0,
+      5095.0
+     ],
+     "counts": {
+      "drawn_runs": 275,
+      "model_runs": 228,
+      "drawn_sections": 5,
+      "model_sections": 0,
+      "model_coincident_collapsed": 94
+     },
+     "per_dia": {
+      "T8": {
+       "drawn_runs": 219,
+       "model_runs": 202,
+       "drawn_sections": 5,
+       "model_sections": 0,
+       "drawn_len_mm": 181331.4,
+       "model_len_mm": 256119.3
+      },
+      "T10": {
+       "drawn_runs": 9,
+       "model_runs": 4,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 3385.3,
+       "model_len_mm": 6600.0
+      },
+      "T12": {
+       "drawn_runs": 4,
+       "model_runs": 2,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 2217.8,
+       "model_len_mm": 1650.0
+      },
+      "T16": {
+       "drawn_runs": 23,
+       "model_runs": 15,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 16031.7,
+       "model_len_mm": 42819.3
+      },
+      "T20": {
+       "drawn_runs": 7,
+       "model_runs": 3,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 9606.2,
+       "model_len_mm": 12126.8
+      },
+      "T25": {
+       "drawn_runs": 3,
+       "model_runs": 2,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 3941.1,
+       "model_len_mm": 3700.0
+      },
+      "T32": {
+       "drawn_runs": 10,
+       "model_runs": 0,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 1674.5,
+       "model_len_mm": 0
+      }
+     },
+     "scored": "all bars",
+     "spatial": {
+      "n_model_bars": 228,
+      "no_drawn_bar_of_that_dia": 0,
+      "median_mm": 0.8,
+      "p90_mm": 23.7,
+      "frac_within_25mm": 0.904
+     },
+     "density": {
+      "X": {
+       "mismatch_pct": 16.957251853429053,
+       "drawn": [
+        2346.3,
+        11364.2,
+        15757.0,
+        11976.5,
+        10501.5,
+        16318.2,
+        9621.1,
+        10935.0,
+        9908.2,
+        8871.0,
+        14968.3,
+        14618.0,
+        9541.9,
+        14770.1,
+        3024.3,
+        15324.8,
+        14210.9,
+        10606.7,
+        10391.3,
+        3137.5
+       ],
+       "model": [
+        12832.4,
+        24858.7,
+        14342.3,
+        20008.3,
+        13281.1,
+        34941.5,
+        17111.1,
+        13157.5,
+        19780.8,
+        9453.3,
+        16219.2,
+        14550.5,
+        13331.8,
+        24378.7,
+        8477.6,
+        21424.4,
+        6906.5,
+        12374.8,
+        5048.7,
+        7129.0
+       ]
+      },
+      "Z": {
+       "mismatch_pct": 8.815696976952678,
+       "drawn": [
+        10354.8,
+        12437.3,
+        11023.1,
+        10202.0,
+        11141.1,
+        10854.4,
+        11462.5,
+        10594.6,
+        12035.2,
+        12035.5,
+        10361.4,
+        10266.1,
+        11030.8,
+        10689.0,
+        11325.5,
+        9919.9,
+        11385.5,
+        8592.5,
+        11313.5,
+        9205.9
+       ],
+       "model": [
+        20053.8,
+        21382.5,
+        20625.4,
+        19886.9,
+        18540.9,
+        15132.5,
+        19148.2,
+        15392.3,
+        18717.9,
+        21490.5,
+        14597.5,
+        13540.8,
+        17812.9,
+        16803.1,
+        13407.7,
+        12180.8,
+        14146.1,
+        10655.8,
+        9151.8,
+        7158.4
+       ]
+      }
+     }
+    },
+    {
+     "kind": "plan_cut",
+     "title": "SECTION (REINF)",
+     "scale": 25.0,
+     "size_mm": [
+      1180.0,
+      400.0
+     ],
+     "counts": {
+      "drawn_runs": 28,
+      "model_runs": 69,
+      "drawn_sections": 67,
+      "model_sections": 46,
+      "model_coincident_collapsed": 207
+     },
+     "per_dia": {
+      "T8": {
+       "drawn_runs": 18,
+       "model_runs": 50,
+       "drawn_sections": 41,
+       "model_sections": 30,
+       "drawn_len_mm": 4458.3,
+       "model_len_mm": 34008.5
+      },
+      "T10": {
+       "drawn_runs": 0,
+       "model_runs": 5,
+       "drawn_sections": 0,
+       "model_sections": 2,
+       "drawn_len_mm": 0,
+       "model_len_mm": 2585.0
+      },
+      "T12": {
+       "drawn_runs": 0,
+       "model_runs": 2,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 0,
+       "model_len_mm": 1650.0
+      },
+      "T16": {
+       "drawn_runs": 10,
+       "model_runs": 11,
+       "drawn_sections": 24,
+       "model_sections": 8,
+       "drawn_len_mm": 1208.3,
+       "model_len_mm": 4444.2
+      },
+      "T20": {
+       "drawn_runs": 0,
+       "model_runs": 1,
+       "drawn_sections": 2,
+       "model_sections": 2,
+       "drawn_len_mm": 0,
+       "model_len_mm": 622.4
+      },
+      "T25": {
+       "drawn_runs": 0,
+       "model_runs": 0,
+       "drawn_sections": 0,
+       "model_sections": 4,
+       "drawn_len_mm": 0,
+       "model_len_mm": 0
+      }
+     },
+     "scored": "sections only",
+     "spatial": {
+      "n_model_bars": 46,
+      "no_drawn_bar_of_that_dia": 6,
+      "median_mm": 0.0,
+      "p90_mm": 76.9,
+      "frac_within_25mm": 0.8
+     },
+     "density": {
+      "X": {
+       "mismatch_pct": 26.703439325113564,
+       "drawn": [
+        1.0,
+        6.0,
+        2.0,
+        4.0,
+        1.0,
+        4.0,
+        1.0,
+        3.0,
+        3.0,
+        1.0,
+        5.0,
+        3.0,
+        1.0,
+        6.0,
+        2.0,
+        5.0,
+        4.0,
+        7.0,
+        3.0,
+        5.0
+       ],
+       "model": [
+        1.0,
+        5.0,
+        0.0,
+        1.0,
+        0.0,
+        4.0,
+        1.0,
+        2.0,
+        4.0,
+        1.0,
+        2.0,
+        4.0,
+        2.0,
+        6.0,
+        0.0,
+        5.0,
+        2.0,
+        0.0,
+        2.0,
+        4.0
+       ]
+      },
+      "Y": {
+       "mismatch_pct": 14.957819597663851,
+       "drawn": [
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        0.0,
+        2.0,
+        2.0,
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        0.0,
+        24.0,
+        2.0,
+        4.0,
+        0.0,
+        2.0,
+        27.0,
+        0.0,
+        0.0
+       ],
+       "model": [
+        0.0,
+        1.0,
+        2.0,
+        0.0,
+        3.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        16.0,
+        1.0,
+        4.0,
+        0.0,
+        1.0,
+        16.0,
+        0.0,
+        0.0
+       ]
+      }
+     }
+    },
+    {
+     "kind": "plan_cut",
+     "title": "SECTION (REINF)",
+     "scale": 25.0,
+     "size_mm": [
+      1180.0,
+      400.0
+     ],
+     "counts": {
+      "drawn_runs": 15,
+      "model_runs": 69,
+      "drawn_sections": 49,
+      "model_sections": 46,
+      "model_coincident_collapsed": 207
+     },
+     "per_dia": {
+      "T8": {
+       "drawn_runs": 8,
+       "model_runs": 50,
+       "drawn_sections": 25,
+       "model_sections": 30,
+       "drawn_len_mm": 3228.7,
+       "model_len_mm": 34008.5
+      },
+      "T10": {
+       "drawn_runs": 6,
+       "model_runs": 5,
+       "drawn_sections": 10,
+       "model_sections": 2,
+       "drawn_len_mm": 1964.4,
+       "model_len_mm": 2585.0
+      },
+      "T12": {
+       "drawn_runs": 1,
+       "model_runs": 2,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 805.0,
+       "model_len_mm": 1650.0
+      },
+      "T16": {
+       "drawn_runs": 0,
+       "model_runs": 11,
+       "drawn_sections": 10,
+       "model_sections": 8,
+       "drawn_len_mm": 0,
+       "model_len_mm": 4444.2
+      },
+      "T20": {
+       "drawn_runs": 0,
+       "model_runs": 1,
+       "drawn_sections": 4,
+       "model_sections": 2,
+       "drawn_len_mm": 0,
+       "model_len_mm": 622.4
+      },
+      "T25": {
+       "drawn_runs": 0,
+       "model_runs": 0,
+       "drawn_sections": 0,
+       "model_sections": 4,
+       "drawn_len_mm": 0,
+       "model_len_mm": 0
+      }
+     },
+     "scored": "sections only",
+     "spatial": {
+      "n_model_bars": 46,
+      "no_drawn_bar_of_that_dia": 4,
+      "median_mm": 4.7,
+      "p90_mm": 57.3,
+      "frac_within_25mm": 0.81
+     },
+     "density": {
+      "X": {
+       "mismatch_pct": 23.425022182786158,
+       "drawn": [
+        1.0,
+        4.0,
+        4.0,
+        1.0,
+        3.0,
+        2.0,
+        1.0,
+        3.0,
+        1.0,
+        1.0,
+        4.0,
+        2.0,
+        2.0,
+        6.0,
+        0.0,
+        5.0,
+        2.0,
+        1.0,
+        1.0,
+        5.0
+       ],
+       "model": [
+        1.0,
+        5.0,
+        0.0,
+        1.0,
+        0.0,
+        4.0,
+        1.0,
+        2.0,
+        4.0,
+        1.0,
+        2.0,
+        4.0,
+        2.0,
+        6.0,
+        0.0,
+        5.0,
+        2.0,
+        0.0,
+        2.0,
+        4.0
+       ]
+      },
+      "Y": {
+       "mismatch_pct": 21.960958296362023,
+       "drawn": [
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        5.0,
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        14.0,
+        0.0,
+        2.0,
+        0.0,
+        0.0,
+        22.0,
+        0.0,
+        0.0
+       ],
+       "model": [
+        0.0,
+        1.0,
+        2.0,
+        0.0,
+        3.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        16.0,
+        1.0,
+        4.0,
+        0.0,
+        1.0,
+        16.0,
+        0.0,
+        0.0
+       ]
+      }
+     }
+    },
+    {
+     "kind": "plan_cut",
+     "title": "SECTION (REINF)",
+     "scale": 25.0,
+     "size_mm": [
+      1180.0,
+      400.0
+     ],
+     "counts": {
+      "drawn_runs": 20,
+      "model_runs": 69,
+      "drawn_sections": 27,
+      "model_sections": 46,
+      "model_coincident_collapsed": 207
+     },
+     "per_dia": {
+      "T8": {
+       "drawn_runs": 18,
+       "model_runs": 50,
+       "drawn_sections": 17,
+       "model_sections": 30,
+       "drawn_len_mm": 6009.9,
+       "model_len_mm": 34008.5
+      },
+      "T10": {
+       "drawn_runs": 0,
+       "model_runs": 5,
+       "drawn_sections": 0,
+       "model_sections": 2,
+       "drawn_len_mm": 0,
+       "model_len_mm": 2585.0
+      },
+      "T12": {
+       "drawn_runs": 0,
+       "model_runs": 2,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 0,
+       "model_len_mm": 1650.0
+      },
+      "T16": {
+       "drawn_runs": 2,
+       "model_runs": 11,
+       "drawn_sections": 4,
+       "model_sections": 8,
+       "drawn_len_mm": 1495.6,
+       "model_len_mm": 4444.2
+      },
+      "T20": {
+       "drawn_runs": 0,
+       "model_runs": 1,
+       "drawn_sections": 2,
+       "model_sections": 2,
+       "drawn_len_mm": 0,
+       "model_len_mm": 622.4
+      },
+      "T25": {
+       "drawn_runs": 0,
+       "model_runs": 0,
+       "drawn_sections": 4,
+       "model_sections": 4,
+       "drawn_len_mm": 0,
+       "model_len_mm": 0
+      }
+     },
+     "scored": "sections only",
+     "spatial": {
+      "n_model_bars": 46,
+      "no_drawn_bar_of_that_dia": 2,
+      "median_mm": 12.1,
+      "p90_mm": 226.8,
+      "frac_within_25mm": 0.682
+     },
+     "density": {
+      "X": {
+       "mismatch_pct": 31.88405797101449,
+       "drawn": [
+        1.0,
+        2.0,
+        3.0,
+        1.0,
+        1.0,
+        2.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        2.0,
+        2.0,
+        1.0,
+        4.0,
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        2.0,
+        0.0
+       ],
+       "model": [
+        1.0,
+        5.0,
+        0.0,
+        1.0,
+        0.0,
+        4.0,
+        1.0,
+        2.0,
+        4.0,
+        1.0,
+        2.0,
+        4.0,
+        2.0,
+        6.0,
+        0.0,
+        5.0,
+        2.0,
+        0.0,
+        2.0,
+        4.0
+       ]
+      },
+      "Y": {
+       "mismatch_pct": 16.50563607085346,
+       "drawn": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        10.0,
+        0.0,
+        2.0,
+        2.0,
+        0.0,
+        11.0,
+        0.0,
+        0.0
+       ],
+       "model": [
+        0.0,
+        1.0,
+        2.0,
+        0.0,
+        3.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        16.0,
+        1.0,
+        4.0,
+        0.0,
+        1.0,
+        16.0,
+        0.0,
+        0.0
+       ]
+      }
+     }
+    }
+   ],
+   "primary": "elevation",
+   "summary": {
+    "view": "elevation",
+    "drawn_bars": 280,
+    "model_bars": 228,
+    "median_mm": 0.8,
+    "p90_mm": 23.7,
+    "frac_within_25mm": 0.904,
+    "density_mismatch_pct": 12.9
+   }
+  },
+  {
+   "element": "PW-GF-07",
+   "sheet": "PW-GF-07_R",
+   "envelope": {
+    "width_mm": 2154.5,
+    "height_mm": 5095.0,
+    "thickness_mm": 200.0,
+    "n_elevation": 1,
+    "n_plan_cut": 2,
+    "n_end_cut": 1
+   },
+   "n_model_bars": 254,
+   "views": [
+    {
+     "kind": "elevation",
+     "title": "ELEVATION (REINF)",
+     "scale": 40.0,
+     "size_mm": [
+      2154.5,
+      5095.0
+     ],
+     "counts": {
+      "drawn_runs": 265,
+      "model_runs": 232,
+      "drawn_sections": 10,
+      "model_sections": 0,
+      "model_coincident_collapsed": 22
+     },
+     "per_dia": {
+      "T8": {
+       "drawn_runs": 225,
+       "model_runs": 207,
+       "drawn_sections": 10,
+       "model_sections": 0,
+       "drawn_len_mm": 247900.7,
+       "model_len_mm": 332530.9
+      },
+      "T10": {
+       "drawn_runs": 10,
+       "model_runs": 10,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 2242.2,
+       "model_len_mm": 22500.0
+      },
+      "T12": {
+       "drawn_runs": 9,
+       "model_runs": 5,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 6749.1,
+       "model_len_mm": 9575.0
+      },
+      "T16": {
+       "drawn_runs": 6,
+       "model_runs": 5,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 8788.6,
+       "model_len_mm": 20674.9
+      },
+      "T20": {
+       "drawn_runs": 12,
+       "model_runs": 5,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 16135.7,
+       "model_len_mm": 15355.8
+      },
+      "T25": {
+       "drawn_runs": 2,
+       "model_runs": 0,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 226.3,
+       "model_len_mm": 0
+      },
+      "T32": {
+       "drawn_runs": 1,
+       "model_runs": 0,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 89.6,
+       "model_len_mm": 0
+      }
+     },
+     "scored": "all bars",
+     "spatial": {
+      "n_model_bars": 232,
+      "no_drawn_bar_of_that_dia": 0,
+      "median_mm": 0.0,
+      "p90_mm": 31.4,
+      "frac_within_25mm": 0.879
+     },
+     "density": {
+      "X": {
+       "mismatch_pct": 10.73884253331418,
+       "drawn": [
+        11771.9,
+        22629.9,
+        21347.3,
+        10303.3,
+        19363.3,
+        10728.8,
+        11758.5,
+        10939.3,
+        11981.7,
+        12686.0,
+        16073.0,
+        6821.1,
+        16264.5,
+        11668.5,
+        11359.6,
+        20228.0,
+        10262.4,
+        16713.8,
+        16739.4,
+        12502.0
+       ],
+       "model": [
+        22245.1,
+        30774.9,
+        26660.7,
+        17513.5,
+        18720.9,
+        14458.0,
+        10063.9,
+        15009.6,
+        13444.9,
+        16326.8,
+        18351.9,
+        13275.2,
+        20047.3,
+        25211.3,
+        14756.7,
+        21195.5,
+        17633.1,
+        30841.2,
+        23809.2,
+        29618.7
+       ]
+      },
+      "Z": {
+       "mismatch_pct": 10.716528296250097,
+       "drawn": [
+        14495.9,
+        13538.7,
+        9786.9,
+        10570.6,
+        12759.4,
+        13414.7,
+        15530.5,
+        12636.3,
+        14642.6,
+        13516.0,
+        12626.9,
+        14896.9,
+        13949.1,
+        14193.2,
+        12985.5,
+        13210.4,
+        12174.4,
+        18543.0,
+        17763.3,
+        15805.5
+       ],
+       "model": [
+        38788.6,
+        29066.2,
+        18550.9,
+        19841.6,
+        18023.1,
+        15389.2,
+        19045.1,
+        16073.8,
+        16666.1,
+        14608.1,
+        13599.0,
+        15668.3,
+        16189.4,
+        19382.5,
+        16343.0,
+        23023.4,
+        14480.3,
+        22772.2,
+        23096.8,
+        22818.6
+       ]
+      }
+     }
+    },
+    {
+     "kind": "end_cut",
+     "title": "SECTION (REINF)",
+     "scale": 40.0,
+     "size_mm": [
+      200.0,
+      5095.0
+     ],
+     "counts": {
+      "drawn_runs": 10,
+      "model_runs": 87,
+      "drawn_sections": 69,
+      "model_sections": 83,
+      "model_coincident_collapsed": 84
+     },
+     "per_dia": {
+      "T8": {
+       "drawn_runs": 4,
+       "model_runs": 72,
+       "drawn_sections": 60,
+       "model_sections": 80,
+       "drawn_len_mm": 11211.7,
+       "model_len_mm": 56103.6
+      },
+      "T10": {
+       "drawn_runs": 5,
+       "model_runs": 4,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 2024.3,
+       "model_len_mm": 6629.2
+      },
+      "T12": {
+       "drawn_runs": 0,
+       "model_runs": 0,
+       "drawn_sections": 5,
+       "model_sections": 3,
+       "drawn_len_mm": 0,
+       "model_len_mm": 0
+      },
+      "T16": {
+       "drawn_runs": 0,
+       "model_runs": 8,
+       "drawn_sections": 4,
+       "model_sections": 0,
+       "drawn_len_mm": 0,
+       "model_len_mm": 27984.0
+      },
+      "T20": {
+       "drawn_runs": 1,
+       "model_runs": 3,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 2020.0,
+       "model_len_mm": 8690.4
+      }
+     },
+     "scored": "sections only",
+     "spatial": {
+      "n_model_bars": 83,
+      "no_drawn_bar_of_that_dia": 0,
+      "median_mm": 0.0,
+      "p90_mm": 72.3,
+      "frac_within_25mm": 0.711
+     },
+     "density": {
+      "Y": {
+       "mismatch_pct": 25.30120481927711,
+       "drawn": [
+        0.0,
+        0.0,
+        0.0,
+        30.0,
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.0,
+        3.0,
+        0.0,
+        0.0,
+        30.0,
+        0.0,
+        0.0,
+        0.0
+       ],
+       "model": [
+        0.0,
+        0.0,
+        0.0,
+        35.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        1.0,
+        20.0,
+        25.0,
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      "Z": {
+       "mismatch_pct": 18.25733474726052,
+       "drawn": [
+        6.0,
+        2.0,
+        4.0,
+        2.0,
+        4.0,
+        2.0,
+        4.0,
+        2.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        2.0,
+        4.0,
+        2.0,
+        7.0,
+        4.0,
+        6.0
+       ],
+       "model": [
+        8.0,
+        2.0,
+        4.0,
+        2.0,
+        4.0,
+        2.0,
+        4.0,
+        2.0,
+        5.0,
+        5.0,
+        4.0,
+        6.0,
+        5.0,
+        5.0,
+        5.0,
+        6.0,
+        4.0,
+        4.0,
+        2.0,
+        3.0
+       ]
+      }
+     }
+    },
+    {
+     "kind": "plan_cut",
+     "title": "SECTION (REINF)",
+     "scale": 25.0,
+     "size_mm": [
+      2154.5,
+      200.0
+     ],
+     "counts": {
+      "drawn_runs": 53,
+      "model_runs": 116,
+      "drawn_sections": 32,
+      "model_sections": 30,
+      "model_coincident_collapsed": 108
+     },
+     "per_dia": {
+      "T8": {
+       "drawn_runs": 27,
+       "model_runs": 97,
+       "drawn_sections": 23,
+       "model_sections": 23,
+       "drawn_len_mm": 9540.1,
+       "model_len_mm": 48666.4
+      },
+      "T10": {
+       "drawn_runs": 9,
+       "model_runs": 10,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 2441.9,
+       "model_len_mm": 6271.0
+      },
+      "T12": {
+       "drawn_runs": 8,
+       "model_runs": 5,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 2818.9,
+       "model_len_mm": 9575.0
+      },
+      "T16": {
+       "drawn_runs": 9,
+       "model_runs": 4,
+       "drawn_sections": 4,
+       "model_sections": 4,
+       "drawn_len_mm": 3308.9,
+       "model_len_mm": 6326.0
+      },
+      "T20": {
+       "drawn_runs": 0,
+       "model_runs": 0,
+       "drawn_sections": 5,
+       "model_sections": 3,
+       "drawn_len_mm": 0,
+       "model_len_mm": 0
+      }
+     },
+     "scored": "sections only",
+     "spatial": {
+      "n_model_bars": 30,
+      "no_drawn_bar_of_that_dia": 0,
+      "median_mm": 0.0,
+      "p90_mm": 83.7,
+      "frac_within_25mm": 0.733
+     },
+     "density": {
+      "X": {
+       "mismatch_pct": 23.749999999999996,
+       "drawn": [
+        3.0,
+        2.0,
+        2.0,
+        0.0,
+        3.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        2.0,
+        2.0,
+        0.0,
+        2.0,
+        1.0,
+        1.0,
+        3.0,
+        0.0,
+        2.0,
+        1.0,
+        4.0
+       ],
+       "model": [
+        3.0,
+        2.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        2.0,
+        2.0,
+        1.0,
+        2.0,
+        1.0,
+        3.0,
+        2.0,
+        6.0
+       ]
+      },
+      "Y": {
+       "mismatch_pct": 26.249999999999996,
+       "drawn": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        13.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        5.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        14.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+       ],
+       "model": [
+        0.0,
+        0.0,
+        0.0,
+        6.0,
+        6.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        3.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        15.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+       ]
+      }
+     }
+    },
+    {
+     "kind": "plan_cut",
+     "title": "SECTION (REINF)",
+     "scale": 25.0,
+     "size_mm": [
+      2154.5,
+      200.0
+     ],
+     "counts": {
+      "drawn_runs": 26,
+      "model_runs": 116,
+      "drawn_sections": 51,
+      "model_sections": 30,
+      "model_coincident_collapsed": 108
+     },
+     "per_dia": {
+      "T8": {
+       "drawn_runs": 20,
+       "model_runs": 97,
+       "drawn_sections": 45,
+       "model_sections": 23,
+       "drawn_len_mm": 3911.7,
+       "model_len_mm": 48666.4
+      },
+      "T10": {
+       "drawn_runs": 0,
+       "model_runs": 10,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 0,
+       "model_len_mm": 6271.0
+      },
+      "T12": {
+       "drawn_runs": 0,
+       "model_runs": 5,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 0,
+       "model_len_mm": 9575.0
+      },
+      "T16": {
+       "drawn_runs": 6,
+       "model_runs": 4,
+       "drawn_sections": 4,
+       "model_sections": 4,
+       "drawn_len_mm": 3957.4,
+       "model_len_mm": 6326.0
+      },
+      "T20": {
+       "drawn_runs": 0,
+       "model_runs": 0,
+       "drawn_sections": 2,
+       "model_sections": 3,
+       "drawn_len_mm": 0,
+       "model_len_mm": 0
+      }
+     },
+     "scored": "sections only",
+     "spatial": {
+      "n_model_bars": 30,
+      "no_drawn_bar_of_that_dia": 0,
+      "median_mm": 0.0,
+      "p90_mm": 60.2,
+      "frac_within_25mm": 0.667
+     },
+     "density": {
+      "X": {
+       "mismatch_pct": 30.19607843137255,
+       "drawn": [
+        3.0,
+        4.0,
+        4.0,
+        0.0,
+        4.0,
+        1.0,
+        3.0,
+        1.0,
+        3.0,
+        3.0,
+        2.0,
+        2.0,
+        2.0,
+        3.0,
+        1.0,
+        4.0,
+        0.0,
+        4.0,
+        3.0,
+        4.0
+       ],
+       "model": [
+        3.0,
+        2.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        2.0,
+        2.0,
+        1.0,
+        2.0,
+        1.0,
+        3.0,
+        2.0,
+        6.0
+       ]
+      },
+      "Y": {
+       "mismatch_pct": 27.058823529411768,
+       "drawn": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        24.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        25.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+       ],
+       "model": [
+        0.0,
+        0.0,
+        0.0,
+        6.0,
+        6.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        3.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        15.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+       ]
+      }
+     }
+    }
+   ],
+   "primary": "elevation",
+   "summary": {
+    "view": "elevation",
+    "drawn_bars": 275,
+    "model_bars": 232,
+    "median_mm": 0.0,
+    "p90_mm": 31.4,
+    "frac_within_25mm": 0.879,
+    "density_mismatch_pct": 10.7
+   }
+  },
+  {
+   "element": "PW-GF-08 [2155x5095x200]",
+   "sheet": "PW-GF-08_R2",
+   "envelope": {
+    "width_mm": 2155.0,
+    "height_mm": 5095.0,
+    "thickness_mm": 200.0
+   },
+   "n_model_bars": 277,
+   "views": [
+    {
+     "kind": "end_cut",
+     "title": "SECTION (REINF)",
+     "scale": 40.0,
+     "size_mm": [
+      200.0,
+      5095.0
+     ],
+     "counts": {
+      "drawn_runs": 10,
+      "model_runs": 93,
+      "drawn_sections": 68,
+      "model_sections": 47,
+      "model_coincident_collapsed": 137
+     },
+     "per_dia": {
+      "T8": {
+       "drawn_runs": 4,
+       "model_runs": 65,
+       "drawn_sections": 60,
+       "model_sections": 32,
+       "drawn_len_mm": 11211.7,
+       "model_len_mm": 40155.9
+      },
+      "T10": {
+       "drawn_runs": 5,
+       "model_runs": 2,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 2024.3,
+       "model_len_mm": 526.4
+      },
+      "T12": {
+       "drawn_runs": 0,
+       "model_runs": 0,
+       "drawn_sections": 4,
+       "model_sections": 15,
+       "drawn_len_mm": 0,
+       "model_len_mm": 0
+      },
+      "T16": {
+       "drawn_runs": 0,
+       "model_runs": 17,
+       "drawn_sections": 4,
+       "model_sections": 0,
+       "drawn_len_mm": 0,
+       "model_len_mm": 34385.4
+      },
+      "T20": {
+       "drawn_runs": 1,
+       "model_runs": 7,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 2020.0,
+       "model_len_mm": 14876.1
+      },
+      "T25": {
+       "drawn_runs": 0,
+       "model_runs": 2,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 0,
+       "model_len_mm": 1352.8
+      }
+     },
+     "scored": "sections only",
+     "spatial": {
+      "n_model_bars": 47,
+      "no_drawn_bar_of_that_dia": 0,
+      "median_mm": 0.0,
+      "p90_mm": 4980.8,
+      "frac_within_25mm": 0.723
+     },
+     "density": {
+      "Y": {
+       "mismatch_pct": 52.323232323232325,
+       "drawn": [
+        0.0,
+        0.0,
+        0.0,
+        30.0,
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        3.0,
+        0.0,
+        0.0,
+        30.0,
+        0.0,
+        0.0,
+        0.0
+       ],
+       "model": [
+        0.0,
+        0.0,
+        0.0,
+        44.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      "Z": {
+       "mismatch_pct": 15.648567119155354,
+       "drawn": [
+        6.0,
+        2.0,
+        4.0,
+        2.0,
+        4.0,
+        2.0,
+        4.0,
+        2.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        2.0,
+        4.0,
+        2.0,
+        6.0,
+        4.0,
+        6.0
+       ],
+       "model": [
+        8.0,
+        1.0,
+        2.0,
+        1.0,
+        2.0,
+        1.0,
+        2.0,
+        1.0,
+        1.0,
+        2.0,
+        1.0,
+        2.0,
+        1.0,
+        2.0,
+        1.0,
+        2.0,
+        1.0,
+        3.0,
+        3.0,
+        2.0
+       ]
+      }
+     }
+    },
+    {
+     "kind": "plan_cut",
+     "title": "SECTION (REINF)",
+     "scale": 25.0,
+     "size_mm": [
+      2155.4,
+      200.0
+     ],
+     "counts": {
+      "drawn_runs": 45,
+      "model_runs": 33,
+      "drawn_sections": 32,
+      "model_sections": 123,
+      "model_coincident_collapsed": 121
+     },
+     "per_dia": {
+      "T8": {
+       "drawn_runs": 25,
+       "model_runs": 20,
+       "drawn_sections": 23,
+       "model_sections": 90,
+       "drawn_len_mm": 7976.4,
+       "model_len_mm": 6100.6
+      },
+      "T10": {
+       "drawn_runs": 11,
+       "model_runs": 0,
+       "drawn_sections": 0,
+       "model_sections": 11,
+       "drawn_len_mm": 3211.3,
+       "model_len_mm": 0
+      },
+      "T12": {
+       "drawn_runs": 6,
+       "model_runs": 4,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 3961.5,
+       "model_len_mm": 6413.2
+      },
+      "T16": {
+       "drawn_runs": 3,
+       "model_runs": 7,
+       "drawn_sections": 4,
+       "model_sections": 13,
+       "drawn_len_mm": 4150.6,
+       "model_len_mm": 9015.6
+      },
+      "T20": {
+       "drawn_runs": 0,
+       "model_runs": 2,
+       "drawn_sections": 5,
+       "model_sections": 7,
+       "drawn_len_mm": 0,
+       "model_len_mm": 1213.2
+      },
+      "T25": {
+       "drawn_runs": 0,
+       "model_runs": 0,
+       "drawn_sections": 0,
+       "model_sections": 2,
+       "drawn_len_mm": 0,
+       "model_len_mm": 0
+      }
+     },
+     "scored": "sections only",
+     "spatial": {
+      "n_model_bars": 123,
+      "no_drawn_bar_of_that_dia": 13,
+      "median_mm": 96.8,
+      "p90_mm": 212.7,
+      "frac_within_25mm": 0.382
+     },
+     "density": {
+      "X": {
+       "mismatch_pct": 17.110655737704917,
+       "drawn": [
+        3.0,
+        2.0,
+        2.0,
+        0.0,
+        3.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        3.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        2.0,
+        1.0,
+        2.0,
+        2.0,
+        3.0
+       ],
+       "model": [
+        11.0,
+        6.0,
+        10.0,
+        2.0,
+        11.0,
+        4.0,
+        7.0,
+        2.0,
+        6.0,
+        8.0,
+        2.0,
+        6.0,
+        6.0,
+        10.0,
+        2.0,
+        6.0,
+        2.0,
+        8.0,
+        5.0,
+        8.0
+       ]
+      },
+      "Y": {
+       "mismatch_pct": 51.388888888888886,
+       "drawn": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        13.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        5.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        14.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+       ],
+       "model": [
+        0.0,
+        0.0,
+        0.0,
+        35.0,
+        18.0,
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        3.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        14.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+       ]
+      }
+     }
+    }
+   ],
+   "primary": "end_cut",
+   "summary": {
+    "view": "end_cut",
+    "drawn_bars": 78,
+    "model_bars": 140,
+    "median_mm": 0.0,
+    "p90_mm": 4980.8,
+    "frac_within_25mm": 0.723,
+    "density_mismatch_pct": 34.0
+   }
+  },
+  {
+   "element": "PW-GF-09 [1500x5055x400]",
+   "sheet": "PW-GF-09_R2",
+   "envelope": {
+    "width_mm": 1500.1,
+    "height_mm": 5055.0,
+    "thickness_mm": 400.0,
+    "n_elevation": 0,
+    "n_plan_cut": 3,
+    "n_end_cut": 1
+   },
+   "n_model_bars": 289,
+   "views": [
+    {
+     "kind": "end_cut",
+     "title": "SECTION (REINF)",
+     "scale": 40.0,
+     "size_mm": [
+      400.0,
+      5055.0
+     ],
+     "counts": {
+      "drawn_runs": 89,
+      "model_runs": 138,
+      "drawn_sections": 0,
+      "model_sections": 55,
+      "model_coincident_collapsed": 96
+     },
+     "per_dia": {
+      "T8": {
+       "drawn_runs": 56,
+       "model_runs": 112,
+       "drawn_sections": 0,
+       "model_sections": 52,
+       "drawn_len_mm": 16843.1,
+       "model_len_mm": 49732.7
+      },
+      "T10": {
+       "drawn_runs": 1,
+       "model_runs": 3,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 62.6,
+       "model_len_mm": 735.9
+      },
+      "T12": {
+       "drawn_runs": 11,
+       "model_runs": 3,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 2615.6,
+       "model_len_mm": 1623.3
+      },
+      "T16": {
+       "drawn_runs": 18,
+       "model_runs": 15,
+       "drawn_sections": 0,
+       "model_sections": 2,
+       "drawn_len_mm": 20941.5,
+       "model_len_mm": 33882.3
+      },
+      "T20": {
+       "drawn_runs": 2,
+       "model_runs": 4,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 716.0,
+       "model_len_mm": 6222.2
+      },
+      "T25": {
+       "drawn_runs": 1,
+       "model_runs": 1,
+       "drawn_sections": 0,
+       "model_sections": 1,
+       "drawn_len_mm": 1174.5,
+       "model_len_mm": 992.7
+      }
+     },
+     "scored": "sections only",
+     "spatial": {
+      "n_model_bars": 55,
+      "no_drawn_bar_of_that_dia": 55,
+      "median_mm": null,
+      "p90_mm": null,
+      "frac_within_25mm": null
+     },
+     "density": {
+      "Y": {
+       "mismatch_pct": null,
+       "drawn": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+       ],
+       "model": [
+        0.0,
+        54.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      "Z": {
+       "mismatch_pct": null,
+       "drawn": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+       ],
+       "model": [
+        5.0,
+        1.0,
+        3.0,
+        3.0,
+        3.0,
+        2.0,
+        3.0,
+        2.0,
+        3.0,
+        4.0,
+        3.0,
+        3.0,
+        1.0,
+        3.0,
+        3.0,
+        3.0,
+        2.0,
+        2.0,
+        3.0,
+        2.0
+       ]
+      }
+     }
+    },
+    {
+     "kind": "plan_cut",
+     "title": "SECTION (REINF)",
+     "scale": 25.0,
+     "size_mm": [
+      1500.1,
+      400.0
+     ],
+     "counts": {
+      "drawn_runs": 38,
+      "model_runs": 78,
+      "drawn_sections": 27,
+      "model_sections": 55,
+      "model_coincident_collapsed": 156
+     },
+     "per_dia": {
+      "T8": {
+       "drawn_runs": 22,
+       "model_runs": 68,
+       "drawn_sections": 16,
+       "model_sections": 23,
+       "drawn_len_mm": 5493.6,
+       "model_len_mm": 14124.1
+      },
+      "T10": {
+       "drawn_runs": 9,
+       "model_runs": 0,
+       "drawn_sections": 0,
+       "model_sections": 7,
+       "drawn_len_mm": 1830.8,
+       "model_len_mm": 0
+      },
+      "T12": {
+       "drawn_runs": 2,
+       "model_runs": 1,
+       "drawn_sections": 0,
+       "model_sections": 10,
+       "drawn_len_mm": 2145.0,
+       "model_len_mm": 683.9
+      },
+      "T16": {
+       "drawn_runs": 5,
+       "model_runs": 8,
+       "drawn_sections": 8,
+       "model_sections": 8,
+       "drawn_len_mm": 2248.8,
+       "model_len_mm": 6791.5
+      },
+      "T20": {
+       "drawn_runs": 0,
+       "model_runs": 0,
+       "drawn_sections": 3,
+       "model_sections": 6,
+       "drawn_len_mm": 0,
+       "model_len_mm": 0
+      },
+      "T25": {
+       "drawn_runs": 0,
+       "model_runs": 1,
+       "drawn_sections": 0,
+       "model_sections": 1,
+       "drawn_len_mm": 0,
+       "model_len_mm": 1174.5
+      }
+     },
+     "scored": "sections only",
+     "spatial": {
+      "n_model_bars": 55,
+      "no_drawn_bar_of_that_dia": 18,
+      "median_mm": 209.4,
+      "p90_mm": 296.7,
+      "frac_within_25mm": 0.351
+     },
+     "density": {
+      "X": {
+       "mismatch_pct": 30.303030303030305,
+       "drawn": [
+        1.0,
+        3.0,
+        4.0,
+        0.0,
+        1.0,
+        1.0,
+        2.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        2.0,
+        0.0,
+        2.0,
+        0.0,
+        1.0,
+        2.0,
+        2.0,
+        2.0
+       ],
+       "model": [
+        3.0,
+        2.0,
+        5.0,
+        1.0,
+        5.0,
+        1.0,
+        2.0,
+        2.0,
+        1.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        1.0,
+        2.0,
+        2.0,
+        2.0,
+        1.0,
+        5.0,
+        1.0
+       ]
+      },
+      "Y": {
+       "mismatch_pct": 76.36363636363637,
+       "drawn": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        8.0,
+        0.0,
+        0.0,
+        5.0,
+        0.0,
+        10.0,
+        0.0,
+        0.0
+       ],
+       "model": [
+        0.0,
+        41.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        8.0,
+        0.0,
+        0.0,
+        4.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+       ]
+      }
+     }
+    },
+    {
+     "kind": "plan_cut",
+     "title": "SECTION (REINF)",
+     "scale": 25.0,
+     "size_mm": [
+      1500.1,
+      400.0
+     ],
+     "counts": {
+      "drawn_runs": 30,
+      "model_runs": 78,
+      "drawn_sections": 29,
+      "model_sections": 55,
+      "model_coincident_collapsed": 156
+     },
+     "per_dia": {
+      "T8": {
+       "drawn_runs": 10,
+       "model_runs": 68,
+       "drawn_sections": 16,
+       "model_sections": 23,
+       "drawn_len_mm": 3841.3,
+       "model_len_mm": 14124.1
+      },
+      "T10": {
+       "drawn_runs": 0,
+       "model_runs": 0,
+       "drawn_sections": 0,
+       "model_sections": 7,
+       "drawn_len_mm": 0,
+       "model_len_mm": 0
+      },
+      "T12": {
+       "drawn_runs": 11,
+       "model_runs": 1,
+       "drawn_sections": 0,
+       "model_sections": 10,
+       "drawn_len_mm": 2620.4,
+       "model_len_mm": 683.9
+      },
+      "T16": {
+       "drawn_runs": 0,
+       "model_runs": 8,
+       "drawn_sections": 8,
+       "model_sections": 8,
+       "drawn_len_mm": 0,
+       "model_len_mm": 6791.5
+      },
+      "T20": {
+       "drawn_runs": 5,
+       "model_runs": 0,
+       "drawn_sections": 5,
+       "model_sections": 6,
+       "drawn_len_mm": 3733.5,
+       "model_len_mm": 0
+      },
+      "T25": {
+       "drawn_runs": 4,
+       "model_runs": 1,
+       "drawn_sections": 0,
+       "model_sections": 1,
+       "drawn_len_mm": 2203.7,
+       "model_len_mm": 1174.5
+      }
+     },
+     "scored": "sections only",
+     "spatial": {
+      "n_model_bars": 55,
+      "no_drawn_bar_of_that_dia": 18,
+      "median_mm": 205.6,
+      "p90_mm": 256.8,
+      "frac_within_25mm": 0.27
+     },
+     "density": {
+      "X": {
+       "mismatch_pct": 34.71786833855799,
+       "drawn": [
+        6.0,
+        0.0,
+        3.0,
+        3.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        2.0,
+        0.0,
+        1.0,
+        2.0,
+        2.0,
+        2.0
+       ],
+       "model": [
+        3.0,
+        2.0,
+        5.0,
+        1.0,
+        5.0,
+        1.0,
+        2.0,
+        2.0,
+        1.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        1.0,
+        2.0,
+        2.0,
+        2.0,
+        1.0,
+        5.0,
+        1.0
+       ]
+      },
+      "Y": {
+       "mismatch_pct": 77.81818181818181,
+       "drawn": [
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        0.0,
+        8.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        12.0,
+        0.0,
+        0.0
+       ],
+       "model": [
+        0.0,
+        41.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        8.0,
+        0.0,
+        0.0,
+        4.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+       ]
+      }
+     }
+    },
+    {
+     "kind": "plan_cut",
+     "title": "SECTION (REINF)",
+     "scale": 25.0,
+     "size_mm": [
+      1500.1,
+      400.0
+     ],
+     "counts": {
+      "drawn_runs": 26,
+      "model_runs": 78,
+      "drawn_sections": 53,
+      "model_sections": 55,
+      "model_coincident_collapsed": 156
+     },
+     "per_dia": {
+      "T8": {
+       "drawn_runs": 17,
+       "model_runs": 68,
+       "drawn_sections": 30,
+       "model_sections": 23,
+       "drawn_len_mm": 4653.3,
+       "model_len_mm": 14124.1
+      },
+      "T10": {
+       "drawn_runs": 0,
+       "model_runs": 0,
+       "drawn_sections": 0,
+       "model_sections": 7,
+       "drawn_len_mm": 0,
+       "model_len_mm": 0
+      },
+      "T12": {
+       "drawn_runs": 0,
+       "model_runs": 1,
+       "drawn_sections": 0,
+       "model_sections": 10,
+       "drawn_len_mm": 0,
+       "model_len_mm": 683.9
+      },
+      "T16": {
+       "drawn_runs": 8,
+       "model_runs": 8,
+       "drawn_sections": 22,
+       "model_sections": 8,
+       "drawn_len_mm": 2360.7,
+       "model_len_mm": 6791.5
+      },
+      "T20": {
+       "drawn_runs": 1,
+       "model_runs": 0,
+       "drawn_sections": 1,
+       "model_sections": 6,
+       "drawn_len_mm": 176.2,
+       "model_len_mm": 0
+      },
+      "T25": {
+       "drawn_runs": 0,
+       "model_runs": 1,
+       "drawn_sections": 0,
+       "model_sections": 1,
+       "drawn_len_mm": 0,
+       "model_len_mm": 1174.5
+      }
+     },
+     "scored": "sections only",
+     "spatial": {
+      "n_model_bars": 55,
+      "no_drawn_bar_of_that_dia": 18,
+      "median_mm": 208.6,
+      "p90_mm": 582.5,
+      "frac_within_25mm": 0.27
+     },
+     "density": {
+      "X": {
+       "mismatch_pct": 23.24185248713551,
+       "drawn": [
+        6.0,
+        5.0,
+        6.0,
+        3.0,
+        3.0,
+        1.0,
+        1.0,
+        3.0,
+        0.0,
+        3.0,
+        1.0,
+        3.0,
+        1.0,
+        0.0,
+        4.0,
+        0.0,
+        3.0,
+        2.0,
+        6.0,
+        2.0
+       ],
+       "model": [
+        3.0,
+        2.0,
+        5.0,
+        1.0,
+        5.0,
+        1.0,
+        2.0,
+        2.0,
+        1.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        1.0,
+        2.0,
+        2.0,
+        2.0,
+        1.0,
+        5.0,
+        1.0
+       ]
+      },
+      "Y": {
+       "mismatch_pct": 79.93138936535163,
+       "drawn": [
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        0.0,
+        2.0,
+        2.0,
+        0.0,
+        2.0,
+        0.0,
+        2.0,
+        2.0,
+        15.0,
+        2.0,
+        2.0,
+        1.0,
+        2.0,
+        19.0,
+        0.0,
+        0.0
+       ],
+       "model": [
+        0.0,
+        41.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        8.0,
+        0.0,
+        0.0,
+        4.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+       ]
+      }
+     }
+    }
+   ],
+   "primary": "end_cut",
+   "summary": {
+    "view": "end_cut",
+    "drawn_bars": 89,
+    "model_bars": 193,
+    "median_mm": null,
+    "p90_mm": null,
+    "frac_within_25mm": null,
+    "density_mismatch_pct": null
+   }
+  },
+  {
+   "element": "PW-GF-09 [1500x5095x200]",
+   "sheet": "PW-GF-09_R1",
+   "envelope": {
+    "width_mm": 1500.1,
+    "height_mm": 5095.0,
+    "thickness_mm": 200.0,
+    "n_elevation": 1,
+    "n_plan_cut": 0,
+    "n_end_cut": 1
+   },
+   "n_model_bars": 13,
+   "views": [
+    {
+     "kind": "elevation",
+     "title": "ELEVATION (REINF)",
+     "scale": 40.0,
+     "size_mm": [
+      1500.1,
+      5095.0
+     ],
+     "counts": {
+      "drawn_runs": 377,
+      "model_runs": 12,
+      "drawn_sections": 6,
+      "model_sections": 0,
+      "model_coincident_collapsed": 1
+     },
+     "per_dia": {
+      "T8": {
+       "drawn_runs": 301,
+       "model_runs": 5,
+       "drawn_sections": 6,
+       "model_sections": 0,
+       "drawn_len_mm": 169196.4,
+       "model_len_mm": 5625.2
+      },
+      "T10": {
+       "drawn_runs": 9,
+       "model_runs": 0,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 4202.8,
+       "model_len_mm": 0
+      },
+      "T12": {
+       "drawn_runs": 14,
+       "model_runs": 3,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 2158.2,
+       "model_len_mm": 3325.0
+      },
+      "T16": {
+       "drawn_runs": 29,
+       "model_runs": 3,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 20456.2,
+       "model_len_mm": 5325.8
+      },
+      "T20": {
+       "drawn_runs": 13,
+       "model_runs": 1,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 11018.0,
+       "model_len_mm": 1126.4
+      },
+      "T25": {
+       "drawn_runs": 8,
+       "model_runs": 0,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 966.9,
+       "model_len_mm": 0
+      },
+      "T32": {
+       "drawn_runs": 3,
+       "model_runs": 0,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 596.2,
+       "model_len_mm": 0
+      }
+     },
+     "scored": "all bars",
+     "spatial": {
+      "n_model_bars": 12,
+      "no_drawn_bar_of_that_dia": 0,
+      "median_mm": 0.0,
+      "p90_mm": 51.0,
+      "frac_within_25mm": 0.75
+     },
+     "density": {
+      "X": {
+       "mismatch_pct": 26.53379535401042,
+       "drawn": [
+        9062.1,
+        11000.7,
+        15480.6,
+        7425.4,
+        11335.4,
+        9374.2,
+        11144.9,
+        10159.1,
+        4439.0,
+        9291.4,
+        9027.4,
+        8426.6,
+        10641.3,
+        4020.9,
+        16657.8,
+        6938.3,
+        13345.4,
+        17553.8,
+        11416.7,
+        11859.7
+       ],
+       "model": [
+        948.7,
+        3107.2,
+        1842.5,
+        301.4,
+        612.8,
+        592.7,
+        612.8,
+        592.7,
+        592.7,
+        612.8,
+        592.7,
+        612.8,
+        562.5,
+        632.8,
+        562.5,
+        472.1,
+        361.6,
+        1508.1,
+        281.3,
+        0.0
+       ]
+      },
+      "Z": {
+       "mismatch_pct": 47.99441733511884,
+       "drawn": [
+        11146.3,
+        10178.3,
+        9821.7,
+        9136.9,
+        10742.8,
+        9065.1,
+        11450.4,
+        9805.5,
+        11819.1,
+        8906.5,
+        9267.2,
+        10047.6,
+        9948.6,
+        9690.4,
+        10789.3,
+        10648.8,
+        10676.2,
+        9834.8,
+        11259.0,
+        9750.3
+       ],
+       "model": [
+        211.6,
+        262.0,
+        251.9,
+        258.2,
+        250.9,
+        257.3,
+        250.4,
+        260.5,
+        1245.2,
+        0.0,
+        0.0,
+        1125.1,
+        1125.0,
+        1125.1,
+        0.0,
+        0.0,
+        120.1,
+        3825.4,
+        1645.5,
+        611.1
+       ]
+      }
+     }
+    },
+    {
+     "kind": "end_cut",
+     "title": "SECTION (REINF)",
+     "scale": 40.0,
+     "size_mm": [
+      200.0,
+      5095.0
+     ],
+     "counts": {
+      "drawn_runs": 10,
+      "model_runs": 3,
+      "drawn_sections": 69,
+      "model_sections": 9,
+      "model_coincident_collapsed": 1
+     },
+     "per_dia": {
+      "T8": {
+       "drawn_runs": 4,
+       "model_runs": 0,
+       "drawn_sections": 61,
+       "model_sections": 5,
+       "drawn_len_mm": 10938.0,
+       "model_len_mm": 0
+      },
+      "T10": {
+       "drawn_runs": 5,
+       "model_runs": 0,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 2024.3,
+       "model_len_mm": 0
+      },
+      "T12": {
+       "drawn_runs": 0,
+       "model_runs": 0,
+       "drawn_sections": 4,
+       "model_sections": 4,
+       "drawn_len_mm": 0,
+       "model_len_mm": 0
+      },
+      "T16": {
+       "drawn_runs": 0,
+       "model_runs": 2,
+       "drawn_sections": 4,
+       "model_sections": 0,
+       "drawn_len_mm": 0,
+       "model_len_mm": 3721.4
+      },
+      "T20": {
+       "drawn_runs": 1,
+       "model_runs": 1,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 922.0,
+       "model_len_mm": 1126.4
+      }
+     },
+     "scored": "sections only",
+     "spatial": {
+      "n_model_bars": 9,
+      "no_drawn_bar_of_that_dia": 0,
+      "median_mm": 0.0,
+      "p90_mm": 0.0,
+      "frac_within_25mm": 1.0
+     },
+     "density": {
+      "Y": {
+       "mismatch_pct": 47.76119402985075,
+       "drawn": [
+        0.0,
+        0.0,
+        0.0,
+        31.0,
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        3.0,
+        0.0,
+        0.0,
+        30.0,
+        0.0,
+        0.0,
+        0.0
+       ],
+       "model": [
+        0.0,
+        0.0,
+        0.0,
+        5.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      "Z": {
+       "mismatch_pct": 66.66666666666666,
+       "drawn": [
+        6.0,
+        2.0,
+        4.0,
+        2.0,
+        4.0,
+        2.0,
+        4.0,
+        2.0,
+        4.0,
+        2.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        5.0,
+        5.0,
+        6.0
+       ],
+       "model": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        3.0,
+        2.0,
+        0.0
+       ]
+      }
+     }
+    }
+   ],
+   "primary": "elevation",
+   "summary": {
+    "view": "elevation",
+    "drawn_bars": 383,
+    "model_bars": 12,
+    "median_mm": 0.0,
+    "p90_mm": 51.0,
+    "frac_within_25mm": 0.75,
+    "density_mismatch_pct": 37.3
+   }
+  },
+  {
+   "element": "PW-GF-11",
+   "sheet": "PW-GF-11_R1",
+   "envelope": {
+    "width_mm": 2256.0,
+    "height_mm": 9095.0,
+    "thickness_mm": 200.0,
+    "n_elevation": 1,
+    "n_plan_cut": 0,
+    "n_end_cut": 2
+   },
+   "n_model_bars": 506,
+   "views": [
+    {
+     "kind": "elevation",
+     "title": "ELEVATION (REINF)",
+     "scale": 50.0,
+     "size_mm": [
+      2256.0,
+      9095.0
+     ],
+     "counts": {
+      "drawn_runs": 716,
+      "model_runs": 498,
+      "drawn_sections": 12,
+      "model_sections": 0,
+      "model_coincident_collapsed": 8
+     },
+     "per_dia": {
+      "T8": {
+       "drawn_runs": 419,
+       "model_runs": 402,
+       "drawn_sections": 12,
+       "model_sections": 0,
+       "drawn_len_mm": 279259.3,
+       "model_len_mm": 445518.7
+      },
+      "T10": {
+       "drawn_runs": 235,
+       "model_runs": 58,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 349426.7,
+       "model_len_mm": 441096.8
+      },
+      "T12": {
+       "drawn_runs": 10,
+       "model_runs": 14,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 7306.0,
+       "model_len_mm": 9292.9
+      },
+      "T16": {
+       "drawn_runs": 27,
+       "model_runs": 16,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 27556.1,
+       "model_len_mm": 55050.3
+      },
+      "T20": {
+       "drawn_runs": 17,
+       "model_runs": 6,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 24421.3,
+       "model_len_mm": 11272.5
+      },
+      "T25": {
+       "drawn_runs": 7,
+       "model_runs": 2,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 1673.2,
+       "model_len_mm": 5150.0
+      },
+      "T32": {
+       "drawn_runs": 1,
+       "model_runs": 0,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 343.3,
+       "model_len_mm": 0
+      }
+     },
+     "scored": "all bars",
+     "spatial": {
+      "n_model_bars": 498,
+      "no_drawn_bar_of_that_dia": 0,
+      "median_mm": 0.7,
+      "p90_mm": 29.3,
+      "frac_within_25mm": 0.876
+     },
+     "density": {
+      "X": {
+       "mismatch_pct": 11.23058849488509,
+       "drawn": [
+        28010.6,
+        40929.2,
+        30554.8,
+        28089.1,
+        40045.0,
+        29118.0,
+        33028.2,
+        34773.1,
+        29653.8,
+        31467.6,
+        37747.8,
+        38460.0,
+        29786.8,
+        30162.1,
+        30248.3,
+        41361.9,
+        31842.8,
+        49051.5,
+        39375.2,
+        36292.3
+       ],
+       "model": [
+        40342.2,
+        60744.0,
+        59726.1,
+        64435.1,
+        45334.7,
+        26411.7,
+        32242.8,
+        31106.9,
+        32721.5,
+        45746.9,
+        26457.7,
+        55029.4,
+        30514.7,
+        70093.5,
+        34744.0,
+        55912.6,
+        57557.8,
+        71688.3,
+        58135.9,
+        54554.7
+       ]
+      },
+      "Z": {
+       "mismatch_pct": 10.938584808947125,
+       "drawn": [
+        39730.8,
+        32101.6,
+        29556.6,
+        29733.2,
+        29995.8,
+        37057.1,
+        34501.9,
+        32081.4,
+        34499.0,
+        36274.7,
+        31861.7,
+        34539.2,
+        33770.3,
+        32702.8,
+        35790.0,
+        31887.4,
+        34966.4,
+        33582.8,
+        38420.7,
+        43593.9
+       ],
+       "model": [
+        87414.3,
+        105480.7,
+        46660.2,
+        40500.1,
+        43779.9,
+        47143.4,
+        39772.6,
+        36702.7,
+        38779.9,
+        43881.7,
+        38037.1,
+        41365.2,
+        34670.3,
+        38094.1,
+        40876.5,
+        40658.9,
+        36806.0,
+        42844.3,
+        51390.8,
+        66983.5
+       ]
+      }
+     }
+    },
+    {
+     "kind": "end_cut",
+     "title": "SECTION (REINF)",
+     "scale": 50.0,
+     "size_mm": [
+      200.0,
+      9095.0
+     ],
+     "counts": {
+      "drawn_runs": 14,
+      "model_runs": 278,
+      "drawn_sections": 114,
+      "model_sections": 140,
+      "model_coincident_collapsed": 88
+     },
+     "per_dia": {
+      "T8": {
+       "drawn_runs": 6,
+       "model_runs": 238,
+       "drawn_sections": 106,
+       "model_sections": 128,
+       "drawn_len_mm": 2621.7,
+       "model_len_mm": 39393.5
+      },
+      "T10": {
+       "drawn_runs": 7,
+       "model_runs": 21,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 11592.5,
+       "model_len_mm": 131412.6
+      },
+      "T12": {
+       "drawn_runs": 0,
+       "model_runs": 1,
+       "drawn_sections": 4,
+       "model_sections": 4,
+       "drawn_len_mm": 0,
+       "model_len_mm": 238.0
+      },
+      "T16": {
+       "drawn_runs": 0,
+       "model_runs": 11,
+       "drawn_sections": 4,
+       "model_sections": 8,
+       "drawn_len_mm": 0,
+       "model_len_mm": 22481.3
+      },
+      "T20": {
+       "drawn_runs": 1,
+       "model_runs": 6,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 1670.0,
+       "model_len_mm": 9468.8
+      },
+      "T25": {
+       "drawn_runs": 0,
+       "model_runs": 1,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 0,
+       "model_len_mm": 1328.3
+      }
+     },
+     "scored": "sections only",
+     "spatial": {
+      "n_model_bars": 140,
+      "no_drawn_bar_of_that_dia": 0,
+      "median_mm": 0.0,
+      "p90_mm": 72.7,
+      "frac_within_25mm": 0.743
+     },
+     "density": {
+      "Y": {
+       "mismatch_pct": 10.031512605042018,
+       "drawn": [
+        0.0,
+        0.0,
+        0.0,
+        53.0,
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        3.0,
+        0.0,
+        0.0,
+        53.0,
+        0.0,
+        0.0,
+        0.0
+       ],
+       "model": [
+        0.0,
+        0.0,
+        0.0,
+        76.0,
+        1.0,
+        0.0,
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        2.0,
+        1.0,
+        0.0,
+        53.0,
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      "Z": {
+       "mismatch_pct": 26.416040100250626,
+       "drawn": [
+        8.0,
+        6.0,
+        4.0,
+        6.0,
+        4.0,
+        6.0,
+        6.0,
+        4.0,
+        6.0,
+        6.0,
+        4.0,
+        6.0,
+        5.0,
+        5.0,
+        6.0,
+        4.0,
+        6.0,
+        5.0,
+        7.0,
+        10.0
+       ],
+       "model": [
+        19.0,
+        31.0,
+        7.0,
+        5.0,
+        7.0,
+        4.0,
+        5.0,
+        3.0,
+        5.0,
+        5.0,
+        3.0,
+        5.0,
+        2.0,
+        6.0,
+        4.0,
+        4.0,
+        3.0,
+        4.0,
+        7.0,
+        11.0
+       ]
+      }
+     }
+    }
+   ],
+   "primary": "elevation",
+   "summary": {
+    "view": "elevation",
+    "drawn_bars": 728,
+    "model_bars": 498,
+    "median_mm": 0.7,
+    "p90_mm": 29.3,
+    "frac_within_25mm": 0.876,
+    "density_mismatch_pct": 11.1
+   }
+  },
+  {
+   "element": "PW-GF-18",
+   "sheet": "PW-GF-18_R",
+   "envelope": {
+    "width_mm": 1500.1,
+    "height_mm": 5095.0,
+    "thickness_mm": 400.0,
+    "n_elevation": 1,
+    "n_plan_cut": 3,
+    "n_end_cut": 2
+   },
+   "n_model_bars": 281,
+   "views": [
+    {
+     "kind": "elevation",
+     "title": "ELEVATION (REINF)",
+     "scale": 40.0,
+     "size_mm": [
+      1500.1,
+      5095.0
+     ],
+     "counts": {
+      "drawn_runs": 308,
+      "model_runs": 254,
+      "drawn_sections": 6,
+      "model_sections": 0,
+      "model_coincident_collapsed": 27
+     },
+     "per_dia": {
+      "T8": {
+       "drawn_runs": 251,
+       "model_runs": 227,
+       "drawn_sections": 6,
+       "model_sections": 0,
+       "drawn_len_mm": 167765.0,
+       "model_len_mm": 258366.3
+      },
+      "T10": {
+       "drawn_runs": 12,
+       "model_runs": 7,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 4130.7,
+       "model_len_mm": 5884.5
+      },
+      "T12": {
+       "drawn_runs": 4,
+       "model_runs": 4,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 2638.9,
+       "model_len_mm": 4500.0
+      },
+      "T16": {
+       "drawn_runs": 27,
+       "model_runs": 13,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 18556.1,
+       "model_len_mm": 26667.3
+      },
+      "T20": {
+       "drawn_runs": 8,
+       "model_runs": 3,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 12421.3,
+       "model_len_mm": 8685.4
+      },
+      "T32": {
+       "drawn_runs": 6,
+       "model_runs": 0,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 644.0,
+       "model_len_mm": 0
+      }
+     },
+     "scored": "all bars",
+     "spatial": {
+      "n_model_bars": 254,
+      "no_drawn_bar_of_that_dia": 0,
+      "median_mm": 2.8,
+      "p90_mm": 30.1,
+      "frac_within_25mm": 0.858
+     },
+     "density": {
+      "X": {
+       "mismatch_pct": 14.942943541156097,
+       "drawn": [
+        7011.9,
+        12883.5,
+        15840.4,
+        13132.7,
+        6647.0,
+        15326.9,
+        4638.7,
+        10090.1,
+        10839.3,
+        9386.0,
+        9238.8,
+        4368.7,
+        10295.6,
+        10956.1,
+        7155.1,
+        11030.2,
+        8490.7,
+        15966.6,
+        11649.2,
+        11214.3
+       ],
+       "model": [
+        12767.6,
+        21790.1,
+        20464.8,
+        21374.8,
+        11939.5,
+        17967.9,
+        11712.2,
+        11750.7,
+        32037.6,
+        22235.6,
+        7494.5,
+        8033.8,
+        12628.5,
+        13546.5,
+        8775.5,
+        10947.3,
+        13091.2,
+        11302.3,
+        13079.4,
+        12346.0
+       ]
+      },
+      "Z": {
+       "mismatch_pct": 16.183644016790836,
+       "drawn": [
+        8927.8,
+        8614.4,
+        8573.0,
+        7428.8,
+        10207.6,
+        8887.0,
+        11345.2,
+        9272.0,
+        11638.3,
+        8297.6,
+        8704.1,
+        10725.8,
+        10867.0,
+        10510.3,
+        11156.7,
+        11285.4,
+        12101.2,
+        11199.0,
+        11756.4,
+        9745.2
+       ],
+       "model": [
+        32086.8,
+        30275.9,
+        10057.2,
+        7761.9,
+        8882.2,
+        8842.3,
+        16174.7,
+        11214.5,
+        17276.5,
+        10604.1,
+        8373.9,
+        11405.0,
+        11255.4,
+        12618.3,
+        12637.7,
+        14531.8,
+        14804.3,
+        17720.5,
+        20623.3,
+        22666.0
+       ]
+      }
+     }
+    },
+    {
+     "kind": "plan_cut",
+     "title": "SECTION (REINF)",
+     "scale": 25.0,
+     "size_mm": [
+      1500.0,
+      400.0
+     ],
+     "counts": {
+      "drawn_runs": 33,
+      "model_runs": 121,
+      "drawn_sections": 27,
+      "model_sections": 34,
+      "model_coincident_collapsed": 126
+     },
+     "per_dia": {
+      "T8": {
+       "drawn_runs": 21,
+       "model_runs": 109,
+       "drawn_sections": 16,
+       "model_sections": 16,
+       "drawn_len_mm": 5571.2,
+       "model_len_mm": 53339.4
+      },
+      "T10": {
+       "drawn_runs": 7,
+       "model_runs": 1,
+       "drawn_sections": 0,
+       "model_sections": 6,
+       "drawn_len_mm": 1827.2,
+       "model_len_mm": 627.1
+      },
+      "T12": {
+       "drawn_runs": 3,
+       "model_runs": 4,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 2145.7,
+       "model_len_mm": 4500.0
+      },
+      "T16": {
+       "drawn_runs": 2,
+       "model_runs": 7,
+       "drawn_sections": 8,
+       "model_sections": 10,
+       "drawn_len_mm": 2132.5,
+       "model_len_mm": 4559.0
+      },
+      "T20": {
+       "drawn_runs": 0,
+       "model_runs": 0,
+       "drawn_sections": 3,
+       "model_sections": 2,
+       "drawn_len_mm": 0,
+       "model_len_mm": 0
+      }
+     },
+     "scored": "sections only",
+     "spatial": {
+      "n_model_bars": 34,
+      "no_drawn_bar_of_that_dia": 6,
+      "median_mm": 0.0,
+      "p90_mm": 213.7,
+      "frac_within_25mm": 0.607
+     },
+     "density": {
+      "X": {
+       "mismatch_pct": 29.868578255675025,
+       "drawn": [
+        2.0,
+        2.0,
+        2.0,
+        1.0,
+        0.0,
+        2.0,
+        0.0,
+        1.0,
+        2.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        2.0,
+        1.0,
+        1.0,
+        0.0,
+        4.0,
+        3.0,
+        1.0
+       ],
+       "model": [
+        1.0,
+        2.0,
+        2.0,
+        2.0,
+        0.0,
+        2.0,
+        0.0,
+        1.0,
+        7.0,
+        3.0,
+        0.0,
+        0.0,
+        2.0,
+        2.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        3.0,
+        1.0
+       ]
+      },
+      "Y": {
+       "mismatch_pct": 43.355119825708066,
+       "drawn": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        8.0,
+        0.0,
+        3.0,
+        2.0,
+        0.0,
+        10.0,
+        0.0,
+        0.0
+       ],
+       "model": [
+        0.0,
+        5.0,
+        2.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        7.0,
+        0.0,
+        0.0,
+        5.0,
+        1.0,
+        3.0,
+        1.0,
+        0.0,
+        8.0,
+        0.0,
+        0.0
+       ]
+      }
+     }
+    },
+    {
+     "kind": "plan_cut",
+     "title": "SECTION (REINF)",
+     "scale": 25.0,
+     "size_mm": [
+      1500.0,
+      400.0
+     ],
+     "counts": {
+      "drawn_runs": 11,
+      "model_runs": 121,
+      "drawn_sections": 25,
+      "model_sections": 34,
+      "model_coincident_collapsed": 126
+     },
+     "per_dia": {
+      "T8": {
+       "drawn_runs": 11,
+       "model_runs": 109,
+       "drawn_sections": 16,
+       "model_sections": 16,
+       "drawn_len_mm": 3258.3,
+       "model_len_mm": 53339.4
+      },
+      "T10": {
+       "drawn_runs": 0,
+       "model_runs": 1,
+       "drawn_sections": 0,
+       "model_sections": 6,
+       "drawn_len_mm": 0,
+       "model_len_mm": 627.1
+      },
+      "T12": {
+       "drawn_runs": 0,
+       "model_runs": 4,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 0,
+       "model_len_mm": 4500.0
+      },
+      "T16": {
+       "drawn_runs": 0,
+       "model_runs": 7,
+       "drawn_sections": 8,
+       "model_sections": 10,
+       "drawn_len_mm": 0,
+       "model_len_mm": 4559.0
+      },
+      "T20": {
+       "drawn_runs": 0,
+       "model_runs": 0,
+       "drawn_sections": 1,
+       "model_sections": 2,
+       "drawn_len_mm": 0,
+       "model_len_mm": 0
+      }
+     },
+     "scored": "sections only",
+     "spatial": {
+      "n_model_bars": 34,
+      "no_drawn_bar_of_that_dia": 6,
+      "median_mm": 34.0,
+      "p90_mm": 220.6,
+      "frac_within_25mm": 0.464
+     },
+     "density": {
+      "X": {
+       "mismatch_pct": 41.29032258064517,
+       "drawn": [
+        2.0,
+        2.0,
+        2.0,
+        1.0,
+        0.0,
+        2.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        3.0,
+        1.0,
+        0.0,
+        4.0
+       ],
+       "model": [
+        1.0,
+        2.0,
+        2.0,
+        2.0,
+        0.0,
+        2.0,
+        0.0,
+        1.0,
+        7.0,
+        3.0,
+        0.0,
+        0.0,
+        2.0,
+        2.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        3.0,
+        1.0
+       ]
+      },
+      "Y": {
+       "mismatch_pct": 47.882352941176464,
+       "drawn": [
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        8.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        12.0,
+        0.0,
+        0.0
+       ],
+       "model": [
+        0.0,
+        5.0,
+        2.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        7.0,
+        0.0,
+        0.0,
+        5.0,
+        1.0,
+        3.0,
+        1.0,
+        0.0,
+        8.0,
+        0.0,
+        0.0
+       ]
+      }
+     }
+    },
+    {
+     "kind": "plan_cut",
+     "title": "SECTION (REINF)",
+     "scale": 25.0,
+     "size_mm": [
+      1500.0,
+      400.0
+     ],
+     "counts": {
+      "drawn_runs": 22,
+      "model_runs": 121,
+      "drawn_sections": 53,
+      "model_sections": 34,
+      "model_coincident_collapsed": 126
+     },
+     "per_dia": {
+      "T8": {
+       "drawn_runs": 16,
+       "model_runs": 109,
+       "drawn_sections": 30,
+       "model_sections": 16,
+       "drawn_len_mm": 5300.0,
+       "model_len_mm": 53339.4
+      },
+      "T10": {
+       "drawn_runs": 0,
+       "model_runs": 1,
+       "drawn_sections": 0,
+       "model_sections": 6,
+       "drawn_len_mm": 0,
+       "model_len_mm": 627.1
+      },
+      "T12": {
+       "drawn_runs": 0,
+       "model_runs": 4,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 0,
+       "model_len_mm": 4500.0
+      },
+      "T16": {
+       "drawn_runs": 6,
+       "model_runs": 7,
+       "drawn_sections": 22,
+       "model_sections": 10,
+       "drawn_len_mm": 3607.9,
+       "model_len_mm": 4559.0
+      },
+      "T20": {
+       "drawn_runs": 0,
+       "model_runs": 0,
+       "drawn_sections": 1,
+       "model_sections": 2,
+       "drawn_len_mm": 0,
+       "model_len_mm": 0
+      }
+     },
+     "scored": "sections only",
+     "spatial": {
+      "n_model_bars": 34,
+      "no_drawn_bar_of_that_dia": 6,
+      "median_mm": 38.1,
+      "p90_mm": 212.9,
+      "frac_within_25mm": 0.429
+     },
+     "density": {
+      "X": {
+       "mismatch_pct": 35.11868533171029,
+       "drawn": [
+        2.0,
+        6.0,
+        2.0,
+        3.0,
+        0.0,
+        4.0,
+        0.0,
+        1.0,
+        3.0,
+        1.0,
+        3.0,
+        0.0,
+        3.0,
+        1.0,
+        1.0,
+        3.0,
+        3.0,
+        6.0,
+        5.0,
+        6.0
+       ],
+       "model": [
+        1.0,
+        2.0,
+        2.0,
+        2.0,
+        0.0,
+        2.0,
+        0.0,
+        1.0,
+        7.0,
+        3.0,
+        0.0,
+        0.0,
+        2.0,
+        2.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        3.0,
+        1.0
+       ]
+      },
+      "Y": {
+       "mismatch_pct": 44.561598224195336,
+       "drawn": [
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        0.0,
+        2.0,
+        2.0,
+        0.0,
+        2.0,
+        1.0,
+        1.0,
+        0.0,
+        17.0,
+        2.0,
+        3.0,
+        0.0,
+        2.0,
+        19.0,
+        0.0,
+        0.0
+       ],
+       "model": [
+        0.0,
+        5.0,
+        2.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        7.0,
+        0.0,
+        0.0,
+        5.0,
+        1.0,
+        3.0,
+        1.0,
+        0.0,
+        8.0,
+        0.0,
+        0.0
+       ]
+      }
+     }
+    }
+   ],
+   "primary": "elevation",
+   "summary": {
+    "view": "elevation",
+    "drawn_bars": 314,
+    "model_bars": 254,
+    "median_mm": 2.8,
+    "p90_mm": 30.1,
+    "frac_within_25mm": 0.858,
+    "density_mismatch_pct": 15.6
+   }
+  },
+  {
+   "element": "PW-GF-25",
+   "sheet": "PW-GF-25_R",
+   "envelope": {
+    "width_mm": 1500.0,
+    "height_mm": 5095.0,
+    "thickness_mm": 400.0,
+    "n_elevation": 1,
+    "n_plan_cut": 3,
+    "n_end_cut": 2
+   },
+   "n_model_bars": 249,
+   "views": [
+    {
+     "kind": "elevation",
+     "title": "ELEVATION (REINF)",
+     "scale": 40.0,
+     "size_mm": [
+      1500.0,
+      5095.0
+     ],
+     "counts": {
+      "drawn_runs": 248,
+      "model_runs": 238,
+      "drawn_sections": 7,
+      "model_sections": 0,
+      "model_coincident_collapsed": 11
+     },
+     "per_dia": {
+      "T8": {
+       "drawn_runs": 207,
+       "model_runs": 218,
+       "drawn_sections": 7,
+       "model_sections": 0,
+       "drawn_len_mm": 170353.9,
+       "model_len_mm": 239373.1
+      },
+      "T10": {
+       "drawn_runs": 5,
+       "model_runs": 2,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 1236.0,
+       "model_len_mm": 1785.2
+      },
+      "T12": {
+       "drawn_runs": 3,
+       "model_runs": 0,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 252.4,
+       "model_len_mm": 0
+      },
+      "T16": {
+       "drawn_runs": 20,
+       "model_runs": 15,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 18048.7,
+       "model_len_mm": 46203.0
+      },
+      "T20": {
+       "drawn_runs": 9,
+       "model_runs": 3,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 12944.1,
+       "model_len_mm": 7794.1
+      },
+      "T32": {
+       "drawn_runs": 4,
+       "model_runs": 0,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 580.5,
+       "model_len_mm": 0
+      }
+     },
+     "scored": "all bars",
+     "spatial": {
+      "n_model_bars": 238,
+      "no_drawn_bar_of_that_dia": 0,
+      "median_mm": 2.8,
+      "p90_mm": 34.4,
+      "frac_within_25mm": 0.803
+     },
+     "density": {
+      "X": {
+       "mismatch_pct": 10.655488949614183,
+       "drawn": [
+        7875.3,
+        18256.9,
+        14452.1,
+        13309.5,
+        8048.6,
+        17586.4,
+        6745.9,
+        13769.0,
+        4534.8,
+        8752.0,
+        9957.8,
+        3744.8,
+        9978.0,
+        3744.8,
+        11214.4,
+        5163.6,
+        8877.7,
+        14172.5,
+        10637.3,
+        12077.6
+       ],
+       "model": [
+        17942.8,
+        27321.9,
+        19180.4,
+        24592.9,
+        9425.7,
+        18704.4,
+        11144.1,
+        15319.1,
+        5684.2,
+        10201.0,
+        11013.0,
+        5221.7,
+        16396.1,
+        4997.3,
+        11250.2,
+        9176.1,
+        14741.6,
+        13694.6,
+        15804.2,
+        24523.8
+       ]
+      },
+      "Z": {
+       "mismatch_pct": 10.23002055489521,
+       "drawn": [
+        9794.0,
+        9140.2,
+        8928.3,
+        10427.4,
+        11697.8,
+        9246.7,
+        11582.5,
+        9290.0,
+        11819.5,
+        8244.4,
+        10606.0,
+        10603.2,
+        8959.4,
+        9753.9,
+        10868.1,
+        9845.4,
+        9682.6,
+        8088.2,
+        12062.4,
+        9722.4
+       ],
+       "model": [
+        21005.7,
+        20455.2,
+        19565.8,
+        18654.6,
+        12080.9,
+        10826.3,
+        15036.4,
+        11740.0,
+        16615.2,
+        10251.9,
+        11282.5,
+        14424.3,
+        11322.4,
+        12083.5,
+        12296.4,
+        11869.1,
+        11897.1,
+        11879.4,
+        18249.4,
+        18554.5
+       ]
+      }
+     }
+    },
+    {
+     "kind": "plan_cut",
+     "title": "SECTION (REINF)",
+     "scale": 25.0,
+     "size_mm": [
+      1500.0,
+      400.0
+     ],
+     "counts": {
+      "drawn_runs": 21,
+      "model_runs": 56,
+      "drawn_sections": 27,
+      "model_sections": 37,
+      "model_coincident_collapsed": 156
+     },
+     "per_dia": {
+      "T8": {
+       "drawn_runs": 18,
+       "model_runs": 43,
+       "drawn_sections": 16,
+       "model_sections": 28,
+       "drawn_len_mm": 7758.3,
+       "model_len_mm": 31500.0
+      },
+      "T10": {
+       "drawn_runs": 0,
+       "model_runs": 2,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 0,
+       "model_len_mm": 1017.5
+      },
+      "T16": {
+       "drawn_runs": 3,
+       "model_runs": 11,
+       "drawn_sections": 8,
+       "model_sections": 6,
+       "drawn_len_mm": 1973.9,
+       "model_len_mm": 4147.2
+      },
+      "T20": {
+       "drawn_runs": 0,
+       "model_runs": 0,
+       "drawn_sections": 3,
+       "model_sections": 3,
+       "drawn_len_mm": 0,
+       "model_len_mm": 0
+      }
+     },
+     "scored": "sections only",
+     "spatial": {
+      "n_model_bars": 37,
+      "no_drawn_bar_of_that_dia": 0,
+      "median_mm": 19.6,
+      "p90_mm": 73.0,
+      "frac_within_25mm": 0.568
+     },
+     "density": {
+      "X": {
+       "mismatch_pct": 35.23523523523523,
+       "drawn": [
+        2.0,
+        3.0,
+        1.0,
+        1.0,
+        0.0,
+        2.0,
+        1.0,
+        2.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        2.0,
+        0.0,
+        3.0,
+        0.0,
+        0.0,
+        4.0,
+        3.0,
+        1.0
+       ],
+       "model": [
+        2.0,
+        2.0,
+        2.0,
+        3.0,
+        0.0,
+        3.0,
+        1.0,
+        2.0,
+        2.0,
+        1.0,
+        3.0,
+        0.0,
+        4.0,
+        0.0,
+        2.0,
+        2.0,
+        1.0,
+        2.0,
+        1.0,
+        4.0
+       ]
+      },
+      "Y": {
+       "mismatch_pct": 18.818818818818823,
+       "drawn": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        0.0,
+        8.0,
+        0.0,
+        1.0,
+        4.0,
+        0.0,
+        10.0,
+        0.0,
+        0.0
+       ],
+       "model": [
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        0.0,
+        13.0,
+        0.0,
+        3.0,
+        0.0,
+        1.0,
+        14.0,
+        0.0,
+        0.0
+       ]
+      }
+     }
+    },
+    {
+     "kind": "plan_cut",
+     "title": "SECTION (REINF)",
+     "scale": 25.0,
+     "size_mm": [
+      1500.0,
+      400.0
+     ],
+     "counts": {
+      "drawn_runs": 8,
+      "model_runs": 56,
+      "drawn_sections": 26,
+      "model_sections": 37,
+      "model_coincident_collapsed": 156
+     },
+     "per_dia": {
+      "T8": {
+       "drawn_runs": 8,
+       "model_runs": 43,
+       "drawn_sections": 16,
+       "model_sections": 28,
+       "drawn_len_mm": 3300.1,
+       "model_len_mm": 31500.0
+      },
+      "T10": {
+       "drawn_runs": 0,
+       "model_runs": 2,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 0,
+       "model_len_mm": 1017.5
+      },
+      "T16": {
+       "drawn_runs": 0,
+       "model_runs": 11,
+       "drawn_sections": 8,
+       "model_sections": 6,
+       "drawn_len_mm": 0,
+       "model_len_mm": 4147.2
+      },
+      "T20": {
+       "drawn_runs": 0,
+       "model_runs": 0,
+       "drawn_sections": 2,
+       "model_sections": 3,
+       "drawn_len_mm": 0,
+       "model_len_mm": 0
+      }
+     },
+     "scored": "sections only",
+     "spatial": {
+      "n_model_bars": 37,
+      "no_drawn_bar_of_that_dia": 0,
+      "median_mm": 26.0,
+      "p90_mm": 73.0,
+      "frac_within_25mm": 0.486
+     },
+     "density": {
+      "X": {
+       "mismatch_pct": 31.392931392931395,
+       "drawn": [
+        2.0,
+        3.0,
+        1.0,
+        1.0,
+        0.0,
+        2.0,
+        0.0,
+        2.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        2.0,
+        0.0,
+        3.0,
+        0.0,
+        3.0,
+        1.0,
+        0.0,
+        4.0
+       ],
+       "model": [
+        2.0,
+        2.0,
+        2.0,
+        3.0,
+        0.0,
+        3.0,
+        1.0,
+        2.0,
+        2.0,
+        1.0,
+        3.0,
+        0.0,
+        4.0,
+        0.0,
+        2.0,
+        2.0,
+        1.0,
+        2.0,
+        1.0,
+        4.0
+       ]
+      },
+      "Y": {
+       "mismatch_pct": 16.735966735966738,
+       "drawn": [
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        0.0,
+        8.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        12.0,
+        0.0,
+        0.0
+       ],
+       "model": [
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        0.0,
+        13.0,
+        0.0,
+        3.0,
+        0.0,
+        1.0,
+        14.0,
+        0.0,
+        0.0
+       ]
+      }
+     }
+    },
+    {
+     "kind": "plan_cut",
+     "title": "SECTION (REINF)",
+     "scale": 25.0,
+     "size_mm": [
+      1500.0,
+      400.0
+     ],
+     "counts": {
+      "drawn_runs": 20,
+      "model_runs": 56,
+      "drawn_sections": 54,
+      "model_sections": 37,
+      "model_coincident_collapsed": 156
+     },
+     "per_dia": {
+      "T8": {
+       "drawn_runs": 14,
+       "model_runs": 43,
+       "drawn_sections": 30,
+       "model_sections": 28,
+       "drawn_len_mm": 4050.1,
+       "model_len_mm": 31500.0
+      },
+      "T10": {
+       "drawn_runs": 0,
+       "model_runs": 2,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 0,
+       "model_len_mm": 1017.5
+      },
+      "T16": {
+       "drawn_runs": 6,
+       "model_runs": 11,
+       "drawn_sections": 22,
+       "model_sections": 6,
+       "drawn_len_mm": 3391.8,
+       "model_len_mm": 4147.2
+      },
+      "T20": {
+       "drawn_runs": 0,
+       "model_runs": 0,
+       "drawn_sections": 2,
+       "model_sections": 3,
+       "drawn_len_mm": 0,
+       "model_len_mm": 0
+      }
+     },
+     "scored": "sections only",
+     "spatial": {
+      "n_model_bars": 37,
+      "no_drawn_bar_of_that_dia": 0,
+      "median_mm": 0.0,
+      "p90_mm": 63.0,
+      "frac_within_25mm": 0.73
+     },
+     "density": {
+      "X": {
+       "mismatch_pct": 21.27127127127127,
+       "drawn": [
+        2.0,
+        6.0,
+        2.0,
+        3.0,
+        0.0,
+        4.0,
+        0.0,
+        2.0,
+        2.0,
+        1.0,
+        3.0,
+        0.0,
+        4.0,
+        0.0,
+        3.0,
+        2.0,
+        3.0,
+        6.0,
+        5.0,
+        6.0
+       ],
+       "model": [
+        2.0,
+        2.0,
+        2.0,
+        3.0,
+        0.0,
+        3.0,
+        1.0,
+        2.0,
+        2.0,
+        1.0,
+        3.0,
+        0.0,
+        4.0,
+        0.0,
+        2.0,
+        2.0,
+        1.0,
+        2.0,
+        1.0,
+        4.0
+       ]
+      },
+      "Y": {
+       "mismatch_pct": 21.371371371371374,
+       "drawn": [
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        0.0,
+        2.0,
+        2.0,
+        0.0,
+        2.0,
+        0.0,
+        2.0,
+        0.0,
+        17.0,
+        2.0,
+        3.0,
+        1.0,
+        2.0,
+        19.0,
+        0.0,
+        0.0
+       ],
+       "model": [
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        0.0,
+        13.0,
+        0.0,
+        3.0,
+        0.0,
+        1.0,
+        14.0,
+        0.0,
+        0.0
+       ]
+      }
+     }
+    }
+   ],
+   "primary": "elevation",
+   "summary": {
+    "view": "elevation",
+    "drawn_bars": 255,
+    "model_bars": 238,
+    "median_mm": 2.8,
+    "p90_mm": 34.4,
+    "frac_within_25mm": 0.803,
+    "density_mismatch_pct": 10.4
+   }
+  },
+  {
+   "element": "PW-GF-26",
+   "sheet": "PW-GF-26_R",
+   "envelope": {
+    "width_mm": 1710.0,
+    "height_mm": 5095.0,
+    "thickness_mm": 200.0,
+    "n_elevation": 1,
+    "n_plan_cut": 2,
+    "n_end_cut": 1
+   },
+   "n_model_bars": 231,
+   "views": [
+    {
+     "kind": "elevation",
+     "title": "ELEVATION (REINF)",
+     "scale": 40.0,
+     "size_mm": [
+      1710.0,
+      5095.0
+     ],
+     "counts": {
+      "drawn_runs": 226,
+      "model_runs": 220,
+      "drawn_sections": 9,
+      "model_sections": 0,
+      "model_coincident_collapsed": 11
+     },
+     "per_dia": {
+      "T8": {
+       "drawn_runs": 207,
+       "model_runs": 209,
+       "drawn_sections": 9,
+       "model_sections": 0,
+       "drawn_len_mm": 224144.2,
+       "model_len_mm": 302888.8
+      },
+      "T10": {
+       "drawn_runs": 4,
+       "model_runs": 0,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 832.0,
+       "model_len_mm": 0
+      },
+      "T12": {
+       "drawn_runs": 2,
+       "model_runs": 0,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 153.4,
+       "model_len_mm": 0
+      },
+      "T16": {
+       "drawn_runs": 4,
+       "model_runs": 7,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 12199.7,
+       "model_len_mm": 29225.0
+      },
+      "T20": {
+       "drawn_runs": 9,
+       "model_runs": 4,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 16222.6,
+       "model_len_mm": 13320.8
+      }
+     },
+     "scored": "all bars",
+     "spatial": {
+      "n_model_bars": 220,
+      "no_drawn_bar_of_that_dia": 0,
+      "median_mm": 0.0,
+      "p90_mm": 11.6,
+      "frac_within_25mm": 0.95
+     },
+     "density": {
+      "X": {
+       "mismatch_pct": 6.51487832380299,
+       "drawn": [
+        9559.6,
+        24233.7,
+        14776.4,
+        14322.3,
+        14484.5,
+        10949.3,
+        11841.1,
+        9732.6,
+        9821.1,
+        9652.9,
+        5558.9,
+        9644.4,
+        10548.5,
+        11851.8,
+        11219.2,
+        14054.0,
+        13893.8,
+        15058.1,
+        23590.1,
+        8768.4
+       ],
+       "model": [
+        11708.4,
+        34636.4,
+        20377.2,
+        21038.3,
+        20464.8,
+        12812.4,
+        14081.1,
+        9052.6,
+        14922.3,
+        15807.9,
+        18291.3,
+        10754.5,
+        11365.4,
+        12523.6,
+        15345.7,
+        17936.9,
+        19499.6,
+        17907.1,
+        33414.0,
+        13494.9
+       ]
+      },
+      "Z": {
+       "mismatch_pct": 8.42096644478773,
+       "drawn": [
+        11969.2,
+        11913.6,
+        8875.3,
+        9645.4,
+        13638.7,
+        12452.6,
+        13850.2,
+        11616.4,
+        14748.2,
+        11606.4,
+        12290.2,
+        13420.2,
+        12800.4,
+        12584.2,
+        13023.8,
+        12302.4,
+        11278.4,
+        13543.4,
+        14458.9,
+        13463.0
+       ],
+       "model": [
+        23202.6,
+        17335.4,
+        16763.2,
+        19800.8,
+        14958.8,
+        15675.6,
+        18341.8,
+        14824.8,
+        17538.3,
+        16460.9,
+        14745.6,
+        14734.1,
+        14878.5,
+        17122.7,
+        15711.6,
+        13108.7,
+        12891.6,
+        14570.2,
+        20059.3,
+        26195.6
+       ]
+      }
+     }
+    },
+    {
+     "kind": "end_cut",
+     "title": "SECTION (REINF)",
+     "scale": 40.0,
+     "size_mm": [
+      200.0,
+      5095.0
+     ],
+     "counts": {
+      "drawn_runs": 5,
+      "model_runs": 106,
+      "drawn_sections": 64,
+      "model_sections": 60,
+      "model_coincident_collapsed": 65
+     },
+     "per_dia": {
+      "T8": {
+       "drawn_runs": 4,
+       "model_runs": 98,
+       "drawn_sections": 60,
+       "model_sections": 60,
+       "drawn_len_mm": 11145.7,
+       "model_len_mm": 52042.1
+      },
+      "T16": {
+       "drawn_runs": 0,
+       "model_runs": 6,
+       "drawn_sections": 4,
+       "model_sections": 0,
+       "drawn_len_mm": 0,
+       "model_len_mm": 16105.6
+      },
+      "T20": {
+       "drawn_runs": 1,
+       "model_runs": 2,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 6077.0,
+       "model_len_mm": 6660.4
+      }
+     },
+     "scored": "sections only",
+     "spatial": {
+      "n_model_bars": 60,
+      "no_drawn_bar_of_that_dia": 0,
+      "median_mm": 0.0,
+      "p90_mm": 0.0,
+      "frac_within_25mm": 0.95
+     },
+     "density": {
+      "Y": {
+       "mismatch_pct": 8.125000000000002,
+       "drawn": [
+        0.0,
+        0.0,
+        0.0,
+        30.0,
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        0.0,
+        30.0,
+        0.0,
+        0.0,
+        0.0
+       ],
+       "model": [
+        0.0,
+        0.0,
+        0.0,
+        33.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        27.0,
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      "Z": {
+       "mismatch_pct": 7.083333333333333,
+       "drawn": [
+        6.0,
+        2.0,
+        4.0,
+        2.0,
+        4.0,
+        2.0,
+        4.0,
+        2.0,
+        4.0,
+        2.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        2.0,
+        4.0,
+        2.0,
+        6.0
+       ],
+       "model": [
+        7.0,
+        2.0,
+        4.0,
+        2.0,
+        4.0,
+        2.0,
+        4.0,
+        2.0,
+        4.0,
+        2.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        1.0,
+        3.0,
+        2.0,
+        3.0
+       ]
+      }
+     }
+    },
+    {
+     "kind": "plan_cut",
+     "title": "SECTION (REINF)",
+     "scale": 25.0,
+     "size_mm": [
+      1710.0,
+      200.0
+     ],
+     "counts": {
+      "drawn_runs": 20,
+      "model_runs": 61,
+      "drawn_sections": 45,
+      "model_sections": 27,
+      "model_coincident_collapsed": 143
+     },
+     "per_dia": {
+      "T8": {
+       "drawn_runs": 16,
+       "model_runs": 57,
+       "drawn_sections": 37,
+       "model_sections": 19,
+       "drawn_len_mm": 3116.0,
+       "model_len_mm": 35087.5
+      },
+      "T16": {
+       "drawn_runs": 3,
+       "model_runs": 4,
+       "drawn_sections": 6,
+       "model_sections": 4,
+       "drawn_len_mm": 3018.0,
+       "model_len_mm": 6304.8
+      },
+      "T20": {
+       "drawn_runs": 1,
+       "model_runs": 0,
+       "drawn_sections": 2,
+       "model_sections": 4,
+       "drawn_len_mm": 55.5,
+       "model_len_mm": 0
+      }
+     },
+     "scored": "sections only",
+     "spatial": {
+      "n_model_bars": 27,
+      "no_drawn_bar_of_that_dia": 0,
+      "median_mm": 0.0,
+      "p90_mm": 62.4,
+      "frac_within_25mm": 0.815
+     },
+     "density": {
+      "X": {
+       "mismatch_pct": 26.666666666666668,
+       "drawn": [
+        1.0,
+        6.0,
+        2.0,
+        3.0,
+        1.0,
+        3.0,
+        1.0,
+        3.0,
+        1.0,
+        1.0,
+        2.0,
+        1.0,
+        3.0,
+        1.0,
+        3.0,
+        1.0,
+        3.0,
+        2.0,
+        6.0,
+        1.0
+       ],
+       "model": [
+        1.0,
+        4.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        2.0,
+        0.0,
+        1.0,
+        1.0,
+        2.0,
+        1.0,
+        1.0,
+        2.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        4.0,
+        1.0
+       ]
+      },
+      "Y": {
+       "mismatch_pct": 19.25925925925926,
+       "drawn": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        20.0,
+        0.0,
+        2.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        21.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+       ],
+       "model": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        10.0,
+        0.0,
+        2.0,
+        0.0,
+        0.0,
+        4.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        10.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+       ]
+      }
+     }
+    },
+    {
+     "kind": "plan_cut",
+     "title": "SECTION (REINF)",
+     "scale": 25.0,
+     "size_mm": [
+      1710.0,
+      200.0
+     ],
+     "counts": {
+      "drawn_runs": 28,
+      "model_runs": 61,
+      "drawn_sections": 27,
+      "model_sections": 27,
+      "model_coincident_collapsed": 143
+     },
+     "per_dia": {
+      "T8": {
+       "drawn_runs": 19,
+       "model_runs": 57,
+       "drawn_sections": 19,
+       "model_sections": 19,
+       "drawn_len_mm": 7298.0,
+       "model_len_mm": 35087.5
+      },
+      "T16": {
+       "drawn_runs": 9,
+       "model_runs": 4,
+       "drawn_sections": 4,
+       "model_sections": 4,
+       "drawn_len_mm": 2886.5,
+       "model_len_mm": 6304.8
+      },
+      "T20": {
+       "drawn_runs": 0,
+       "model_runs": 0,
+       "drawn_sections": 4,
+       "model_sections": 4,
+       "drawn_len_mm": 0,
+       "model_len_mm": 0
+      }
+     },
+     "scored": "sections only",
+     "spatial": {
+      "n_model_bars": 27,
+      "no_drawn_bar_of_that_dia": 0,
+      "median_mm": 0.0,
+      "p90_mm": 21.3,
+      "frac_within_25mm": 0.926
+     },
+     "density": {
+      "X": {
+       "mismatch_pct": 7.4074074074074066,
+       "drawn": [
+        1.0,
+        4.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        2.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        2.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        4.0,
+        1.0
+       ],
+       "model": [
+        1.0,
+        4.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        2.0,
+        0.0,
+        1.0,
+        1.0,
+        2.0,
+        1.0,
+        1.0,
+        2.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        4.0,
+        1.0
+       ]
+      },
+      "Y": {
+       "mismatch_pct": 18.51851851851852,
+       "drawn": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        11.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.0,
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        12.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+       ],
+       "model": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        10.0,
+        0.0,
+        2.0,
+        0.0,
+        0.0,
+        4.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        10.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+       ]
+      }
+     }
+    }
+   ],
+   "primary": "elevation",
+   "summary": {
+    "view": "elevation",
+    "drawn_bars": 235,
+    "model_bars": 220,
+    "median_mm": 0.0,
+    "p90_mm": 11.6,
+    "frac_within_25mm": 0.95,
+    "density_mismatch_pct": 7.5
+   }
+  },
+  {
+   "element": "PW-GF-27",
+   "sheet": "PW-GF-27_R1",
+   "envelope": {
+    "width_mm": 1500.0,
+    "height_mm": 4955.0,
+    "thickness_mm": 400.0,
+    "n_elevation": 1,
+    "n_plan_cut": 2,
+    "n_end_cut": 1
+   },
+   "n_model_bars": 292,
+   "views": [
+    {
+     "kind": "elevation",
+     "title": "ELEVATION (REINF)",
+     "scale": 40.0,
+     "size_mm": [
+      1500.0,
+      4955.0
+     ],
+     "counts": {
+      "drawn_runs": 266,
+      "model_runs": 267,
+      "drawn_sections": 2,
+      "model_sections": 0,
+      "model_coincident_collapsed": 25
+     },
+     "per_dia": {
+      "T8": {
+       "drawn_runs": 227,
+       "model_runs": 246,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 159713.6,
+       "model_len_mm": 292823.8
+      },
+      "T10": {
+       "drawn_runs": 7,
+       "model_runs": 2,
+       "drawn_sections": 2,
+       "model_sections": 0,
+       "drawn_len_mm": 1205.0,
+       "model_len_mm": 1359.8
+      },
+      "T12": {
+       "drawn_runs": 4,
+       "model_runs": 0,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 460.2,
+       "model_len_mm": 0
+      },
+      "T16": {
+       "drawn_runs": 25,
+       "model_runs": 18,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 29743.7,
+       "model_len_mm": 60250.1
+      },
+      "T20": {
+       "drawn_runs": 1,
+       "model_runs": 1,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 2680.0,
+       "model_len_mm": 2700.0
+      },
+      "T32": {
+       "drawn_runs": 2,
+       "model_runs": 0,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 383.5,
+       "model_len_mm": 0
+      }
+     },
+     "scored": "all bars",
+     "spatial": {
+      "n_model_bars": 267,
+      "no_drawn_bar_of_that_dia": 0,
+      "median_mm": 1.2,
+      "p90_mm": 22.0,
+      "frac_within_25mm": 0.91
+     },
+     "density": {
+      "X": {
+       "mismatch_pct": 10.246331867117139,
+       "drawn": [
+        5522.0,
+        7811.2,
+        14306.3,
+        8532.4,
+        11362.0,
+        15244.3,
+        6491.4,
+        9628.3,
+        5367.4,
+        9698.7,
+        8992.0,
+        4821.3,
+        13470.3,
+        4309.5,
+        15909.3,
+        5899.9,
+        12443.6,
+        10646.9,
+        11905.5,
+        11825.8
+       ],
+       "model": [
+        13443.8,
+        23904.9,
+        21780.6,
+        16714.3,
+        20273.3,
+        19701.3,
+        10685.4,
+        20123.7,
+        10030.5,
+        13752.4,
+        14303.6,
+        9321.6,
+        19770.5,
+        20311.7,
+        22794.8,
+        14244.6,
+        20303.8,
+        20713.8,
+        23613.5,
+        19118.3
+       ]
+      },
+      "Z": {
+       "mismatch_pct": 8.644422610363007,
+       "drawn": [
+        12076.5,
+        11519.3,
+        10067.0,
+        7705.3,
+        7399.4,
+        9247.5,
+        6543.2,
+        9018.9,
+        8432.3,
+        9358.8,
+        6547.6,
+        7724.8,
+        12790.1,
+        9448.9,
+        11131.9,
+        10667.6,
+        12381.0,
+        10188.3,
+        9348.4,
+        8120.0
+       ],
+       "model": [
+        20933.0,
+        19244.4,
+        19914.3,
+        23057.2,
+        16700.1,
+        18819.6,
+        14508.7,
+        21553.3,
+        15509.5,
+        19293.2,
+        15843.2,
+        11967.2,
+        17243.8,
+        13142.7,
+        16032.2,
+        15453.4,
+        20798.5,
+        17122.8,
+        15777.4,
+        17112.6
+       ]
+      }
+     }
+    },
+    {
+     "kind": "plan_cut",
+     "title": "SECTION (REINF)",
+     "scale": 25.0,
+     "size_mm": [
+      1500.0,
+      400.0
+     ],
+     "counts": {
+      "drawn_runs": 36,
+      "model_runs": 79,
+      "drawn_sections": 49,
+      "model_sections": 28,
+      "model_coincident_collapsed": 185
+     },
+     "per_dia": {
+      "T8": {
+       "drawn_runs": 22,
+       "model_runs": 61,
+       "drawn_sections": 26,
+       "model_sections": 24,
+       "drawn_len_mm": 4983.4,
+       "model_len_mm": 52642.1
+      },
+      "T10": {
+       "drawn_runs": 2,
+       "model_runs": 1,
+       "drawn_sections": 0,
+       "model_sections": 1,
+       "drawn_len_mm": 219.5,
+       "model_len_mm": 283.7
+      },
+      "T16": {
+       "drawn_runs": 12,
+       "model_runs": 17,
+       "drawn_sections": 23,
+       "model_sections": 2,
+       "drawn_len_mm": 3027.9,
+       "model_len_mm": 10539.0
+      },
+      "T20": {
+       "drawn_runs": 0,
+       "model_runs": 0,
+       "drawn_sections": 0,
+       "model_sections": 1,
+       "drawn_len_mm": 0,
+       "model_len_mm": 0
+      }
+     },
+     "scored": "sections only",
+     "spatial": {
+      "n_model_bars": 28,
+      "no_drawn_bar_of_that_dia": 2,
+      "median_mm": 0.0,
+      "p90_mm": 56.0,
+      "frac_within_25mm": 0.692
+     },
+     "density": {
+      "X": {
+       "mismatch_pct": 38.775510204081634,
+       "drawn": [
+        2.0,
+        5.0,
+        2.0,
+        2.0,
+        5.0,
+        6.0,
+        0.0,
+        4.0,
+        0.0,
+        3.0,
+        1.0,
+        0.0,
+        4.0,
+        0.0,
+        4.0,
+        0.0,
+        3.0,
+        1.0,
+        5.0,
+        2.0
+       ],
+       "model": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        3.0,
+        1.0,
+        1.0,
+        2.0,
+        1.0,
+        2.0,
+        3.0,
+        2.0,
+        1.0,
+        2.0,
+        1.0,
+        4.0,
+        2.0
+       ]
+      },
+      "Y": {
+       "mismatch_pct": 34.69387755102041,
+       "drawn": [
+        0.0,
+        0.0,
+        3.0,
+        0.0,
+        0.0,
+        0.0,
+        4.0,
+        2.0,
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        16.0,
+        4.0,
+        1.0,
+        0.0,
+        0.0,
+        17.0,
+        0.0,
+        0.0
+       ],
+       "model": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        15.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        7.0,
+        3.0,
+        0.0
+       ]
+      }
+     }
+    },
+    {
+     "kind": "plan_cut",
+     "title": "SECTION (REINF)",
+     "scale": 25.0,
+     "size_mm": [
+      1500.0,
+      400.0
+     ],
+     "counts": {
+      "drawn_runs": 14,
+      "model_runs": 79,
+      "drawn_sections": 26,
+      "model_sections": 28,
+      "model_coincident_collapsed": 185
+     },
+     "per_dia": {
+      "T8": {
+       "drawn_runs": 14,
+       "model_runs": 61,
+       "drawn_sections": 14,
+       "model_sections": 24,
+       "drawn_len_mm": 3971.5,
+       "model_len_mm": 52642.1
+      },
+      "T10": {
+       "drawn_runs": 0,
+       "model_runs": 1,
+       "drawn_sections": 0,
+       "model_sections": 1,
+       "drawn_len_mm": 0,
+       "model_len_mm": 283.7
+      },
+      "T16": {
+       "drawn_runs": 0,
+       "model_runs": 17,
+       "drawn_sections": 12,
+       "model_sections": 2,
+       "drawn_len_mm": 0,
+       "model_len_mm": 10539.0
+      },
+      "T20": {
+       "drawn_runs": 0,
+       "model_runs": 0,
+       "drawn_sections": 0,
+       "model_sections": 1,
+       "drawn_len_mm": 0,
+       "model_len_mm": 0
+      }
+     },
+     "scored": "sections only",
+     "spatial": {
+      "n_model_bars": 28,
+      "no_drawn_bar_of_that_dia": 2,
+      "median_mm": 0.1,
+      "p90_mm": 72.5,
+      "frac_within_25mm": 0.654
+     },
+     "density": {
+      "X": {
+       "mismatch_pct": 37.63736263736263,
+       "drawn": [
+        3.0,
+        0.0,
+        2.0,
+        0.0,
+        2.0,
+        5.0,
+        0.0,
+        2.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        2.0,
+        0.0,
+        2.0,
+        0.0,
+        1.0,
+        1.0,
+        2.0,
+        2.0
+       ],
+       "model": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        3.0,
+        1.0,
+        1.0,
+        2.0,
+        1.0,
+        2.0,
+        3.0,
+        2.0,
+        1.0,
+        2.0,
+        1.0,
+        4.0,
+        2.0
+       ]
+      },
+      "Y": {
+       "mismatch_pct": 37.08791208791208,
+       "drawn": [
+        0.0,
+        0.0,
+        2.0,
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        8.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        11.0,
+        0.0,
+        0.0
+       ],
+       "model": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        15.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        7.0,
+        3.0,
+        0.0
+       ]
+      }
+     }
+    }
+   ],
+   "primary": "elevation",
+   "summary": {
+    "view": "elevation",
+    "drawn_bars": 268,
+    "model_bars": 267,
+    "median_mm": 1.2,
+    "p90_mm": 22.0,
+    "frac_within_25mm": 0.91,
+    "density_mismatch_pct": 9.4
+   }
+  },
+  {
+   "element": "PW-GF-30",
+   "sheet": "PW-GF-30_R1",
+   "envelope": {
+    "width_mm": 1775.0,
+    "height_mm": 9095.0,
+    "thickness_mm": 200.0,
+    "n_elevation": 1,
+    "n_plan_cut": 0,
+    "n_end_cut": 1
+   },
+   "n_model_bars": 407,
+   "views": [
+    {
+     "kind": "elevation",
+     "title": "ELEVATION (REINF)",
+     "scale": 50.0,
+     "size_mm": [
+      1775.0,
+      9095.0
+     ],
+     "counts": {
+      "drawn_runs": 439,
+      "model_runs": 401,
+      "drawn_sections": 9,
+      "model_sections": 0,
+      "model_coincident_collapsed": 6
+     },
+     "per_dia": {
+      "T8": {
+       "drawn_runs": 321,
+       "model_runs": 341,
+       "drawn_sections": 9,
+       "model_sections": 0,
+       "drawn_len_mm": 233145.2,
+       "model_len_mm": 378736.5
+      },
+      "T10": {
+       "drawn_runs": 94,
+       "model_runs": 46,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 272236.1,
+       "model_len_mm": 337645.3
+      },
+      "T12": {
+       "drawn_runs": 5,
+       "model_runs": 4,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 5025.5,
+       "model_len_mm": 6750.0
+      },
+      "T16": {
+       "drawn_runs": 5,
+       "model_runs": 6,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 20872.3,
+       "model_len_mm": 42499.9
+      },
+      "T20": {
+       "drawn_runs": 8,
+       "model_runs": 4,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 14943.8,
+       "model_len_mm": 12336.5
+      },
+      "T25": {
+       "drawn_runs": 4,
+       "model_runs": 0,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 8049.3,
+       "model_len_mm": 0
+      },
+      "T32": {
+       "drawn_runs": 2,
+       "model_runs": 0,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 617.7,
+       "model_len_mm": 0
+      }
+     },
+     "scored": "all bars",
+     "spatial": {
+      "n_model_bars": 401,
+      "no_drawn_bar_of_that_dia": 0,
+      "median_mm": 0.0,
+      "p90_mm": 21.8,
+      "frac_within_25mm": 0.92
+     },
+     "density": {
+      "X": {
+       "mismatch_pct": 11.144488346147675,
+       "drawn": [
+        25386.4,
+        52646.0,
+        27504.7,
+        34374.6,
+        34317.1,
+        23464.0,
+        28004.0,
+        26721.8,
+        26010.0,
+        17376.0,
+        26765.4,
+        26515.0,
+        18557.0,
+        28434.0,
+        19079.9,
+        25938.2,
+        25865.5,
+        28092.4,
+        43499.5,
+        16347.4
+       ],
+       "model": [
+        77810.4,
+        83614.3,
+        47352.4,
+        49568.5,
+        49179.8,
+        27475.6,
+        23240.5,
+        31475.4,
+        22211.6,
+        33903.5,
+        32755.7,
+        21280.8,
+        22969.4,
+        31700.1,
+        23611.6,
+        36596.0,
+        37734.9,
+        34557.0,
+        55596.8,
+        34821.4
+       ]
+      },
+      "Z": {
+       "mismatch_pct": 6.01417678276362,
+       "drawn": [
+        28506.1,
+        21346.0,
+        22756.1,
+        21388.3,
+        26240.0,
+        27589.9,
+        28714.4,
+        26613.2,
+        27271.0,
+        28094.9,
+        28128.4,
+        28964.9,
+        28248.8,
+        27144.8,
+        30774.4,
+        26373.9,
+        29088.5,
+        27913.1,
+        33032.5,
+        34029.6
+       ],
+       "model": [
+        59700.4,
+        34433.6,
+        33543.2,
+        35489.5,
+        33922.5,
+        35493.5,
+        36645.6,
+        33964.9,
+        32828.4,
+        38244.7,
+        33759.7,
+        33848.8,
+        36569.9,
+        34018.3,
+        38191.5,
+        34935.8,
+        40134.3,
+        39789.1,
+        47841.4,
+        60601.2
+       ]
+      }
+     }
+    },
+    {
+     "kind": "end_cut",
+     "title": "SECTION (REINF)",
+     "scale": 50.0,
+     "size_mm": [
+      200.0,
+      9095.0
+     ],
+     "counts": {
+      "drawn_runs": 13,
+      "model_runs": 163,
+      "drawn_sections": 114,
+      "model_sections": 112,
+      "model_coincident_collapsed": 132
+     },
+     "per_dia": {
+      "T8": {
+       "drawn_runs": 6,
+       "model_runs": 133,
+       "drawn_sections": 106,
+       "model_sections": 108,
+       "drawn_len_mm": 2472.0,
+       "model_len_mm": 21426.0
+      },
+      "T10": {
+       "drawn_runs": 7,
+       "model_runs": 21,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 10849.0,
+       "model_len_mm": 117329.4
+      },
+      "T12": {
+       "drawn_runs": 0,
+       "model_runs": 0,
+       "drawn_sections": 4,
+       "model_sections": 4,
+       "drawn_len_mm": 0,
+       "model_len_mm": 0
+      },
+      "T16": {
+       "drawn_runs": 0,
+       "model_runs": 6,
+       "drawn_sections": 4,
+       "model_sections": 0,
+       "drawn_len_mm": 0,
+       "model_len_mm": 24484.8
+      },
+      "T20": {
+       "drawn_runs": 0,
+       "model_runs": 3,
+       "drawn_sections": 0,
+       "model_sections": 0,
+       "drawn_len_mm": 0,
+       "model_len_mm": 10666.5
+      }
+     },
+     "scored": "sections only",
+     "spatial": {
+      "n_model_bars": 112,
+      "no_drawn_bar_of_that_dia": 0,
+      "median_mm": 0.0,
+      "p90_mm": 0.0,
+      "frac_within_25mm": 0.938
+     },
+     "density": {
+      "Y": {
+       "mismatch_pct": 5.839768339768341,
+       "drawn": [
+        0.0,
+        0.0,
+        0.0,
+        53.0,
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        3.0,
+        0.0,
+        0.0,
+        53.0,
+        0.0,
+        0.0,
+        0.0
+       ],
+       "model": [
+        0.0,
+        0.0,
+        0.0,
+        59.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        2.0,
+        0.0,
+        0.0,
+        49.0,
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      "Z": {
+       "mismatch_pct": 5.523944997629211,
+       "drawn": [
+        8.0,
+        6.0,
+        4.0,
+        6.0,
+        4.0,
+        6.0,
+        6.0,
+        4.0,
+        6.0,
+        6.0,
+        4.0,
+        6.0,
+        5.0,
+        5.0,
+        6.0,
+        4.0,
+        6.0,
+        5.0,
+        7.0,
+        10.0
+       ],
+       "model": [
+        12.0,
+        5.0,
+        4.0,
+        6.0,
+        4.0,
+        5.0,
+        6.0,
+        4.0,
+        6.0,
+        6.0,
+        4.0,
+        5.0,
+        5.0,
+        5.0,
+        6.0,
+        4.0,
+        6.0,
+        4.0,
+        7.0,
+        7.0
+       ]
+      }
+     }
+    }
+   ],
+   "primary": "elevation",
+   "summary": {
+    "view": "elevation",
+    "drawn_bars": 448,
+    "model_bars": 401,
+    "median_mm": 0.0,
+    "p90_mm": 21.8,
+    "frac_within_25mm": 0.92,
+    "density_mismatch_pct": 8.6
+   }
+  }
+ ]
+}
