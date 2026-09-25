@@ -7,7 +7,7 @@ from pathlib import Path
 import ezdxf
 
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 DWG_PATH = ROOT / "rebar_data" / "drawings" / "SS-GF-01(M).dxf"
 
 
@@ -90,7 +90,7 @@ summary = {
     "insert_name_counts": dict(insert_names),
 }
 
-with open(ROOT / "inspect_s_rbar.json", "w", encoding="utf-8") as f:
+with open(ROOT / "rebar_data" / "analysis" / "inspect_s_rbar.json", "w", encoding="utf-8") as f:
     json.dump(summary, f, indent=2)
 
 print("\nWrote JSON summary to:", ROOT / "inspect_s_rbar.json")
@@ -103,7 +103,7 @@ from pathlib import Path
 import ezdxf
 
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 DWG_PATH = ROOT / "rebar_data" / "drawings" / "SS-GF-01(M).dxf"
 
 

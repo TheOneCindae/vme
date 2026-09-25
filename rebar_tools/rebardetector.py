@@ -1,11 +1,12 @@
 import cv2
 import numpy as np
+from pathlib import Path
 
 # ==========================================
 # CONFIG
 # ==========================================
 
-IMAGE_PATH = "rebar.png"
+IMAGE_PATH = str(Path(__file__).resolve().parents[1] / "rebar_data" / "analysis" / "images" / "rebar.png")
 
 # Change if required
 ARUCO_DICT = cv2.aruco.DICT_4X4_50

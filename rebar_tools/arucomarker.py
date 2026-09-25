@@ -1,11 +1,12 @@
 import cv2
 import numpy as np
+from pathlib import Path
 
 # ==========================================
 # LOAD IMAGE
 # ==========================================
 
-IMAGE_PATH = "arucograp-1.png"
+IMAGE_PATH = str(Path(__file__).resolve().parents[1] / "rebar_data" / "analysis" / "images" / "arucograp-1.png")
 
 image = cv2.imread(IMAGE_PATH)
 

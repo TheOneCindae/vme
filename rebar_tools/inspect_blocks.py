@@ -4,9 +4,9 @@ from pathlib import Path
 
 import ezdxf
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 DWG_PATH = ROOT / "rebar_data" / "drawings" / "SS-GF-01(M).dxf"
-OUT_PATH = ROOT / "inspect_blocks.json"
+OUT_PATH = ROOT / "rebar_data" / "analysis" / "inspect_blocks.json"
 
 
 doc = ezdxf.readfile(str(DWG_PATH))
