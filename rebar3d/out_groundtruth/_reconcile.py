@@ -22,10 +22,10 @@ import math
 import sys
 from pathlib import Path
 
-ROOT = Path("/Users/jonathan/elco/vme/rebar3d")
+ROOT = Path(__file__).resolve().parents[1]
 GT = ROOT / "out_groundtruth"
 OUT = ROOT / "out"
-DRAWINGS = Path("/Users/jonathan/elco/vme/DRAWINGS")
+DRAWINGS = ROOT.parent / "rebar_data" / "drawings"
 DXF_CACHE = Path("/tmp/dxfcache")
 
 sys.path.insert(0, str(ROOT))

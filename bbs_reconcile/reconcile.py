@@ -8,14 +8,16 @@ rebar3d/.
 from __future__ import annotations
 
 import re
+import sys
 from collections import defaultdict
 from dataclasses import dataclass
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+
+from rebar_paths import DRAWINGS
 from schedule_extract import parse_schedule_dwg, ScheduleDoc
 from callouts import parse_callouts, Callout
-
-DRAWINGS = Path("/Users/jonathan/elco/vme/DRAWINGS")
 
 
 def find_panel_code(s_dwg: Path) -> str:

@@ -29,8 +29,8 @@ sys.path.insert(0, ".")
 from rebar3d.loader import dwg_to_dxf, load_entities
 from rebar3d.extract import snap_diameter, MIN_DIA, MAX_DIA
 
-ROOT = Path("/Users/jonathan/elco/vme/rebar3d")
-DRAWINGS = Path("/Users/jonathan/elco/vme/DRAWINGS")
+ROOT = Path(__file__).resolve().parents[1]
+DRAWINGS = ROOT.parent / "rebar_data" / "drawings"
 CACHE = Path("/tmp/dxfcache")
 
 STEMS_BY_PANEL = {

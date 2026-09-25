@@ -22,7 +22,7 @@ from rebar3d.loader import dwg_to_dxf, load_entities
 from rebar3d.views import cluster_views
 from rebar3d.extract import extract_bars, snap_diameter
 
-DRAWINGS = Path("/Users/jonathan/elco/vme/DRAWINGS")
+DRAWINGS = Path(__file__).resolve().parents[2] / "rebar_data" / "drawings"
 DXF_CACHE = Path("/tmp/dxfcache")
 OUT_DIR = Path(__file__).resolve().parent
 

@@ -14,7 +14,7 @@ sys.path.insert(0, 'src')
 import bbs, bbs_pdf
 from pathlib import Path
 
-DWG = Path(__file__).resolve().parent.parent.parent / "DRAWINGS"
+DWG = Path(__file__).resolve().parents[2] / "rebar_data" / "drawings"
 
 
 def element_of(stem):

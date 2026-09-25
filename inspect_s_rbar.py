@@ -8,7 +8,7 @@ import ezdxf
 
 
 ROOT = Path(__file__).resolve().parent
-DWG_PATH = ROOT / "DRAWINGS" / "SS-GF-01(M).dxf"
+DWG_PATH = ROOT / "rebar_data" / "drawings" / "SS-GF-01(M).dxf"
 
 
 doc = ezdxf.readfile(str(DWG_PATH))
@@ -22,7 +22,7 @@ lengths = []
 type_counts = Counter()
 insert_names = Counter()
 
-with open(ROOT / "s_rbar_dump.csv", "w", newline="") as f:
+with open(ROOT / "rebar_data" / "analysis" / "s_rbar_dump.csv", "w", newline="") as f:
     w = csv.writer(f)
     w.writerow(["type", "layer", "length", "x1", "y1", "x2", "y2"])
 
@@ -104,7 +104,7 @@ import ezdxf
 
 
 ROOT = Path(__file__).resolve().parent
-DWG_PATH = ROOT / "DRAWINGS" / "SS-GF-01(M).dxf"
+DWG_PATH = ROOT / "rebar_data" / "drawings" / "SS-GF-01(M).dxf"
 
 
 doc = ezdxf.readfile(str(DWG_PATH))
@@ -116,7 +116,7 @@ print("=" * 80)
 
 lengths = []
 
-with open(ROOT / "s_rbar_dump.csv", "w", newline="") as f:
+with open(ROOT / "rebar_data" / "analysis" / "s_rbar_dump.csv", "w", newline="") as f:
     w = csv.writer(f)
     w.writerow(["type", "layer", "length", "x1", "y1", "x2", "y2"])
 

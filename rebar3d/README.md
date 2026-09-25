@@ -85,8 +85,9 @@ Drag to move, `r`/`e` rotate, `[` `]` nudge scale, `s` saves a frame.
 ## Run
 
 ```sh
-python3 -m rebar3d.cli "../DRAWINGS/PW-GF-02(R).dwg" "../DRAWINGS/PW-GF-09(R).dwg" \
-    "../DRAWINGS/SS-GF-01(R).dwg" -o out
+python3 -m rebar3d.cli "../rebar_data/drawings/PW-GF-02(R).dwg" \
+  "../rebar_data/drawings/PW-GF-09(R).dwg" \
+  "../rebar_data/drawings/SS-GF-01(R).dwg" -o out
 open out/viewer.html
 ```
 
@@ -95,7 +96,7 @@ Requires: python3 with `ezdxf`, `matplotlib`; `dwg2dxf` on PATH.
 ## Results on the Apollo drawings
 
 | Panel | Size (mm) | Bars | U-bars | Sleeves | Anchors/loops | Corbels/embeds |
-|---|---|---|---|---|---|---|
+| --- | --- | --- | --- | --- | --- | --- |
 | PW-GF-02 | 3760×2930×160 | 326 | 87 | 10 | 5 + 21 | 2 embeds |
 | PW-GF-09 | 4000×2930×160 | 407 | 51 | 10 | — | 1 corbel |
 | PW-GF-45 | 2650×2930×160 | 158 | 47 | 7 | 6 | — |

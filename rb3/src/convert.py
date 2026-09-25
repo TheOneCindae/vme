@@ -2,7 +2,7 @@
 import subprocess, sys
 from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
-DWG_DIR = ROOT.parent / "DRAWINGS"
+DWG_DIR = ROOT.parent / "rebar_data" / "drawings"
 DXF_DIR = ROOT / "dxf"
 
 def slug(p: Path) -> str:

@@ -357,7 +357,7 @@ def panel_report(dwg: Path, out_dir: Path) -> list[str]:
 
         bbs_pdf = find_bbs_pdf(dwg)
         if bbs_pdf is None:  # worktree DRAWINGS may lack the BBS docs
-            alt = Path("/Users/jonathan/elco/vme/DRAWINGS") / dwg.name
+            alt = Path(__file__).resolve().parents[2] / "rebar_data" / "drawings" / dwg.name
             bbs_pdf = find_bbs_pdf(alt) if alt.exists() else None
         bbs = parse_bbs_pdf(bbs_pdf) if bbs_pdf else None
         if bbs:
@@ -374,7 +374,11 @@ def panel_report(dwg: Path, out_dir: Path) -> list[str]:
 
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
-    ap.add_argument("drawings", nargs="?", default="../DRAWINGS")
+    ap.add_argument(
+        "drawings",
+        nargs="?",
+        default=str(Path(__file__).resolve().parents[2] / "rebar_data" / "drawings"),
+    )
     ap.add_argument("-o", "--out", default="out")
     ap.add_argument("--report", default=None)
     args = ap.parse_args()

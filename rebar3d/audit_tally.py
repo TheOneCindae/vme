@@ -19,7 +19,7 @@ import re
 from collections import defaultdict
 from pathlib import Path
 
-OUT = Path("/Users/jonathan/elco/vme/rebar3d/out")
+OUT = Path(__file__).resolve().parent / "out"
 
 LOW_CONF = {"plane-snap", "default", "section-weak", "synthesized"}
 

@@ -18,7 +18,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from rebar3d.loader import dwg_to_dxf
 from rebar3d.schedule import extract_itemized_bbs_dwg, find_schedule_pdf, parse_itemized_bbs
 
-DRAWINGS = Path("/Users/jonathan/elco/vme/DRAWINGS")
+DRAWINGS = Path(__file__).resolve().parents[2] / "rebar_data" / "drawings"
 DXF_CACHE = Path("/tmp/dxfcache")
 OUT_DIR = Path(__file__).resolve().parent
 
