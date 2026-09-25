@@ -498,6 +498,30 @@
     padding: 9px 4px;
   }
 
+  #uploadForm {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  #uploadForm input[type="file"] {
+    min-width: 0;
+    padding: 5px;
+    font-size: 10px;
+  }
+
+  #uploadForm button {
+    flex: 0 0 auto;
+  }
+
+  #uploadStatus {
+    min-height: 15px;
+    margin-top: 5px;
+    color: #8a919d;
+    font-size: 11px;
+  }
+
   #schedule {
     padding: 14px;
   }
@@ -651,6 +675,11 @@
       <div style="margin-top:8px; text-align:right"><button id="applyBtn" class="primary">apply changes</button></div>
       <div class="export-row"><button id="dxfBtn">DXF 3D</button><button id="repBtn">REPORT</button><button
           id="bbsBtn">BBS PDF</button></div>
+      <form id="uploadForm">
+        <input id="dwgFile" name="file" type="file" accept=".dwg,.dxf,application/acad" required>
+        <button class="primary" type="submit">UPLOAD CAD</button>
+      </form>
+      <div id="uploadStatus" role="status" aria-live="polite"></div>
       <div class="dim" id="dlNote" style="margin-top:4px; text-align:right"></div>
     </div>
     <div id="schedule"></div>
@@ -1437,6 +1466,25 @@ ${sA.excluded ? `<div class="dim">${sA.excluded} lone unmatched pairing(s) exclu
     const m = resized || cur;
     download(`${m.name}_BBS_${Math.round(m.width)}x${Math.round(m.height)}.pdf`, bbsPdfOf(m), "application/pdf");
     document.getElementById("dlNote").textContent = resized ? "BBS exported: modified geometry" : "BBS exported: original geometry";
+  };
+  document.getElementById("uploadForm").onsubmit = async e => {
+    e.preventDefault();
+    const file = document.getElementById("dwgFile").files[0];
+    const status = document.getElementById("uploadStatus");
+    if (!file) return;
+    status.textContent = "converting " + file.name + "...";
+    try {
+      const response = await fetch("/upload", { method: "POST", body: new FormData(e.currentTarget) });
+      const raw = await response.text();
+      if (response.status === 501) throw new Error("Upload server is not running. From the workspace root run: py rebar3d\\viewer.py");
+      let result;
+      try { result = JSON.parse(raw); } catch { throw new Error(raw || "server returned an invalid response"); }
+      if (!response.ok) throw new Error(result.error || "upload failed");
+      status.textContent = "loaded " + result.name;
+      location.reload();
+    } catch (error) {
+      status.textContent = error.message;
+    }
   };
 
   // ---- panel switcher

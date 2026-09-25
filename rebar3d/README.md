@@ -42,6 +42,14 @@ from its reinforcement DWG drawing.
 
 ## Viewer
 
+From the workspace root, start the viewer with `py rebar3d\viewer.py`; do not open `viewer.html` through a
+generic static server, because CAD uploads require its `/upload` endpoint.
+
+The local viewer includes an **UPLOAD CAD** control. Choose any `.dwg` or `.dxf`
+file to run it through the same reconstruction pipeline, then reload the viewer
+with the resulting model. DWG uploads require `dwg2dxf` on `PATH`; DXF uploads
+do not.
+
 - Bar Schedule (bottom right): per diameter — count, length, unit weight
   (d²/162 kg/m) and total; concrete weight at 2500 kg/m³. Lone unmatched
   pairings are excluded.
