@@ -180,32 +180,482 @@
   #families .family {
     margin-top: 3px;
   }
+
+  /* RebarCraft shell: the data/rendering code below stays deliberately
+     framework-free so the generated viewer remains a single offline file. */
+  :root {
+    --cad-bg: #080c14;
+    --cad-panel: #0d131f;
+    --cad-subpanel: #131b2b;
+    --cad-border: #1e293b;
+    --cad-muted: #94a3b8;
+    --cad-blue: #3b82f6;
+  }
+
+  html,
+  body {
+    background: var(--cad-bg);
+    color: #e2e8f0;
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 320px minmax(0, 1fr) 384px;
+    grid-template-rows: 56px minmax(0, 1fr) 28px;
+    background: var(--cad-bg);
+  }
+
+  #topbar {
+    grid-column: 1 / 4;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    min-width: 0;
+    padding: 0 14px;
+    background: var(--cad-panel);
+    border-bottom: 1px solid var(--cad-border);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, .18);
+  }
+
+  #brand {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    min-width: 190px;
+  }
+
+  #brand-mark {
+    display: grid;
+    place-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #2563eb, #4f46e5);
+    color: white;
+    font-weight: 800;
+    box-shadow: 0 0 18px rgba(59, 130, 246, .28);
+  }
+
+  #brand-name {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: .01em;
+    color: #fff;
+  }
+
+  #brand-sub {
+    margin-top: 2px;
+    color: #64748b;
+    font: 10px/1.1 ui-monospace, SFMono-Regular, Consolas, monospace;
+  }
+
+  #validation-badge {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 5px 8px;
+    border: 1px solid rgba(16, 185, 129, .24);
+    border-radius: 5px;
+    background: rgba(16, 185, 129, .08);
+    color: #34d399;
+    font: 10px ui-monospace, SFMono-Regular, Consolas, monospace;
+    white-space: nowrap;
+  }
+
+  #validation-badge::before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #34d399;
+    box-shadow: 0 0 8px #34d399;
+  }
+
+  #panelbar {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    min-width: 0;
+    flex: 1;
+    overflow-x: auto;
+    padding: 4px 0;
+    background: transparent;
+    border: 0;
+  }
+
+  #panelbar button {
+    flex: 0 0 auto;
+    padding: 7px 9px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background: transparent;
+    color: #64748b;
+    cursor: pointer;
+    font: 10px ui-monospace, SFMono-Regular, Consolas, monospace;
+  }
+
+  #panelbar button:hover {
+    color: #e2e8f0;
+    background: #1e293b;
+  }
+
+  #panelbar button.on {
+    color: #fff;
+    background: #2563eb;
+    border-color: #60a5fa;
+    box-shadow: 0 0 12px rgba(37, 99, 235, .25);
+  }
+
+  #hud {
+    grid-column: 1;
+    grid-row: 2;
+    min-width: 0;
+    padding: 0;
+    overflow-y: auto;
+    background: var(--cad-panel);
+    border-right: 1px solid var(--cad-border);
+  }
+
+  #hud-head {
+    padding: 14px;
+    border-bottom: 1px solid var(--cad-border);
+    background: rgba(19, 27, 43, .65);
+  }
+
+  #hd {
+    margin: 0 0 4px;
+    font: 700 13px ui-monospace, SFMono-Regular, Consolas, monospace;
+    color: #fff;
+  }
+
+  #legend {
+    padding: 8px 14px;
+    border-bottom: 1px solid var(--cad-border);
+    color: var(--cad-muted);
+    font: 11px ui-monospace, SFMono-Regular, Consolas, monospace;
+  }
+
+  #toggles {
+    padding: 10px 14px;
+    border-bottom: 1px solid var(--cad-border);
+  }
+
+  #toggles label {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin: 5px 0;
+    color: #cbd5e1;
+    font: 11px ui-monospace, SFMono-Regular, Consolas, monospace;
+  }
+
+  #toggles input {
+    accent-color: var(--cad-blue);
+  }
+
+  #families {
+    padding: 10px 12px 14px;
+  }
+
+  #families .family {
+    padding: 9px 10px;
+    border: 1px solid rgba(30, 41, 59, .9);
+    border-radius: 6px;
+    background: rgba(15, 23, 42, .82);
+    color: #cbd5e1;
+    font: 11px/1.4 ui-monospace, SFMono-Regular, Consolas, monospace;
+  }
+
+  #families .family b {
+    color: #38bdf8 !important;
+  }
+
+  #measure {
+    margin: 0 12px 12px !important;
+    padding: 8px 10px;
+    border: 1px solid rgba(59, 130, 246, .3);
+    border-radius: 5px;
+    background: rgba(37, 99, 235, .08);
+    color: #7dd3fc !important;
+    font: 11px ui-monospace, SFMono-Regular, Consolas, monospace;
+  }
+
+  #hud .sw {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+  }
+
+  #viewport {
+    grid-column: 2;
+    grid-row: 2;
+    min-width: 0;
+    min-height: 0;
+    position: relative;
+    background-color: var(--cad-bg);
+    background-image: linear-gradient(rgba(255, 255, 255, .025) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, .025) 1px, transparent 1px);
+    background-size: 32px 32px;
+  }
+
+  #viewport::before {
+    content: "3D VIEWPORT";
+    position: absolute;
+    top: 12px;
+    left: 14px;
+    z-index: 1;
+    color: #475569;
+    font: 10px ui-monospace, SFMono-Regular, Consolas, monospace;
+    letter-spacing: .12em;
+    pointer-events: none;
+  }
+
+  #c {
+    position: relative;
+    z-index: 0;
+  }
+
+  #rightcol {
+    grid-column: 3;
+    grid-row: 2;
+    min-width: 0;
+    overflow-y: auto;
+    background: var(--cad-panel);
+    border-left: 1px solid var(--cad-border);
+  }
+
+  #tools {
+    padding: 14px;
+    border-bottom: 1px solid var(--cad-border);
+    background: rgba(19, 27, 43, .58);
+  }
+
+  #tools .tool-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: #cbd5e1;
+    font: 700 11px ui-monospace, SFMono-Regular, Consolas, monospace;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+  }
+
+  #tools .dimension-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+
+  #tools .dimension-grid label {
+    display: block;
+    color: #64748b;
+    font: 10px ui-monospace, SFMono-Regular, Consolas, monospace;
+    text-transform: uppercase;
+  }
+
+  #tools input {
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 4px;
+    padding: 7px 8px;
+    border: 1px solid var(--cad-border);
+    border-radius: 5px;
+    background: #080c14;
+    color: #f8fafc;
+    font: 12px ui-monospace, SFMono-Regular, Consolas, monospace;
+  }
+
+  #tools button {
+    padding: 7px 10px;
+    border: 1px solid var(--cad-border);
+    border-radius: 5px;
+    background: #1e293b;
+    color: #cbd5e1;
+    cursor: pointer;
+    font: 10px ui-monospace, SFMono-Regular, Consolas, monospace;
+  }
+
+  #tools button:hover {
+    border-color: #60a5fa;
+    color: #fff;
+  }
+
+  #tools button.primary {
+    background: #2563eb;
+    border-color: #3b82f6;
+    color: #fff;
+  }
+
+  #tools .export-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px;
+    margin-top: 10px;
+  }
+
+  #tools .export-row button {
+    padding: 9px 4px;
+  }
+
+  #schedule {
+    padding: 14px;
+  }
+
+  #schedule h1 {
+    margin: 0 0 9px;
+    color: #e2e8f0;
+    font: 700 11px ui-monospace, SFMono-Regular, Consolas, monospace;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+  }
+
+  #schedule table {
+    width: 100%;
+    font: 11px ui-monospace, SFMono-Regular, Consolas, monospace;
+  }
+
+  #schedule th,
+  #schedule td {
+    padding: 7px 5px;
+    border-color: var(--cad-border);
+  }
+
+  #schedule th {
+    color: #64748b;
+    text-transform: uppercase;
+    font-size: 9px;
+  }
+
+  #schedule .dim {
+    display: block;
+    margin-top: 10px;
+    padding: 9px;
+    border: 1px solid var(--cad-border);
+    border-radius: 5px;
+    background: var(--cad-subpanel);
+    color: #94a3b8;
+    font: 10px/1.5 ui-monospace, SFMono-Regular, Consolas, monospace;
+  }
+
+  #statusbar {
+    grid-column: 1 / 4;
+    grid-row: 3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 12px;
+    border-top: 1px solid var(--cad-border);
+    background: var(--cad-panel);
+    color: #64748b;
+    font: 10px ui-monospace, SFMono-Regular, Consolas, monospace;
+  }
+
+  @media (max-width: 1050px) {
+    #app {
+      grid-template-columns: 260px minmax(0, 1fr) 310px;
+    }
+
+    #brand {
+      min-width: 150px;
+    }
+
+    #validation-badge {
+      display: none;
+    }
+  }
+
+  @media (max-width: 760px) {
+    #app {
+      grid-template-columns: 1fr;
+      grid-template-rows: auto 280px minmax(420px, 1fr) auto;
+      overflow: auto;
+    }
+
+    #topbar {
+      grid-column: 1;
+      flex-wrap: wrap;
+      gap: 6px;
+      padding: 8px 10px;
+    }
+
+    #brand {
+      min-width: 0;
+    }
+
+    #panelbar {
+      order: 3;
+      flex-basis: 100%;
+    }
+
+    #hud {
+      grid-column: 1;
+      grid-row: 2;
+      border-right: 0;
+      border-bottom: 1px solid var(--cad-border);
+    }
+
+    #viewport {
+      grid-column: 1;
+      grid-row: 3;
+      min-height: 420px;
+    }
+
+    #rightcol {
+      grid-column: 1;
+      grid-row: 4;
+      border-left: 0;
+      border-top: 1px solid var(--cad-border);
+    }
+
+    #statusbar {
+      grid-column: 1;
+      grid-row: 5;
+    }
+
+    #statusbar span:nth-child(n+3) {
+      display: none;
+    }
+  }
 </style>
 <div id="app">
-  <div id="panelbar"></div>
+  <header id="topbar">
+    <div id="brand">
+      <div id="brand-mark">RB</div>
+      <div>
+        <div id="brand-name">RebarCraft</div>
+        <div id="brand-sub">PRECAST REINFORCEMENT STUDIO</div>
+      </div>
+    </div>
+    <div id="validation-badge">BBS VALIDATED</div>
+    <nav id="panelbar" aria-label="Panel selector"></nav>
+  </header>
   <div id="hud">
-    <h1 id="hd"></h1>
+    <div id="hud-head">
+      <h1 id="hd"></h1>
+      <div class="dim">REINFORCEMENT INSPECTOR</div>
+    </div>
     <div id="legend"></div>
     <div id="toggles"></div>
-    <div id="families" style="margin-top:6px"></div>
-    <div id="measure" style="margin-top:6px; color:#7ec8ff"></div>
-    <div class="dim" style="margin-top:6px">drag: orbit · shift-drag: pan · wheel: zoom<br>click a bar, then a second
-      bar: distance</div>
+    <div id="families"></div>
+    <div id="measure"></div>
   </div>
   <div id="viewport"><canvas id="c"></canvas></div>
   <div id="rightcol">
     <div id="tools">
-      <b>resize</b>
-      <input id="w2" type="number" step="10"> × <input id="h2" type="number" step="10"> mm
-      <button id="applyBtn" class="primary">apply</button><button id="resetBtn">reset</button>
-      <div style="margin-top:7px; text-align:right">
-        <button id="dxfBtn">&#8595; DXF</button><button id="repBtn">&#8595; report</button><button id="bbsBtn">&#8595;
-          BBS pdf</button>
+      <div class="tool-heading"><span>PARAMETRIC DIMENSIONS</span><button id="resetBtn">reset</button></div>
+      <div class="dimension-grid">
+        <label>width (x)<input id="w2" type="number" step="10"></label>
+        <label>height (z)<input id="h2" type="number" step="10"></label>
       </div>
+      <div style="margin-top:8px; text-align:right"><button id="applyBtn" class="primary">apply changes</button></div>
+      <div class="export-row"><button id="dxfBtn">DXF 3D</button><button id="repBtn">REPORT</button><button
+          id="bbsBtn">BBS PDF</button></div>
       <div class="dim" id="dlNote" style="margin-top:4px; text-align:right"></div>
     </div>
     <div id="schedule"></div>
   </div>
+  <footer id="statusbar"><span>READY</span><span>Unit: millimeters (mm)</span></footer>
 </div>
 <script>__THREE_JS__</script>
 <script>
